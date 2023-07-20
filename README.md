@@ -11,7 +11,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Actors](#actors)
     - [Algorithms and Datastructures](#algorithms-and-datastructures)
     - [Authentication](#authentication)
-	- [Blockchain](#blockchain)
+    - [Blockchain](#blockchain)
     - [Build Tools](#build-tools)
     - [Caching](#caching)
     - [Code Analysis](#code-analysis)
@@ -21,7 +21,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Debugging](#debugging)
     - [Deployment](#deployment)
     - [Distributed Systems](#distributed-systems)
-	- [Documentation](#documentation)
+    - [Documentation](#documentation)
     - [Geolocation](#geolocation)
     - [HTTP](#http)
     - [Internet of Things](#internet-of-things)
@@ -32,11 +32,11 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [ORM and Datamapping](#orm-and-datamapping)
     - [Package Management](#package-management)
     - [Queue](#queue)
-	- [Queueing Systems](#queueing-systems)
+    - [Queueing Systems](#queueing-systems)
     - [REST and API](#rest-and-api)
     - [Release Management](#release-management)
-	- [Security](#security)
-	- [Templating](#templating)
+    - [Security](#security)
+    - [Templating](#templating)
     - [Testing](#testing)
     - [Text and Numbers](#text-and-numbers)
     - [Third Party APIs](#third-party-apis)
@@ -44,11 +44,11 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Web Framework Components](#web-framework-components)
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
-	- [Papers](#papers)
+    - [Papers](#papers)
     - [Books](#books)
-	- [Community](#community)
+    - [Community](#community)
     - [Erlang Reading](#Erlang-reading)
-	- [Installers](#installers)
+    - [Installers](#installers)
     - [Screencasts](#screencasts)
     - [Web Reading](#web-reading)
     - [Websites](#websites)
@@ -157,17 +157,17 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
   - [shotgun](https://github.com/inaka/shotgun) - For the times you
     need more than just a gun.
-	
+
   - [YAWS](https://github.com/erlyaws/yaws) - a webserver for dynamic
     content written in Erlang.
-	
+
   - [inets:httpd](https://www.erlang.org/doc/man/httpd.html) - An
     implementation of an HTTP 1.1 compliant web server, as defined in
     RFC 2616.
-	
+
   - [inets:httpc](https://www.erlang.org/doc/man/httpc.html) - An
     HTTP/1.1 client
-	
+
   - [webmachine](https://github.com/webmachine/webmachine) -
     Webmachine is an application layer that adds HTTP semantic
     awareness on top of the excellent bit-pushing and HTTP
@@ -182,10 +182,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
   - [tracerl](https://github.com/esl/tracerl) - Dynamic tracing tests
     and utilities for Erlang/OTP
-	
+
   - [common_test](https://www.erlang.org/doc/apps/common_test/index.html) -
     A framework for automated testing of any target nodes.
-	
+
   - [eunit](https://www.erlang.org/doc/apps/eunit/index.html) - This
     module is the main EUnit user interface.
 
@@ -257,16 +257,16 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     testing tool for distributed systems that simulates traffic from a
     test cluster toward a system-under-test (SUT) and visualizes
     related latencies.
- 
+
 ## Documentation
 
   - [edoc](https://www.erlang.org/doc/man/edoc.html) - the Erlang
     program documentation generator.
-	
+
   - [erldocs](https://github.com/daleharvey/erldocs) - This is the
     code used to generate documentation for erlang projects in the
     format of erldocs.com
- 
+
 ## Code Analysis
 *Libraries and tools for analysing, parsing and manipulation codebases.*
 
@@ -326,35 +326,35 @@ longitudes.*
   - [tx](https://github.com/kvakvs/tx) - An HTML Erlang term viewer,
     starts own webserver and displays any term you give it from your
     Erlang node.
-	
+
   - [debugger](https://www.erlang.org/doc/apps/debugger/index.html) -
     A debugger for debugging and testing of Erlang programs
-	
+
   - [dialyzer](https://www.erlang.org/doc/apps/dialyzer/index.html) -
     The DIALYZER, a DIscrepancy AnaLYZer for ERlang programs.
-	
+
   - [et](https://www.erlang.org/doc/apps/et/index.html) - Event Tracer
     (ET), uses the built-in trace mechanism in Erlang and provides
     tools for collection and graphical viewing of trace data.
-	
+
   - [observer](https://www.erlang.org/doc/apps/observer/index.html) -
     Observer, tools for tracing and investigation of distributed
     systems
-	
+
   - [cover](https://www.erlang.org/doc/man/cover.html) - A Coverage
     Analysis Tool for Erlang
-	
+
   - [cprof](https://www.erlang.org/doc/man/cprof.html) - The cprof
     module is used to profile a program to find out how many times
     different functions are called.
-	
+
   - [eprof](https://www.erlang.org/doc/man/eprof.html) - A Time
     Profiling Tool for Erlang
-	
+
   - [fprof](https://www.erlang.org/doc/man/fprof.html) - A Time
     Profiling Tool using trace to file for minimal runtime performance
     impact.
-	
+
   - [xref](https://www.erlang.org/doc/man/xref.html) - A Cross
     Reference Tool for analyzing dependencies between functions,
     modules, applications and releases.
@@ -385,12 +385,12 @@ techniques.*
   - [sumbo_db](https://github.com/inaka/sumo_db) - sumo_db aims to
     ease db access for erlang applications. It offers a very simple
     persistance layer capable of interacting with different db's,
-	while offering a consistent api to your code.
+    while offering a consistent api to your code.
 
   - [datalog](https://github.com/fogfish/datalog) - Datalog is a query
     language based on the logic programming paradigm. The library is
     designed to formalize relation of n-ary streams.
-	
+
   - [erlog](https://github.com/kainwen-zz/erlog) - Erlog is an Erlang
     implemented Datalog.
 
@@ -418,16 +418,16 @@ techniques.*
 
   - [couchdb](https://github.com/apache/couchdb) - document oriented
     database.
-	
+
   - [antidote](https://github.com/AntidoteDB/antidote) - AntidoteDB is
     a highly available geo-replicated key-value database.
-	
+
   - [stockdb](https://github.com/maxlapshin/stockdb) - stockdb is a
     storage for Stock Exchange quotes.
-	
+
   - [mria](https://github.com/emqx/mria) - Mria is an extension for
     Mnesia database that adds eventual consistency to the cluster.
-	
+
   - [barreldb](https://barrel-db.org/)
     [gitlab](https://gitlab.com/groups/barrel-db) - Barrel is a modern
     document-oriented database in Erlang focusing on data locality
@@ -485,7 +485,7 @@ techniques.*
     blockchain for æpps. Optimized for scalability via smart contracts
     inside state-channels. Has a built-in oracle for integration with
     real-world data. Comes with a naming system, for developerability.
-	
+
   - [amoveo](https://github.com/zack-bitcoin/amoveo) - Amoveo is a
     blockchain meant for enforcement of investment and insurance
     contracts.
@@ -495,7 +495,7 @@ techniques.*
 
   - [ejsv](https://github.com/patternmatched/ejsv) - Erlang JSON
     schema validator.
-	
+
   - [etoml](https://github.com/kalta/etoml) - A pure Erlang parser for
     TOML.
 
@@ -518,10 +518,10 @@ techniques.*
   - [sgte](https://github.com/filippo/sgte) - sgte is an Erlang
     template Engine for generating structured output (code, html web
     pages, xml, emails, csv files, etc...).
-	
+
   - [erlsom](https://github.com/willemdj/erlsom) - Erlsom is an Erlang
     library to parse (and generate) XML documents.
-	
+
   - [ecsv](https://github.com/rcouch/ecsv) - ecsv is a simple Erlang
     CSV parser able to read a file or string and sending back to an
     erlang process events when a line is parsed.
@@ -534,17 +534,17 @@ techniques.*
     is able to parse XML documents according to the XML 1.0
     standard. As default it performs well-formed parsing, (syntax
     checks and checks of well-formed constraints).
-	
+
   - [yecc](https://www.erlang.org/doc/man/yecc.html) - An LALR-1
     parser generator for Erlang, similar to yacc. Takes a BNF grammar
-    definition as input, and produces Erlang code for a parser.	
+    definition as input, and produces Erlang code for a parser.
 
   - [zucchini](https://github.com/devinus/zucchini) - An Erlang INI
     parser
 
   - [thoas](https://github.com/lpil/thoas) - A blazing fast JSON
     parser and generator in pure Erlang.
-	
+
   - [fast_xml](https://github.com/processone/fast_xml) - Fast Expat
     based Erlang XML parsing and manipulation library, with a strong
     focus on XML stream parsing from network.
@@ -556,7 +556,7 @@ techniques.*
     implementation of the Jade templating language in Erlang
 
   - [uuid](https://github.com/okeuday/uuid) - an implement of UUID.
-  
+
 ## REST and API
 *Libraries and web tools for developing REST-ful APIs.*
 
@@ -667,6 +667,17 @@ improving your Erlang development skills and knowledge.*
     Shelter. A collection of the best articles, videos and
     presentations related to Erlang.
 
+  - [The OTP team Blog](https://blog.erlang.org/) - A blog written by
+    members of the Erlang/OTP team at Ericsson. Contains interesting
+    technical posts about the development of Erlang/OTP.
+
+  - [Spawned Shelter](https://spawnedshelter.com/) - This page is a
+    collection of the best articles, videos and books for learning
+    Erlang, the internals of its virtual machine and other languages
+    that run on top of it like Elixir, LFE and Efene.
+
+  - [Jesper L. Andersen's blog](https://medium.com/@jlouis666/)
+
 ## Books
 *Fantastic books and e-books.*
 
@@ -695,14 +706,21 @@ improving your Erlang development skills and knowledge.*
     generation of advanced, reliable, realtime applications. The
     Erlang Ecosystem Foundation is a 501(c)(3) not-for-profit
     organization
-  
-  - [Erlang Forums](https://erlangforums.com) - 
-  
+
+  - [Erlang Forums](https://erlangforums.com) - Discussion about
+    Erlang and other languages running on the Erlang VM.
+
   - [Erlang Mailinglists](https://erlang.org/mailman/listinfo/)
-  
+
+  - [Erlang IRC](irc://irc.libera.chat/erlang) - Discussion about
+    Erlang and other languages running on the Erlang VM.
+
   - [Slack/bondy](bondy-group.slack.com)
-  
+
   - [Slack/erlanger](https://erlanger.slack.com/)
+
+  - [Erlang Bug Report](https://github.com/erlang/otp/issues) -
+    official Erlang bug reporting tool
 
 ## Web Reading
 *General web-development-related reading materials.*
@@ -727,25 +745,25 @@ communities to install/package it*
 
   - [Windows/scoop.it/erlang](https://bjansen.github.io/scoop-apps/main/erlang/) -
     Installing Erlang on Windows with Scoop.it.
- 
+
   - [Windows/chocolatey/erlang](https://community.chocolatey.org/packages/erlang) -
     Installing Erlang on Windows with Chocolatey.
- 
+
   - [MacOS/brew/erlang](https://formulae.brew.sh/formula/erlang) -
     Installing Erlang on MacOS with Homebrew
- 
+
   - [FreeBSD/ports/erlang](https://www.freshports.org/lang/erlang) -
     Installing Erlang on FreeBSD
- 
+
   - [OpenBSD/ports/erlang](https://openports.pl/path/lang/erlang/25) -
     Installing Erlang on OpenBSD
- 
+
   - [NetBSD/pkgsrc/erlang](https://ftp.netbsd.org/pub/pkgsrc/current/pkgsrc/lang/erlang/README.html) -
     Installing Erlang on NetBSD
-   
+
   - [DragonFlyBSD/dports/erlang](https://gitweb.dragonflybsd.org/dports.git/tree/HEAD:/lang/erlang) -
     Installing Erlang on DragonFlyBSD
-   
+
   - [Android/termux/erlang](https://wiki.termux.com/wiki/Development_Environments#Erlang) -
     Installing Erlang on Android with termux.
 
@@ -764,20 +782,20 @@ communities to install/package it*
   - [A Theory of Composing
     Protocols](https://arxiv.org/abs/2203.02461) by Laura Bocchi,
     Dominic Orchard and A. Laura Voinea
-  
+
   - [A Proof Assistant Based Formalisation of Core
     Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
     Dániel Horpácsi and Simon Thompson
-  
+
   - [Active-Code Replacement in the OODIDA Data Analytics
     Platform](https://arxiv.org/abs/1910.03575) by Gregor Ulm, Emil
     Gustavsson and Mats Jirstrand
-  
+
   - [Bounded Symbolic Execution for Runtime Error Detection of Erlang
     Programs](https://arxiv.org/abs/1809.04770) by Emanuele De
     Angelis, Fabio Fioravanti, Adrián Palacios, Alberto Pettorossi and
     Maurizio Proietti
-  
+
   - [Teaching Erlang through the Internet: An Experience
     Report](https://arxiv.org/abs/1805.05127) by Stephen Adams
 
@@ -790,15 +808,15 @@ communities to install/package it*
   - [Structuring Erlang BEAM Control
     Flow](https://dl.acm.org/doi/10.1145/3123569.3123572) by Dániel
     Lukács and Melinda Tóth
-  
+
   - [Getting Erlang to talk to the outside
     world](https://dl.acm.org/doi/10.1145/592849.592858) by Joe
     Armstrong
-  
+
   - [Concurrency Oriented Programming in
     Erlang](https://www.academia.edu/86082863/Concurrency_Oriented_Programming_In_Erlang)
     by Joe Armstrong
-  
+
   - [Reduction of regression tests for Erlang based on impact
     analysis](https://www.semanticscholar.org/paper/Reduction-of-regression-tests-for-Erlang-based-on-Boz%C3%B3-T%C3%B3th/7e58f5c936a65f6440bd114212cd390c089c632d)
     by István Bozó, Melinda Tóth and Zoltán Horváth
@@ -807,13 +825,13 @@ communities to install/package it*
     Erlang](https://www.academia.edu/10218297/The_Design_of_Scalable_Distributed_Erlang)
     by Natalia Chechina, Phil Trinder, Amir Ghaﬀari, Rickard Green,
     Kenneth Lundin, and Robert Virding
-  
+
   - [The Erlang Rationale]() By Robert Virding
 
   - [Making reliable distributed systems in the presence of software
     errors](https://erlang.org/download/armstrong_thesis_2003.pdf) by
     Joe Armstrong
-  
+
   - [The Shared-Memory Interferences of Erlang/OTP
     Built-Ins](https://dl.acm.org/doi/10.1145/3123569.3123573) by
     Stavros Aronis and Konstantinos Sagonas
@@ -821,31 +839,31 @@ communities to install/package it*
   - [Modelling Distributed Erlang within a Single
     Node](https://dl.acm.org/doi/10.1145/3239332.3242764) by Stavros
     Aronis, Viktória Fördős and Dániel Szoboszlay
-  
+
   - [Erlang on Adapteva's
     Parallella](http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1045465&dswid=-9848)
     by Lång Magnus
-  
+
   - [Highly scalable Erlang framework for agent-based metaheuristic
     computing](https://linkinghub.elsevier.com/retrieve/pii/S1877750316300242)
     by Wojciech Turek, Jan Stypka, Daniel Krzywicki, Piotr Anielski,
     Kamil Pietak, Aleksander Byrski and Marek Kisiel-Dorohinicki
-  
+
   - [Erlang as an alternative to a non-functional language for
     communication in a fault tolerant IoT sensor
     network](https://core.ac.uk/download/pdf/79617358.pdf) by Jimmy
     Holdö
-  
+
   - [Data Parallel pattern in Erlang/OpenCL]() by Ugo Albanese
 
   - [Automatic Detection of Core Erlang Message Passing
     Errors](https://dl.acm.org/doi/10.1145/3239332.3242765) by Joseph
     Harrison
-  
+
   - [Targeted Property-Based
     Testing](https://dl.acm.org/doi/10.1145/3092703.3092711) by
     Andreas Löscher and Konstantinos Sagonas
-  
+
   - [Gaining Trust by Tracing Security
     Protocols](https://dl.acm.org/doi/10.1145/3331542.3342573) by
     Lars-Åke Fredlund, Clara Benac, EarleThomas Arts andHans Svensson
@@ -854,20 +872,20 @@ communities to install/package it*
     Examples](https://dl.acm.org/doi/10.1145/3239332.3242763) by Alex
     Gerdes, John Hughes, Nicholas Smallbone, Stefan Hanenberg,
     Sebastian Ivarsson and Meng Wang
-  
+
   - [Towards an Isabelle/HOL Formalisation of Core
     Erlang](https://dl.acm.org/doi/10.1145/3123569.3123576) by Joseph
     R. Harrison
-  
+
   - [A theory of reversibility for
     Erlang](https://www.sciencedirect.com/science/article/pii/S2352220817301402)
     by Ivan Lanese, Naoki Nishida, Adrián Palacios and Germán Vidal
-  
+
   - [Declarative debugging of concurrent Erlang
     programs](https://www.sciencedirect.com/science/article/pii/S235222081730216X)
     by Rafael Caballero, Enrique Martin-Martin, Adrián Riesco and
     Salvador Tamarit
-  
+
   - [AErlang: empowering Erlang with attribute-based
     communication](https://www.sciencedirect.com/science/article/pii/S0167642318303290)
     by Rocco De Nicola, Tan Duong, Omar Inverso and Catia Trubiani
@@ -876,19 +894,19 @@ communities to install/package it*
     Applications on Edge IoT
     Networks](https://dl.acm.org/doi/10.1145/3331542.3342567) by Igor
     Kopestenski and Peter Van Roy
-  
+
   - [Intro to Web Prolog for
     Erlangers](https://dl.acm.org/doi/10.1145/3331542.3342569) by
     Torbjörn Lager
-  
+
   - [Scaling Erlang Distribution Going Beyond the Fully Connected
     Mesh](https://dl.acm.org/doi/10.1145/3331542.3342572) by Adam
     Lindberg, Sébastien Merle and Peer Stritzinger
-  
+
   - [Automating Targeted Property-Based
     Testing](https://ieeexplore.ieee.org/document/8367037) by Andreas
     Löscher and Konstantinos Sagonas
-  
+
   - [Lux: An Expect-Like Test Tool Written in Erlang Synchronised
     Testing of Multiple
     Sessions](https://dl.acm.org/doi/10.1145/3331542.3342574) by Håkan
@@ -897,46 +915,46 @@ communities to install/package it*
   - [Tools Supporting Green Computing in
     Erlang](https://dl.acm.org/doi/10.1145/3331542.3342570) by Gergely
     Nagy, Áron Attila MészárosIstván Bozó and Melinda Tóth
-  
+
   - [Erlang Behaviours: Programming With Process Design
     Patterns](https://link.springer.com/chapter/10.1007/978-3-642-17685-2_2?)
     by Francesco Cesarini and Simon Thompson
-  
+
   - [Towards Secure Erlang
     Systems](https://dl.acm.org/doi/10.1145/3239332.3242768) by
     Alexandre Jorge Barbosa Rodrigues and Viktória Fördős
-  
+
   - [Scalable Persistent Storage for Erlang: Theory and
     Practice](https://www.researchgate.net/publication/262218651_Scalable_persistent_storage_for_Erlang_theory_and_practice)
     by Jon Meredith, Amir Ghaffari, Natalia Chechina and Phil Trinder
-  
+
   - [Typing the Wild in
     Erlang](https://dl.acm.org/doi/10.1145/3239332.3242766) by
     Nachiappan Valliappan and John Hughes
-  
+
   - [Set-theoretic Types for Erlang](https://arxiv.org/abs/2302.12783)
     by Albert Schimpf, Stefan Wehr, Annette Bieniusa
-  
+
   - [Communicating Actor Automata -- Modelling Erlang Processes as
     Communicating Machines](https://arxiv.org/abs/2304.06395) by
     Dominic Orchard, Mihail Munteanu, Paulo Torrens
-  
+
   - [Troubleshooting the performance of a large Erlang
     system](https://www.researchgate.net/publication/363343558_Troubleshooting_the_performance_of_a_large_Erlang_system)
     by Nikos Tsikoudis, Marc Sugiyama
-  
+
   - [Real time Framework in Erlang for Computational
     Advertising](https://www.researchgate.net/publication/264416948_Real_time_Framework_in_Erlang_for_Computational_Advertising)
     by Pero Subasic
-  
+
   - [The evolution of Erlang drivers and the Erlang driver
     toolkit](https://www.researchgate.net/publication/221211334_The_evolution_of_Erlang_drivers_and_the_Erlang_driver_toolkit)
     by Scott Lystig Fritchie
-  
+
   - [Extensible Callback Module Layering in
     Erlang](https://www.researchgate.net/publication/348630257_Extensible_Callback_Module_Layering_in_Erlang)
     by Greg Hawkridge, Anton Herman Basson and Karel Kruger
-  
+
   - [An Evaluation of Erlang for Implementing Standby Redundancy in a
     Manufacturing Station
     Controller](https://www.researchgate.net/publication/329582274_An_Evaluation_of_Erlang_for_Implementing_Standby_Redundancy_in_a_Manufacturing_Station_Controller_Proceedings_of_SOHOMA_2018):
@@ -947,17 +965,17 @@ communities to install/package it*
     material handling
     system](https://www.researchgate.net/publication/326571722_Erlang-based_holonic_controller_for_a_palletized_conveyor_material_handling_system)
     by Karel Kruger and Anton Herman Basson
-  
+
   - [Implementation of an Erlang-Based Resource Holon for a Holonic
     Manufacturing
     Cell](https://www.researchgate.net/publication/302496525_Implementation_of_an_Erlang-Based_Resource_Holon_for_a_Holonic_Manufacturing_Cell)
     by Karel Kruger and Anton Herman Basson
-  
+
   - [Reversibility in Erlang: Imperative Constructs - Technical
     Report](https://hal.science/hal-03655372v1) by Pietro Lami, Ivan
     Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen and Giovanni
     Fabbretti
-  
+
   - [Static analysis of communications for
     Erlang](https://hal.science/hal-02132880v1) by Fabien Dagnat and
     Marc Pantel
@@ -965,18 +983,18 @@ communities to install/package it*
   - [Session Typing for a Featherweight
     Erlang](https://hal.science/hal-01582995v1) by Dimitris Mostrous
     and Vasco T. Vasconcelos
-  
+
   - [JErlang: Erlang with Joins](https://hal.science/hal-01054623v1)
     by Hubert Plociniczak and Susan Eisenbach
 
   - [CauDEr: A Causal-Consistent Reversible Debugger for
     Erlang](https://hal.science/hal-01912894v1) by Ivan Lanese, Naoki
     Nishida, Adrian Palacios and Germán Vidal
-  
+
   - [Dealing with actor runtime environments on hierarchical shared
     memory multi-core platforms](https://hal.science/tel-01549158v1)
     by Emilio de Camargo Francesquini
-  
+
   - [Generation of a Reversible Semantics for Erlang in
     Maude](https://hal.science/hal-03916227v1) by Giovanni Fabbretti,
     Ivan Lanese and Jean-Bernard Stefani
@@ -987,7 +1005,7 @@ communities to install/package it*
   - [mu2: A Refactoring-Based Mutation Testing Framework for
     Erlang](https://hal.science/hal-01470148v1) by Ramsay Taylor and
     John Derrick
-  
+
   - [ECOTRUCK: An Agent System for Paper
     Recycling](https://hal.science/hal-01571478v1) by Nikolaos
     Bezirgiannis and Ilias Sakellariou
@@ -995,7 +1013,7 @@ communities to install/package it*
   - [High-level Distribution for the Rapid Production of Robust
     Telecoms Software: Comparing C++ and Erlang∗]() by J.H. Nyström,
     P.W. Trinder and D.J. King
-  
+
   - [Evaluating Distributed Functional Languages for
     Telecommunications Software]() by J.H. Nyström, P.W. Trinder and
     D.J. King
@@ -1006,7 +1024,7 @@ communities to install/package it*
 
   - [ACSYS CAMERA IMPLEMENTATION UTILIZING AN ERLANG FRAMEWORK TO C++
     INTERFACE]() by C. Briegel and J. Diamond
-  
+
   - [Comparing Languages for Engineering Server Software: Erlang, Go,
     and Scala with Akka]() by Ivan Valkov, Natalia Chechina, and Phil
     Trinder
@@ -1017,7 +1035,7 @@ communities to install/package it*
 
   - [Verification of Timed Erlang Programs Using McErlang]() by Clara
     Benac Earle, Lars-Åke Fredlund
-  
+
   - [Model Checking Erlang Programs–LTL-Propositions and Abstract
     Interpretation]() by Frank Huch
 
@@ -1029,7 +1047,7 @@ communities to install/package it*
 
   - [Seaplus: Streamlining a safe execution of C/C++ code from
     Erlang]() by Olivier Boudeville
-  
+
   - [Structured Programming Using Processes]() by Jay Nelson
 
   - [Scaling Reliably: Improving the Scalability of the Erlang
@@ -1039,11 +1057,11 @@ communities to install/package it*
   - [Partisan: Enabling Real-World Protocol
     Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
     Christopher Meiklejohn
-  
+
   - [Partisan: Enabling Cloud-Scale Erlang
     Applications](https://arxiv.org/abs/1802.02652) by Christopher
     Meiklejohn and Heather Miller
-  
+
   - [Partisan: Scaling the Distributed Actor
     Runtime](https://www.usenix.org/system/files/atc19-meiklejohn.pdf)
     by Christopher S. Meiklejohn and Heather Miller, Carnegie Mellon
@@ -1052,7 +1070,7 @@ communities to install/package it*
   - [HyParView: a membership protocol for reliable gossip-based
     broadcast](https://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf)
     by João Leitão, José Pereira, Luís Rodrigues
-  
+
   - [X-BOT: A Protocol for Resilient Optimization of Unstructured
     Overlay
     Networks](https://www.academia.edu/2901632/X_BOT_A_Protocol_for_Resilient_Optimization_of_Unstructured_Overlay_Networks)
