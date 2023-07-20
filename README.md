@@ -1072,6 +1072,11 @@ communities to install/package it*
     Erlang/OpenCL](https://ebooks.iospress.nl/volumearticle/42654) by
     Ugo Albanese
 
+  - 2016: [Improving the network scalability of
+    Erlang](https://dl.acm.org/doi/10.1016/j.jpdc.2016.01.002) by
+    Natalia Chechina , Huiqing Li , Amir Ghaffari , Simon Thompson and
+    Phil Trinder
+
   - 2015: [Concolic testing for functional
    languages](https://dl.acm.org/doi/10.1145/2790449.2790519) by
    Aggelos Giantsios, Nikolaos Papaspyrou and Konstantinos Sagonas
@@ -1085,6 +1090,12 @@ communities to install/package it*
     Computing](https://arxiv.org/abs/1501.06721) by D. Krzywicki,
     W. Turek, A. Byrski and M. Kisiel-Dorohinicki
 
+  - 2014: [Synapse: automatic behaviour inference and implementation
+    comparison for
+    Erlang](https://dl.acm.org/doi/10.1145/2633448.2633457) by Pablo
+    Lamela Seijas and Simon Thompson , Ramsay Taylor , Kirill Bogdanov
+    and John Derrick
+
   - 2014: [More scalable ordered set for ETS using
     adaptation](https://dl.acm.org/doi/10.1145/2633448.2633455) by
     Konstantinos Sagonas and Kjell Winblad
@@ -1096,6 +1107,9 @@ communities to install/package it*
   - 2014: [Robust by "Let it
     Crash"](https://hal.science/hal-00926525v1) by Christoph
     Woskowski, Mikolaj Trzeciecki and Florian Schwedes
+
+  - 2013: [Multicore profiling for Erlang programs using percept2](https://dl.acm.org/doi/10.1145/2505305.2505311) by Huiqing Li
+    and Simon Thompson
 
   - 2013: [On the scalability of the Erlang term
     storage](https://dl.acm.org/doi/10.1145/2505305.2505308) by David
@@ -1122,6 +1136,11 @@ communities to install/package it*
   - 2013: [Reduction of regression tests for Erlang based on impact
     analysis](https://www.semanticscholar.org/paper/Reduction-of-regression-tests-for-Erlang-based-on-Boz%C3%B3-T%C3%B3th/7e58f5c936a65f6440bd114212cd390c089c632d)
     by István Bozó, Melinda Tóth and Zoltán Horváth
+
+  - 2012: [Automated API migration in a user-extensible refactoring
+    tool for Erlang
+    programs](https://dl.acm.org/doi/10.1145/2351676.2351727) by
+    Huiqing Li and Simon Thompson
 
   - 2012: [A scalability benchmark suite for
     Erlang/OTP](https://dl.acm.org/doi/10.1145/2364489.2364495) by
@@ -1157,6 +1176,18 @@ communities to install/package it*
     Networks](https://www.academia.edu/2901632/X_BOT_A_Protocol_for_Resilient_Optimization_of_Unstructured_Overlay_Networks)
     by João Leitão, João Pedro Marques, José Pereira, Luís Rodrigues
 
+  - 2011: [Extracting QuickCheck specifications from EUnit test
+    cases](Extracting QuickCheck specifications from EUnit test cases)
+    by Thomas Arts , Pablo Lamela Seijas and Simon Thompson
+
+  - 2011: [Incremental clone detection and elimination for erlang
+    programs](Incremental clone detection and elimination for erlang
+    programs) by Huiqing Li and Simon Thompson
+
+  - 2011: [Extracting Properties from Test Cases by
+    Refactoring](https://dl.acm.org/doi/10.1109/ICSTW.2011.65) by
+    Huiqing Li, Simon Thompso and Thomas Arts
+
   - 2011: [Test-driven development of concurrent programs using
     concuerror](https://dl.acm.org/doi/10.1145/2034654.2034664) by
     Alkis Gotovos , Maria Christakis and Konstantinos Sagonas
@@ -1177,6 +1208,23 @@ communities to install/package it*
   - 2011: [Detection of asynchronous message passing errors using
     static analysis](https://dl.acm.org/doi/10.5555/1946313.1946318)
     by Maria Christakis and Konstantinos Sagonas
+
+  - 2010: [Quickchecking refactoring
+    tools](https://dl.acm.org/doi/10.1145/1863509.1863521) by Dániel
+    Drienyovszky, Dániel Horpácsi and Simon Thompson
+
+  - 2010: [From test cases to FSMs: augmented test-driven development
+    and property
+    inference](https://dl.acm.org/doi/10.1145/1863509.1863511) by
+    Thomas Arts and Simon Thompson
+
+  - 2010: [Refactoring Support for Modularity Maintenance in
+    Erlang](https://dl.acm.org/doi/10.1109/SCAM.2010.17) by Huiqing Li
+    and Simon Thompson
+
+  - 2010: [Improved testing through refactoring: experience from the
+    protest project](https://dl.acm.org/doi/10.5555/1885930.1885957)
+    by Huiqing Li and Simon Thompson
 
   - 2010: [Purity in
     erlang](https://dl.acm.org/doi/10.5555/2050135.2050144) by Mihalis
@@ -1207,6 +1255,14 @@ communities to install/package it*
     experience](https://dl.acm.org/doi/10.1145/1411273.1411284) by
     Konstantinos Sagonas and Daniel Luna
 
+  - 2008: [Testing Erlang Refactorings with
+    QuickCheck](https://dl.acm.org/doi/10.1007/978-3-540-85373-2_2) by
+    Huiqing Li and Simon Thompson
+
+  - 2008: [Tool support for refactoring functional
+    programs](https://dl.acm.org/doi/10.1145/1328408.1328437) by
+    Huiqing Li and Simon Thompson
+
   - 2008: [Experience Report: Erlang in Acoustic Ray
     Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
     Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
@@ -1234,6 +1290,10 @@ communities to install/package it*
     Telecoms Software: Comparing C++ and
     Erlang](https://onlinelibrary.wiley.com/doi/10.1002/cpe.1223) by
     J.H. Nyström, P.W. Trinder and D.J. King
+
+  - 2006: [Comparative Study of Refactoring Haskell and Erlang
+    Programs](https://dl.acm.org/doi/10.1109/SCAM.2006.8) by Huiqing
+    Li and Simon Thompson
 
   - 2006: [Efficient memory management for concurrent programs that
     use message
