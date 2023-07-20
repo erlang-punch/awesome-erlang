@@ -681,6 +681,32 @@ improving your Erlang development skills and knowledge.*
 ## Books
 *Fantastic books and e-books.*
 
+  - [Programming Erlang: Software for a Concurrent
+    World](https://isbnsearch.org/isbn/9781934356005) by Joe Armstrong
+    
+  - [Building Web Applications with Erlang: Working with REST and Web
+    Sockets on Yaws](https://isbnsearch.org/isbn/9781449309961) by
+    Zachary Kessin
+    
+  - [Introducing Erlang: Getting Started in Functional
+    Programming](https://isbnsearch.org/isbn/9781449331764) by Simon
+    St. Laurent
+    
+  - [Handbook of Neuroevolution Through
+    Erlang](https://isbnsearch.org/isbn/9781461444633) by Gene I. Sher
+    
+  - [Erlang Programming: A Concurrent Approach to Software
+    Development](https://isbnsearch.org/isbn/9780596518189) by
+    Francesco Cesarini and Simon Thompson
+    
+  - [Erlang and OTP in
+    Action](https://isbnsearch.org/isbn/9781933988788) by Martin
+    Logan, Eric Merritt and Richard Carlsson
+
+  - [Designing for Scalability with Erlang/OTP: Implement Robust,
+    Fault-Tolerant Systems](https://isbnsearch.org/isbn/9781449320737)
+    by Francesco Cesarini and Steeve Vinoski
+
   - [Erlang and Elixir for Imperative
     Programmers](https://leanpub.com/erlangandelixirforimperativeprogrammers) -
     Introduction to Erlang and Elixir in the context of functional
@@ -691,12 +717,32 @@ improving your Erlang development skills and knowledge.*
     covering everything from beginning Erlang programming to
     large-scale development and deployment.
 
+  - [Property-Based Testing with PropEr, Erlang, and Elixir: Find Bugs
+    Before Your Users Do](https://isbnsearch.org/isbn/9781680506211)
+    by Fred Hebert
+    
+  - [Études For Erlang](https://isbnsearch.org/isbn/9781449366452) by
+    David J. Eisenberg
+
   - [Stuff Goes Bad - ERLANG IN
     ANGER](http://www.erlang-in-anger.com/) - This book intends to be
     a little guide about how to be the Erlang medic in a time of war.
 
-  - [Distributed Systems design and algorithms]() edited by Serge
-    Haddad, Fabrice Kordon, Laurent Pautet and Laure Petrucci
+  - [The Erlanger
+    Playbook](https://ninenines.eu/articles/erlanger-playbook/) by
+    Loïc Hoguin
+    
+  - [Erlang and Elixir for Imperative
+    Programmers](https://isbnsearch.org/isbn/9781484223932) by
+    Wolfgang Loder
+    
+  - [Build It With Nitrogen: The Fast-Off-the-Block Erlang Web
+    Framework](https://isbnsearch.org/isbn/9780982589243) by Lloyd
+    R. Prentice and Jesse Gumm
+    
+  - [Concurrent Programming in Erlang (2nd
+    Edition)](https://isbnsearch.org/isbn/9780135083017) by Robert
+    Virding, Claes Wikstrom and Mike Williams
 
 ## Community
 *Erlang-related communities, meetups, chats and forums*
@@ -772,7 +818,7 @@ communities to install/package it*
 
   - [Computing Race Variants in Message-Passing Concurrent Programming
     with Selective Receives](https://arxiv.org/abs/2210.03026) by
-    Germán Vidal [pdf]()
+    Germán Vidal
 
   - [Program Equivalence in an Untyped, Call-by-value Lambda Calculus
     with Uncurried Recursive
@@ -803,7 +849,9 @@ communities to install/package it*
     Computing](https://arxiv.org/abs/1501.06721) by D. Krzywicki,
     W. Turek, A. Byrski and M. Kisiel-Dorohinicki
 
-  - [A History of Erlang by Joe Armstrong]() by Joe Armstrong
+  - [A History of Erlang by Joe
+    Armstrong](https://dl.acm.org/doi/10.1145/1238844.1238850) by Joe
+    Armstrong
 
   - [Structuring Erlang BEAM Control
     Flow](https://dl.acm.org/doi/10.1145/3123569.3123572) by Dániel
@@ -826,7 +874,9 @@ communities to install/package it*
     by Natalia Chechina, Phil Trinder, Amir Ghaﬀari, Rickard Green,
     Kenneth Lundin, and Robert Virding
 
-  - [The Erlang Rationale]() By Robert Virding
+  - [The Erlang
+    Rationale](https://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf)
+    By Robert Virding
 
   - [Making reliable distributed systems in the presence of software
     errors](https://erlang.org/download/armstrong_thesis_2003.pdf) by
@@ -854,7 +904,9 @@ communities to install/package it*
     network](https://core.ac.uk/download/pdf/79617358.pdf) by Jimmy
     Holdö
 
-  - [Data Parallel pattern in Erlang/OpenCL]() by Ugo Albanese
+  - [Data Parallel pattern in
+    Erlang/OpenCL](https://ebooks.iospress.nl/volumearticle/42654) by
+    Ugo Albanese
 
   - [Automatic Detection of Core Erlang Message Passing
     Errors](https://dl.acm.org/doi/10.1145/3239332.3242765) by Joseph
@@ -1011,48 +1063,63 @@ communities to install/package it*
     Bezirgiannis and Ilias Sakellariou
 
   - [High-level Distribution for the Rapid Production of Robust
-    Telecoms Software: Comparing C++ and Erlang∗]() by J.H. Nyström,
-    P.W. Trinder and D.J. King
+    Telecoms Software: Comparing C++ and
+    Erlang](https://onlinelibrary.wiley.com/doi/10.1002/cpe.1223) by
+    J.H. Nyström, P.W. Trinder and D.J. King
 
   - [Evaluating Distributed Functional Languages for
-    Telecommunications Software]() by J.H. Nyström, P.W. Trinder and
-    D.J. King
+    Telecommunications
+    Software](https://dl.acm.org/doi/10.1145/940880.940881) by
+    J.H. Nyström, P.W. Trinder and D.J. King
 
   - [COMPARING THE PERFORMANCE OF JAVA, ERLANG AND SCALA IN WEB 2.0
-    APPLICATIONS]() by Jucimar Maia da Silva Jr., Rafael Dueire Lins
-    and Lanier Menezes dos Santos
+    APPLICATIONS](https://www.researchgate.net/publication/234082856_COMPARING_THE_PERFORMANCE_OF_JAVA_ERLANG_AND_SCALA_IN_WEB_20_APPLICATIONS)
+    by Jucimar Maia da Silva Jr., Rafael Dueire Lins and Lanier
+    Menezes dos Santos
 
   - [ACSYS CAMERA IMPLEMENTATION UTILIZING AN ERLANG FRAMEWORK TO C++
-    INTERFACE]() by C. Briegel and J. Diamond
+    INTERFACE](https://accelconf.web.cern.ch/ICALEPCS2013/papers/THPPC066.pdf?n=ICALEPCS2013/papers/THPPC066.pdf)
+    by C. Briegel and J. Diamond
 
   - [Comparing Languages for Engineering Server Software: Erlang, Go,
-    and Scala with Akka]() by Ivan Valkov, Natalia Chechina, and Phil
-    Trinder
+    and Scala with
+    Akka](https://dl.acm.org/doi/abs/10.1145/3167132.3167144) by Ivan
+    Valkov, Natalia Chechina, and Phil Trinder
 
-  - [Experience Report: Erlang in Acoustic Ray Tracing]() by Christian
-    Convey, Andrew Fredricks, Christopher Gagner, Douglas Maxwell and
-    Lutz Hamel
+  - [Experience Report: Erlang in Acoustic Ray
+    Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
+    Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
+    Maxwell and Lutz Hamel
 
-  - [Verification of Timed Erlang Programs Using McErlang]() by Clara
-    Benac Earle, Lars-Åke Fredlund
+  - [Verification of Timed Erlang Programs Using
+    McErlang](https://link.springer.com/chapter/10.1007/978-3-642-30793-5_16)
+    by Clara Benac Earle, Lars-Åke Fredlund
 
   - [Model Checking Erlang Programs–LTL-Propositions and Abstract
-    Interpretation]() by Frank Huch
+    Interpretation](https://www.semanticscholar.org/paper/Model-Checking-Erlang-Programs-LTL-Propositions-and-Huch/e39b695a0f16dd194ba5ca53e7b4e3ba5fdfb3ad)
+    by Frank Huch
 
   - [Verification of Erlang Programs using Abstract Interpretation and
-    Model Checking]() by Frank Günter Huch
+    Model Checking](https://publications.rwth-aachen.de/record/59420)
+    by Frank Günter Huch
 
   - [Introducing Concurrent Functional Programming in the
-    Telecommunications Industry]() by Bjarne Dacker
+    Telecommunications
+    Industry](https://link.springer.com/chapter/10.1007/978-0-387-35404-0_15)
+    by Bjarne Dacker
 
   - [Seaplus: Streamlining a safe execution of C/C++ code from
-    Erlang]() by Olivier Boudeville
+    Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
+    Boudeville
 
-  - [Structured Programming Using Processes]() by Jay Nelson
+  - [Structured Programming Using
+    Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
+    Jay Nelson
 
   - [Scaling Reliably: Improving the Scalability of the Erlang
-    Distributed Actor Platform]() by Phil Trinder, Natalia Chechina,
-    Nikolaos Papaspyrou, Konstantinos Sagonas, Simon Thompson...
+    Distributed Actor Platform](https://arxiv.org/abs/1704.07234) by
+    Phil Trinder, Natalia Chechina, Nikolaos Papaspyrou, Konstantinos
+    Sagonas, Simon Thompson...
 
   - [Partisan: Enabling Real-World Protocol
     Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
