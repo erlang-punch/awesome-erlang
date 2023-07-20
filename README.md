@@ -866,6 +866,27 @@ communities to install/package it*
 
 *Erlang-related academic and scientific materials*
 
+  - 2023: [Set-theoretic Types for
+    Erlang](https://arxiv.org/abs/2302.12783) by Albert Schimpf,
+    Stefan Wehr, Annette Bieniusa
+
+  - 2023: [Communicating Actor Automata -- Modelling Erlang Processes
+    as Communicating Machines](https://arxiv.org/abs/2304.06395) by
+    Dominic Orchard, Mihail Munteanu, Paulo Torrens
+
+  - 2022: [PerformERL: a performance testing framework for
+    erlang](https://dl.acm.org/doi/10.1007/s00446-022-00429-7) by
+    Walter Cazzola , Francesco Cesarini and Luca Tansini
+
+  - 2022: [Troubleshooting the performance of a large Erlang
+    system](https://www.researchgate.net/publication/363343558_Troubleshooting_the_performance_of_a_large_Erlang_system)
+    by Nikos Tsikoudis, Marc Sugiyama
+
+  - 2022: [Reversibility in Erlang: Imperative Constructs - Technical
+    Report](https://hal.science/hal-03655372v1) by Pietro Lami, Ivan
+    Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen and Giovanni
+    Fabbretti
+
   - 2022: [Computing Race Variants in Message-Passing Concurrent
     Programming with Selective
     Receives](https://arxiv.org/abs/2210.03026) by Germán Vidal
@@ -879,6 +900,14 @@ communities to install/package it*
     Protocols](https://arxiv.org/abs/2203.02461) by Laura Bocchi,
     Dominic Orchard and A. Laura Voinea
 
+  - 2022: [Generation of a Reversible Semantics for Erlang in
+    Maude](https://hal.science/hal-03916227v1) by Giovanni Fabbretti,
+    Ivan Lanese and Jean-Bernard Stefani
+
+  - 2021: [Fifteen years of successfully dialyzing Erlang and Elixir
+    code](https://dl.acm.org/doi/10.1145/3471871.3480952) by
+    Konstantinos Sagonas
+
   - 2020: [A Proof Assistant Based Formalisation of Core
     Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
     Dániel Horpácsi and Simon Thompson
@@ -886,6 +915,54 @@ communities to install/package it*
   - 2019: [Active-Code Replacement in the OODIDA Data Analytics
     Platform](https://arxiv.org/abs/1910.03575) by Gregor Ulm, Emil
     Gustavsson and Mats Jirstrand
+
+  - 2019: [Extensible Callback Module Layering in
+    Erlang](https://www.researchgate.net/publication/348630257_Extensible_Callback_Module_Layering_in_Erlang)
+    by Greg Hawkridge, Anton Herman Basson and Karel Kruger
+
+  - 2019: [An Evaluation of Erlang for Implementing Standby Redundancy
+    in a Manufacturing Station
+    Controller](https://www.researchgate.net/publication/329582274_An_Evaluation_of_Erlang_for_Implementing_Standby_Redundancy_in_a_Manufacturing_Station_Controller_Proceedings_of_SOHOMA_2018):
+    Proceedings of SOHOMA 2018 by Greg Hawkridge, Anton Herman Basson
+    and Karel Kruger
+
+  - 2019: [Erlang as an Enabling Technology for Resilient
+    General-Purpose Applications on Edge IoT
+    Networks](https://dl.acm.org/doi/10.1145/3331542.3342567) by Igor
+    Kopestenski and Peter Van Roy
+
+  - 2019: [Static analysis of communications for
+    Erlang](https://hal.science/hal-02132880v1) by Fabien Dagnat and
+    Marc Pantel
+
+  - 2019: [Intro to Web Prolog for
+    Erlangers](https://dl.acm.org/doi/10.1145/3331542.3342569) by
+    Torbjörn Lager
+
+  - 2019: [Scaling Erlang Distribution Going Beyond the Fully
+    Connected Mesh](https://dl.acm.org/doi/10.1145/3331542.3342572) by
+    Adam Lindberg, Sébastien Merle and Peer Stritzinger
+
+  - 2019: [Lux: An Expect-Like Test Tool Written in Erlang
+    Synchronised Testing of Multiple
+    Sessions](https://dl.acm.org/doi/10.1145/3331542.3342574) by Håkan
+    Mattsson and Cons T. Åhs
+
+  - 2019: [Tools Supporting Green Computing in
+    Erlang](https://dl.acm.org/doi/10.1145/3331542.3342570) by Gergely
+    Nagy, Áron Attila MészárosIstván Bozó and Melinda Tóth
+
+  - 2019: [Gaining Trust by Tracing Security
+    Protocols](https://dl.acm.org/doi/10.1145/3331542.3342573) by
+    Lars-Åke Fredlund, Clara Benac, EarleThomas Arts andHans Svensson
+
+  - 2018: [HiPErJiT: A Profile-Driven Just-in-Time Compiler for
+    Erlang](https://dl.acm.org/doi/10.1145/3310232.3310234) by
+    Konstantinos Kallas and Konstantinos Sagonas
+
+  - 2018: [Automating Targeted Property-Based
+    Testing](https://ieeexplore.ieee.org/document/8367037) by Andreas
+    Löscher and Konstantinos Sagonas
 
   - 2018: [Bounded Symbolic Execution for Runtime Error Detection of Erlang
     Programs](https://arxiv.org/abs/1809.04770) by Emanuele De
@@ -895,29 +972,368 @@ communities to install/package it*
   - 2018: [Teaching Erlang through the Internet: An Experience
     Report](https://arxiv.org/abs/1805.05127) by Stephen Adams
 
-  - 2015: [Massively-concurrent Agent-based Evolutionary
-    Computing](https://arxiv.org/abs/1501.06721) by D. Krzywicki,
-    W. Turek, A. Byrski and M. Kisiel-Dorohinicki
+  - 2018: [Modelling Distributed Erlang within a Single
+    Node](https://dl.acm.org/doi/10.1145/3239332.3242764) by Stavros
+    Aronis, Viktória Fördős and Dániel Szoboszlay
 
-  - 2007: [A History of Erlang by Joe
-    Armstrong](https://dl.acm.org/doi/10.1145/1238844.1238850) by Joe
-    Armstrong
+  - 2018: [Automatic Detection of Core Erlang Message Passing
+    Errors](https://dl.acm.org/doi/10.1145/3239332.3242765) by Joseph
+    Harrison
+
+  - 2018: [Understanding Formal Specifications through Good
+    Examples](https://dl.acm.org/doi/10.1145/3239332.3242763) by Alex
+    Gerdes, John Hughes, Nicholas Smallbone, Stefan Hanenberg,
+    Sebastian Ivarsson and Meng Wang
+
+  - 2018: [A theory of reversibility for
+    Erlang](https://www.sciencedirect.com/science/article/pii/S2352220817301402)
+    by Ivan Lanese, Naoki Nishida, Adrián Palacios and Germán Vidal
+
+  - 2018: [Declarative debugging of concurrent Erlang
+    programs](https://www.sciencedirect.com/science/article/pii/S235222081730216X)
+    by Rafael Caballero, Enrique Martin-Martin, Adrián Riesco and
+    Salvador Tamarit
+
+  - 2018: [AErlang: empowering Erlang with attribute-based
+    communication](https://www.sciencedirect.com/science/article/pii/S0167642318303290)
+    by Rocco De Nicola, Tan Duong, Omar Inverso and Catia Trubiani
+
+  - 2018: [Towards Secure Erlang
+    Systems](https://dl.acm.org/doi/10.1145/3239332.3242768) by
+    Alexandre Jorge Barbosa Rodrigues and Viktória Fördős
+
+  - 2018: [Erlang-based holonic controller for a palletized conveyor
+    material handling
+    system](https://www.researchgate.net/publication/326571722_Erlang-based_holonic_controller_for_a_palletized_conveyor_material_handling_system)
+    by Karel Kruger and Anton Herman Basson
+
+  - 2018: [Typing the Wild in
+    Erlang](https://dl.acm.org/doi/10.1145/3239332.3242766) by
+    Nachiappan Valliappan and John Hughes
+
+  - 2018: [Comparing Languages for Engineering Server Software:
+    Erlang, Go, and Scala with
+    Akka](https://dl.acm.org/doi/abs/10.1145/3167132.3167144) by Ivan
+    Valkov, Natalia Chechina, and Phil Trinder
+
+  - 2018: [CauDEr: A Causal-Consistent Reversible Debugger for
+    Erlang](https://hal.science/hal-01912894v1) by Ivan Lanese, Naoki
+    Nishida, Adrian Palacios and Germán Vidal
+
+  - 2017: [Dealing with actor runtime environments on hierarchical
+    shared memory multi-core
+    platforms](https://hal.science/tel-01549158v1) by Emilio de
+    Camargo Francesquini
+
+  - 2017: [Session Typing for a Featherweight
+    Erlang](https://hal.science/hal-01582995v1) by Dimitris Mostrous
+    and Vasco T. Vasconcelos
 
   - 2017: [Structuring Erlang BEAM Control
     Flow](https://dl.acm.org/doi/10.1145/3123569.3123572) by Dániel
     Lukács and Melinda Tóth
 
-  - 2002: [Getting Erlang to talk to the outside
-    world](https://dl.acm.org/doi/10.1145/592849.592858) by Joe
+  - 2017: [Towards an Isabelle/HOL Formalisation of Core
+    Erlang](https://dl.acm.org/doi/10.1145/3123569.3123576) by Joseph
+    R. Harrison
+
+  - 2017: [Scaling Reliably: Improving the Scalability of the Erlang
+    Distributed Actor Platform](https://arxiv.org/abs/1704.07234) by
+    Phil Trinder, Natalia Chechina, Nikolaos Papaspyrou, Konstantinos
+    Sagonas, Simon Thompson...
+
+  - 2017: [mu2: A Refactoring-Based Mutation Testing Framework for
+    Erlang](https://hal.science/hal-01470148v1) by Ramsay Taylor and
+    John Derrick
+
+  - 2017: [Targeted Property-Based
+    Testing](https://dl.acm.org/doi/10.1145/3092703.3092711) by
+    Andreas Löscher and Konstantinos Sagonas
+
+  - 2017: [The Shared-Memory Interferences of Erlang/OTP
+    Built-Ins](https://dl.acm.org/doi/10.1145/3123569.3123573) by
+    Stavros Aronis and Konstantinos Sagonas
+
+  - 2016: [CRDTs for the configuration of distributed Erlang
+    systems](https://dl.acm.org/doi/10.1145/2975969.2975974) by
+    Viktória Fördős and Francesco Cesarini
+
+  - 2016: [Erlang on Adapteva's
+    Parallella](http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1045465&dswid=-9848)
+    by Lång Magnus
+
+  - 2016: [Highly scalable Erlang framework for agent-based
+    metaheuristic
+    computing](https://linkinghub.elsevier.com/retrieve/pii/S1877750316300242)
+    by Wojciech Turek, Jan Stypka, Daniel Krzywicki, Piotr Anielski,
+    Kamil Pietak, Aleksander Byrski and Marek Kisiel-Dorohinicki
+
+  - 2016: [Data Parallel pattern in
+    Erlang/OpenCL](https://ebooks.iospress.nl/volumearticle/42654) by
+    Ugo Albanese
+
+  - 2015: [Concolic testing for functional
+   languages](https://dl.acm.org/doi/10.1145/2790449.2790519) by
+   Aggelos Giantsios, Nikolaos Papaspyrou and Konstantinos Sagonas
+
+  - 2015: [Implementation of an Erlang-Based Resource Holon for a
+    Holonic Manufacturing
+    Cell](https://www.researchgate.net/publication/302496525_Implementation_of_an_Erlang-Based_Resource_Holon_for_a_Holonic_Manufacturing_Cell)
+    by Karel Kruger and Anton Herman Basson
+
+  - 2015: [Massively-concurrent Agent-based Evolutionary
+    Computing](https://arxiv.org/abs/1501.06721) by D. Krzywicki,
+    W. Turek, A. Byrski and M. Kisiel-Dorohinicki
+
+  - 2014: [More scalable ordered set for ETS using
+    adaptation](https://dl.acm.org/doi/10.1145/2633448.2633455) by
+    Konstantinos Sagonas and Kjell Winblad
+
+  - 2014: [JErlang: Erlang with
+    Joins](https://hal.science/hal-01054623v1) by Hubert Plociniczak
+    and Susan Eisenbach
+
+  - 2014: [Robust by "Let it
+    Crash"](https://hal.science/hal-00926525v1) by Christoph
+    Woskowski, Mikolaj Trzeciecki and Florian Schwedes
+
+  - 2013: [On the scalability of the Erlang term
+    storage](https://dl.acm.org/doi/10.1145/2505305.2505308) by David
+    Klaftenegger , Konstantinos Sagonas and Kjell Winblad
+
+  - 2013: [Systematic Testing for Detecting Concurrency Errors in
+    Erlang Programs](https://dl.acm.org/doi/10.1109/ICST.2013.50) by
+    Maria Christakis , Alkis Gotovos and Konstantinos Sagonas
+
+  - 2013: [Precise explanation of success typing
+    errors](https://dl.acm.org/doi/10.1145/2426890.2426897) by
+    Konstantinos Sagonas , Josep Silva and Salvador Tamarit
+
+  - 2013: [COMPARING THE PERFORMANCE OF JAVA, ERLANG AND SCALA IN WEB
+    2.0
+    APPLICATIONS](https://www.researchgate.net/publication/234082856_COMPARING_THE_PERFORMANCE_OF_JAVA_ERLANG_AND_SCALA_IN_WEB_20_APPLICATIONS)
+    by Jucimar Maia da Silva Jr., Rafael Dueire Lins and Lanier
+    Menezes dos Santos
+
+  - 2013: [Scalable Persistent Storage for Erlang: Theory and
+    Practice](https://www.researchgate.net/publication/262218651_Scalable_persistent_storage_for_Erlang_theory_and_practice)
+    by Jon Meredith, Amir Ghaffari, Natalia Chechina and Phil Trinder
+
+  - 2013: [Reduction of regression tests for Erlang based on impact
+    analysis](https://www.semanticscholar.org/paper/Reduction-of-regression-tests-for-Erlang-based-on-Boz%C3%B3-T%C3%B3th/7e58f5c936a65f6440bd114212cd390c089c632d)
+    by István Bozó, Melinda Tóth and Zoltán Horváth
+
+  - 2012: [A scalability benchmark suite for
+    Erlang/OTP](https://dl.acm.org/doi/10.1145/2364489.2364495) by
+    Stavros Aronis , Nikolaos Papaspyrou , Katerina Roukounaki ,
+    Konstantinos Sagonas , Yiannis Tsiouris and Ioannis E. Venetis
+
+  - 2012: [ErLLVM: an LLVM backend for
+    Erlang)(https://dl.acm.org/doi/10.1145/2364489.2364494) by
+    Konstantinos Sagonas , Chris Stavrakakis
+    and Yiannis Tsiouris
+
+  - 2012: [On preserving term sharing in the Erlang virtual
+    machine](https://dl.acm.org/doi/10.1145/2364489.2364493) by
+    Nikolaos Papaspyrou and Konstantinos Sagonas
+
+  - 2012: [On Using Erlang for
+    Parallelization](https://dl.acm.org/doi/10.1007/978-3-642-40447-4_19)
+    by Stavros Aronis and Konstantinos Sagonas
+
+  - 2012: [RELEASE: A High-Level Paradigm for Reliable Large-Scale
+    Server
+    Software](https://dl.acm.org/doi/10.1007/978-3-642-40447-4_17) by
+    Olivier Boudeville , Francesco Cesarini , Natalia Chechina ,
+    Kenneth Lundin , Nikolaos Papaspyrou , Konstantinos Sagonas ,
+    Simon Thompson , Phil Trinder and Ulf Wiger
+
+  - 2012: [Verification of Timed Erlang Programs Using
+    McErlang](https://link.springer.com/chapter/10.1007/978-3-642-30793-5_16)
+    by Clara Benac Earle, Lars-Åke Fredlund
+
+  - 2012: [X-BOT: A Protocol for Resilient Optimization of
+    Unstructured Overlay
+    Networks](https://www.academia.edu/2901632/X_BOT_A_Protocol_for_Resilient_Optimization_of_Unstructured_Overlay_Networks)
+    by João Leitão, João Pedro Marques, José Pereira, Luís Rodrigues
+
+  - 2011: [Test-driven development of concurrent programs using
+    concuerror](https://dl.acm.org/doi/10.1145/2034654.2034664) by
+    Alkis Gotovos , Maria Christakis and Konstantinos Sagonas
+
+  - 2011: [Real time Framework in Erlang for Computational
+    Advertising](https://www.researchgate.net/publication/264416948_Real_time_Framework_in_Erlang_for_Computational_Advertising)
+    by Pero Subasic
+
+  - 2011: [A PropEr integration of types and function specifications
+    with property-based
+    testing](https://dl.acm.org/doi/10.1145/2034654.2034663) by
+    Manolis Papadakis and Konstantinos Sagonas
+
+  - 2011: [Typed callbacks for more robust
+    behaviours](https://dl.acm.org/doi/10.1145/2034654.2034660) by
+    Stavros Aronis and Konstantinos Sagonas
+
+  - 2011: [Detection of asynchronous message passing errors using
+    static analysis](https://dl.acm.org/doi/10.5555/1946313.1946318)
+    by Maria Christakis and Konstantinos Sagonas
+
+  - 2010: [Purity in
+    erlang](https://dl.acm.org/doi/10.5555/2050135.2050144) by Mihalis
+    Pitidis and Konstantinos Sagonas
+
+  - 2010: [Using static analysis to detect type errors and concurrency
+    defects in erlang
+    programs](https://dl.acm.org/doi/10.1007/978-3-642-12251-4_2) by
+    Konstantinos Sagonas
+
+  - 2010: [Static detection of race conditions in
+    erlang](https://dl.acm.org/doi/10.1007/978-3-642-11503-5_11) by
+    Maria Christakis and Konstantinos Sagonas
+
+  - 2010: [Erlang Behaviours: Programming With Process Design
+    Patterns](https://link.springer.com/chapter/10.1007/978-3-642-17685-2_2?)
+    by Francesco Cesarini and Simon Thompson
+
+  - 2009: [Automatic refactoring of Erlang
+    programs](https://dl.acm.org/doi/10.1145/1599410.1599414) by
+    Konstantinos Sagonas and Thanassis Avgerinos
+
+  - 2009: [Cleaning up Erlang code is a dirty job but somebody's gotta
+    do it](https://dl.acm.org/doi/10.1145/1596600.1596602) by
+    Thanassis Avgerinos and Konstantinos Sagonas
+
+  - [Gradual typing of erlang programs: a wrangler
+    experience](https://dl.acm.org/doi/10.1145/1411273.1411284) by
+    Konstantinos Sagonas and Daniel Luna
+
+  - 2008: [Experience Report: Erlang in Acoustic Ray
+    Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
+    Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
+    Maxwell and Lutz Hamel
+
+  - 2007: [A language for specifying type contracts in erlang and its
+    interaction with success
+    typings](https://dl.acm.org/doi/10.1145/1292520.1292523) by Miguel
+    Jimenez , Tobias Lindahl and Konstantinos Sagonas
+
+  - 2007: [Detecting defects in Erlang programs using static
+    analysis](https://dl.acm.org/doi/10.1145/1273920.1273926) by
+    Konstantinos Sagonas
+
+  - 2007: [Applications, implementation and performance evaluation of
+    bit stream programming in
+    erlang](https://dl.acm.org/doi/10.1007/978-3-540-69611-7_6) by Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2007: [A History of Erlang by Joe
+    Armstrong](https://dl.acm.org/doi/10.1145/1238844.1238850) by Joe
     Armstrong
+
+  - 2007: [High-level Distribution for the Rapid Production of Robust
+    Telecoms Software: Comparing C++ and
+    Erlang](https://onlinelibrary.wiley.com/doi/10.1002/cpe.1223) by
+    J.H. Nyström, P.W. Trinder and D.J. King
+
+  - 2006: [Efficient memory management for concurrent programs that
+    use message
+    passing](https://dl.acm.org/doi/10.1016/j.scico.2006.02.006) by
+    Konstantinos Sagonas and Jesper Wilhelmsson
+
+  - 2006: [Efficient manipulation of binary data using pattern
+    matching](https://dl.acm.org/doi/10.1017/S0956796805005745) by Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2005: [TypEr: a type annotator of Erlang
+    code](https://dl.acm.org/doi/10.1145/1088361.1088366) by Tobias
+    Lindahl and Konstantinos Sagonas
+
+  - 2005: [Bit-level binaries and generalized comprehensions in
+    Erlang](https://dl.acm.org/doi/10.1145/1088361.1088363) by Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2005: [Efficiently compiling a functional language on AMD64: the
+    HiPE experience](https://dl.acm.org/doi/10.1145/1069774.1069791)
+    by Daniel Luna , Mikael Pettersson and Konstantinos Sagonas
+
+  - 2004: [HiPE on
+    AMD64](https://dl.acm.org/doi/10.1145/1022471.1022478) by Daniel
+    Luna , Mikael Pettersson and Konstantinos Sagonas
+
+  - 2004: [Model Checking Erlang Programs–LTL-Propositions and
+    Abstract
+    Interpretation](https://www.semanticscholar.org/paper/Model-Checking-Erlang-Programs-LTL-Propositions-and-Huch/e39b695a0f16dd194ba5ca53e7b4e3ba5fdfb3ad)
+    by Frank Huch
+
+  - 2004: [Structured Programming Using
+    Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
+    Jay Nelson
+
+  - 2003: [All you wanted to know about the HiPE compiler: (but might
+    have been afraid to
+    ask)](https://dl.acm.org/doi/10.1145/940880.940886) by K. Sagonas
+    , M. Pettersson , R. Carlsson , P. Gustafsson and T. Lindahl
+
+  - 2003: [The development of the HiPE system: design and experience
+    report](https://dl.acm.org/doi/10.1007/s100090100068) by Erik
+    Johansson , Mikael Pettersson , Konstantinos Sagonas and Thomas
+    Lindgren
 
   - 2003: [Concurrency Oriented Programming in
     Erlang](https://www.academia.edu/86082863/Concurrency_Oriented_Programming_In_Erlang)
     by Joe Armstrong
 
-  - 2013: [Reduction of regression tests for Erlang based on impact
-    analysis](https://www.semanticscholar.org/paper/Reduction-of-regression-tests-for-Erlang-based-on-Boz%C3%B3-T%C3%B3th/7e58f5c936a65f6440bd114212cd390c089c632d)
-    by István Bozó, Melinda Tóth and Zoltán Horváth
+  - 2003: [Evaluating Distributed Functional Languages for
+    Telecommunications
+    Software](https://dl.acm.org/doi/10.1145/940880.940881) by
+    J.H. Nyström, P.W. Trinder and D.J. King
+
+  - 2003: [Making reliable distributed systems in the presence of software
+    errors](https://erlang.org/download/armstrong_thesis_2003.pdf) by
+    Joe Armstrong
+
+  - 2002: [On reducing interprocess communication overhead in
+    concurrent programs](https://dl.acm.org/doi/10.1145/592849.592857)
+    by Erik Stenman and Konstantinos Sagonas
+
+  - 2002: [Native code compilation of Erlang's bit
+    syntax](https://dl.acm.org/doi/10.1145/592849.592851) by Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2002: [Unboxed compilation of floating point arithmetic in a
+    dynamically typed language
+    environment](https://dl.acm.org/doi/10.5555/1756972.1756981) by
+    Tobias Lindahl and Konstantinos Sagonas
+
+  - 2002: [The HiPE/x86 Erlang Compiler: System Description and
+    Performance
+    Evaluation](https://dl.acm.org/doi/10.5555/646191.683581) by
+    Mikael Pettersson , Konstantinos F. Sagonas and Erik Johansson
+
+  - 2002: [Heap architectures for concurrent languages using message
+    passing](https://dl.acm.org/doi/10.1145/512429.512440) by Erik
+    Johansson , Konstantinos Sagonas and Jesper Wilhelmsson
+
+  - 2002: [Linear Scan Register Allocation in a High-Performance
+    Erlang Compiler](https://dl.acm.org/doi/10.5555/645772.667958) by
+    Erik Johansson and Konstantinos F. Sagonas
+
+  - 2002: [Verification of Erlang Programs using Abstract
+    Interpretation and Model
+    Checking](https://publications.rwth-aachen.de/record/59420) by
+    Frank Günter Huch
+
+  - 2002: [Getting Erlang to talk to the outside
+    world](https://dl.acm.org/doi/10.1145/592849.592858) by Joe
+    Armstrong
+
+  - 2002: [The evolution of Erlang drivers and the Erlang driver
+    toolkit](https://www.researchgate.net/publication/221211334_The_evolution_of_Erlang_drivers_and_the_Erlang_driver_toolkit)
+    by Scott Lystig Fritchie
+
+  - 2000: [A high performance Erlang system](A high performance Erlang
+    system) by Erik Johansson , Mikael Pettersson and Konstantinos
+    Sagonas
 
   - [The Design of Scalable Distributed
     Erlang](https://www.academia.edu/10218297/The_Design_of_Scalable_Distributed_Erlang)
@@ -928,230 +1344,18 @@ communities to install/package it*
     Rationale](https://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf)
     By Robert Virding
 
-  - 2003: [Making reliable distributed systems in the presence of software
-    errors](https://erlang.org/download/armstrong_thesis_2003.pdf) by
-    Joe Armstrong
-
-  - [The Shared-Memory Interferences of Erlang/OTP
-    Built-Ins](https://dl.acm.org/doi/10.1145/3123569.3123573) by
-    Stavros Aronis and Konstantinos Sagonas
-
-  - [Modelling Distributed Erlang within a Single
-    Node](https://dl.acm.org/doi/10.1145/3239332.3242764) by Stavros
-    Aronis, Viktória Fördős and Dániel Szoboszlay
-
-  - [Erlang on Adapteva's
-    Parallella](http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1045465&dswid=-9848)
-    by Lång Magnus
-
-  - [Highly scalable Erlang framework for agent-based metaheuristic
-    computing](https://linkinghub.elsevier.com/retrieve/pii/S1877750316300242)
-    by Wojciech Turek, Jan Stypka, Daniel Krzywicki, Piotr Anielski,
-    Kamil Pietak, Aleksander Byrski and Marek Kisiel-Dorohinicki
-
   - [Erlang as an alternative to a non-functional language for
     communication in a fault tolerant IoT sensor
     network](https://core.ac.uk/download/pdf/79617358.pdf) by Jimmy
     Holdö
 
-  - [Data Parallel pattern in
-    Erlang/OpenCL](https://ebooks.iospress.nl/volumearticle/42654) by
-    Ugo Albanese
-
-  - [Automatic Detection of Core Erlang Message Passing
-    Errors](https://dl.acm.org/doi/10.1145/3239332.3242765) by Joseph
-    Harrison
-
-  - [Targeted Property-Based
-    Testing](https://dl.acm.org/doi/10.1145/3092703.3092711) by
-    Andreas Löscher and Konstantinos Sagonas
-
-  - [Gaining Trust by Tracing Security
-    Protocols](https://dl.acm.org/doi/10.1145/3331542.3342573) by
-    Lars-Åke Fredlund, Clara Benac, EarleThomas Arts andHans Svensson
-
-  - [Understanding Formal Specifications through Good
-    Examples](https://dl.acm.org/doi/10.1145/3239332.3242763) by Alex
-    Gerdes, John Hughes, Nicholas Smallbone, Stefan Hanenberg,
-    Sebastian Ivarsson and Meng Wang
-
-  - [Towards an Isabelle/HOL Formalisation of Core
-    Erlang](https://dl.acm.org/doi/10.1145/3123569.3123576) by Joseph
-    R. Harrison
-
-  - [A theory of reversibility for
-    Erlang](https://www.sciencedirect.com/science/article/pii/S2352220817301402)
-    by Ivan Lanese, Naoki Nishida, Adrián Palacios and Germán Vidal
-
-  - [Declarative debugging of concurrent Erlang
-    programs](https://www.sciencedirect.com/science/article/pii/S235222081730216X)
-    by Rafael Caballero, Enrique Martin-Martin, Adrián Riesco and
-    Salvador Tamarit
-
-  - [AErlang: empowering Erlang with attribute-based
-    communication](https://www.sciencedirect.com/science/article/pii/S0167642318303290)
-    by Rocco De Nicola, Tan Duong, Omar Inverso and Catia Trubiani
-
-  - [Erlang as an Enabling Technology for Resilient General-Purpose
-    Applications on Edge IoT
-    Networks](https://dl.acm.org/doi/10.1145/3331542.3342567) by Igor
-    Kopestenski and Peter Van Roy
-
-  - [Intro to Web Prolog for
-    Erlangers](https://dl.acm.org/doi/10.1145/3331542.3342569) by
-    Torbjörn Lager
-
-  - [Scaling Erlang Distribution Going Beyond the Fully Connected
-    Mesh](https://dl.acm.org/doi/10.1145/3331542.3342572) by Adam
-    Lindberg, Sébastien Merle and Peer Stritzinger
-
-  - [Automating Targeted Property-Based
-    Testing](https://ieeexplore.ieee.org/document/8367037) by Andreas
-    Löscher and Konstantinos Sagonas
-
-  - [Lux: An Expect-Like Test Tool Written in Erlang Synchronised
-    Testing of Multiple
-    Sessions](https://dl.acm.org/doi/10.1145/3331542.3342574) by Håkan
-    Mattsson and Cons T. Åhs
-
-  - [Tools Supporting Green Computing in
-    Erlang](https://dl.acm.org/doi/10.1145/3331542.3342570) by Gergely
-    Nagy, Áron Attila MészárosIstván Bozó and Melinda Tóth
-
-  - [Erlang Behaviours: Programming With Process Design
-    Patterns](https://link.springer.com/chapter/10.1007/978-3-642-17685-2_2?)
-    by Francesco Cesarini and Simon Thompson
-
-  - [Towards Secure Erlang
-    Systems](https://dl.acm.org/doi/10.1145/3239332.3242768) by
-    Alexandre Jorge Barbosa Rodrigues and Viktória Fördős
-
-  - [Scalable Persistent Storage for Erlang: Theory and
-    Practice](https://www.researchgate.net/publication/262218651_Scalable_persistent_storage_for_Erlang_theory_and_practice)
-    by Jon Meredith, Amir Ghaffari, Natalia Chechina and Phil Trinder
-
-  - [Typing the Wild in
-    Erlang](https://dl.acm.org/doi/10.1145/3239332.3242766) by
-    Nachiappan Valliappan and John Hughes
-
-  - [Set-theoretic Types for Erlang](https://arxiv.org/abs/2302.12783)
-    by Albert Schimpf, Stefan Wehr, Annette Bieniusa
-
-  - [Communicating Actor Automata -- Modelling Erlang Processes as
-    Communicating Machines](https://arxiv.org/abs/2304.06395) by
-    Dominic Orchard, Mihail Munteanu, Paulo Torrens
-
-  - [Troubleshooting the performance of a large Erlang
-    system](https://www.researchgate.net/publication/363343558_Troubleshooting_the_performance_of_a_large_Erlang_system)
-    by Nikos Tsikoudis, Marc Sugiyama
-
-  - [Real time Framework in Erlang for Computational
-    Advertising](https://www.researchgate.net/publication/264416948_Real_time_Framework_in_Erlang_for_Computational_Advertising)
-    by Pero Subasic
-
-  - [The evolution of Erlang drivers and the Erlang driver
-    toolkit](https://www.researchgate.net/publication/221211334_The_evolution_of_Erlang_drivers_and_the_Erlang_driver_toolkit)
-    by Scott Lystig Fritchie
-
-  - [Extensible Callback Module Layering in
-    Erlang](https://www.researchgate.net/publication/348630257_Extensible_Callback_Module_Layering_in_Erlang)
-    by Greg Hawkridge, Anton Herman Basson and Karel Kruger
-
-  - [An Evaluation of Erlang for Implementing Standby Redundancy in a
-    Manufacturing Station
-    Controller](https://www.researchgate.net/publication/329582274_An_Evaluation_of_Erlang_for_Implementing_Standby_Redundancy_in_a_Manufacturing_Station_Controller_Proceedings_of_SOHOMA_2018):
-    Proceedings of SOHOMA 2018 by Greg Hawkridge, Anton Herman Basson
-    and Karel Kruger
-
-  - [Erlang-based holonic controller for a palletized conveyor
-    material handling
-    system](https://www.researchgate.net/publication/326571722_Erlang-based_holonic_controller_for_a_palletized_conveyor_material_handling_system)
-    by Karel Kruger and Anton Herman Basson
-
-  - [Implementation of an Erlang-Based Resource Holon for a Holonic
-    Manufacturing
-    Cell](https://www.researchgate.net/publication/302496525_Implementation_of_an_Erlang-Based_Resource_Holon_for_a_Holonic_Manufacturing_Cell)
-    by Karel Kruger and Anton Herman Basson
-
-  - [Reversibility in Erlang: Imperative Constructs - Technical
-    Report](https://hal.science/hal-03655372v1) by Pietro Lami, Ivan
-    Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen and Giovanni
-    Fabbretti
-
-  - [Static analysis of communications for
-    Erlang](https://hal.science/hal-02132880v1) by Fabien Dagnat and
-    Marc Pantel
-
-  - [Session Typing for a Featherweight
-    Erlang](https://hal.science/hal-01582995v1) by Dimitris Mostrous
-    and Vasco T. Vasconcelos
-
-  - [JErlang: Erlang with Joins](https://hal.science/hal-01054623v1)
-    by Hubert Plociniczak and Susan Eisenbach
-
-  - [CauDEr: A Causal-Consistent Reversible Debugger for
-    Erlang](https://hal.science/hal-01912894v1) by Ivan Lanese, Naoki
-    Nishida, Adrian Palacios and Germán Vidal
-
-  - [Dealing with actor runtime environments on hierarchical shared
-    memory multi-core platforms](https://hal.science/tel-01549158v1)
-    by Emilio de Camargo Francesquini
-
-  - [Generation of a Reversible Semantics for Erlang in
-    Maude](https://hal.science/hal-03916227v1) by Giovanni Fabbretti,
-    Ivan Lanese and Jean-Bernard Stefani
-
-  - [Robust by "Let it Crash"](https://hal.science/hal-00926525v1) by
-    Christoph Woskowski, Mikolaj Trzeciecki and Florian Schwedes
-
-  - [mu2: A Refactoring-Based Mutation Testing Framework for
-    Erlang](https://hal.science/hal-01470148v1) by Ramsay Taylor and
-    John Derrick
-
   - [ECOTRUCK: An Agent System for Paper
     Recycling](https://hal.science/hal-01571478v1) by Nikolaos
     Bezirgiannis and Ilias Sakellariou
 
-  - [High-level Distribution for the Rapid Production of Robust
-    Telecoms Software: Comparing C++ and
-    Erlang](https://onlinelibrary.wiley.com/doi/10.1002/cpe.1223) by
-    J.H. Nyström, P.W. Trinder and D.J. King
-
-  - [Evaluating Distributed Functional Languages for
-    Telecommunications
-    Software](https://dl.acm.org/doi/10.1145/940880.940881) by
-    J.H. Nyström, P.W. Trinder and D.J. King
-
-  - [COMPARING THE PERFORMANCE OF JAVA, ERLANG AND SCALA IN WEB 2.0
-    APPLICATIONS](https://www.researchgate.net/publication/234082856_COMPARING_THE_PERFORMANCE_OF_JAVA_ERLANG_AND_SCALA_IN_WEB_20_APPLICATIONS)
-    by Jucimar Maia da Silva Jr., Rafael Dueire Lins and Lanier
-    Menezes dos Santos
-
   - [ACSYS CAMERA IMPLEMENTATION UTILIZING AN ERLANG FRAMEWORK TO C++
     INTERFACE](https://accelconf.web.cern.ch/ICALEPCS2013/papers/THPPC066.pdf?n=ICALEPCS2013/papers/THPPC066.pdf)
     by C. Briegel and J. Diamond
-
-  - [Comparing Languages for Engineering Server Software: Erlang, Go,
-    and Scala with
-    Akka](https://dl.acm.org/doi/abs/10.1145/3167132.3167144) by Ivan
-    Valkov, Natalia Chechina, and Phil Trinder
-
-  - [Experience Report: Erlang in Acoustic Ray
-    Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
-    Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
-    Maxwell and Lutz Hamel
-
-  - [Verification of Timed Erlang Programs Using
-    McErlang](https://link.springer.com/chapter/10.1007/978-3-642-30793-5_16)
-    by Clara Benac Earle, Lars-Åke Fredlund
-
-  - [Model Checking Erlang Programs–LTL-Propositions and Abstract
-    Interpretation](https://www.semanticscholar.org/paper/Model-Checking-Erlang-Programs-LTL-Propositions-and-Huch/e39b695a0f16dd194ba5ca53e7b4e3ba5fdfb3ad)
-    by Frank Huch
-
-  - [Verification of Erlang Programs using Abstract Interpretation and
-    Model Checking](https://publications.rwth-aachen.de/record/59420)
-    by Frank Günter Huch
 
   - [Introducing Concurrent Functional Programming in the
     Telecommunications
@@ -1161,15 +1365,6 @@ communities to install/package it*
   - [Seaplus: Streamlining a safe execution of C/C++ code from
     Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
     Boudeville
-
-  - [Structured Programming Using
-    Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
-    Jay Nelson
-
-  - [Scaling Reliably: Improving the Scalability of the Erlang
-    Distributed Actor Platform](https://arxiv.org/abs/1704.07234) by
-    Phil Trinder, Natalia Chechina, Nikolaos Papaspyrou, Konstantinos
-    Sagonas, Simon Thompson...
 
   - [Partisan: Enabling Real-World Protocol
     Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
@@ -1187,11 +1382,6 @@ communities to install/package it*
   - [HyParView: a membership protocol for reliable gossip-based
     broadcast](https://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf)
     by João Leitão, José Pereira, Luís Rodrigues
-
-  - [X-BOT: A Protocol for Resilient Optimization of Unstructured
-    Overlay
-    Networks](https://www.academia.edu/2901632/X_BOT_A_Protocol_for_Resilient_Optimization_of_Unstructured_Overlay_Networks)
-    by João Leitão, João Pedro Marques, José Pereira, Luís Rodrigues
 
 # Contributing
 
