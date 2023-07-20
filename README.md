@@ -790,11 +790,11 @@ communities to install/package it*
   Hubert Plociniczak and Susan Eisenbach
 
 * [CauDEr: A Causal-Consistent Reversible Debugger for
-  Erlang)(https://hal.science/hal-01912894v1) by Ivan Lanese, Naoki
+  Erlang](https://hal.science/hal-01912894v1) by Ivan Lanese, Naoki
   Nishida, Adrian Palacios and Germán Vidal
   
 * [Dealing with actor runtime environments on hierarchical shared
-  memory multi-core platforms)(https://hal.science/tel-01549158v1) by
+  memory multi-core platforms](https://hal.science/tel-01549158v1) by
   Emilio de Camargo Francesquini
   
 * [Generation of a Reversible Semantics for Erlang in
@@ -817,7 +817,7 @@ communities to install/package it*
   and D.J. King
   
 * [Evaluating Distributed Functional Languages for Telecommunications
-  Software)() by J.H. Nyström, P.W. Trinder and D.J. King
+  Software]() by J.H. Nyström, P.W. Trinder and D.J. King
 
 * [COMPARING THE PERFORMANCE OF JAVA, ERLANG AND SCALA IN WEB 2.0
   APPLICATIONS]() by Jucimar Maia da Silva Jr., Rafael Dueire Lins and
@@ -838,7 +838,7 @@ communities to install/package it*
   Benac Earle, Lars-Åke Fredlund
   
 * [Model Checking Erlang Programs–LTL-Propositions and Abstract
-  Interpretation)() by Frank Huch
+  Interpretation]() by Frank Huch
 
 * [Verification of Erlang Programs using Abstract Interpretation and
   Model Checking]() by Frank Günter Huch
@@ -856,7 +856,7 @@ communities to install/package it*
   Nikolaos Papaspyrou, Konstantinos Sagonas, Simon Thompson...
 
 * [Partisan: Enabling Real-World Protocol
-  Evaluation)(https://dl.acm.org/doi/10.1145/3231104.3231106) by
+  Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
   Christopher Meiklejohn
   
 * [Partisan: Enabling Cloud-Scale Erlang
