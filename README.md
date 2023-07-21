@@ -903,6 +903,10 @@ communities to install/package it*
 
 *Erlang-related academic and scientific materials*
 
+  - 2023: [Seaplus: Streamlining a safe execution of C/C++ code from
+    Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
+    Boudeville
+
   - 2023: [Set-theoretic Types for
     Erlang](https://arxiv.org/abs/2302.12783) by Albert Schimpf,
     Stefan Wehr, Annette Bieniusa
@@ -963,6 +967,11 @@ communities to install/package it*
     consistency](https://www.usenix.org/system/files/atc21-bravo.pdf)
     by Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei
 
+  - 2020: [Erlang as an alternative to a non-functional language for
+    communication in a fault tolerant IoT sensor
+    network](https://gupea.ub.gu.se/handle/2077/63387)
+    [pdf](https://core.ac.uk/download/pdf/79617358.pdf) by Jimmy Holdö
+
   - 2020: [A Proof Assistant Based Formalisation of Core
     Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
     Dániel Horpácsi and Simon Thompson
@@ -984,6 +993,12 @@ communities to install/package it*
     Controller](https://www.researchgate.net/publication/329582274_An_Evaluation_of_Erlang_for_Implementing_Standby_Redundancy_in_a_Manufacturing_Station_Controller_Proceedings_of_SOHOMA_2018):
     Proceedings of SOHOMA 2018 by Greg Hawkridge, Anton Herman Basson
     and Karel Kruger
+
+  - 2019: [Partisan: Scaling the Distributed Actor
+    Runtime](https://www.usenix.org/conference/atc19/presentation/meiklejohn)
+    [pdf](https://www.usenix.org/system/files/atc19-meiklejohn.pdf) by
+    Christopher S. Meiklejohn and Heather Miller, Carnegie Mellon
+    University and Peter Alvaro
 
   - 2019: [Erlang as an Enabling Technology for Resilient
     General-Purpose Applications on Edge IoT
@@ -1014,6 +1029,10 @@ communities to install/package it*
   - 2019: [Gaining Trust by Tracing Security
     Protocols](https://dl.acm.org/doi/10.1145/3331542.3342573) by
     Lars-Åke Fredlund, Clara Benac, EarleThomas Arts andHans Svensson
+
+  - 2018: [Partisan: Enabling Cloud-Scale Erlang
+    Applications](https://arxiv.org/abs/1802.02652) by Christopher
+    Meiklejohn and Heather Miller
 
   - 2018: [HiPErJiT: A Profile-Driven Just-in-Time Compiler for
     Erlang](https://dl.acm.org/doi/10.1145/3310232.3310234) by
@@ -1121,6 +1140,10 @@ communities to install/package it*
     Complex Case Study](https://arxiv.org/abs/1708.07225) by Dániel
     Horpácsi, Judit Kőszegi and Zoltán Horváth
 
+  - 2017: [ECOTRUCK: An Agent System for Paper
+    Recycling](https://hal.science/hal-01571478v1) by Nikolaos
+    Bezirgiannis and Ilias Sakellariou
+
   - 2016: [Towards Trustworthy Refactoring in
     Erlang](https://arxiv.org/abs/1607.02228) by Dániel Horpácsi,
     Judit Kőszegi and Simon Thompson
@@ -1207,6 +1230,10 @@ communities to install/package it*
     Huiqing Li, Simon Thompson, Pablo Lamela Seijas and Miguel Angel
     Francisco
 
+  - 2014: [Investigating the Scalability Limits of Distributed
+    Erlang](https://www.academia.edu/7484815/Investigating_the_Scalability_Limits_of_Distributed_Erlang)
+    by Amir Ghaffari
+
   - 2013: [Adapting CakeDB to Integrate High-Pressure Big Data Streams
     with Low-Pressure
     Systems](https://dl.acm.org/doi/10.1109/CLOUDCOM-ASIA.2013.33) by
@@ -1258,6 +1285,12 @@ communities to install/package it*
     analysis](https://www.semanticscholar.org/paper/Reduction-of-regression-tests-for-Erlang-based-on-Boz%C3%B3-T%C3%B3th/7e58f5c936a65f6440bd114212cd390c089c632d)
     by István Bozó, Melinda Tóth and Zoltán Horváth
 
+  - 2013: [ACSYS CAMERA IMPLEMENTATION UTILIZING AN ERLANG FRAMEWORK
+    TO C++
+    INTERFACE](https://www.semanticscholar.org/paper/ACSYS-CAMERA-IMPLEMENTATION-UTILIZING-AN-ERLANG-TO-Briegel-Diamond/8fdbf5f6d490ddb74fc32fc0244b9a3e2e2ca4fb)
+    [pdf](https://accelconf.web.cern.ch/ICALEPCS2013/papers/THPPC066.pdf?n=ICALEPCS2013/papers/THPPC066.pdf)
+    by C. Briegel and J. Diamond
+
   - 2012: [Automated API migration in a user-extensible refactoring
     tool for Erlang
     programs](https://dl.acm.org/doi/10.1145/2351676.2351727) by
@@ -1296,6 +1329,11 @@ communities to install/package it*
     Unstructured Overlay
     Networks](https://www.academia.edu/2901632/X_BOT_A_Protocol_for_Resilient_Optimization_of_Unstructured_Overlay_Networks)
     by João Leitão, João Pedro Marques, José Pereira, Luís Rodrigues
+
+  - 2011: [The Design of Scalable Distributed
+    Erlang](https://www.academia.edu/10218297/The_Design_of_Scalable_Distributed_Erlang)
+    by Natalia Chechina, Phil Trinder, Amir Ghaﬀari, Rickard Green,
+    Kenneth Lundin, and Robert Virding
 
   - 2011: [Extracting QuickCheck specifications from EUnit test
     cases](Extracting QuickCheck specifications from EUnit test cases)
@@ -1450,6 +1488,11 @@ communities to install/package it*
     Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
     Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
     Maxwell and Lutz Hamel
+
+  - 2007: [HyParView: a membership protocol for reliable gossip-based
+    broadcast](https://www.semanticscholar.org/paper/HyParView%3A-A-Membership-Protocol-for-Reliable-Leitao-Pereira/06e04a7a24100dbc0f72f22bc8e6dde4b2a27d8b)
+    [pdf](https://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf) by
+    João Leitão, José Pereira, Luís Rodrigues
 
   - 2007: [Learning programming with
     erlang](https://dl.acm.org/doi/10.1145/1292520.1292534) by Frank
@@ -1610,57 +1653,22 @@ communities to install/package it*
     toolkit](https://www.researchgate.net/publication/221211334_The_evolution_of_Erlang_drivers_and_the_Erlang_driver_toolkit)
     by Scott Lystig Fritchie
 
-  - 2000: [A high performance Erlang system](A high performance Erlang
-    system) by Erik Johansson , Mikael Pettersson and Konstantinos
-    Sagonas
+  - 2000: [A high performance Erlang
+    system](https://dl.acm.org/doi/pdf/10.1145/351268.351273) by Erik
+    Johansson, Mikael Pettersson and Konstantinos Sagonas
 
   - 1997: [The development of
     Erlang](https://dl.acm.org/doi/10.1145/258948.258967) by Joe
     Armstrong
 
-  - [The Design of Scalable Distributed
-    Erlang](https://www.academia.edu/10218297/The_Design_of_Scalable_Distributed_Erlang)
-    by Natalia Chechina, Phil Trinder, Amir Ghaﬀari, Rickard Green,
-    Kenneth Lundin, and Robert Virding
-
   - [The Erlang
     Rationale](https://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf)
     By Robert Virding
-
-  - [Erlang as an alternative to a non-functional language for
-    communication in a fault tolerant IoT sensor
-    network](https://core.ac.uk/download/pdf/79617358.pdf) by Jimmy
-    Holdö
-
-  - [ECOTRUCK: An Agent System for Paper
-    Recycling](https://hal.science/hal-01571478v1) by Nikolaos
-    Bezirgiannis and Ilias Sakellariou
-
-  - [ACSYS CAMERA IMPLEMENTATION UTILIZING AN ERLANG FRAMEWORK TO C++
-    INTERFACE](https://accelconf.web.cern.ch/ICALEPCS2013/papers/THPPC066.pdf?n=ICALEPCS2013/papers/THPPC066.pdf)
-    by C. Briegel and J. Diamond
 
   - [Introducing Concurrent Functional Programming in the
     Telecommunications
     Industry](https://link.springer.com/chapter/10.1007/978-0-387-35404-0_15)
     by Bjarne Dacker
-
-  - [Seaplus: Streamlining a safe execution of C/C++ code from
-    Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
-    Boudeville
-
-  - [Partisan: Enabling Cloud-Scale Erlang
-    Applications](https://arxiv.org/abs/1802.02652) by Christopher
-    Meiklejohn and Heather Miller
-
-  - [Partisan: Scaling the Distributed Actor
-    Runtime](https://www.usenix.org/system/files/atc19-meiklejohn.pdf)
-    by Christopher S. Meiklejohn and Heather Miller, Carnegie Mellon
-    University and Peter Alvaro
-
-  - [HyParView: a membership protocol for reliable gossip-based
-    broadcast](https://asc.di.fct.unl.pt/~jleitao/pdf/dsn07-leitao.pdf)
-    by João Leitão, José Pereira, Luís Rodrigues
 
 # Contributing
 
