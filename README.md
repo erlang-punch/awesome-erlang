@@ -488,6 +488,9 @@ techniques.*
   - [grb](https://github.com/ergl/grb) - A fault-tolerant marriage of
     causal and strong consistency.
 
+  - [cakedb](https://github.com/cakedb/cakedb) - A stream oriented
+    database.
+
 ## Queue
 
 *Libraries for working with event and task queues.*
@@ -616,6 +619,13 @@ techniques.*
     implementation of the Jade templating language in Erlang
 
   - [uuid](https://github.com/okeuday/uuid) - an implement of UUID.
+
+  - [erlbison](https://github.com/cakedb/erlbison) - Erlbison is an
+    Erlang library to work with BSON files. Its discerning feature is
+    its attempt to do as much work as possible at the binary level,
+    without translating the data to native Erlang data structure
+    unless when absolutely necessary, in order to maximize
+    performance.
 
 ## REST and API
 
@@ -1069,6 +1079,10 @@ communities to install/package it*
     Erlang](https://hal.science/hal-01912894v1) by Ivan Lanese, Naoki
     Nishida, Adrian Palacios and Germán Vidal
 
+  - 2018: [Partisan: Enabling Real-World Protocol
+    Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
+    Christopher Meiklejohn
+
   - 2017: [Dealing with actor runtime environments on hierarchical
     shared memory multi-core
     platforms](https://hal.science/tel-01549158v1) by Emilio de
@@ -1147,6 +1161,29 @@ communities to install/package it*
     Computing](https://arxiv.org/abs/1501.06721) by D. Krzywicki,
     W. Turek, A. Byrski and M. Kisiel-Dorohinicki
 
+  - 2015: [Safe Concurrency Introduction through Slicing](Safe
+    Concurrency Introduction through Slicing) by Huiqing Li and Simon
+    Thompson
+
+  - 2014: [Faulterl: precise fault injection for the erlang VM, NIFs
+    and linked-in
+    drivers](https://dl.acm.org/doi/10.1145/2633448.2633459) by Scott
+    Lystig Fritchie
+
+  - 2014: [Discovering parallel pattern candidates in
+    Erlang](https://dl.acm.org/doi/10.1145/2633448.2633453) by István
+    Bozó, Viktoria Fordós, Zoltán Horvath, Melinda Tóth, Dániel
+    Horpácsi, Tamás Kozsik, Judit Köszegi, Adam Barwell, Christopher
+    Brown and Kevin Hammond
+
+  - 2014: [Derflow: distributed deterministic dataflow programming for
+    erlang](https://dl.acm.org/doi/10.1145/2633448.2633451) by Manuel
+    Bravo, Zhongmiao Li, Peter Van Roy and Christopher Meiklejohn
+
+  - 2014: [BEAMJIT: a just-in-time compiling runtime for
+    Erlang](https://dl.acm.org/doi/10.1145/2633448.2633450) by Frej
+    Drejhammar and Lars Rasmusson
+
   - 2014: [Synapse: automatic behaviour inference and implementation
     comparison for
     Erlang](https://dl.acm.org/doi/10.1145/2633448.2633457) by Pablo
@@ -1165,8 +1202,35 @@ communities to install/package it*
     Crash"](https://hal.science/hal-00926525v1) by Christoph
     Woskowski, Mikolaj Trzeciecki and Florian Schwedes
 
-  - 2013: [Multicore profiling for Erlang programs using percept2](https://dl.acm.org/doi/10.1145/2505305.2505311) by Huiqing Li
-    and Simon Thompson
+  - 2014: [Automating property-based testing of evolving web
+    services](https://dl.acm.org/doi/10.1145/2543728.2543741) by
+    Huiqing Li, Simon Thompson, Pablo Lamela Seijas and Miguel Angel
+    Francisco
+
+  - 2013: [Adapting CakeDB to Integrate High-Pressure Big Data Streams
+    with Low-Pressure
+    Systems](https://dl.acm.org/doi/10.1109/CLOUDCOM-ASIA.2013.33) by
+    Peter Membrey , Keith C. C. Chan and Yuri Demchenko
+
+  - 2013: [Towards property-based testing of RESTful web
+    services](https://dl.acm.org/doi/10.1145/2505305.2505317) by Pablo
+    Lamela Seijas , Huiqing Li and Simon Thompson
+
+  - 2013: [Actor scheduling for multicore hierarchical memory
+    platforms](https://dl.acm.org/doi/10.1145/2505305.2505313) by
+    Emilio Francesquini , Alfredo Goldman and Jean-François Méhaut
+
+  - 2013: [Scalable persistent storage for Erlang: theory and
+    practice](https://dl.acm.org/doi/10.1145/2505305.2505315) by Amir
+    Ghaffari , Natalia Chechina , Phil Trinder and Jon Meredith
+
+  - 2013: [Extending Erlang by utilising
+    RefactorErl](https://dl.acm.org/doi/10.1145/2505305.2505314) by
+    Dániel Horpácsi
+
+  - 2013: [Multicore profiling for Erlang programs using
+    percept2](https://dl.acm.org/doi/10.1145/2505305.2505311) by
+    Huiqing Li and Simon Thompson
 
   - 2013: [On the scalability of the Erlang term
     storage](https://dl.acm.org/doi/10.1145/2505305.2505308) by David
@@ -1271,7 +1335,36 @@ communities to install/package it*
     Maude](https://dl.acm.org/doi/10.1145/2034751.2034758) Georgios
     Fourtounis , Peter Csaba Ölveczky and Nikolaos Papaspyrou
 
+  - 2011: [Accelerating race condition detection through
+    procrastination](https://dl.acm.org/doi/10.1145/2034654.2034659)
+    Thomas Arts , John Hughes , Ulf Norell , Nicholas Smallbone and
+    Hans Svensson
 
+  - 2011: [Erlang ETS tables and software transactional memory: how
+    transactions make ETS tables more like ordinary
+    actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
+    Nyblom
+
+  - 2010: [Using Erlang to implement a autonomous build and
+    distribution system for software
+    projects](https://dl.acm.org/doi/10.1145/1863509.1863522) by Tino
+    Breddin
+
+  - 2010: [Implementing a multiagent negotiation protocol in
+    Erlang](https://dl.acm.org/doi/10.1145/1863509.1863520) by Álvaro
+    Fernández Díaz , Clara Benac Earle and Lars-Åke Fredlund
+
+  - 2010: [Generic load regulation framework for
+    Erlang](https://dl.acm.org/doi/10.1145/1863509.1863518) by Ulf
+    T. Wiger
+
+  - 2010: [A unified semantics for future
+    Erlang](https://dl.acm.org/doi/10.1145/1863509.1863514) by Hans
+    Svensson , Lars-Åke Fredlund and Clara Benac Earle
+
+  - 2010: [Similar code detection and elimination for erlang
+    programs](https://dl.acm.org/doi/10.1007/978-3-642-11503-5_10) by
+    Huiqing Li and Simon Thompson
 
   - 2010: [Quickchecking refactoring
     tools](https://dl.acm.org/doi/10.1145/1863509.1863521) by Dániel
@@ -1307,6 +1400,19 @@ communities to install/package it*
     Patterns](https://link.springer.com/chapter/10.1007/978-3-642-17685-2_2?)
     by Francesco Cesarini and Simon Thompson
 
+  - 2009: [Teaching Erlang using robotics and
+    player/stage](https://dl.acm.org/doi/10.1145/1596600.1596606) by
+    Sten Grüner and Thomas Lorentsen
+
+  - 2009: [Automatic assessment of failure recovery in Erlang
+    applications](https://dl.acm.org/doi/10.1145/1596600.1596604) by
+    Jan Henry Nyström
+
+  - 2009: [Clone detection and removal for Erlang/OTP within a
+    refactoring
+    environment](https://dl.acm.org/doi/10.1145/1480945.1480971) by
+    Huiqing Li and Simon Thompson
+
   - 2009: [Automatic refactoring of Erlang
     programs](https://dl.acm.org/doi/10.1145/1599410.1599414) by
     Konstantinos Sagonas and Thanassis Avgerinos
@@ -1315,9 +1421,22 @@ communities to install/package it*
     do it](https://dl.acm.org/doi/10.1145/1596600.1596602) by
     Thanassis Avgerinos and Konstantinos Sagonas
 
-  - [Gradual typing of erlang programs: a wrangler
+  - 2009: [Gradual typing of erlang programs: a wrangler
     experience](https://dl.acm.org/doi/10.1145/1411273.1411284) by
     Konstantinos Sagonas and Daniel Luna
+
+  - 2008: [High-performance technical computing with
+    erlang](https://dl.acm.org/doi/10.1145/1411273.1411281) by Alceste
+    Scalas, Giovanni Casu and Piero Pili
+
+  - 2008: [Erlang testing and tools
+    survey](https://dl.acm.org/doi/10.1145/1411273.1411277) by Tamás
+    Nagy and Anikó Nagyné Víg
+
+  - 2008: [Refactoring module
+    structure](https://dl.acm.org/doi/10.1145/1411273.1411285) by
+    László Lövei , Csaba Hoch , Hanna Köllö , Tamás Nagy , Anikó
+    Nagyné Víg , Dániel Horpácsi , Róbert Kitlei and Roland Király
 
   - 2008: [Testing Erlang Refactorings with
     QuickCheck](https://dl.acm.org/doi/10.1007/978-3-540-85373-2_2) by
@@ -1331,6 +1450,18 @@ communities to install/package it*
     Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
     Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
     Maxwell and Lutz Hamel
+
+  - 2007: [Learning programming with
+    erlang](https://dl.acm.org/doi/10.1145/1292520.1292534) by Frank
+    Huch
+
+  - 2007: [Optimising TCP/IP
+    connectivity](https://dl.acm.org/doi/10.1145/1292520.1292532) by
+    Oscar Hellström
+
+  - 2007: [Priority messaging made
+    easy](https://dl.acm.org/doi/10.1145/1292520.1292530) by Jan Henry
+    Nystrom
 
   - 2007: [A language for specifying type contracts in erlang and its
     interaction with success
@@ -1355,6 +1486,10 @@ communities to install/package it*
     Erlang](https://onlinelibrary.wiley.com/doi/10.1002/cpe.1223) by
     J.H. Nyström, P.W. Trinder and D.J. King
 
+  - 2006: [Dryverl: a flexible Erlang/C binding
+    compiler](https://dl.acm.org/doi/10.1145/1159789.1159796) by
+    Romain Lenglet and Shigeru Chiba
+
   - 2006: [Comparative Study of Refactoring Haskell and Erlang
     Programs](https://dl.acm.org/doi/10.1109/SCAM.2006.8) by Huiqing
     Li and Simon Thompson
@@ -1368,6 +1503,10 @@ communities to install/package it*
     matching](https://dl.acm.org/doi/10.1017/S0956796805005745) by Per
     Gustafsson and Konstantinos Sagonas
 
+  - 2005: [A stream library using Erlang
+    binaries](https://dl.acm.org/doi/10.1145/1088361.1088364) by Jay
+    Nelson
+
   - 2005: [TypEr: a type annotator of Erlang
     code](https://dl.acm.org/doi/10.1145/1088361.1088366) by Tobias
     Lindahl and Konstantinos Sagonas
@@ -1379,6 +1518,14 @@ communities to install/package it*
   - 2005: [Efficiently compiling a functional language on AMD64: the
     HiPE experience](https://dl.acm.org/doi/10.1145/1069774.1069791)
     by Daniel Luna , Mikael Pettersson and Konstantinos Sagonas
+
+  - 2004: [Structured programming using
+    processes](https://dl.acm.org/doi/10.1145/1022471.1022480) by Jay
+    Nelson
+
+  - 2004: [Troubleshooting a large erlang
+    system](https://dl.acm.org/doi/10.1145/1022471.1022474) by Mats
+    Cronqvist
 
   - 2004: [HiPE on
     AMD64](https://dl.acm.org/doi/10.1145/1022471.1022478) by Daniel
@@ -1501,10 +1648,6 @@ communities to install/package it*
   - [Seaplus: Streamlining a safe execution of C/C++ code from
     Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
     Boudeville
-
-  - [Partisan: Enabling Real-World Protocol
-    Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
-    Christopher Meiklejohn
 
   - [Partisan: Enabling Cloud-Scale Erlang
     Applications](https://arxiv.org/abs/1802.02652) by Christopher
