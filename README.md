@@ -23,6 +23,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Distributed Systems](#distributed-systems)
     - [Documentation](#documentation)
     - [Geolocation](#geolocation)
+    - [Graphical Interfaces](#gui)
     - [HTTP](#http)
     - [Internet of Things](#internet-of-things)
     - [Logging](#logging)
@@ -255,6 +256,12 @@ applications.*
   - [docker-erlang](https://github.com/synlay/docker-erlang) - Basic
     Docker Container Images for Erlang/OTP.
 
+  - [pkgx](https://github.com/arjan/pkgx) - Build .deb packages from
+    Erlang releases
+
+  - [enit](https://github.com/travelping/enit) - An Erlang application
+    release in a Docker container from scratch
+
 ## Distributed Systems
 
 *Tools for stress/load testing, latency issues, etc. across
@@ -341,6 +348,13 @@ longitudes.*
   - [Teles](https://github.com/armon/teles) - An Erlang network
     service for manipulating geographic data.
 
+## Graphical Interfaces
+
+*Libraries for creating and dealing with Graphical Interfaces (GUI)*
+
+  - [slider](https://github.com/ferd/slider) - A WxErlang application
+    to generate slidesets.
+
 ## Debugging
 
 *Libraries and tools for debugging code and applications.*
@@ -380,6 +394,16 @@ longitudes.*
   - [xref](https://www.erlang.org/doc/man/xref.html) - A Cross
     Reference Tool for analyzing dependencies between functions,
     modules, applications and releases.
+
+  - [recon](https://github.com/ferd/recon) - Collection of functions
+    and scripts to debug Erlang in production.
+
+  - [flatlog](https://github.com/ferd/flatlog) - A custom formatter
+    for the Erlang logger application that turns maps into single line
+    text logs
+
+  - [vmstats](https://github.com/ferd/vmstats) - tiny Erlang app to
+    generate information on the Erlang VM
 
 ## Actors
 
@@ -460,6 +484,9 @@ techniques.*
 
   - [mnesia](https://www.erlang.org/doc/apps/mnesia/index.html) - A
     heavy-duty real-time distributed database
+
+  - [grb](https://github.com/ergl/grb) - A fault-tolerant marriage of
+    causal and strong consistency.
 
 ## Queue
 
@@ -874,6 +901,11 @@ communities to install/package it*
     as Communicating Machines](https://arxiv.org/abs/2304.06395) by
     Dominic Orchard, Mihail Munteanu, Paulo Torrens
 
+  - 2022: [InfERL: scalable and extensible Erlang static
+    analysis](https://dl.acm.org/doi/10.1145/3546186.3549929) by Ákos
+    Hajdu, Matteo Marescotti, Thibault Suzanne, Ke Mao, Radu Grigore,
+    Per Gustafsson and Dino Distefano
+
   - 2022: [PerformERL: a performance testing framework for
     erlang](https://dl.acm.org/doi/10.1007/s00446-022-00429-7) by
     Walter Cazzola , Francesco Cesarini and Luca Tansini
@@ -904,9 +936,26 @@ communities to install/package it*
     Maude](https://hal.science/hal-03916227v1) by Giovanni Fabbretti,
     Ivan Lanese and Jean-Bernard Stefani
 
+  - 2022: [Reversibility in Erlang: Imperative
+    Constructs](https://hal.science/hal-03915947v1) by Pietro Lami,
+    Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen and
+    Giovanni Fabbretti
+
+  - 2021: [Causal-Consistent Debugging of Distributed Erlang
+    Programs - Technical Report](https://hal.science/hal-03247624v1)
+    by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
   - 2021: [Fifteen years of successfully dialyzing Erlang and Elixir
     code](https://dl.acm.org/doi/10.1145/3471871.3480952) by
     Konstantinos Sagonas
+
+  - 2021: [UniStore: A fault-tolerant marriage of causal and strong
+    consistency](https://www.usenix.org/system/files/atc21-bravo.pdf)
+    by Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei
+
+  - 2020: [A Proof Assistant Based Formalisation of Core
+    Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
+    Dániel Horpácsi and Simon Thompson
 
   - 2020: [A Proof Assistant Based Formalisation of Core
     Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
@@ -1053,6 +1102,14 @@ communities to install/package it*
   - 2017: [The Shared-Memory Interferences of Erlang/OTP
     Built-Ins](https://dl.acm.org/doi/10.1145/3123569.3123573) by
     Stavros Aronis and Konstantinos Sagonas
+
+  - 2017: [Trustworthy Refactoring via Decomposition and Schemes: A
+    Complex Case Study](https://arxiv.org/abs/1708.07225) by Dániel
+    Horpácsi, Judit Kőszegi and Zoltán Horváth
+
+  - 2016: [Towards Trustworthy Refactoring in
+    Erlang](https://arxiv.org/abs/1607.02228) by Dániel Horpácsi,
+    Judit Kőszegi and Simon Thompson
 
   - 2016: [CRDTs for the configuration of distributed Erlang
     systems](https://dl.acm.org/doi/10.1145/2975969.2975974) by
@@ -1209,6 +1266,13 @@ communities to install/package it*
     static analysis](https://dl.acm.org/doi/10.5555/1946313.1946318)
     by Maria Christakis and Konstantinos Sagonas
 
+  - 2011: [Formally specifying and analyzing a parallel virtual
+    machine for lazy functional languages using
+    Maude](https://dl.acm.org/doi/10.1145/2034751.2034758) Georgios
+    Fourtounis , Peter Csaba Ölveczky and Nikolaos Papaspyrou
+
+
+
   - 2010: [Quickchecking refactoring
     tools](https://dl.acm.org/doi/10.1145/1863509.1863521) by Dániel
     Drienyovszky, Dániel Horpácsi and Simon Thompson
@@ -1325,9 +1389,17 @@ communities to install/package it*
     Interpretation](https://www.semanticscholar.org/paper/Model-Checking-Erlang-Programs-LTL-Propositions-and-Huch/e39b695a0f16dd194ba5ca53e7b4e3ba5fdfb3ad)
     by Frank Huch
 
+  - 2004: [EX11: a GUI in a concurrent functional
+    language](https://dl.acm.org/doi/10.1145/1022471.1022472) by Joe
+    Armstrong
+
   - 2004: [Structured Programming Using
     Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
     Jay Nelson
+
+  - 2003: [The role of language paradigms in teaching
+    programming](https://dl.acm.org/doi/10.1145/611892.611908) by
+    Peter Van Roy, Joe Armstrong, Matthew Flatt and Boris Magnusson
 
   - 2003: [All you wanted to know about the HiPE compiler: (but might
     have been afraid to
@@ -1394,6 +1466,10 @@ communities to install/package it*
   - 2000: [A high performance Erlang system](A high performance Erlang
     system) by Erik Johansson , Mikael Pettersson and Konstantinos
     Sagonas
+
+  - 1997: [The development of
+    Erlang](https://dl.acm.org/doi/10.1145/258948.258967) by Joe
+    Armstrong
 
   - [The Design of Scalable Distributed
     Erlang](https://www.academia.edu/10218297/The_Design_of_Scalable_Distributed_Erlang)
