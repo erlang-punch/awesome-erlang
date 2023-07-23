@@ -5619,9 +5619,9 @@ communities to install/package it*
     Computing](https://arxiv.org/abs/1501.06721) by D. Krzywicki,
     W. Turek, A. Byrski and M. Kisiel-Dorohinicki
 
-  - 2015: [Safe Concurrency Introduction through Slicing](Safe
-    Concurrency Introduction through Slicing) by Huiqing Li and Simon
-    Thompson
+  - 2015: [Safe Concurrency Introduction through
+    Slicing](https://dl.acm.org/doi/10.1145/2678015.2682533) by
+    Huiqing Li and Simon Thompson
 
   - 2015: [Pyrlang: a high performance Erlang virtual machine based on
     RPython](https://dl.acm.org/doi/10.1145/2814189.2817267) by
@@ -5745,7 +5745,7 @@ communities to install/package it*
     Konstantinos Sagonas , Yiannis Tsiouris and Ioannis E. Venetis
 
   - 2012: [ErLLVM: an LLVM backend for
-    Erlang)(https://dl.acm.org/doi/10.1145/2364489.2364494) by
+    Erlang](https://dl.acm.org/doi/10.1145/2364489.2364494) by
     Konstantinos Sagonas , Chris Stavrakakis
     and Yiannis Tsiouris
 
@@ -5783,12 +5783,12 @@ communities to install/package it*
     Kenneth Lundin, and Robert Virding
 
   - 2011: [Extracting QuickCheck specifications from EUnit test
-    cases](Extracting QuickCheck specifications from EUnit test cases)
+    cases](https://dl.acm.org/doi/10.1145/2034654.2034666)
     by Thomas Arts , Pablo Lamela Seijas and Simon Thompson
 
   - 2011: [Incremental clone detection and elimination for erlang
-    programs](Incremental clone detection and elimination for erlang
-    programs) by Huiqing Li and Simon Thompson
+    programs](https://link.springer.com/chapter/10.1007/978-3-642-19811-3_25)
+    by Huiqing Li and Simon Thompson
 
   - 2011: [Extracting Properties from Test Cases by
     Refactoring](https://dl.acm.org/doi/10.1109/ICSTW.2011.65) by
