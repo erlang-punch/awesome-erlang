@@ -2,50 +2,33 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module(awesome_gitlab).
--export([uri/0, get_repos/1, get_repos/2]).
+-module(awesome_hexpm).
+-export([uri/0, get_info/1]).
 
 %%--------------------------------------------------------------------
 %% @doc
 %% @end
 %%--------------------------------------------------------------------
 uri() ->
-   #{ host => "gitlab.com"
+   #{ host => "hex.pm"
     , scheme => "https"
     }.
 
 %%--------------------------------------------------------------------
-%% @doc
-%% @see get_repos/2
-%% @end
-%%--------------------------------------------------------------------
-get_repos(Url) ->
-    #{ username := Username
-     , repository := Repository } = awesome_url:parse(Url),
-    get_repos(Username, Repository).
-
-%%--------------------------------------------------------------------
-%% @doc quick and dirty implementation of github repository
-%% information.
+%% @doc quick and dirty implementation of hex.pm project information.
 %%
 %% ```
-%% {ok, Result} = awesome_gitlab:get_repos("https://gitlab.com/zxq9/zomp").
-%% {ok, Result} = awesome_gitlab:get_repos("zxq9", "zomp").
+%% {ok, Result} = awesome_hexpm:get_info("poolboy").
 %% '''
 %%
-%% see: https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#get-a-repository
+%% see: https://hex.pm/api/
 %% @end
 %%--------------------------------------------------------------------
-get_repos(Owner, Repository) when is_binary(Owner) ->
-    get_repos(binary_to_list(Owner), Repository);
-get_repos(Owner, Repository) when is_binary(Repository) ->
-    get_repos(Owner, binary_to_list(Repository));
-get_repos(Owner, Repository) ->
+get_info(Id) when is_binary(Id) -> get_info(binary_to_list(Id));
+get_info(Id) ->
     Uri = uri(),
-    Path = filename:join([Owner, Repository]),
-    Id = uri_string:quote(Path),
     Agent = {"User-Agent", "Awesome-Erlang-Application"},
-    PathFile = filename:join(["api","v4","projects",Id]),
+    PathFile = filename:join(["api","packages",Id]),
     Target = uri_string:recompose(Uri#{ path => PathFile }),
     Accept = {"Accept", "application/json"},
     Headers = [Agent, Accept],
@@ -67,25 +50,21 @@ get_repos(Owner, Repository) ->
 %%--------------------------------------------------------------------
 filters(Map) ->
     FilteredKeys = maps:filter(fun filter_keys/2, Map),
-    maps:map(fun filter_values/2, FilteredKeys).
+    FilteredValues = maps:map(fun filter_values/2, FilteredKeys),
+    maps:fold(fun fold/3, #{}, FilteredValues).
 
 %%--------------------------------------------------------------------
 %% @hidden
 %% @doc
 %% @end
 %%--------------------------------------------------------------------
-filter_keys(<<"archived">>, _) -> true;
-filter_keys(<<"created_at">>, _) -> true;
-filter_keys(<<"default_branch">>, _) -> true;
-filter_keys(<<"description">>, _) -> true;
-filter_keys(<<"forks_count">>, _) -> true;
-filter_keys(<<"id">>, _) -> true;
-filter_keys(<<"last_activity_at">>, _) -> true;
-filter_keys(<<"license">>, _) -> true;
+filter_keys(<<"docs_html_url">>, _) -> true;
+filter_keys(<<"downloads">>, _) -> true;
+filter_keys(<<"inserted_at">>, _) -> true;
+filter_keys(<<"latest_stable_version">>, _) -> true;
+filter_keys(<<"latest_version">>, _) -> true;
+filter_keys(<<"meta">>, _) -> true;
 filter_keys(<<"name">>, _) -> true;
-filter_keys(<<"open_issues_count">>, _) -> true;
-filter_keys(<<"star_count">>, _) -> true;
-filter_keys(<<"topics">>, _) -> true;
 filter_keys(<<"updated_at">>, _) -> true;
 filter_keys(_, _) -> false.
 
@@ -94,5 +73,26 @@ filter_keys(_, _) -> false.
 %% @doc
 %% @end
 %%--------------------------------------------------------------------
-filter_values(<<"license">>, #{ <<"key">> := License }) -> License;
 filter_values(_, X) -> X.
+
+%%--------------------------------------------------------------------
+%% @hidden
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+fold(<<"meta">>, #{ <<"description">> := Description
+                  , <<"licenses">> := Licenses
+                  }, Acc) ->
+    Acc#{ <<"description">> => Description
+        , <<"licenses">> => Licenses
+        };
+fold(<<"downloads">>, #{ <<"all">> := All
+                       , <<"day">> := Day
+                       , <<"recent">> := Recent
+                       , <<"week">> := Week }, Acc) ->
+    Acc#{ <<"downloads_all">> => All
+        , <<"downloads_day">> => Day
+        , <<"downloads_recent">> => Recent
+        , <<"downloads_week">> => Week };
+fold(Key, Value, Acc) -> Acc#{ Key => Value }.
+    

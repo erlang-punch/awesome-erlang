@@ -2,53 +2,65 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module(awesome_gitlab).
--export([uri/0, get_repos/1, get_repos/2]).
+-module(awesome_youtube).
+-export([uri/0, get_video/1, get_token/0]).
 
 %%--------------------------------------------------------------------
 %% @doc
 %% @end
 %%--------------------------------------------------------------------
 uri() ->
-   #{ host => "gitlab.com"
+   #{ host => "youtube.googleapis.com"
     , scheme => "https"
     }.
 
-%%--------------------------------------------------------------------
-%% @doc
-%% @see get_repos/2
-%% @end
-%%--------------------------------------------------------------------
-get_repos(Url) ->
-    #{ username := Username
-     , repository := Repository } = awesome_url:parse(Url),
-    get_repos(Username, Repository).
+get_token() ->
+    {ok, ClientId} = application:get_env(awesome, youtube_clientid),
+    {ok, ApiKey} = application:get_env(awesome, youtube_apikey),
+    RedirectUri = "http://localhost/oauth2callback",
+    ResponseType = "token",
+    Scope = "https://www.googleapis.com/auth/youtube",
+    State = binary_to_list(string:lowercase(binary:encode_hex(crypto:strong_rand_bytes(32)))),
+    Query = [ {"client_id", ClientId}
+            , {"response_type", ResponseType}
+            , {"redirect_uri", RedirectUri}
+            , {"state", State}
+            , {"scope", Scope}
+            ],
+    ComposedQuery = uri_string:compose_query(Query),
+    Uri = uri(),
+    Full = Uri#{ host => "accounts.google.com"
+               , path => "o/oauth2/v2/auth" 
+               , query => ComposedQuery
+               },
+    {ok, uri_string:recompose(Full)}.
+    
 
 %%--------------------------------------------------------------------
-%% @doc quick and dirty implementation of github repository
-%% information.
+%% @doc quick and dirty implementation of youtube video api.
 %%
 %% ```
-%% {ok, Result} = awesome_gitlab:get_repos("https://gitlab.com/zxq9/zomp").
-%% {ok, Result} = awesome_gitlab:get_repos("zxq9", "zomp").
+%% {ok, Result} = awesome_youtube:get_video("lKXe3HUG2l4").
 %% '''
 %%
-%% see: https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#get-a-repository
+%% see: https://developers.google.com/youtube/v3/docs/videos/list
 %% @end
 %%--------------------------------------------------------------------
-get_repos(Owner, Repository) when is_binary(Owner) ->
-    get_repos(binary_to_list(Owner), Repository);
-get_repos(Owner, Repository) when is_binary(Repository) ->
-    get_repos(Owner, binary_to_list(Repository));
-get_repos(Owner, Repository) ->
+get_video(Id) when is_binary(Id) ->
+    get_video(binary_to_list(Id));
+get_video(Id) ->
+    {ok, ApiKey} = application:get_env(awesome, youtube_apikey),
+    {ok, Token} = application:get_env(awesome, youtube_token),
     Uri = uri(),
-    Path = filename:join([Owner, Repository]),
-    Id = uri_string:quote(Path),
+    Bearer = string:join(["Bearer", Token], " "),
+    Authorization = {"Authorization", Bearer},
     Agent = {"User-Agent", "Awesome-Erlang-Application"},
-    PathFile = filename:join(["api","v4","projects",Id]),
-    Target = uri_string:recompose(Uri#{ path => PathFile }),
+    PathFile = filename:join(["youtube","v3","videos",Id]),
+    Query = [{"part", "id"}, {"part", "status"}, {"part", "snippet"}, {"id", Id}, {"key", ApiKey}],
+    ComposedQuery = uri_string:compose_query(Query),
+    Target = uri_string:recompose(Uri#{ path => PathFile, query => ComposedQuery }),
     Accept = {"Accept", "application/json"},
-    Headers = [Agent, Accept],
+    Headers = [Agent, Accept, Authorization],
     case httpc:request(get, {Target, Headers}, [], []) of
         {ok, {{_,200,"OK"}, _, Data}} ->
             awesome_json:decode(Data, fun filters/1);
