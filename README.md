@@ -5174,28 +5174,114 @@ improving your Erlang development skills and knowledge.*
 *Erlang unofficial installers and packagers used by different
 communities to install/package it*
 
-  - [Windows/scoop.it/erlang](https://bjansen.github.io/scoop-apps/main/erlang/) -
+### Docker
+
+  - [erlang](https://hub.docker.com/_/erlang): Docker community maintained image
+
+### Linux/ArchLinux
+
+  - [package](https://archlinux.org/packages/extra/x86_64/erlang/)
+
+### Linux/Alpine
+
+  - [Erlang package](https://pkgs.alpinelinux.org/package/edge/community/armhf/erlang)
+  - [Erlang aports](https://git.alpinelinux.org/aports/tree/community/erlang?h=master)
+  - [build logs](https://build.alpinelinux.org/buildlogs/build-edge-armhf/community/erlang/erlang-26.0.2-r1.log)
+  - [content of package](https://pkgs.alpinelinux.org/contents?branch=edge&name=erlang&arch=armhf&repo=community)
+
+### Linux/Debian
+
+  - [Erlang package (experimental)](https://packages.debian.org/experimental/erlang)
+  - [Erlang package (sid)](https://packages.debian.org/sid/erlang)
+  - [Erlang package (13/trixie)](https://packages.debian.org/trixie/erlang)
+  - [Erlang package (12/bookworm)](https://packages.debian.org/bookworm/erlang)
+  - [Erlang package (11/bulleye)](https://packages.debian.org/bullseye/erlang)
+  - [Erlang package (10/buster)](https://packages.debian.org/buster/erlang)
+
+  - [Debian Package Tracker](https://tracker.debian.org/pkg/erlang)
+  - [Debian Bug Tracker](https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=erlang)
+
+### Linux/Fedora
+
+  - [Erlang package](https://packages.fedoraproject.org/pkgs/erlang/erlang/)
+  - [build history](https://packages.fedoraproject.org/pkgs/erlang/erlang/)
+  - [bug tracker](https://bugzilla.redhat.com/buglist.cgi?component=erlang&query_format=advanced&product=Fedora&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED)
+  - [build tracker](https://koschei.fedoraproject.org/package/erlang)
+
+### Linux/Gentoo
+
+  - [Erlang package](https://packages.gentoo.org/packages/dev-lang/erlang)
+  - [bug tracker](https://bugs.gentoo.org/buglist.cgi?quicksearch=dev-lang%2ferlang)
+  - [build logs](https://qa-reports.gentoo.org/output/gentoo-ci/output.html;pkg=dev-lang:erlang)
+
+### Linux/NixOS
+
+  - [Erlang package](https://search.nixos.org/packages?show=erlang&from=0&size=50&sort=relevance&type=packages&query=erlang)
+
+### Linux/Ubuntu
+
+  - [Erlang package (23.10/mantic)](https://packages.ubuntu.com/mantic/erlang)
+  - [Erlang package (23.04/lunar)](https://packages.ubuntu.com/mantic/erlang)
+  - [Erlang package (22.10/kinetic)](https://packages.ubuntu.com/kinetic/erlang)
+  - [Erlang package (22.04/jamm)](https://packages.ubuntu.com/jammy/erlang)
+  - [Erlang package (20.04/focal)](https://packages.ubuntu.com/focal/erlang)
+  
+  - [Ubuntu Bug Tracker](https://launchpad.net/ubuntu/+source/erlang/+bugs)
+
+### Linux/Void
+
+  - [Erlang package](https://github.com/void-linux/void-packages/tree/master/srcpkgs/erlang)
+
+### Microsoft Windows
+
+  - [Unofficial Erlang package from
+    NuGet](https://www.nuget.org/packages/Erlang) (deprecated)
+    Installing Erlang on Windows with NuGet.
+
+  - [Unofficial Erlang package from
+    scoop.it](https://bjansen.github.io/scoop-apps/main/erlang/) -
     Installing Erlang on Windows with Scoop.it.
 
-  - [Windows/chocolatey/erlang](https://community.chocolatey.org/packages/erlang) -
+  - [Unofficial Erlang package from
+    chocolatey](https://community.chocolatey.org/packages/erlang) -
     Installing Erlang on Windows with Chocolatey.
 
-  - [MacOS/brew/erlang](https://formulae.brew.sh/formula/erlang) -
-    Installing Erlang on MacOS with Homebrew
+### Apple MacOS
 
-  - [FreeBSD/ports/erlang](https://www.freshports.org/lang/erlang) -
+  - [Unofficial Erlang package from
+    Homebrew](https://formulae.brew.sh/formula/erlang) - Installing
+    Erlang on MacOS with Homebrew.
+    
+  - [Unofficial Erlang package from
+    MacPorts](https://ports.macports.org/port/erlang/) - Installing
+    Erlang on MacOs with MacPorts.
+
+### FreeBSD
+
+  - [Erlang FreeBSD port](https://www.freshports.org/lang/erlang) -
     Installing Erlang on FreeBSD
 
-  - [OpenBSD/ports/erlang](https://openports.pl/path/lang/erlang/25) -
+### OpenBSD
+
+  - [Erlang OpenBSD port](https://openports.pl/path/lang/erlang/25) -
     Installing Erlang on OpenBSD
 
-  - [NetBSD/pkgsrc/erlang](https://ftp.netbsd.org/pub/pkgsrc/current/pkgsrc/lang/erlang/README.html) -
+### NetBSD
+
+  - [Erlang NetBSD
+    package](https://ftp.netbsd.org/pub/pkgsrc/current/pkgsrc/lang/erlang/README.html) -
     Installing Erlang on NetBSD
 
-  - [DragonFlyBSD/dports/erlang](https://gitweb.dragonflybsd.org/dports.git/tree/HEAD:/lang/erlang) -
+### DragonFlyBSD
+
+  - [Erlang DragonFlyBSD
+    dports](https://gitweb.dragonflybsd.org/dports.git/tree/HEAD:/lang/erlang) -
     Installing Erlang on DragonFlyBSD
 
-  - [Android/termux/erlang](https://wiki.termux.com/wiki/Development_Environments#Erlang) -
+### Android
+
+  - [Erlang termux
+    package](https://wiki.termux.com/wiki/Development_Environments#Erlang) -
     Installing Erlang on Android with termux.
 
 
