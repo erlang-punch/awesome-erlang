@@ -5215,6 +5215,10 @@ communities to install/package it*
     as Communicating Machines](https://arxiv.org/abs/2304.06395) by
     Dominic Orchard, Mihail Munteanu, Paulo Torrens
 
+  - 2022: [Lesser Evil: Embracing Failure to Protect Overall System
+    Availability](https://link.springer.com/chapter/10.1007/978-3-031-16092-9_5)
+    by Viktória Fördős and Alexandre Jorge Barbosa Rodrigues
+
   - 2022: [InfERL: scalable and extensible Erlang static
     analysis](https://dl.acm.org/doi/10.1145/3546186.3549929) by Ákos
     Hajdu, Matteo Marescotti, Thibault Suzanne, Ke Mao, Radu Grigore,
@@ -5280,6 +5284,25 @@ communities to install/package it*
     Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
     Dániel Horpácsi and Simon Thompson
 
+  - 2020: [Teaching practical realistic verification of distributed
+    algorithms in Erlang with
+    TLA+](https://dl.acm.org/doi/10.1145/3406085.3409009) by Peter
+    Zeller , Annette Bieniusa and Carla Ferreira
+
+  - 2020: [Analysis and Evaluation of the Riak Cluster Environment in
+    Distributed
+    Databases](https://www.researchgate.net/publication/342125596_Analysis_and_Evaluation_of_the_Riak_Cluster_Environment_in_Distributed_Databases)
+    by Ahmet Ercan Topcu and Aimen Rmis
+
+  - 2019: [Runtime type safety for Erlang/otp
+    behaviours](https://dl.acm.org/doi/10.1145/3331542.3342571) by
+    Joseph Harrison
+
+  - 2019: [Improving Sequential Performance of Erlang Based on a
+    Meta-tracing Just-In-Time
+    Compiler](https://link.springer.com/chapter/10.1007/978-3-030-14805-8_3)
+    by Ruochen Huang, Hidehiko Masuhara and Tomoyuki Aotani
+
   - 2019: [Playing with Bisimulation in
     Erlang](https://hal.science/hal-02376217v1) by Ivan Lanese, Davide
     Sangiorgi, and Gianluigi Zavattaro
@@ -5333,6 +5356,16 @@ communities to install/package it*
   - 2019: [Gaining Trust by Tracing Security
     Protocols](https://dl.acm.org/doi/10.1145/3331542.3342573) by
     Lars-Åke Fredlund, Clara Benac, EarleThomas Arts andHans Svensson
+
+  - 2019: [Functional Federated Learning in Erlang
+    (ffl-erl)](https://link.springer.com/chapter/10.1007/978-3-030-16202-3_10)
+    by Gregor Ulm, Emil Gustavsson and Mats Jirstrand
+
+  - 2018: [A Study of Concurrency Bugs and Advanced Development
+    Support for Actor-based
+    Programs](https://link.springer.com/chapter/10.1007/978-3-030-00302-9_6)
+    by Carmen Torres Lopez, Stefan Marr, Elisa Gonzalez Boix and
+    Hanspeter Mössenböck
 
   - 2018: [Partisan: Enabling Cloud-Scale Erlang
     Applications](https://arxiv.org/abs/1802.02652) by Christopher
@@ -5448,6 +5481,10 @@ communities to install/package it*
     Recycling](https://hal.science/hal-01571478v1) by Nikolaos
     Bezirgiannis and Ilias Sakellariou
 
+  - 2017: [The shared-memory interferences of Erlang/OTP
+    built-ins](https://dl.acm.org/doi/10.1145/3123569.3123573) by
+    Stavros Aronis and Konstantinos Sagonas
+
   - 2016: [Towards Trustworthy Refactoring in
     Erlang](https://arxiv.org/abs/1607.02228) by Dániel Horpácsi,
     Judit Kőszegi and Simon Thompson
@@ -5475,6 +5512,14 @@ communities to install/package it*
     Natalia Chechina , Huiqing Li , Amir Ghaffari , Simon Thompson and
     Phil Trinder
 
+  - 2016: [ValiErlang: A Structural Testing Tool for Erlang
+    Programs](https://dl.acm.org/doi/10.1145/2993288.2993300) by
+    Alexandre P. Oliveira , Paulo S. L. Souza and Simone R. S. Souza
+
+  - 2015: [Concolic Execution in Functional Programming by Program
+    Instrumentation](https://link.springer.com/chapter/10.1007/978-3-319-27436-2_17)
+    by Adrián Palacios and Germán Vidal
+
   - 2015: [Concolic testing for functional
    languages](https://dl.acm.org/doi/10.1145/2790449.2790519) by
    Aggelos Giantsios, Nikolaos Papaspyrou and Konstantinos Sagonas
@@ -5492,6 +5537,10 @@ communities to install/package it*
     Concurrency Introduction through Slicing) by Huiqing Li and Simon
     Thompson
 
+  - 2015: [Pyrlang: a high performance Erlang virtual machine based on
+    RPython](https://dl.acm.org/doi/10.1145/2814189.2817267) by
+    Ruochen Huang , Hidehiko Masuhara and Tomoyuki Aotani
+ 
   - 2014: [Faulterl: precise fault injection for the erlang VM, NIFs
     and linked-in
     drivers](https://dl.acm.org/doi/10.1145/2633448.2633459) by Scott
@@ -5595,6 +5644,10 @@ communities to install/package it*
     [pdf](https://accelconf.web.cern.ch/ICALEPCS2013/papers/THPPC066.pdf?n=ICALEPCS2013/papers/THPPC066.pdf)
     by C. Briegel and J. Diamond
 
+  - 2012: [TinyMT pseudo random number generator for
+    Erlang](https://dl.acm.org/doi/10.1145/2364489.2364504) by Kenji
+    Rikitake
+
   - 2012: [Automated API migration in a user-extensible refactoring
     tool for Erlang
     programs](https://dl.acm.org/doi/10.1145/2351676.2351727) by
@@ -5691,6 +5744,10 @@ communities to install/package it*
     actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
     Nyblom
 
+  - 2010: [Static Detection of Race Conditions in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-11503-5_11)
+    by Maria Christakis and Konstantinos Sagonas
+
   - 2010: [JErlang: Erlang with
     Joins](https://hal.science/hal-01054623v1) by Hubert Plociniczak
     and Susan Eisenbach
@@ -5775,6 +5832,11 @@ communities to install/package it*
     experience](https://dl.acm.org/doi/10.1145/1411273.1411284) by
     Konstantinos Sagonas and Daniel Luna
 
+  - 2009: [Finding race conditions in Erlang with QuickCheck and
+    PULSE](https://dl.acm.org/doi/10.1145/1596550.1596574) by Koen
+    Claessen , Michal Palka , Nicholas Smallbone , John Hughes , Hans
+    Svensson , Thomas Arts and Ulf Wiger
+
   - 2008: [High-performance technical computing with
     erlang](https://dl.acm.org/doi/10.1145/1411273.1411281) by Alceste
     Scalas, Giovanni Casu and Piero Pili
@@ -5800,6 +5862,10 @@ communities to install/package it*
     Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
     Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
     Maxwell and Lutz Hamel
+
+  - 2007: [A more accurate semantics for distributed
+    erlang](https://dl.acm.org/doi/10.1145/1292520.1292528) by Hans
+    Svensson and Lars-Åke Fredlund
 
   - 2007: [HyParView: a membership protocol for reliable gossip-based
     broadcast](https://www.semanticscholar.org/paper/HyParView%3A-A-Membership-Protocol-for-Reliable-Leitao-Pereira/06e04a7a24100dbc0f72f22bc8e6dde4b2a27d8b)
@@ -5841,6 +5907,10 @@ communities to install/package it*
     Erlang](https://onlinelibrary.wiley.com/doi/10.1002/cpe.1223) by
     J.H. Nyström, P.W. Trinder and D.J. King
 
+  - 2007: [Extended process registry for
+    erlang](https://dl.acm.org/doi/10.1145/1292520.1292522) by Ulf
+    T. Wiger
+
   - 2006: [Dryverl: a flexible Erlang/C binding
     compiler](https://dl.acm.org/doi/10.1145/1159789.1159796) by
     Romain Lenglet and Shigeru Chiba
@@ -5857,6 +5927,14 @@ communities to install/package it*
   - 2006: [Efficient manipulation of binary data using pattern
     matching](https://dl.acm.org/doi/10.1017/S0956796805005745) by Per
     Gustafsson and Konstantinos Sagonas
+
+  - 2006: [Compiling Erlang to
+    Scheme](https://link.springer.com/chapter/10.1007/BFb0056622) by
+    Marc Feeley and Martin Larose
+
+  - 2005: [Atom garbage
+    collection](https://dl.acm.org/doi/10.1145/1088361.1088369) by
+    Thomas Lindgren
 
   - 2005: [A stream library using Erlang
     binaries](https://dl.acm.org/doi/10.1145/1088361.1088364) by Jay
@@ -5934,6 +6012,10 @@ communities to install/package it*
     performance](https://dl.acm.org/doi/10.1145/940880.940887) by
     Scott Lystig Fritchie
 
+  - 2003: [Supporting Agent Development in Erlang through the eXAT
+    Platform](https://link.springer.com/chapter/10.1007/3-7643-7348-2_3)
+    by Antonella Di Stefano and Corrado Santoro
+
   - 2002: [On reducing interprocess communication overhead in
     concurrent programs](https://dl.acm.org/doi/10.1145/592849.592857)
     by Erik Stenman and Konstantinos Sagonas
@@ -6001,13 +6083,26 @@ communities to install/package it*
     checking](https://dl.acm.org/doi/10.1145/317636.317908) by Frank
     Huch
 
+  - 1999: [Extending Erlang for Safe Mobile Code
+    Execution](https://link.springer.com/chapter/10.1007/978-3-540-47942-0_5)
+    by Lawrie Brown and Dan Sahlin
+
   - 1998: [On the verification of open distributed
     systems](https://dl.acm.org/doi/10.1145/330560.330917) by Mads Dam
     and Lars-åke Fredlund
 
-  - 1997: [The development of
-    Erlang](https://dl.acm.org/doi/10.1145/258948.258967) by Joe
-    Armstrong
+  - <details><summary> 1997: <b><a href="https://dl.acm.org/doi/10.1145/258948.258967">The development of Erlang</a></b> by Joe Armstrong</summary>
+        
+    > This paper describes the development of the programming language
+    > Erlang during the period 1985-1997. Erlang is a concurrent
+    > programming language designed for programming large-scale
+    > distributed soft real-time control applications. The design of
+    > Erlang was heavily influenced by ideas from the logic and
+    > functional programming communities. Other sources of inspiration
+    > came from languages such as Chill and Ada which are used in
+    > industry for programming control systems.
+    </details>
+                
 
   - [The Erlang
     Rationale](https://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf)
