@@ -3630,6 +3630,61 @@ techniques.*
 
 *Templating system*
 
+  - <details><summary><b><a href="https://github.com/DavidAlphaFox/aihtml">aihtml</a></b>: A simple html render libary more than Mustache Template Compiler.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/DavidAlphaFox/aihtml?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/DavidAlphaFox/aihtml/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/DavidAlphaFox/aihtml?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/DavidAlphaFox/aihtml?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/DavidAlphaFox/aihtml?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/DavidAlphaFox/aihtml?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/aihtml?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/aihtml?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/aihtml?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/aihtml?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/aihtml?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/soranoba/bbmustache">bbmustache</a></b>: Binary pattern match Based Mustache template engine for Erlang/OTP.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/soranoba/bbmustache?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/soranoba/bbmustache/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/soranoba/bbmustache?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/soranoba/bbmustache?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/soranoba/bbmustache?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/soranoba/bbmustache?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/bbmustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/bbmustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/bbmustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/bbmustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/bbmustache?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/danabr/beard">beard</a></b>:  Mustache inspired, performant templating solution for Erlang.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/danabr/beard?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/danabr/beard/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/danabr/beard?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/danabr/beard?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/danabr/beard?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/danabr/beard?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/beard?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/beard?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/beard?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/beard?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/beard?style=flat-square)
+    </details>
+
+
   - <details><summary><b><a href="https://github.com/brahimalaya/brim">brim</a></b>: HTML templating library.</summary>
 
     ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
@@ -3646,6 +3701,79 @@ techniques.*
     ![Hex.pm](https://img.shields.io/hexpm/dw/brim?style=flat-square)
     ![Hex.pm](https://img.shields.io/hexpm/dd/brim?style=flat-square)
     </details>
+
+  - <details><summary><b><a href="https://github.com/basho/dactyl">dactyl</a></b>:  String templating library for Erlang </summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/basho/dactyl?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/basho/dactyl/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/basho/dactyl?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/basho/dactyl?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/basho/dactyl?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/basho/dactyl?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/dactyl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/dactyl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/dactyl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/dactyl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/dactyl?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/evbogdanov/ehtml5">ehtml5</a></b>:  Simple Erlang Template Engine.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/evbogdanov/ehtml5?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/evbogdanov/ehtml5/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/evbogdanov/ehtml5?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/evbogdanov/ehtml5?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/evbogdanov/ehtml5?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/evbogdanov/ehtml5?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/ehtml5?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/ehtml5?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/ehtml5?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/ehtml5?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/ehtml5?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/vladimir-vg/elk.erl">elk.erl</a></b>:  Erlang implementation of Mustache, logic-less template engine.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/vladimir-vg/elk.erl?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/vladimir-vg/elk.erl/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/vladimir-vg/elk.erl?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/vladimir-vg/elk.erl?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/vladimir-vg/elk.erl?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/vladimir-vg/elk.erl?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/elk.erl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/elk.erl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/elk.erl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/elk.erl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/elk.erl?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/hxw/erlang-mustache">erlang-mustache</a></b>:  Implementation of mustache templating in Erlang.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/hxw/erlang-mustache?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hxw/erlang-mustache/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/hxw/erlang-mustache?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/hxw/erlang-mustache?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/hxw/erlang-mustache?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/hxw/erlang-mustache?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/erlang-mustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/erlang-mustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/erlang-mustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/erlang-mustache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/erlang-mustache?style=flat-square)
+    </details>
+
 
   - <details><summary><b><a href="https://github.com/erlydtl/erlydtl">erlydtl</a></b>:  ErlyDTL compiles Django Template Language to Erlang bytecode.</summary>
 
@@ -3664,6 +3792,23 @@ techniques.*
     ![Hex.pm](https://img.shields.io/hexpm/dd/erlydtl?style=flat-square)
     </details>
 
+  - <details><summary><b><a href="https://github.com/jinsky/etcher">etcher</a></b>:  An Erlang implementation of the Django Template Language.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/jinsky/etcher?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/jinsky/etcher/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/jinsky/etcher?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/jinsky/etcher?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/jinsky/etcher?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/jinsky/etcher?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/etcher?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/etcher?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/etcher?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/etcher?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/etcher?style=flat-square)
+    </details>
 
   - <details><summary><b><a href="https://github.com/graeme-defty/jaderl">jaderl</a></b>: An  implementation of the Jade templating language in Erlang.</summary>
 
@@ -3698,6 +3843,115 @@ techniques.*
     ![Hex.pm](https://img.shields.io/hexpm/dt/mustache.erl?style=flat-square)
     ![Hex.pm](https://img.shields.io/hexpm/dw/mustache.erl?style=flat-square)
     ![Hex.pm](https://img.shields.io/hexpm/dd/mustache.erl?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/rkallos/roni">roni</a></b>: Erlang string templating with macaroni-filled syntax.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/rkallos/roni?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/rkallos/roni/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/rkallos/roni?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/rkallos/roni?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/rkallos/roni?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/rkallos/roni?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/roni?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/roni?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/roni?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/roni?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/roni?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/filippo/sgte">sgte</a></b>: an Erlang template Engine for generating structured output (code, html web pages, xml, emails, csv files, etc...).</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/filippo/sgte?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/filippo/sgte/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/filippo/sgte?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/filippo/sgte?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/filippo/sgte?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/filippo/sgte?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/sgte?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/sgte?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/sgte?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/sgte?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/sgte?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/eproxus/stache">stache</a></b>:  Mustache Template Language for Erlang.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/eproxus/stache?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/eproxus/stache/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/eproxus/stache?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/eproxus/stache?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/eproxus/stache?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/eproxus/stache?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/stache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/stache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/stache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/stache?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/stache?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/fogfish/swirl">swirl</a></b>:  swirl is the Erlang port of whiskers.js template library.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/fogfish/swirl?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/fogfish/swirl/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/fogfish/swirl?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/fogfish/swirl?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/fogfish/swirl?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/fogfish/swirl?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/swirl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/swirl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/swirl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/swirl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/swirl?style=flat-square)
+    </details>
+
+
+  - <details><summary><b><a href="https://github.com/zotonic/template_compiler">template_compiler</a></b>:  Dynamic template compiler for Erlang (complete rewrite of the erlydtl fork used in Zotonic).</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/zotonic/template_compiler?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/zotonic/template_compiler/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/zotonic/template_compiler?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/zotonic/template_compiler?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/zotonic/template_compiler?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/zotonic/template_compiler?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/template_compiler?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/template_compiler?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/template_compiler?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/template_compiler?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/template_compiler?style=flat-square)
+    </details>
+
+  - <details><summary><b><a href="https://github.com/gootik/templaterl">templaterl</a></b>:  Simple and fast templating with customizable expressions in Erlang.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/gootik/templaterl?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gootik/templaterl/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/gootik/templaterl?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/gootik/templaterl?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/gootik/templaterl?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/gootik/templaterl?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/templaterl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/templaterl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/templaterl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/templaterl?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/templaterl?style=flat-square)
     </details>
 
   - <details><summary><b><a href="https://github.com/devinus/walrus">walrus</a></b>:  A mustache-like templating.</summary>
@@ -4971,6 +5225,25 @@ techniques.*
     ![Hex.pm](https://img.shields.io/hexpm/dw/nova?style=flat-square)
     ![Hex.pm](https://img.shields.io/hexpm/dd/nova?style=flat-square)
     </details>
+
+  - <details><summary><b><a href="https://github.com/pirj/ryan">ryan</a></b>: Ryan is a Reia/Erlang BEAM based web framework. It allows you to create web applications with clean and short code.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/pirj/ryan?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pirj/ryan/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/pirj/ryan?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/pirj/ryan?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/pirj/ryan?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/pirj/ryan?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/ryan?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/ryan?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/ryan?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/ryan?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/ryan?style=flat-square)
+    </details>
+
 
   - <details><summary><b><a href="https://github.com/zotonic/zotonic">zotonic</a></b>: High speed, real-time web framework and content management system.</summary>
 
