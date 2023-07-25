@@ -5498,7 +5498,7 @@ communities to install/package it*
   - [Erlang package (22.10/kinetic)](https://packages.ubuntu.com/kinetic/erlang)
   - [Erlang package (22.04/jamm)](https://packages.ubuntu.com/jammy/erlang)
   - [Erlang package (20.04/focal)](https://packages.ubuntu.com/focal/erlang)
-  
+
   - [Ubuntu Bug Tracker](https://launchpad.net/ubuntu/+source/erlang/+bugs)
 
 ### Linux/Void
@@ -5524,7 +5524,7 @@ communities to install/package it*
   - [Unofficial Erlang package from
     Homebrew](https://formulae.brew.sh/formula/erlang) - Installing
     Erlang on MacOS with Homebrew.
-    
+
   - [Unofficial Erlang package from
     MacPorts](https://ports.macports.org/port/erlang/) - Installing
     Erlang on MacOs with MacPorts.
@@ -5574,6 +5574,10 @@ communities to install/package it*
     as Communicating Machines](https://arxiv.org/abs/2304.06395) by
     Dominic Orchard, Mihail Munteanu, Paulo Torrens
 
+  - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
+    Recoveries In Distributed](https://hal.science/hal-04123758v1) by
+    Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
   - 2022: [Lesser Evil: Embracing Failure to Protect Overall System
     Availability](https://link.springer.com/chapter/10.1007/978-3-031-16092-9_5)
     by Viktória Fördős and Alexandre Jorge Barbosa Rodrigues
@@ -5618,6 +5622,14 @@ communities to install/package it*
     Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen and
     Giovanni Fabbretti
 
+  - 2022: [Reversible Computing in Debugging of Erlang
+    Programs](https://hal.science/hal-03917301v1) by Ivan Lanese,
+    Ulrik Schultz and Irek Ulidowski
+
+  - 2021: [Modified Erlang loss system for cognitive wireless
+    networks](https://arxiv.org/abs/2103.03222) by E.V. Morozov,
+    S. S. Rogozin, H.Q.Nguyen and T. Phung-Duc
+
   - 2021: [Causal-Consistent Debugging of Distributed Erlang
     Programs - Technical Report](https://hal.science/hal-03247624v1)
     by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
@@ -5630,14 +5642,14 @@ communities to install/package it*
     consistency](https://www.usenix.org/system/files/atc21-bravo.pdf)
     by Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei
 
+  - 2021: [Detecting Oxbow Code in Erlang Codebases with the Highest
+    Degree of Certainty](https://arxiv.org/abs/2107.08699) by Fernando
+    Benavides Rodríguez and Laura M. Castro
+
   - 2020: [Erlang as an alternative to a non-functional language for
     communication in a fault tolerant IoT sensor
     network](https://gupea.ub.gu.se/handle/2077/63387)
     [pdf](https://core.ac.uk/download/pdf/79617358.pdf) by Jimmy Holdö
-
-  - 2020: [A Proof Assistant Based Formalisation of Core
-    Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
-    Dániel Horpácsi and Simon Thompson
 
   - 2020: [A Proof Assistant Based Formalisation of Core
     Erlang](https://arxiv.org/abs/2005.11821) by Péter Bereczky,
@@ -5652,6 +5664,11 @@ communities to install/package it*
     Distributed
     Databases](https://www.researchgate.net/publication/342125596_Analysis_and_Evaluation_of_the_Riak_Cluster_Environment_in_Distributed_Databases)
     by Ahmet Ercan Topcu and Aimen Rmis
+
+  - 2020: [A Case Study for Reversible Computing: Reversible Debugging
+    of Concurrent Programs](https://hal.science/hal-03005383v1) by
+    James Hoey, Ivan Lanese, Naoki Nishida, Irek Ulidowski and Germán
+    Vidal
 
   - 2019: [Runtime type safety for Erlang/otp
     behaviours](https://dl.acm.org/doi/10.1145/3331542.3342571) by
@@ -5798,6 +5815,14 @@ communities to install/package it*
     Evaluation](https://dl.acm.org/doi/10.1145/3231104.3231106) by
     Christopher Meiklejohn
 
+  - 2018: [Erlang Code Evolution Control (Use
+    Cases)](https://arxiv.org/abs/1802.03998) by David Insa, Sergio
+    Pérez, Josep Silva and Salvador Tamarit
+
+  - 2018: [Runtime verification in Erlang by using
+    contracts](https://arxiv.org/abs/1808.07937) by Lars-Åke Fredlund,
+    Julio Mariño, Sergio Pérez and Salvador Tamarit
+
   - 2017: [Dealing with actor runtime environments on hierarchical
     shared memory multi-core
     platforms](https://hal.science/tel-01549158v1) by Emilio de
@@ -5844,6 +5869,10 @@ communities to install/package it*
     built-ins](https://dl.acm.org/doi/10.1145/3123569.3123573) by
     Stavros Aronis and Konstantinos Sagonas
 
+  - 2017: [Erlang Code Evolution
+    Control](https://arxiv.org/abs/1709.05291) by David Insa, Sergio
+    Pérez, Josep Silva and Salvador Tamarit
+
   - 2016: [Towards Trustworthy Refactoring in
     Erlang](https://arxiv.org/abs/1607.02228) by Dániel Horpácsi,
     Judit Kőszegi and Simon Thompson
@@ -5875,6 +5904,9 @@ communities to install/package it*
     Programs](https://dl.acm.org/doi/10.1145/2993288.2993300) by
     Alexandre P. Oliveira , Paulo S. L. Souza and Simone R. S. Souza
 
+  - 2016: [An Erlang Implementation of Multiparty Session
+    Actors](https://arxiv.org/abs/1608.03321) by Simon Fowler
+
   - 2015: [Concolic Execution in Functional Programming by Program
     Instrumentation](https://link.springer.com/chapter/10.1007/978-3-319-27436-2_17)
     by Adrián Palacios and Germán Vidal
@@ -5899,7 +5931,7 @@ communities to install/package it*
   - 2015: [Pyrlang: a high performance Erlang virtual machine based on
     RPython](https://dl.acm.org/doi/10.1145/2814189.2817267) by
     Ruochen Huang , Hidehiko Masuhara and Tomoyuki Aotani
- 
+
   - 2014: [Faulterl: precise fault injection for the erlang VM, NIFs
     and linked-in
     drivers](https://dl.acm.org/doi/10.1145/2633448.2633459) by Scott
@@ -6003,6 +6035,10 @@ communities to install/package it*
     [pdf](https://accelconf.web.cern.ch/ICALEPCS2013/papers/THPPC066.pdf?n=ICALEPCS2013/papers/THPPC066.pdf)
     by C. Briegel and J. Diamond
 
+  - 2013: [Automatic Verification of Erlang-Style
+    Concurrency](https://arxiv.org/abs/1303.2201) by Emanuele
+    D'Osualdo, Jonathan Kochems and C.-H. Luke Ong
+
   - 2012: [TinyMT pseudo random number generator for
     Erlang](https://dl.acm.org/doi/10.1145/2364489.2364504) by Kenji
     Rikitake
@@ -6045,6 +6081,10 @@ communities to install/package it*
     Unstructured Overlay
     Networks](https://www.academia.edu/2901632/X_BOT_A_Protocol_for_Resilient_Optimization_of_Unstructured_Overlay_Networks)
     by João Leitão, João Pedro Marques, José Pereira, Luís Rodrigues
+
+  - 2012: [Parallel Discrete Event Simulation with
+    Erlang](https://arxiv.org/abs/1206.2775) by Luca Toscano, Gabriele
+    D'Angelo and Moreno Marzolla
 
   - 2011: [Session Typing for a Featherweight
     Erlang](https://hal.science/hal-01582995v1) by Dimitris Mostrous
@@ -6166,6 +6206,10 @@ communities to install/package it*
     Patterns](https://link.springer.com/chapter/10.1007/978-3-642-17685-2_2?)
     by Francesco Cesarini and Simon Thompson
 
+  - 2010: [Start-phase control of distributed systems written in
+    Erlang/OTP](https://arxiv.org/abs/1003.1395) by Peter Burcsi,
+    Attila Kovács and Antal Tátrai
+
   - 2009: [Teaching Erlang using robotics and
     player/stage](https://dl.acm.org/doi/10.1145/1596600.1596606) by
     Sten Grüner and Thomas Lorentsen
@@ -6269,6 +6313,10 @@ communities to install/package it*
   - 2007: [Extended process registry for
     erlang](https://dl.acm.org/doi/10.1145/1292520.1292522) by Ulf
     T. Wiger
+
+  - 2007: [Web Server Benchmark Application WiiBench using Erlang/OTP
+    R11 and Fedora-Core Linux 5.0](https://arxiv.org/abs/0708.3166) by
+    A. B. Mutiara and T. A. Sabastian
 
   - 2006: [Dryverl: a flexible Erlang/C binding
     compiler](https://dl.acm.org/doi/10.1145/1159789.1159796) by
@@ -6451,7 +6499,7 @@ communities to install/package it*
     and Lars-åke Fredlund
 
   - <details><summary> 1997: <b><a href="https://dl.acm.org/doi/10.1145/258948.258967">The development of Erlang</a></b> by Joe Armstrong</summary>
-        
+
     > This paper describes the development of the programming language
     > Erlang during the period 1985-1997. Erlang is a concurrent
     > programming language designed for programming large-scale
@@ -6461,7 +6509,7 @@ communities to install/package it*
     > came from languages such as Chill and Ada which are used in
     > industry for programming control systems.
     </details>
-                
+
 
   - [The Erlang
     Rationale](https://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf)
