@@ -5340,6 +5340,12 @@ techniques.*
 *Various resources, such as books, websites and articles, for
 improving your Erlang development skills and knowledge.*
 
+## Articles
+
+  - 2008: [concurrent patterns: parallels in system and language
+    design](https://www.usenix.org/system/files/login/articles/284-dusek.pdf)
+    by Jason Dusek
+
 ## Books
 
 *Fantastic books and e-books.*
@@ -6339,6 +6345,9 @@ communities to install/package it*
     Scheme](https://link.springer.com/chapter/10.1007/BFb0056622) by
     Marc Feeley and Martin Larose
 
+  - 2006: [Testing telecoms software with quviq QuickCheck](https://dl.acm.org/doi/10.1145/1159789.1159792) by Thomas Arts
+    , John Hughes , Joakim Johansson and Ulf Wiger
+
   - 2005: [Atom garbage
     collection](https://dl.acm.org/doi/10.1145/1088361.1088369) by
     Thomas Lindgren
@@ -6485,6 +6494,28 @@ communities to install/package it*
     services](https://dl.acm.org/doi/10.1145/338407.338532) by Joe
     Armstrong
 
+  - 2000: [Core Erlang 1.0 language
+    specification](https://www.diva-portal.org/smash/get/diva2:1695554/FULLTEXT01.pdf)
+    by Richard Carlsson Thomas Lindgren, Bjorn Gustavsson, Sven-Olof
+    Nystrom, Erik Johansson, Mikael Pettersson and Robert Virding
+
+  - 1999: [Exokernels, Protocol implementation and
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=774b20bb95543b8aaf2c34695a9302ce28dbfafa)
+    by Bjorn Knutsson and Per Gunningberg.
+
+  - 1999: [The design and implementation of a high-performance Erlang
+    compiler](http://www.astec.uu.se/Reports/Reports/9905.pdf) by T
+    Lindgren and C Jonsson
+
+  - 1999: [Evaluation of HiPE, an Erlang native code
+    compiler](http://www.astec.uu.se/astec/Reports/Reports/9903.pdf)
+    by E Johansson, SO Nyström, T Lindgren and C Jonsson
+
+  - 1999: [HiPE: High Performance
+    Erlang](http://www.astec.uu.se/Reports/Reports/9904.pdf) by Erik
+    Johansson, Sven-Olof Nystr, Mikael Pettersson and Konstantinos
+    Sagonas
+
   - 1999: [Verification of Erlang programs using abstract
     interpretation and model
     checking](https://dl.acm.org/doi/10.1145/317636.317908) by Frank
@@ -6493,6 +6524,31 @@ communities to install/package it*
   - 1999: [Extending Erlang for Safe Mobile Code
     Execution](https://link.springer.com/chapter/10.1007/978-3-540-47942-0_5)
     by Lawrie Brown and Dan Sahlin
+
+  - 1999: [Mnesia — A Distributed Robust DBMS for Telecommunications
+    Applications](https://link.springer.com/chapter/10.1007/3-540-49201-1_11)
+    by Håkan Mattsson, Hans Nilsson and Claes Wikström
+
+  - 1998: [Process Placement in Distributed Multiprocessor Systems: An
+    Investigation using
+    Erlang.](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dcdf83f7b4656233316fe9a9e2ec67d63e1cdf2a)
+    by Geoff Wong and Michael Dwyer
+
+  - 1998: [Investigations into functional programming with
+    Erlang](https://ieeexplore.ieee.org/abstract/document/707652) by
+    H. Airiyan and F. O'Brien
+
+  - 1998: [How to measure reliability in an Erlang
+    system](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9ef0d1ebccf6e7f45b2714ec1ee208c7b2c3a97c)
+    by Hans Danielsson and Kent Olsson
+
+  - 1998: [Compiling Erlang via
+    C](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e08f9b6e75efffd4492c790295eb016a7b248d1f)
+    by Geoff Wong
+
+  - 1998: [A Parallel and Multithreaded ERLANG
+    Implementation](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fef5460c8ee8309132fe43b5ad0f95eb85c65ec8)
+    by Pekka Hedqvist
 
   - 1998: [On the verification of open distributed
     systems](https://dl.acm.org/doi/10.1145/330560.330917) by Mads Dam
