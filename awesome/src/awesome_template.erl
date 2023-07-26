@@ -73,12 +73,64 @@
 %%% @end
 %%%===================================================================
 -module(awesome_template).
--export([path/0, files/0, content/0]).
+-export([path/0, files/0, content/0, tree/0]).
 -export([compile_and_load/0, compile/0]).
 -record(template, { name = undefined
                   , path = undefined
                   , content = undefined
                   }).
+
+%%--------------------------------------------------------------------
+%% @doc list all templates in default templates path.
+%% @end
+%%--------------------------------------------------------------------
+tree() -> 
+    Tree = tree(path(), []),
+    Filter = lists:foldl(fun tree_filter/2, #{}, Tree),
+    maps:to_list(Filter).
+
+%%--------------------------------------------------------------------
+%% @hidden
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+tree(Path, Buffer) ->
+    {ok, Files} = file:list_dir(Path),
+    tree(Path, Files, Buffer).
+
+%%--------------------------------------------------------------------
+%% @hidden
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+tree(_, [], Buffer) -> Buffer;
+tree(Path, [File|Files], Buffer) ->
+    FilePath = filename:join([Path, File]),
+    case filelib:is_dir(FilePath) of
+        true -> tree(FilePath, Buffer);
+        false -> tree(Path, Files, [{Path, FilePath}|Buffer])
+    end.
+
+%%--------------------------------------------------------------------
+%% @hidden
+%% @doc paths filtering.
+%% @end
+%%--------------------------------------------------------------------
+tree_filter({Key, Value}, Acc) ->
+    Origin = filename:split(Key),
+    Root = filename:split(path()),
+    Filename = lists:last(filename:split(Value)),
+    Subtract = lists:subtract(Origin, Root),
+    case Subtract of
+        [] -> 
+            Buffer = maps:get("root", Acc, []),
+            Acc#{ "root" => [{Filename, Value}|Buffer]};
+        Path when is_list(Path) -> 
+            FilePath = filename:join("root", Path),
+            Buffer = maps:get(FilePath, Acc, []),
+            Acc#{ FilePath => [{Filename, Value}|Buffer] };
+        _ -> Acc
+    end.
 
 %%--------------------------------------------------------------------
 %% @doc list the current path used to load the templates.
@@ -253,6 +305,7 @@ merl_module(Name, Path, Content, Opts) ->
 %% created_at() -> proplists:get_value(created_at, attributes()).
 %% updated_at() -> proplists:get_value(updated_at, attributes()).
 %% version() -> proplists:get_value(vsn, attributes()).
+%% %
 %% files() -> proplists:get_value(files, attributes()).
 %% templates() -> [{"index.md", <<"">>}].
 %% templates("index.md") -> <<"">>.
@@ -300,7 +353,6 @@ merl_module(Name, Path, Content, Opts) ->
 %%     , "    _:Reason -> {error, Reason}"
 %%     , "  end." 
 %%     ].
-
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -361,3 +413,4 @@ merl_timestamps([$'] ++ ModuleName) ->
 merl_attribute(Name, Content) ->
     A = io_lib:format("-~s(~p).~n", [Name, Content]),
     lists:flatten(A).
+
