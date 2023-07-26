@@ -6432,6 +6432,38 @@ communities to install/package it*
     Platform](https://link.springer.com/chapter/10.1007/3-7643-7348-2_3)
     by Antonella Di Stefano and Corrado Santoro
 
+  - 2002: [OTP in server
+   farms](https://dl.acm.org/doi/abs/10.1145/592849.592855) by Michael
+   Bruening , Hal Snyder and Martin Logan
+
+  - 2002: [Native code compilation of Erlang's bit
+    syntax](https://dl.acm.org/doi/abs/10.1145/592849.592851) by Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2002: [Unboxed Compilation of Floating Point Arithmetic in a
+    Dynamically Typed Language
+    Environment](https://link.springer.com/chapter/10.1007/3-540-44854-3_9)
+    by Tobias Lindahl and Konstantinos Sagonas
+
+  - 2002: [On reducing interprocess communication overhead in
+    concurrent
+    programs](https://dl.acm.org/doi/abs/10.1145/592849.592857) by
+    Erik Stenman and Konstantinos Sagonas
+
+  - 2002: [Compilation of Floating Point Arithmetic in the High
+    Performance E RLANG
+    Compiler.](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=7347354eaaad96d40e12ea4373178b784fc39bfc)
+    by Tobias Lindahl
+
+  - 2002: [Exploring Alternative Memory Architectures for Erlang:
+    Implementation and Performance
+    Evaluation](http://www.it.uu.se/research/csd/masters-theses/0212-wilhelmsson.pdf)
+    by Jesper Wilhelmsson
+
+  - 2002: [Static analysis of communications for
+    Erlang](https://hal.science/hal-02132880/document) Fabien Dagnat,
+    Marc Pantel
+
   - 2002: [On reducing interprocess communication overhead in
     concurrent programs](https://dl.acm.org/doi/10.1145/592849.592857)
     by Erik Stenman and Konstantinos Sagonas
@@ -6472,8 +6504,8 @@ communities to install/package it*
     by Scott Lystig Fritchie
 
   - 2002: [Verifying Erlang Code: A Resource Locker
-   Case-Study](https://dl.acm.org/doi/10.5555/647541.730165) by Thomas
-   Arts , Clara Benac Earle and John Derrick
+    Case-Study](https://dl.acm.org/doi/10.5555/647541.730165) by
+    Thomas Arts , Clara Benac Earle and John Derrick
 
   - 2002: [The evolution of Erlang drivers and the Erlang driver
     toolkit](https://dl.acm.org/doi/10.1145/592849.592854) by Scott
@@ -6483,8 +6515,98 @@ communities to install/package it*
     Erlang](https://dl.acm.org/doi/10.1145/636517.636525) by Ulf Wiger
     , Gösta Ask and Kent Boortz
 
+  - 2002: [The Tertiary Level in a Functional Cluster-Based
+    Hierarchical VoD
+    Server](https://link.springer.com/chapter/10.1007/3-540-45654-6_42)
+    by Miguel Barreiro, Víctor M. Gulías, Juan J. Sánchez and Santiago
+    Jorge
+
+  - 2002: [Trace analysis of Erlang
+    programs](https://dl.acm.org/doi/abs/10.1145/592849.592852) by
+    Thomas Arts and Lars-Åke Fredlund
+
+  - 2002: [Distel: Distributed Emacs Lisp (for
+    Erlang)](ftp://snarchive.sol.net/pub/systems/unix/FreeBSD/ports/local-distfiles/olgeni/distel-euc.pdf)
+    Luke Gorrie
+
   - 2001: [Static Verification of distributed
     programs](https://hal.science/tel-02061997v1) by Fabien Dagnat
+
+  - 2001: [A Framework for Reasoning about ERLANG
+    Code](https://www.diva-portal.org/smash/get/diva2:8988/FULLTEXT01.pdf)
+    by Lars-Åke Fredlund
+
+  - 2001: [Verification of Erlang Processes by Dependency
+    Pairs](https://link.springer.com/article/10.1007/s002000100063) by
+    Jürgen Giesl and Thomas Arts
+
+  - 2001: [The Erlang Verification
+    Tool](https://link.springer.com/chapter/10.1007/3-540-45319-9_41)
+    by Thomas Noll, Lars-åke Fredlund and Dilian Gurov
+
+  - 2001: [A Rewriting Logic Implementation of
+    Erlang](https://www.sciencedirect.com/science/article/pii/S1571066104809289)
+    by Thomas Noll
+
+  - 2001: [A case for the unified heap approach to Erlang memory
+    management](https://www.researchgate.net/profile/Marc-Feeley/publication/2371933_A_Case_for_the_Unified_Heap_Approach_to_Erlang_Memory_Management/links/583c242908ae1ff45982a9d4/A-Case-for-the-Unified-Heap-Approach-to-Erlang-Memory-Management.pdf)
+    by Marc Feeley
+
+  - 2001: [An X86 back-end for the HiPE
+    Compiler](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=47c41653a61e0eeeeb28142e0e6d759ca0dc7363)
+    by Ulf Magnusson
+
+  - 2001: [Model Checking Erlang Programs – Abstracting the
+    Context-Free
+    Structure](https://www.sciencedirect.com/science/article/pii/S1571066104002592)
+    by Franck Huch
+
+  - 2001: [Semi-automated verification of Erlang
+    code](https://ieeexplore.ieee.org/abstract/document/989820) by
+    L.-A. Fredlund, D. Gurov and T. Noll
+
+  - 2000: [Erlang: an Industrial Strength Functional Language
+    Environment](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1dedeb6cbd83c00d716092acc2e09bbe5792a5b6)
+    by Helen Airiyan and Fergus O’Brien
+
+  - 2000: [Introducing SERCs Safer
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=da800f34e6ed861004f7732849ecffaab495fe04)
+    by Lawrie Brown
+
+  - 2000: [How to improve the performance of YECC-generated Erlang
+    (JAM)
+    parsers](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c883f379ac6b61c9f61e99fb1798c85ffac8bd9b)
+    by Torbjörn Törnkvist
+
+  - 2000: [Sendmail Meets Erlang: Experiences Using Erlang for Email
+    Applications](http://erlang.org/euc/00/euc00-sendmail.pdf) by
+    Scott Lystig Fritchie, Jim Larson, and Nick Christenson
+
+  - 2000: [An Erlang-based hierarchical distributed VoD
+    System](http://192.121.151.106/euc/01/barreiro2001.pdf) by Juan
+    J. Sánchez, José L. Freire, Miguel Barreiro Vı́ctor M. Gulı́as and
+    Javier Mosquera
+
+  - 2000: [Automatic translation from SDL specification to distributed
+    Erlang
+    implementation](https://ieeexplore.ieee.org/abstract/document/880373)
+    by M. Kunstic, O. Jukic and M. Mikuc
+
+  - 2000: [Extending Erlang with structured module
+    packages](http://erlang.org/euc/00/one2one.pdf) by Richard
+    Carlsson
+
+  - 2000: [A staged tag scheme for
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1695553&dswid=2151)
+    by Pettersson Mikael
+
+  - 2000: [Verifying Generic Erlang Client—Server
+    Implementations](https://link.springer.com/chapter/10.1007/3-540-45361-X_3)
+    by Thomas Arts and Thomas Noll
+
+  - 2000: [Design Patterns for Simulations in
+    Erlang/OTP](http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/ports/distfiles/erlang-doc/r12b2/master_thesis_patterns.pdf)
+    by U Ekström
 
   - 2000: [A high performance Erlang
     system](https://dl.acm.org/doi/pdf/10.1145/351268.351273) by Erik
@@ -6566,6 +6688,136 @@ communities to install/package it*
     > industry for programming control systems.
     </details>
 
+  - 1997: [Erlang and its
+    applications](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2d9b6f77e6b4d2c01bf45615b5fe73f008014f5c)
+    by Joe Armstrong and Thomas Arts
+
+  - 1997: [A practical subtyping system for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/258949.258962) by Simon
+    Marlow and Philip Wadler
+
+  - 1997: [Etos: an Erlang to Scheme
+    compiler](https://www.researchgate.net/profile/Marc-Feeley/publication/2593118_Etos_an_Erlang_to_Scheme_compiler/links/02e7e5321df5fc4b8f000000/Etos-an-Erlang-to-Scheme-compiler.pdf)
+    by Marc Feeley and Martin Larose
+
+  - 1997: [From Estelle to
+    Erlang](https://www.sciencedirect.com/science/article/abs/pii/S0164121296000192)
+    by R. Lai
+
+  - 1997: [Towards a deadlock analysis for Erlang
+    programs](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e2e5d148307938b8a03149e33bfc3f2309742cb3)
+    by Richard Carlsson
+
+  - 1997: [A Compacting Garbage Collector for
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a1ba95a117c003761c799b118bafd0c126525267)
+    by Kent Boortz and Dan Sahlin
+
+  - 1996: [Erlang - A survey of the language and its industrial
+    applications](https://profs.info.uaic.ro/~adria/teach/courses/CloudComputing/Tema_Cercetare/Erlan_1996_survey_inap96.pdf)
+    by Joe Armstrong
+
+  - 1996: [Native Code Compilation for
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cbe8dd71e428098a622ccaacac3c452b3a7c35fc)
+    by Erik Johansson and Christer Jonsson
+
+  - 1996: [The concurrent functional programming language Erlang: An
+    Overview](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=49833683f76cd0ec83148acacf01c2cdcd3369b3)
+    by Dan Sahlin
+
+  - 1996: [A De nition of Erlang
+    (DRAFT)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=257c36b89b0ad67e9cf6d1488c325d5dea42fd2b)
+    by Mikael Pettersson
+
+  - 1996: [A Prototype of a Soft Type System for
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b5f3a5b5820a4ec113caf345681a710298efdc52)
+    by Anders Lindgren
+
+  - 1996: [Design Issues for a High Reliability Environment for
+    Erlang](https://www.researchgate.net/profile/Maurice-Castro/publication/2467860_Design_Issues_for_a_High_Reliability_Environment_for_Erlang/links/00b49530bc535319be000000/Design-Issues-for-a-High-Reliability-Environment-for-Erlang.pdf)
+    by Maurice Castro
+
+  - 1996: [Yerl: A Literate Documenting Tool and a Program Development
+    Environment for
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=71aad1c86a69786b47ab95deba2b6aadd69881eb)
+    by Kristina Sirhuber
+
+  - 1996: [Perspectives on Erlang &
+    TINA](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cfa640c2b382ceeba5119c631a0d069f0b142314)
+    by Maurice Castro
+
+  - 1996: [Benchmarking an intelligent network prototype implemented
+    in parallel
+    Erlang](https://link.springer.com/chapter/10.1007/3-540-61142-8_643)
+    by Kent Engström, Erik Reitsma and Peter Fritzson
+
+  - 1996: [Software Development Using the Erlang
+    Language](https://aaltodoc.aalto.fi/bitstream/handle/123456789/84664/master_%C3%85berg_Markus_1996.pdf?sequence=1)
+    by Markus Åberg
+
+  - 1996: [Implementing distributed real-time control systems in a
+    functional programming
+    language](https://ieeexplore.ieee.org/abstract/document/557430) by
+    C Wiskstrom
+
+  - 1996: [A performance analyzer for a parallel real-time functional
+    language](https://ieeexplore.ieee.org/abstract/document/495497) by
+    O. Hansen and P. Fritzson
+
+  - 1995: [A garbage collector for the concurrent real-time language
+    Erlang](https://link.springer.com/chapter/10.1007/3-540-60368-9_33)
+    by Robert Virding
+
+  - 1995: [Implementation of Estelle specification using
+    Erlang](https://ieeexplore.ieee.org/abstract/document/526062) by
+    R. Lai and P. Tantsis
+
+  - 1995: [Implementation of the real-time functional language Erlang
+    on a massively parallel platform, with applications to
+    telecommunications
+    services](https://link.springer.com/chapter/10.1007/BFb0046731) by
+    Beshar Zuhdy, Peter Fritzson and Kent Engström
+
+  - 1995: [A Comparison Between Erlang and C++ for Implementation of
+    Telecom
+    Applications](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f5670ffc65de898d5f04cb185c6b3cb88ff1d649)
+    by Tomas Aronsson and Johan Grafström
+
+  - 1995: [An Extension of Erlang with Finite Domain
+    Constraints](https://www.researchgate.net/profile/Greger-Ottosson/publication/2643705_An_Extension_of_Erlang_with_Finite_Domain_Constraints/links/00b495182398fbec23000000/An-Extension-of-Erlang-with-Finite-Domain-Constraints.pdf)
+    by Greger Ottosson
+
+  - 1995: [Hybrid Implementation Techniques in Erlang
+    BEAM](https://ieeexplore.ieee.org/abstract/document/6278228) by
+    Leon S. Sterling
+
+  - 1995: [Amnesia — A Distributed Real-Time Primary Memory DBMS with
+    a Deductive Query
+    Language](https://ieeexplore.ieee.org/abstract/document/6278223)
+    by Leon S. Sterling
+
+  - 1994: [Turbo Erlang: Approaching the Speed of
+    C](https://link.springer.com/chapter/10.1007/978-1-4615-2690-2_9)
+    by Bogumił Hausman
+
+  - 1994: [Discrete Event Simulation in
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=31556a0e93a345957787472900a8485c6dce6549)
+    Andreas Ermedahl
+
+  - 1992: [Implementing a functional language for highly parallel real
+    time
+    applications](https://ieeexplore.ieee.org/abstract/document/145620)
+    by J.L. Armstrong, B.O. Dacker, S.R. Virding and M.C. Williams
+
+  - 1992: [Use of Prolog for developing a new programming
+    language](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5dbee7f876ccb6331d1fb4dcdc7f7a4744801804)
+    by J. L. Armstrong, S. R. Virding, M. C. Williams
+
+  - 1990: [ERLANG - an experimental telephony programming language](https://ieeexplore.ieee.org/abstract/document/765711)
+    by J.L. Armstrong and S.R. Virding
+
+  - 1989: [Using PROLOG for rapid prototyping of telecommunication
+    systems](https://ieeexplore.ieee.org/abstract/document/41871) by
+    J.L. Armstrong and M.C. Williams
 
   - [The Erlang
     Rationale](https://www.erlang-factory.com/upload/presentations/26/EF09-ErlangRationale.pdf)
