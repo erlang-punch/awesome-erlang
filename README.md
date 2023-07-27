@@ -6348,6 +6348,127 @@ communities to install/package it*
   - 2006: [Testing telecoms software with quviq QuickCheck](https://dl.acm.org/doi/10.1145/1159789.1159792) by Thomas Arts
     , John Hughes , Joakim Johansson and Ulf Wiger
 
+  - 2005: [TypEr: a type annotator of Erlang
+    code](https://dl.acm.org/doi/abs/10.1145/1088361.1088366) by
+    Tobias Lindahl and Konstantinos Sagonas
+
+  - 2005: [A semantics for distributed
+    Erlang](https://dl.acm.org/doi/abs/10.1145/1088361.1088376) by
+    Koen Claessen and Hans Svensson
+
+  - 2005: [ERESYE: artificial intelligence in Erlang
+    programs](https://dl.acm.org/doi/abs/10.1145/1088361.1088373) by
+    Antonella Di Stefano , Francesca Gangemi and Corrado Santoro
+
+  - 2005: [Experience from Developing the Dialyzer: A Static Analysis
+    Tool Detecting Defects in Erlang
+    Applications](https://www.researchgate.net/profile/Konstantinos-Sagonas-2/publication/228915585_Experience_from_developing_the_Dialyzer_A_static_analysis_tool_detecting_defects_in_Erlang_applications/links/00b7d531f0a13e75ce000000/Experience-from-developing-the-Dialyzer-A-static-analysis-tool-detecting-defects-in-Erlang-applications.pdf)
+    by Konstantinos Sagonas
+
+  - 2005: [Using the Erlang language for multi-agent systems
+    implementation](https://ieeexplore.ieee.org/abstract/document/1565622)
+    by A. Di Stefano and C. Santoro
+
+  - 2005: [Semi-formal Development of a Fault-Tolerant Leader Election
+    Protocol in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-540-31848-4_10)
+    by Thomas Arts, Koen Claessen and Hans Svensson
+
+  - 2005: [Bit-level binaries and generalized comprehensions in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/1088361.1088363) by Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2005: [A high performance Erlang Tcp/Ip
+    stack](https://dl.acm.org/doi/abs/10.1145/1088361.1088372) by
+    Javier Paris, Victor Gulias and Alberto Valderruten
+
+  - 2005: [Modeling Erlang in the
+    pi-calculus](https://dl.acm.org/doi/abs/10.1145/1088361.1088375)
+    by Thomas Noll and Chanchal Kumar Roy
+
+  - 2005: [Verifying fault-tolerant Erlang
+    programs](https://dl.acm.org/doi/abs/10.1145/1088361.1088367) by
+    Clara Benac Earle, Lars-Åke Fredlund and John Derrick
+
+  - 2005: [Remote controlling devices using instant messaging:
+    building an intelligent gateway in
+    Erlang/OTP](https://dl.acm.org/doi/abs/10.1145/1088361.1088371) by
+    Simon Aurell
+
+  - 2005: [Concurrent Erlang Flow
+    Graphs](http://192.121.151.106/euc/05/Widera.pdf) by Manfred
+    Widera
+
+  - 2005: [Data Flow Coverage for Testing Erlang
+    Programs](https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/11num.pdf) by
+    Manfred Widera
+
+  - 2005: [Robust Reconfigurable Erlang Component
+    System](http://192.121.151.106/euc/05/Domonkos.pdf) by Gabor
+    Batori, Zoltan Theisz and Domonkos Asztalos
+
+  - 2005: [FORSE - Formally-based tool support for Erlang
+    development](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c87d737fd117f925ed7d7270a73056e32012bb98)
+    by John Derrick and Simon Thompson
+
+  - 2005: [eXAT: Software Agents in
+    Erlang](https://www.researchgate.net/profile/Corrado-Santoro/publication/266486804_eXAT_Software_Agents_in_Erlang/links/54bf91f60cf2f6bf4e04fde8/eXAT-Software-Agents-in-Erlang.pdf)
+    by Corrado Santoro
+
+  - 2005: [Equational Abstractions for Model Checking Erlang
+    Programs](https://www.sciencedirect.com/science/article/pii/S1571066104053290)
+    by Thomas Noll
+
+  - 2005: [wxErlang - a GUI library for
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ba385ea2957e23bc42d85381cfbc9ecd72473468)
+    by Mats-Ola Persson
+
+  - 2005: [Test Driven Development In
+    Erlang/OTP](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=506e8e0ee4674c1c207b64dc12797a6f6ad0da79)
+    by Martin Carlson
+
+  - 2005: [Virtual World Distributed Server developed in Erlang as a
+    Tool for analysing Needs of Massively Multiplayer Online Game
+    Servers](http://192.121.151.106/euc/05/Slaski.pdf) by Michał
+    ŚlaskiMarcin Gazda
+
+  - 2005: [Are High-Level Languages Suitable for Robust Telecoms
+    Software?](https://link.springer.com/chapter/10.1007/11563228_21)
+    by J. H. Nyström, P. W. Trinder and D. J. King
+
+  - 2005: [Developing a functional Tcp/Ip stack oriented towards Tcp
+    connection
+    replication](https://dl.acm.org/doi/abs/10.1145/1168117.1168131)
+    by Javier Paris, Alberto Valderruten and Victor M. Gulias
+
+  - 2005: [Verification of Language Based
+    Fault-Tolerance](https://link.springer.com/chapter/10.1007/11556985_19)
+    by Clara Benac Earle and Lars-Åke Fredlund
+
+  - 2005: [A new leader election
+    implementation](https://dl.acm.org/doi/abs/10.1145/1088361.1088368)
+    by Hans Svensson and Thomas Arts
+
+  - 2005: [Equational Abstractions for Model Checking Erlang
+    Programs](https://www.sciencedirect.com/science/article/pii/S1571066104053290)
+    by Thomas Noll
+
+  - 2005: [In-building location using
+    Bluetooth](https://www.academia.edu/download/36730442/65.pdf) by
+    Miguel Rodriguez, Juan P. Pece and Carlos J. Escudero
+
+  - 2005: [Termite: a Lisp for Distributed
+    Computing](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b9ed394ea9fb85cafd0f6249d1926f889d7e2c4b)
+    by Guillaume Germain, Marc Feeley, Stefan Monnier
+
+  - 2005: [Programming Languages for Real-Time
+    Systems](https://link.springer.com/chapter/10.1007/978-3-540-31973-3_25)
+    by Bruno Bouyssounouse and Joseph Sifakis
+
+  - 2005: [Verification of Erlang Programs using Testing and
+    Tracing](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0dbf682ef57daf2b6a87860ff3a7d233171ac333)
+    by Hans Svensson
+
   - 2005: [Atom garbage
     collection](https://dl.acm.org/doi/10.1145/1088361.1088369) by
     Thomas Lindgren
@@ -6356,14 +6477,6 @@ communities to install/package it*
     binaries](https://dl.acm.org/doi/10.1145/1088361.1088364) by Jay
     Nelson
 
-  - 2005: [TypEr: a type annotator of Erlang
-    code](https://dl.acm.org/doi/10.1145/1088361.1088366) by Tobias
-    Lindahl and Konstantinos Sagonas
-
-  - 2005: [Bit-level binaries and generalized comprehensions in
-    Erlang](https://dl.acm.org/doi/10.1145/1088361.1088363) by Per
-    Gustafsson and Konstantinos Sagonas
-
   - 2005: [Efficiently compiling a functional language on AMD64: the
     HiPE experience](https://dl.acm.org/doi/10.1145/1069774.1069791)
     by Daniel Luna , Mikael Pettersson and Konstantinos Sagonas
@@ -6371,6 +6484,69 @@ communities to install/package it*
   - 2005: [A new leader election
     implementation](https://dl.acm.org/doi/10.1145/1088361.1088368) by
     Hans Svensson and Thomas Arts
+
+  - 2004: [In the need of a design...  reverse engineering Erlang
+    software](https://www.researchgate.net/profile/Thomas-Arts/publication/228752521_In_the_need_of_a_design_reverse_engineering_Erlang_software/links/0deec5289defead551000000/In-the-need-of-a-design-reverse-engineering-Erlang-software.pdf)
+    by Thomas Arts and Cecilia Holmqvist
+
+  - 2004: [Concurrency in Java and in
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5a33785241c95b2207cfd807c16738d7f1e40cae)
+    by Sven-Olof Nyström
+
+  - 2004: [ERVAL: an Internet software VLAN switch developed in
+    Erlang∗](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ac204a6b8b79788425f7503bd55e318ccb0660df)
+    by Alejandro Garcı́a Castro, Francisco Javier Morán Rúa and Juan
+    José Sánchez Penas
+
+  - 2004: [Erlang's exception handling
+    revisited](https://dl.acm.org/doi/abs/10.1145/1022471.1022475) by
+    Richard Carlsson , Björn Gustavsson and Patrik Nyblom
+
+  - 2004: [Designing Collaborative Agents with
+    eXAT](https://dl.acm.org/doi/abs/10.1109/ENABL.2004.23) by
+    Antonella Di Stefano and Corrado Santoro
+
+  - 2004: [20 years of industrial functional
+    programming](https://dl.acm.org/doi/abs/10.1145/1016850.1016854)
+    by Ulf Wiger
+
+  - 2004: [An implementation of the SMB protocol in
+    erlang](https://dl.acm.org/doi/abs/10.1145/1022471.1022477) by
+    Torbjrn Trnkvist
+
+  - 2004: [Development of a verified Erlang program for resource
+    locking](https://link.springer.com/article/10.1007/s10009-003-0114-9)
+    by Thomas Arts, Clara Benac Earle and John Derrick
+
+  - 2004: [On modelling agent systems with
+    erlang](https://dl.acm.org/doi/abs/10.1145/1022471.1022481) by
+    Carlos Varela, Carlos Abalde, Laura Castro and Jose Gulías
+
+  - 2004: [Flow graphs for testing sequential erlang
+    programs](https://dl.acm.org/doi/abs/10.1145/1022471.1022479) by
+    Manfred Widera
+
+  - 2004: [An AMD64 Backend for HiPE: Implementation, Performance
+    Evaluation, and Lessons
+    Learned](http://lunas.se/papers/master.pdf) by Daniel Luna
+
+  - 2004: [Modelling Programming Languages for Concurrent and
+    Distributed Systems in Specification
+    Languages.](https://clones.usask.ca/pubfiles/articles/ChanchalRoyMScThesis2004.pdf)
+    by Chanchal Kumar Roy
+
+  - 2004: [Monitoring and state transparency of distributed
+    systems](https://dl.acm.org/doi/abs/10.1145/1022471.1022473) by
+    Martin J. Logan
+
+  - 2004: [Detecting Software Defects in Telecom Applications Through
+    Lightweight Static Analysis: A War
+    Story](https://link.springer.com/chapter/10.1007/978-3-540-30477-7_7)
+    by Tobias Lindahl and Konstantinos Sagonas
+
+  - 2004: [Designing collaborative agents with
+    eXAT](https://ieeexplore.ieee.org/abstract/document/1376803) by
+    A. Di Stefano and C. Santoro
 
   - 2004: [Structured programming using
     processes](https://dl.acm.org/doi/10.1145/1022471.1022480) by Jay
@@ -6396,6 +6572,41 @@ communities to install/package it*
   - 2004: [Structured Programming Using
     Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
     Jay Nelson
+
+  - 2003: [A soft-typing system for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/940880.940888) by
+    Sven-Olof Nyström
+
+  - 2003: [eXAT: an Experimental Tool for Programming Multi-Agent
+    Systems in
+    Erlang](https://lia.disi.unibo.it/books/woa2003/pdf/09.pdf) by
+    Antonella Di Stefano and Corrado Santoro
+
+  - 2003: [Automated test generation for industrial Erlang
+    applications](https://dl.acm.org/doi/abs/10.1145/940880.940882) by Johan Blom
+    and Bengt Jonsson
+
+  - 2003: [ARMISTICE: an experience developing management software
+    with Erlang](https://dl.acm.org/doi/abs/10.1145/940880.940884) by
+    David Cabrero, Carlos Abalde, Carlos Varela and Laura Castro
+
+  - 2003: [Parameterized modules in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/940880.940885) by
+    Richard Carlsson
+
+  - 2003: [A polyvariant type analysis for
+    Erlang](http://www.it.uu.se/research/publications/reports/2003-045/2003-045-nc.pdf)
+    by Sven-Olof Nyström
+
+  - 2003: [The development of the HiPE system: design and experience
+    report](https://link.springer.com/article/10.1007/s100090100068)
+    by Erik Johansson , Mikael Pettersson , Konstantinos Sagonas and
+    Thomas Lindgren
+
+  - 2003: [VoDkaV tool: model checking for extracting global scheduler
+    properties from local
+    restrictions](https://ieeexplore.ieee.org/abstract/document/1207726)
+    by J.J.S. Penas and T. Arts
 
   - 2003: [The role of language paradigms in teaching
     programming](https://dl.acm.org/doi/10.1145/611892.611908) by
