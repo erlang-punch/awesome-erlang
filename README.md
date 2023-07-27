@@ -6246,6 +6246,131 @@ communities to install/package it*
     Claessen , Michal Palka , Nicholas Smallbone , John Hughes , Hans
     Svensson , Thomas Arts and Ulf Wiger
 
+  - 2008: [Building a Refactoring Tool for Erlang
+    ?](https://scg.unibe.ch/assets/download/wasdett/wasdett2008-paper12.pdf)
+    by Zoltán Horváth, László Lövei, Tamás Kozsik, Róbert Kitlei,
+    Anikó Nagyné Vı́g, Tamás Nagy, Melinda Tóth, Roland Király
+
+  - 2008: [Static rules of variable scoping in
+    Erlang∗](http://icai.ektf.hu/pdf/ICAI2007-vol2-pp137-145.pdf) by
+    László Lövei, Zoltán Horváth, Tamás Kozsik, Roland Király, Róbert
+    Kitlei
+
+  - 2008: [Application Security of Erlang Concurrent
+    System](https://www.researchgate.net/profile/Kenji_Rikitake/publication/228732159_Application_security_of_erlang_concurrent_system/links/5595105508ae99aa62c5cb71/Application-security-of-erlang-concurrent-system.pdf)
+    by Kenji RIKITAKE† , Koji NAKAO
+
+  - 2008: [Scalaris: reliable transactional p2p key/value
+    store](https://dl.acm.org/doi/abs/10.1145/1411273.1411280) by
+    Thorsten Schütt , Florian Schintke and Alexander Reinefeld
+
+  - 2008: [Verifying Erlang Telecommunication Systems with the Process
+    Algebra
+    μCRL](https://link.springer.com/chapter/10.1007/978-3-540-68855-6_13)
+    by Qiang Guo, John Derrick and Csaba Hoch
+
+  - 2008: [Use Cases for Refactoring in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-540-88059-2_7)
+    by Tamás Kozsik, Zoltán Csörnyei, Zoltán Horváth, Roland Király,
+    Róbert Kitlei, László Lövei, Tamás Nagy, Melinda Tóth and Anikó
+    Víg
+
+  - 2008: [High-level distribution for the rapid production of robust
+    telecoms software: comparing C++ and
+    ERLANG](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.1223)
+    by J. H. Nyström, P. W. Trinder and D. J. King
+
+  - 2008: [Gradual typing of erlang programs: a wrangler
+    experience](https://dl.acm.org/doi/abs/10.1145/1411273.1411284) by
+    Konstantinos Sagonas and Daniel Luna
+
+  - 2008: [Erlang for Concurrent Programming: What role can
+    programming languages play in dealing with concurrency? One answer
+    can be found in Erlang, a language designed for concurrency from
+    the ground
+    up.](https://dl.acm.org/doi/abs/10.1145/1454456.1454463) by Jim
+    Larson
+
+  - 2008: [Autocoding State Machine in Erlang: A Case Study of
+    Model-Driven Software
+    Development](http://192.121.151.106/euc/08/Guo.pdf) by Yu Guo
+
+  - 2008: [Learning the Erlang programming
+    language](https://dl.acm.org/doi/abs/10.5555/1352079.1352081) by
+    David R. Naugler
+
+  - 2008: [Refactoring with wrangler, updated: data and process
+    refactorings, and integration with
+    eclipse](https://dl.acm.org/doi/abs/10.1145/1411273.1411283) by
+    Huiqing Li , Simon Thompson , György Orosz and Melinda Tóth
+
+  - 2008: [Bit-Torrent in
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A174023&dswid=-1421)
+    by Carlos Simón Gallego
+
+  - 2008: [Layout preserving, automatically generated parser for
+    Erlang refactoring
+    ?](https://www.researchgate.net/profile/Zoltan-Horvath-11/publication/239931612_Layout_preserving_automatically_generated_parser_for_Erlang_refactoring/links/559e682a08aea946c069be09/Layout-preserving-automatically-generated-parser-for-Erlang-refactoring.pdf)
+    by Róbert Kitlei, László Lövei, Tamás Nagy and Zoltán Horváth
+
+  - 2008: [Automated syntax manipulation in
+    RefactorErl∗](http://erlang.org/euc/08/euc08-refactorerl.pdf) by
+    Róbert Kitlei, Zoltán Horváth, István Bozó, László Lövei, Melinda
+    Tóth, Tamás Kozsik, Roland Király, Csaba Hoch and Dániel Horpácsi]
+
+  - 2008: [Early fault detection with model-based
+    testing](https://dl.acm.org/doi/abs/10.1145/1411273.1411276) by
+    Jonas Boberg
+
+  - 2008: [A comparative evaluation of imperative and functional
+    implementations of the imap
+    protocol](https://dl.acm.org/doi/abs/10.1145/1411273.1411279) by
+    Francesco Cesarini, Viviana Pappalardo and Corrado Santoro
+
+  - 2008: [Refactoring module
+    structure](https://dl.acm.org/doi/abs/10.1145/1411273.1411285) by
+    László Lövei , Csaba Hoch , Hanna Köllö , Tamás Nagy , Anikó
+    Nagyné Víg , Dániel Horpácsi , Róbert Kitlei and Roland Király
+
+  - 2008: [Call Graph and Data Flow Analysis of a Dynamic Functional
+    Language](http://www.inf.u-szeged.hu/~cscs/cscs2008/pdf/CSCS2008-proceedings.pdf#page=42)
+    by Tamás Nagy, Zoltán Horváth, László Lövei, Melinda Tóth and
+    Anikó Nagyné Víg
+
+  - 2008: [Applications integration: a testing
+    experience](https://www.researchgate.net/profile/Miguel-Francisco-2/publication/280355796_Applications_integration_a_testing_experience/links/55b343cd08aec0e5f431ddcb/Applications-integration-a-testing-experience.pdf)
+    by Laura M. Castro and Vı́ctor M. Gulı́as
+
+  - 2008: [Verification of Peer-to-peer Algorithms: A Case
+    Study](https://www.sciencedirect.com/science/article/pii/S1571066107003672)
+    by Rana Bakhshi and Dilian Gurov
+
+  - 2008: [Convenience Over
+    Correctness](https://ieeexplore.ieee.org/abstract/document/4557985)
+    by Steve Vinoski
+
+  - 2008: [Actors with Multi-headed Message Receive
+    Patterns](https://link.springer.com/chapter/10.1007/978-3-540-68265-3_20)
+    by Martin Sulzmann, Edmund S. L. Lam and Peter Van Weert
+
+  - 2008: [Functional Parallelism with Shared Memory and Distributed
+    Memory
+    Approaches](https://ieeexplore.ieee.org/abstract/document/4798422)
+    by Mahesh Kandegedara and D. N. Ranasinghe
+
+  - 2008: [Refactoring with Wrangler,
+    updated](https://kar.kent.ac.uk/24012/) by Li, Huiqing, Thompson,
+    Simon, Orosz, György, Töth, Melinda
+
+  - 2008: [Using Coq to Prove Properties of the Cache Level of a
+    Functional Video-on-Demand
+    Server](https://link.springer.com/chapter/10.1007/978-3-540-85110-3_25)
+    by J. Santiago Jorge, Victor M. Gulias, and Laura M. Castro
+
+  - 2008: [Database Access and Patterns in
+    Erlang/OTP](https://www.academia.edu/download/69976027/aic10.pdf)
+    by LAURA M. CASTRO, VÍCTOR M. GULÍAS, CARLOS ABALDE, JAVIER PARÍS
+
   - 2008: [High-performance technical computing with
     erlang](https://dl.acm.org/doi/10.1145/1411273.1411281) by Alceste
     Scalas, Giovanni Casu and Piero Pili
@@ -6271,6 +6396,123 @@ communities to install/package it*
     Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
     Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
     Maxwell and Lutz Hamel
+
+  - 2007: [An erlang framework for autonomous mobile
+    robots](https://dl.acm.org/doi/abs/10.1145/1292520.1292533) by
+    Corrado Santoro
+
+  - 2007: [Abstraction and Model Checking of Core Erlang Programs in
+    Maude](https://www.sciencedirect.com/science/article/pii/S157106610700518X)
+    by Martin Neuhäußer and Thomas Noll
+
+  - 2007: [Reliability with
+    Erlang](https://ieeexplore.ieee.org/abstract/document/4376232) by
+    Steve Vinoski
+  
+  - 2007: [Refactoring in Erlang, a Dynamic Functional
+    Language∗](https://depositonce.tu-berlin.de/bitstreams/bd124e14-7bbb-48d4-b758-d9c48947e36d/download#page=53)
+    by László Lövei, Zoltán Horváth, Tamás Kozsik, Roland Király,
+    Anikó Vı́g, and Tamás Nagy
+
+  - 2007: [Refactoring Erlang
+    programs](https://pp.bme.hu/ee/article/view/879) by László Lövei,
+    Zoltán Horváth, Tamás Kozsik, Anikó Víg and Tamás Nagy
+
+  - 2007: [Detecting defects in Erlang programs using static
+    analysis](https://dl.acm.org/doi/abs/10.1145/1273920.1273926) by
+    Konstantinos Sagonas
+
+  - 2007: [Programming distributed erlang applications: pitfalls and
+    recipes](https://dl.acm.org/doi/abs/10.1145/1292520.1292527) by
+    Hans Svensson and Lars-Åke Fredlund
+
+  - 2007: [Towards hard real-time
+    erlang](https://dl.acm.org/doi/abs/10.1145/1292520.1292525) by
+    Vincenzo Nicosia
+
+  - 2007: [Extended process registry for
+    erlang](https://dl.acm.org/doi/abs/10.1145/1292520.1292522) by Ulf
+    T. Wiger
+
+  - 2007: [Introducing Records by Refactoring in Erlang
+    Programs?](https://dl.acm.org/doi/abs/10.1145/1292520.1292524)x by
+    László Lövei, Zoltán Horváth, Tamás Kozsik and Roland Király
+
+  - 2007: [Applying Rewriting Techniques to the Veri cation of Erlang
+    Processes](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b8b45d400517c0d6df0d55b0d7f6158ae5cc3bae)
+    by Thomas Arts and J urgen Giesl
+
+  - 2007: [ERLANG/OTP FRAMEWORK FOR COMPLEX MANAGEMENT APPLICATIONS
+    DEVELOPMENT](https://www.scitepress.org/Papers/2007/12819/) by
+    Carlos Abalde, Víctor M. Gulías, Laura M. Castro, Carlos Varela,
+    and J. Santiago Jorge
+
+  - 2007: [McErlang: a model checker for a distributed functional
+    programming
+    language](https://dl.acm.org/doi/abs/10.1145/1291151.1291171) by
+    Lars-Åke Fredlund and Hans Svensson
+
+  - 2007: [Applications, Implementation and Performance Evaluation of
+    Bit Stream Programming in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-540-69611-7_6)
+    by Per Gustafsson and Konstantinos Sagonas
+
+  - 2007: [Verifying Erlang/OTP Components in
+    μCRL](https://link.springer.com/chapter/10.1007/978-3-540-73196-2_15)
+    by Qiang Guo
+
+  - 2007: [Verification of timed erlang/OTP components using the
+    process algebra
+    μcrl](https://dl.acm.org/doi/abs/10.1145/1292520.1292529) by Qiang
+    Guo and John Derrick
+
+  - 2007: [Productivity gains with
+    Erlang](https://dl.acm.org/doi/abs/10.1145/1362702.1362710) by Jan
+    Henry Nyström
+
+  - 2007: [Generic syntactic analyser:
+    ParsErl∗](http://plc.inf.elte.hu/erlang/pub/euc07_parserl.pdf) by
+    Róbert Kitlei, László Lövei, Tamás Nagy, Anikó Nagyné Vig, Zoltán
+    Horváth and Zoltán Csörnyei
+
+  - 2007: [Mnesia - An Industrial DBMS with Transactions, Distribution
+    and a Logical Query Language] by Hans Nilsson and Claes Wikström
+
+  - 2007: [Optimising TCP/IP
+    connectivity](https://dl.acm.org/doi/abs/10.1145/1292520.1292532)
+    by Oscar Hellström
+
+  - 2007: [Priority messaging made
+    easy](https://dl.acm.org/doi/abs/10.1145/1292520.1292530) by Jan
+    Henry Nystrom
+
+  - 2007: [Model Checking a Video–on–Demand Server Using
+    McErlang](https://link.springer.com/chapter/10.1007/978-3-540-75867-9_68)
+    by Lars-Åke Fredlund and Juan José Sánchez Penas
+
+  - 2007: [Exploiting Sequential Libraries on a Cluster of
+    Computers](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8f97e56b52c2b67dc8795d9da08c3e25d0b7d2a2)
+    by Miguel Barreiro Jose Luis Freire Victor M. Gulias Juan
+    J. Sanchez
+
+  - 2007: [Teazle Goes
+    Mobile](https://it.uu.se/edu/course/homepage/projektDV/ht06/tgm-paper.pdf)
+    by Christina L. Nilsson Anders Söderlund, Joakim Hägglund, Hua
+    Dong, Ningjing Chen, Stefan Pettersson, Simon Lundmark, Anders
+    Andersson Christoffer Ramqvist and Sassan Ashkan Far
+
+  - 2007: [Combining Model Checking and Compositional Reasoning:
+    Erlang, Agents, and
+    Verification](https://www.researchgate.net/profile/Mads-Dam/publication/2814678_Combining_Model_Checking_and_Compositional_Reasoning_Erlang_Agents_and_Verification/links/554b1bd60cf29752ee7c3af2/Combining-Model-Checking-and-Compositional-Reasoning-Erlang-Agents-and-Verification.pdf)
+    by Mads Dam, Larsåke Fredlund
+
+  - 2007: [Another neat tool for refactoring Erlang
+    programs](https://dl.acm.org/doi/abs/10.5555/1647636.1647694) by
+    Mihály Héder , Zoltán László and Tibor Sulyán
+
+  - 2007: [Towards a resource-safe
+    Erlang](https://ieeexplore.ieee.org/abstract/document/4621739) by
+    David Teller
 
   - 2007: [A more accurate semantics for distributed
     erlang](https://dl.acm.org/doi/10.1145/1292520.1292528) by Hans
@@ -6324,6 +6566,73 @@ communities to install/package it*
     R11 and Fedora-Core Linux 5.0](https://arxiv.org/abs/0708.3166) by
     A. B. Mutiara and T. A. Sabastian
 
+  - 2006: [EUnit: a lightweight unit testing framework for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/1159789.1159791) by
+    Richard Carlsson and Mickaël Rémond
+
+  - 2006: [Refactoring Erlang Programs](https://kar.kent.ac.uk/14394/)
+    by Huiqing Li, Simon Thompson, László Lövei, Zoltán Horváth, Tamás
+    Kozsik, Anikó Vı́g and Tamás Nagy
+
+  - 2006: [Model checking erlang programs: the functional
+    approach](https://dl.acm.org/doi/abs/10.1145/1159789.1159793) by
+    Lars-Åke Fredlund and Clara Benac Earle
+
+  - 2006: [Evaluation of database management systems for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/1159789.1159802) by
+    Emil Hellman
+
+  - 2006: [Eliminating overlapping of pattern matching when verifying
+    Erlang programs in
+    µCRL](http://erlang.org/euc/06/proceedings/pDerrick.pdf) by Qiang
+    Guo and John Derrick
+
+  - 2006: [Modeling Erlang in the
+    π–Calculus](https://research.cs.queensu.ca/home/cordy/Papers/CC_ErlangPi_CSER06.pdf)
+    by Chanchal K. Roy and James R. Cordy
+
+  - 2006: [A Transit Telephony Exchange Simulator Implemented in
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=7de9da720a7f3f1b36b484a5cf34d2a07679cd93)
+    by Malin Pihl
+
+  - 2006: [Dryverl: a Flexible Erlang/C Binding
+    Compiler∗](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6c2b743302d368520261441564ae54e63c77ad36)
+    by Romain Lenglet Shigeru Chiba
+
+  - 2006: [Abstraction and Model Checking of Core Erlang Programs in
+    Maude](https://www.researchgate.net/profile/Traian-Serbanuta/publication/32964580_A_Rewrite_Framework_for_Language_Definitions_and_for_Generation_of_Efficient_Interpreters/links/53e8fa620cf2dc24b3c7e4ad/A-Rewrite-Framework-for-Language-Definitions-and-for-Generation-of-Efficient-Interpreters.pdf#page=118)
+    by Martin Neuhäußer and Thomas Noll
+
+  - 2006: [Concurrent
+    caching](https://dl.acm.org/doi/abs/10.1145/1159789.1159797) by
+    Jay Nelson
+
+  - 2006: [From HTTP to HTML: Erlang/OTP experiences in web based
+    service
+    applications](https://dl.acm.org/doi/abs/10.1145/1159789.1159801)
+    by Francesco Cesarini , Lukas Larsson and Michal Ślaski
+
+  - 2006: [Towards automatic verification of Erlang programs by
+    π-calculus translation]() by Chanchal Kumar Roy, Thomas Noll ,
+    Banani Roy and James R. Cordy
+
+  - 2006: [Comparing C++ and ERLANG for motorola telecoms
+    software](https://dl.acm.org/doi/abs/10.1145/1159789.1159800) by
+    Phil Trinder
+
+  - 2006: [Dryverl: a flexible Erlang/C binding
+    compiler](https://dl.acm.org/doi/abs/10.1145/1159789.1159796) by
+    Romain Lenglet and Shigeru Chiba
+
+  - 2006: [Testing telecoms software with quviq
+    QuickCheck](https://dl.acm.org/doi/abs/10.1145/1159789.1159792) by
+    Thomas Arts, John Hughes , Joakim Johansson and Ulf Wiger
+
+  - 2006: [Convergence in Language Design: A Case of Lightning
+    Striking Four Times in the Same
+    Place](https://link.springer.com/chapter/10.1007/11737414_2) by
+    Peter Van Roy
+
   - 2006: [Dryverl: a flexible Erlang/C binding
     compiler](https://dl.acm.org/doi/10.1145/1159789.1159796) by
     Romain Lenglet and Shigeru Chiba
@@ -6345,8 +6654,9 @@ communities to install/package it*
     Scheme](https://link.springer.com/chapter/10.1007/BFb0056622) by
     Marc Feeley and Martin Larose
 
-  - 2006: [Testing telecoms software with quviq QuickCheck](https://dl.acm.org/doi/10.1145/1159789.1159792) by Thomas Arts
-    , John Hughes , Joakim Johansson and Ulf Wiger
+  - 2006: [Testing telecoms software with quviq
+    QuickCheck](https://dl.acm.org/doi/10.1145/1159789.1159792) by
+    Thomas Arts , John Hughes , Joakim Johansson and Ulf Wiger
 
   - 2005: [TypEr: a type annotator of Erlang
     code](https://dl.acm.org/doi/abs/10.1145/1088361.1088366) by
