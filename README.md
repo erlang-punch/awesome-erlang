@@ -6045,6 +6045,218 @@ communities to install/package it*
     Concurrency](https://arxiv.org/abs/1303.2201) by Emanuele
     D'Osualdo, Jonathan Kochems and C.-H. Luke Ong
 
+  - 2012: [The Design of Scalable Distributed
+    Erlang](https://ora.ox.ac.uk/objects/uuid:12ca7772-dd28-4f86-8a0e-7bb1b0f02af5/download_file?file_format=application%2Fpdf&safe_filename=CS-RR-12-06.pdf&type_of_work=Report)
+    by Natalia Chechina1 , Phil Trinder1 , Amir Ghaﬀari1 , Rickard
+    Green2 , Kenneth Lundin2 , and Robert Virding3
+
+  - 2012: [Go, F# and
+    Erlang](https://www.csc.kth.se/utbildning/kth/kurser/DD143X/dkand12/Group6Alexander/final/Anders_Jarleberg_Kim_Nilsson.report.pdf)
+    by Anders Järleberg and Kim Nilsson
+
+  - 2012: [DRAKON-Erlang: Visual Functional
+    Programming](http://drakon.su/_media/drakon-erlang.pdf) by Stepan
+    Mitkin
+
+  - 2012: [Architecture of an Erlang-Based Learning System for Mobile
+    Robot
+    Control](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=58832a1bd91815f58d79832d40fae0c857dfc1fe#page=53)
+    Łukasz B˛eben and Bartłomiej Śnieżyński and Wojciech Turek and
+    Krzysztof Cetnarowicz
+
+  - 2012: [Erlang as an implementation platform for BDI
+    languages](https://dl.acm.org/doi/abs/10.1145/2364489.2364491) by
+    Álvaro Fernández Díaz, Clara Benac Earle and Lars-Åke Fredlund
+
+  - 2012: [The Nitrogen Erlang Web
+    Framework](https://ieeexplore.ieee.org/abstract/document/6355553)
+    by Steve Vinoski
+
+  - 2012: [ooErlang: another object oriented extension to
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2364489.2364502) by
+    Jucimar Maia Silva and Rafael Dueire Lins
+
+  - 2012: [Towards a formalisation of Erlang failure and failure
+    detection](https://www.um.edu.mt/library/oar/handle/123456789/23269)
+    by Farrugia, Audrianne and Francalanza, Adrian
+
+  - 2012: [Erlang-based sensor network management for heterogeneous
+    devices](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-article-AGH1-0031-0010)
+    by Nieć M. , Pikuła P. , Mamla A. and Turek W.
+
+  - 2012: [Supporting cloud computing using Erlang Programming
+    Language](https://ieeexplore.ieee.org/abstract/document/6419488)
+    by Abd El-Fattah Hussein and Osman Ibrahim
+
+  - 2012: [Soter: an automatic safety verifier for
+    erlang](https://dl.acm.org/doi/abs/10.1145/2414639.2414658) by
+    Emanuele D'Osualdo, Jonathan Kochems and Luke Ong
+
+  - 2012: [Parallel discrete event simulation with
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2364474.2364487) by
+    Luca Toscano, Gabriele D'Angelo and Moreno Marzolla
+
+  - 2012: [On Using Erlang for
+    Parallelization](https://link.springer.com/chapter/10.1007/978-3-642-40447-4_19)
+    by Stavros Aronis and Konstantinos Sagonas
+
+  - 2012: [Concurrency and Message Passing in
+    Erlang](https://ieeexplore.ieee.org/abstract/document/6216341) by
+    Steve Vinoski
+
+  - 2012: [On preserving term sharing in the Erlang virtual
+    machine](https://dl.acm.org/doi/abs/10.1145/2364489.2364493) by
+    Nikolaos Papaspyrou and Konstantinos Sagonas
+
+  - 2012: [Automated API migration in a user-extensible refactoring
+    tool for Erlang
+    programs](https://dl.acm.org/doi/abs/10.1145/2351676.2351727) by
+    Huiqing Li and Simon Thompson
+
+  - 2012: [A Domain-Specific Language for Scripting Refactorings in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-28872-2_34)
+    by Huiqing Li and Simon Thompson
+
+  - 2012: [System Dependence Graphs in Sequential
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-28872-2_33)
+    by Josep Silva, Salvador Tamarit and César Tomás
+
+  - 2012: [Drop the phone and talk to the physical world: Programming
+    the internet of things with
+    Erlang](https://ieeexplore.ieee.org/abstract/document/6225763) by
+    Alessandro Sivieri, Luca Mottola and Gianpaolo Cugola
+
+  - 2012: [Elarva: A Monitoring Tool for
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-29860-8_29)
+    by Christian Colombo, Adrian Francalanza and Rudolph Gatt
+
+  - 2012: [Creating the Conveyerl visualisation tool for Erlang
+    programs](https://chschulte.github.io/teaching/theses/TRITA-ICT-EX-2012:142.pdf)
+    Johan Tjelldén and Erik Ylipää
+
+  - 2012: [Towards a specification-based correctness of Erlang systems
+    through asynchronous
+    monitoring](https://www.um.edu.mt/library/oar/handle/123456789/23411)
+    by Colombo, Christian and Francalanza, Adrian
+
+  - 2012: [Designing correct runtime-monitors for
+    Erlang](https://www.um.edu.mt/library/oar/handle/123456789/23049)
+    by Seychell, Aldrin and Francalanza, Adrian
+
+  - 2012: [A Management Oriented Service Delivering model utilizing
+    Hot Code Swapping function provided by
+    Erlang](https://ken.ieice.org/ken/paper/20120120Q0mN/eng/) by
+    Toshiaki Nishida and Yukio Rikiso
+
+  - 2012: [Implementing robust workflow management in
+    Erlang](https://www.tandfonline.com/doi/abs/10.1080/17445760.2012.661859)
+    by Bill Karakostas
+
+  - 2012: [Co-ops: concurrent algorithmic skeletons for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2364489.2364500) by Jay
+    Nelson
+
+  - 2012: [An Extension to Computing Elements in Erlang for Actor
+    Based Concurrent
+    Programming](https://ieeexplore.ieee.org/abstract/document/6196109)
+    by Kang Lianghuan and Cao Donggang
+
+  - 2012: [Multiplayer Game Server for Turn-Based Mobile Games in
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A641311&dswid=2229)
+    by Andersson, Anders
+
+  - 2012: [Providing a web view for monitoring Erlang
+    systems](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A513799&dswid=-2304)
+    by Nordenmark, Nicklas
+
+  - 2012: [Monitoring as an instance of behaviour in
+    Erlang](https://www.um.edu.mt/library/oar/handle/123456789/94933)
+    by Spiteri, Elise Ann
+
+  - 2012: [Implementing code on demand using
+    Erlang](https://www.um.edu.mt/library/oar/handle/123456789/93389)
+    by Cutajar, Brendan
+
+  - 2012: [Erlang meets WSNs: A functional approach to WSN
+    programming](https://ieeexplore.ieee.org/abstract/document/6197575)
+    by Alessandro Sivieri
+
+  - 2012: [Towards Automatic Actor Pinning on Multi-Core
+    Architectures](https://dl.acm.org/doi/abs/10.1145/2364489.2364501)
+    by Emilio Francesquini, Alfredo Goldman and Jean-François Méhaut
+
+  - 2012: [Distributed computation on dynamo-style distributed
+    storage: riak
+    pipe](https://dl.acm.org/doi/abs/10.1145/2364489.2364497) by Bryan
+    Fink
+
+  - 2012: [Supporting the personal
+    cloud](https://ieeexplore.ieee.org/abstract/document/6486506) by
+    Ashik Kazi, Rahnuma Kazi and Ralph Deters
+
+  - 2012: [Wriaki, a Webmachine
+    Application](https://ieeexplore.ieee.org/abstract/document/6123705)
+    by Steve Vinoski
+
+  - 2012: [Counter example shrinking for
+    ELARVA](https://www.um.edu.mt/library/oar/handle/123456789/94096)
+    by Grima, Ian
+
+  - 2012: [A Tool for Testing Data Type Implementations from Maude
+    Algebraic
+    Specifications](https://www.sciencedirect.com/science/article/pii/S1571066111001952)
+    by Adrián Riesco and Isabel Pita
+
+  - 2012: [Language extension proposals for cloud-based
+    computing](https://www.um.edu.mt/library/oar/handle/123456789/23042)
+    by Francalanza, Adrian
+
+  - 2012: [Actor
+    idioms](https://dl.acm.org/doi/abs/10.1145/2414639.2414655) by
+    Dale Schumacher
+
+  - 2012: [Server-Sent Events with
+    Yaws](https://ieeexplore.ieee.org/abstract/document/6319310) by
+    Steve Vinoski
+
+  - 2012: [Let's make refactoring tools
+    user-extensible!](https://dl.acm.org/doi/abs/10.1145/2328876.2328881)
+    by Huiqing Li and Simon Thompson
+
+  - 2012: [Synchronous and asynchronous monitoring in
+    Elarva](https://www.um.edu.mt/library/oar/handle/123456789/91546)
+    by Calleja, Justin
+
+  - 2012: [Modular fault handling in a network-transparent programming
+    language](https://ieeexplore.ieee.org/abstract/document/6226592)
+    by Géry Debongnie, Raphaël Collet, Sébastien Doeraene and Peter
+    Van Roy
+
+  - 2012: [Performance benchmarking using real world
+    applications](https://chschulte.github.io/teaching/theses/TRITA-ICT-EX-2012:144.pdf)
+    by MATTIAS JANSSON and KARL JOHANSSON
+
+  - 2012: [SOPHRA: A Mobile Web Services Hosting Infrastructure in
+    mHealth](https://ieeexplore.ieee.org/abstract/document/6263814) by
+    Richard K. Lomotey, Shomoyita Jamal and Ralph Deters
+
+  - 2012: [Simplifying Contract-Violating
+    Traces](https://arxiv.org/abs/1209.2681) by Christian Colombo,
+    Adrian Francalanza and Ian Grima
+
+  - 2012: [ContextErlang: introducing context-oriented programming in
+    the actor
+    model](https://dl.acm.org/doi/abs/10.1145/2162049.2162072) by
+    Guido Salvaneschi, Carlo Ghezzi and Matteo Pradella
+
+  - 2012: [A Peer-To-Peer based chat
+    system](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A524732&dswid=-9526)
+    by Mattsson, Tommy
+
+  - 2012: [Using Behaviour Inference to Optimise Regression Test
+    Sets](https://link.springer.com/chapter/10.1007/978-3-642-34691-0_14)
+    by Ramsay Taylor, Mathew Hall, Kirill Bogdanov and John Derrick
+
   - 2012: [TinyMT pseudo random number generator for
     Erlang](https://dl.acm.org/doi/10.1145/2364489.2364504) by Kenji
     Rikitake
@@ -6248,8 +6460,8 @@ communities to install/package it*
     by Colombo, Joseph
 
   - 2011: [Using QuickCheck to verify Erlang implementation of
-    GTPv2](Using QuickCheck to verify Erlang implementation of GTPv2)
-    by Emilsson, Johan
+    GTPv2](https://odr.chalmers.se/handle/20.500.12380/155659) by
+    Emilsson, Johan
 
   - 2011: [Testing Erlang Concurrency with
     QuickCheck](https://odr.chalmers.se/items/3f0faea8-bd88-4b0c-a15e-d6ccf857ba2d)
@@ -6907,7 +7119,7 @@ communities to install/package it*
   - 2009: [On Language Support for Application
     Scalability](http://patrickbader.eu/wp-content/uploads/2009/11/On-Language-Support-for-Application-Scalability.pdf)
     by Patrick Bader
- 
+
   - 2009: [Teaching Erlang using robotics and
     player/stage](https://dl.acm.org/doi/10.1145/1596600.1596606) by
     Sten Grüner and Thomas Lorentsen
@@ -7100,7 +7312,7 @@ communities to install/package it*
   - 2007: [Reliability with
     Erlang](https://ieeexplore.ieee.org/abstract/document/4376232) by
     Steve Vinoski
-  
+
   - 2007: [Refactoring in Erlang, a Dynamic Functional
     Language∗](https://depositonce.tu-berlin.de/bitstreams/bd124e14-7bbb-48d4-b758-d9c48947e36d/download#page=53)
     by László Lövei, Zoltán Horváth, Tamás Kozsik, Roland Király,
