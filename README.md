@@ -6092,6 +6092,247 @@ communities to install/package it*
     Erlang](https://arxiv.org/abs/1206.2775) by Luca Toscano, Gabriele
     D'Angelo and Moreno Marzolla
 
+  - 2011: [Static Analysis of Complex Software Systems Implemented in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-32096-5_9)
+    by Melinda Tóth and István Bozó
+
+  - 2011: [A User-extensible Refactoring Tool for Erlang
+    Programs](https://kar.kent.ac.uk/30720/) by Li, Huiqing and
+    Thompson, Simon
+
+  - 2011: [Characterizing the Scalability of Erlang VM on Many-core
+    Processors](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A392243&dswid=5435)
+    by Zhang, Jianrong
+
+  - 2011: [STATIC ANALYSIS BASED SUPPORT FOR PROGRAM COMPREHENSION IN
+    ERLANG](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b6012878af60385106aa7685eb8610c67d29088c)
+    by Melinda TÓTH, István BOZÓ, Judit KŐSZEGI, Zoltán HORVÁTH
+
+  - 2011: [Static Detection of Deadlocks in
+    Erlang](https://mariachris.github.io/Pubs/TFP-2011.pdf) by Maria
+    Christakis1 and Konstantinos Sagonas
+
+  - 2011: [A Generalized Parallel Genetic Algorithm in
+    Erlang](https://www.academia.edu/download/39141213/546f6c5c0cf24af340c08b8d.pdf)
+    by Amanda Bienz, Kossi Fokle, Zachary Keller, Ed Zulkoski and
+    Scott Thede
+
+  - 2011: [AN ERLANG-BASED FRONT END FRAMEWORK FOR ACCELERATOR
+    CONTROLS](https://accelconf.web.cern.ch/icalepcs2011/papers/thdaust02.pdf)
+    by Dennis J. Nicklaus, Charlie Briegel, Jerry Firebaugh, Charlie
+    King, Richard Neswold, Ron Rechenmacher and Jianming You
+
+  - 2011: [How Erlang views the world and what we have learned in the
+    last 25 years of programming distributed
+    systems](http://ctp.di.fct.unl.pt/~aravara/pubs/editor/Foclasa_2011_Proceedings.pdf#page=6)
+    by Joe Armstrong
+
+  - 2011: [Computational REST Meets
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-21952-8_18)
+    by Alessandro Sivieri, Gianpaolo Cugola and Carlo Ghezzi
+
+  - 2011: [Analyzing Performance of Multicore Applications in
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A414372&dswid=3390)
+    by Nevelsteen, Kim
+
+  - 2011: [Formally based tool support for model checking Erlang
+    applications](https://link.springer.com/article/10.1007/s10009-010-0179-1)
+    by Qiang Guo and John Derrick
+
+  - 2011: [Further Development of BitTorrent Simulator in
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A428138&dswid=6488)
+    by Jacksi, Karwan
+
+  - 2011: [SFMT pseudo random number generator for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2034654.2034669) by
+    Kenji Rikitake
+
+  - 2011: [A security model for functional active objects with an
+    implementation in Erlang](https://eprints.mdx.ac.uk/7447/) by
+    Fleck, Andreas and Kammueller, Florian
+
+  - 2011: [Implementation of sequence BDDs in
+   Erlang](https://dl.acm.org/doi/abs/10.1145/2034654.2034672) by
+   Shuhei Denzumi , Hiroki Arimura and Shin-ichi Minato
+
+  - 2011: [Erlang ETS tables and software transactional memory: how
+    transactions make ETS tables more like ordinary
+    actors](https://dl.acm.org/doi/abs/10.1145/2034654.2034658) by
+    Patrik Nyblom
+
+  - 2011: [Selecting Erlang Test Cases Using Impact
+    Analysis](https://pubs.aip.org/aip/acp/article-abstract/1389/1/802/802930/Selecting-Erlang-Test-Cases-Using-Impact-Analysis)
+    by István Bozó and Melinda Tóth
+
+  - 2011: [Development of an Erlang System Adaopted to Embedded
+    Devices](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A431592&dswid=-8769)
+    by Andersson, Fredrik and Bergström, Fabian
+
+  - 2011: [Building dependency graph for slicing erlang
+    programs](https://pp.bme.hu/ee/article/view/2127) by Melinda Tóth
+    and István Bozó
+
+  - 2011: [Teaching concurrency-oriented programming with
+    Erlang](https://dl.acm.org/doi/abs/10.1145/1953163.1953223) by
+    Ariel Ortiz
+
+  - 2011: [Process Bottlenecks within Erlang Web
+    Applications](https://ieeexplore.ieee.org/abstract/document/5731593)
+    by Steve Vinoski
+
+  - 2011: [Adding Special-purpose Processor Support to the Erlang
+    VM](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A428121&dswid=-2358)
+    by Ferm, Christofer
+
+  - 2011: [ComputErl – Erlang-Based Framework for Many Task
+    Computing](https://link.springer.com/chapter/10.1007/978-3-642-22941-1_12)
+    by Michał Ptaszek and Maciej Malawski
+
+  - 2011: [Embedded Erlang
+    Simulation](https://www.researchgate.net/profile/Hans-Svensson-2/publication/260319152_Embedded_Erlang_Simulation/links/555b011208ae6943a877f5a1/Embedded-Erlang-Simulation.pdf)
+    by Rickard Olsson & Reza Javaheri
+
+  - 2011: [Towards a System Dependence Graph for
+    Erlang](https://lbd.udc.es/jornadas2011/actas/PROLE/PROLE/TPF/02_article.pdf)
+    by Josep Silva, Salvador Tamarit and César Tomás
+
+  - 2011: [Analysing Erlang BEAM
+    ﬁles](https://www.researchgate.net/profile/Heba-Mohsen-2/publication/323556918_Comparative_Study_of_Intelligent_Classification_Techniques_for_Brain_Magnetic_Resonance_Imaging/links/5a9d4480a6fdcc3cbacdf21b/Comparative-Study-of-Intelligent-Classification-Techniques-for-Brain-Magnetic-Resonance-Imaging.pdf#page=91)
+    by Mátyás Karácsonyi and Melinda Tóth
+
+  - 2011: [Research and Implementation of Lobby System in
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A431573&dswid=-4549)
+    by Dorofeev, Yury, Tuladhar, Wilson and Zhu, Yeli
+
+  - 2011: [ERLANG – CONCURRENT PROGRAMMING
+    LANGUAGE](http://dspace.cusat.ac.in/jspui/handle/123456789/3196)
+    by Sreejesh V. K.
+
+  - 2011: [A PropEr integration of types and function specifications
+    with property-based
+    testing](https://dl.acm.org/doi/abs/10.1145/2034654.2034663) by
+    Manolis Papadakis and Konstantinos Sagonas
+
+  - 2011: [A Domain-Specific Language for Scripting Refactorings in
+    Erlang](https://kar.kent.ac.uk/30722/) by Li, Huiqing and
+    Thompson, Simon
+
+  - 2011: [Event Calculus for Reasoning about Erlang
+    Systems](https://ieeexplore.ieee.org/abstract/document/6118986) by
+    Manuel Hernandez
+
+  - 2011: [Towards Formalising Erlang Failure and Failure
+    Detection](http://staff.um.edu.mt/afra1/teaching/audrianne.pdf) by
+    Audrianne Farrugia
+
+  - 2011: [Application of Web Server Benchmark using Erlang/OTP R11
+    and
+    Linux](https://www.academia.edu/download/37618808/Research_Journal_Computer_Science_Full_Volume_9_No_1_IJCSIS__January_2011.pdf#page=37)
+    by A. Suhendra1, A.B. Mutiara
+
+  - 2011: [Test-driven development of concurrent programs using
+    concuerror](https://dl.acm.org/doi/abs/10.1145/2034654.2034664) by
+    Alkis Gotovos, Maria Christakis and Konstantinos Sagonas
+
+  - 2011: [GUI for Mail-merge using Erlang and
+    Erlguten](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A431586&dswid=9842)
+    by Yuan, Zhiqian
+
+  - 2011: [Improving FSM reverse engineering for test development in
+    Erlang](https://odr.chalmers.se/items/89a59c66-b1af-473e-a938-227423a605e3)
+    by Lamela Seijas, Pablo
+
+  - 2011: [Mapping channel-based message passing to mailbox message
+    passing in
+    Erlang](https://www.um.edu.mt/library/oar/handle/123456789/94528)
+    by Colombo, Joseph
+
+  - 2011: [Using QuickCheck to verify Erlang implementation of
+    GTPv2](Using QuickCheck to verify Erlang implementation of GTPv2)
+    by Emilsson, Johan
+
+  - 2011: [Testing Erlang Concurrency with
+    QuickCheck](https://odr.chalmers.se/items/3f0faea8-bd88-4b0c-a15e-d6ccf857ba2d)
+    by Cao, Zichen
+
+  - 2011: [Testing a database for race conditions with
+    QuickCheck](https://dl.acm.org/doi/abs/10.1145/2034654.2034667) by
+    John M. Hughes and Hans Bolinder
+
+  - 2011: [Yaws: Yet Another Web
+    Server](https://ieeexplore.ieee.org/abstract/document/5934858) by
+    Steve Vinoski
+
+  - 2011: [Extracting Properties from Test Cases by
+    Refactoring](https://ieeexplore.ieee.org/abstract/document/5954450)
+    by Huiqing Li, Simon Thompson and Thomas Arts
+
+  - 2011: [Extracting QuickCheck specifications from EUnit test
+    cases](https://dl.acm.org/doi/abs/10.1145/2034654.2034666) by
+    Thomas Arts, Pablo Lamela Seijas and Simon Thompson
+
+  - 2011: [Accelerating race condition detection through
+    procrastination](https://dl.acm.org/doi/abs/10.1145/2034654.2034659)
+    by Thomas Arts , John Hughes , Ulf Norell , Nicholas Smallbone and
+    Hans Svensson
+
+  - 2011: [The Design of Scalable Distributed
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e77f2fb07fabd149c20ffd2c41b978deabd5b2cb#page=204)
+    Natalia Chechina1 , Phil Trinder1 , Amir Ghaﬀari1 , Rickard Green2
+    , Kenneth Lundin2 , and Robert Virding
+
+  - 2011: [Detecting Process Relationships in Erlang
+    Programs](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e77f2fb07fabd149c20ffd2c41b978deabd5b2cb#page=204)
+    by Melinda Tóth and István Bozó
+
+  - 2011: [Skew Generic Test Data
+    Generation](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e77f2fb07fabd149c20ffd2c41b978deabd5b2cb#page=204)
+    by Pieter Koopman and Rinus Plasmeijer
+
+  - 2011: [The Quintessential Neural Network Programming
+    Language](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e77f2fb07fabd149c20ffd2c41b978deabd5b2cb#page=204)
+    by Gene I. Sher
+
+  - 2011: [Theory and Application of Multithreading The Actor
+    Model](http://people.eecs.berkeley.edu/~marten/pdf/tamt.pdf) by
+    H.M.F. Lohstroh
+
+  - 2011: [Evaluation of RDBMS for use at
+    Klarna](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A404320&dswid=5101)
+    by Chen, Xiaoyu
+
+  - 2011: [Model-based testing of data types with side
+    effects](https://dl.acm.org/doi/abs/10.1145/2034654.2034662) by
+    Thomas Arts and Laura M. Castro
+
+  - 2011: [FLOW: Implementation and Formal Analysis of a Framework for
+    Parallel and Distributed
+    Computing](https://iris.unica.it/handle/11584/74385) by SCALAS,
+    ALCESTE;
+
+  - 2011: [Interfacing dynamically typed languages and the why tool:
+    reasoning about lists and
+    tuples](https://dl.acm.org/doi/abs/10.1145/2034654.2034673) by
+    Cláudio Amaral, Mário Florido and Patrik Jansson
+
+  - 2011: [Elarva : runtime verification for message passing
+    concurrency](https://www.um.edu.mt/library/oar/handle/123456789/92506)
+    by Gatt, Rudolph
+
+  - 2011: [Typed callbacks for more robust
+    behaviours](https://dl.acm.org/doi/abs/10.1145/2034654.2034660) by
+    Stavros Aronis and Konstantinos Sagonas
+
+  - 2011: [Detection of Asynchronous Message Passing Errors Using
+    Static
+    Analysis](https://link.springer.com/chapter/10.1007/978-3-642-18378-2_3)
+    by Maria Christakis and Konstantinos Sagonas
+
+  - 2011: [RabbitMQ Performance and Scalability
+    Analysis](https://people.cs.vt.edu/butta/cs4284/spring2011/butta/RabbitMQPaper.pdf)
+    by Brett Jones, Scott Luxenberg, David McGrath, Paul Trampert, and
+    Jonathon Weldon
+
   - 2011: [Session Typing for a Featherweight
     Erlang](https://hal.science/hal-01582995v1) by Dimitris Mostrous
     and Vasco T. Vasconcelos
@@ -6104,6 +6345,94 @@ communities to install/package it*
   - 2011: [Extracting QuickCheck specifications from EUnit test
     cases](https://dl.acm.org/doi/10.1145/2034654.2034666)
     by Thomas Arts , Pablo Lamela Seijas and Simon Thompson
+
+  - 2011: [Multicore OSes: Looking Forward from 1991, er,
+    2011](https://www.usenix.org/events/hotos11/tech/final_files/Holland.pdf)
+    by David A. Holland and Margo I. Seltzer
+
+  - 2011: [Typing and Subtyping for the Termination of Mobile
+    Processes](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6ebdf7dea98813192bf9dfcc406a0163454efc19)
+    by Ioana Cristescu
+
+  - 2011: [USING IMPACT ANALYSIS BASED KNOWLEDGE FOR VALIDATING
+    REFACTORING
+    STEPS](https://www.academia.edu/download/39738372/Average_bandwidth_reduction_n_sparse_mat20151105-25087-1yqttbb.pdf#page=58)
+    ISTVÁN BOZÓ, MELINDA TÓTH, MÁTÉ TEJFEL, DÁNIEL HORPÁCSI, RÓBERT
+    KITLEI, JUDIT KŐSZEGI, AND ZOLTÁN HORVÁTH
+
+  - 2011: [Paraphrasing: Generating Parallel Programs Using
+    Refactoring](https://link.springer.com/chapter/10.1007/978-3-642-35887-6_13)
+    by Christopher Brown, Kevin Hammond, Marco Danelutto, Peter
+    Kilpatrick, Holger Schöner and Tino Breddin
+
+  - 2011: [Multicore SIP parsing with imperative and declarative
+    implementations](https://ieeexplore.ieee.org/abstract/document/6064391)
+    by I. Skulibern, V. Jankovic and R. Zec
+
+  - 2011: [ECOTRUCK: An Agent System for Paper
+    Recycling](https://link.springer.com/chapter/10.1007/978-3-642-23960-1_37)
+    by Nikolaos Bezirgiannis and Ilias Sakellariou
+
+  - 2011: [TIMED REBECA: REFINEMENT AND
+    SIMULATION](https://www.ru.is/media/skjol-td/timedRebecaRefinement.pdf)
+    by Árni Hermann Reynisson
+
+  - 2011: [Commercial Users of Functional Programming Workshop
+    Report](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=7de0ca43fac5d33d4318789f8cdb3945c8c62091)
+    by ANIL MADHAVAPEDDY, YARON MINSKY and MARIUS ERIKSEN
+
+  - 2011: [Active Exploit
+    Detection](https://media.blackhat.com/bh-dc-11/Eisenbarth/BlackHat_DC_2011_Eisenbarth_Active_Exploit-wp.pdf)
+    by Marc Eisenbarth
+
+  - 2011: [Metrics based optimization of functional source
+    code](http://publikacio.uni-eszterhazy.hu/2742/1/AMI_2011_38.pdf#page=61)
+    by Roland Király and Róbert Kitlei
+
+  - 2011: [Using a Cloud-Hosted Proxy to support Mobile Consumers of
+    RESTful
+    Services](https://www.sciencedirect.com/science/article/pii/S1877050911004066)
+    by Shomoyita Jamal, Ralph Deters
+
+  - 2011: [Practical Many-Core
+    Programming](https://link.springer.com/chapter/10.1007/978-1-4419-9739-5_9)
+    by András Vajda
+
+  - 2011: [Social-data
+    storage-systems](https://dl.acm.org/doi/abs/10.1145/1996413.1996415)
+    by Nicolas Ruflin, Helmar Burkhart and Sven Rizzotti
+
+  - 2011: [Web and Database
+    Systems](https://link.springer.com/chapter/10.1007/978-1-4419-7719-9_20)
+    by Sandeep Koranne
+
+  - 2011: [Optimizing Database Queries with Materialized Views and
+    Data Mining
+    Models](https://link.springer.com/chapter/10.1007/978-3-642-27157-1_2)
+    by Nittaya Kerdprasop and Kittisak Kerdprasop
+
+  - 2011: [Formally specifying and analyzing a parallel virtual
+    machine for lazy functional languages using
+    Maude](https://dl.acm.org/doi/abs/10.1145/2034751.2034758) by
+    Georgios Fourtounis, Peter Csaba Ölveczky and Nikolaos Papaspyrou
+
+  - 2011: [Programming for Distributed Computing: From Physical to
+    Logical
+    Networks](https://link.springer.com/chapter/10.1007/978-1-4614-1168-0_9)
+    by Christian Scheideler and Kalman Graffi
+
+  - 2011: [Study and Prototyping the New Bank GUI for
+    Klarna](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A428012&dswid=2289)
+    by Rennerskog, Christian and Widgren, Daniel
+
+  - 2011: [Methods of Graphically Viewing and Editing Busines Logic,
+    Data
+    Structure](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A398626&dswid=2539)
+    by Gul, Shahzad
+
+  - 2011: [Comparison of MapReduce
+    implementations](https://research.rug.nl/files/13139832/studcol2011.pdf#page=62)
+    by René Zuidhof & Jos van der Til
 
   - 2011: [Incremental clone detection and elimination for erlang
     programs](https://link.springer.com/chapter/10.1007/978-3-642-19811-3_25)
@@ -7608,7 +7937,7 @@ communities to install/package it*
     Overview](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=49833683f76cd0ec83148acacf01c2cdcd3369b3)
     by Dan Sahlin
 
-  - 1996: [A De nition of Erlang
+  - 1996: [A Definition of Erlang
     (DRAFT)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=257c36b89b0ad67e9cf6d1488c325d5dea42fd2b)
     by Mikael Pettersson
 
