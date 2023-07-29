@@ -5984,6 +5984,333 @@ communities to install/package it*
     Erlang](https://www.academia.edu/7484815/Investigating_the_Scalability_Limits_of_Distributed_Erlang)
     by Amir Ghaffari
 
+  - 2013:Towards Erlang Verification by Term
+    Rewriting](https://link.springer.com/chapter/10.1007/978-3-319-14125-1_7)
+    by Germán Vidal
+
+  - 2013: [Development of a cyber-physical system for mobile robot
+    control using
+    Erlang](https://ieeexplore.ieee.org/abstract/document/6644206) by
+    Szymon Szomiński, Konrad Gądek, Michal Konarski, Bogna Błaszczyk,
+    Piotr Anielski and Wojciech Turek
+
+  - 2013: [Automatic Verification of Erlang-Style
+    Concurrency](https://link.springer.com/chapter/10.1007/978-3-642-38856-9_24)
+    by Emanuele D’Osualdo, Jonathan Kochems and C. -H. Luke Ong
+
+  - 2013: [Systematic Testing for Detecting Concurrency Errors in
+    Erlang
+    Programs](https://ieeexplore.ieee.org/abstract/document/6569727)
+    by Maria Christakis, Alkis Gotovos and Konstantinos Sagonas
+
+  - 2013: [eJason: An Implementation of Jason in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-642-38700-5_1)
+    by Álvaro Fernández Díaz, Clara Benac Earle and Lars-Åke Fredlund
+
+  - 2013: [Multi-level Visualization of Concurrent and Distributed
+    Computation in
+    Erlang](https://kar.kent.ac.uk/34968/1/concurrentDistributedErlang.pdf)
+    Robert BakerPeter RodgersSimon ThompsonHuiqing Li
+
+  - 2013: [A Declarative Debugger for Concurrent Erlang Programs
+    (extended
+    version)∗](https://maude.ucm.es/~adrian/files/conc_cal_tr.pdf)
+    Rafael Caballero, Enrique Martin-Martin, Adrián Riesco, and
+    Salvador Tamarit
+
+  - 2013: [Reduction of regression tests for Erlang based on impact
+    analysis](http://www.cs.ru.nl/P.Achten/IFL2013/symposium_proceedings_IFL2013/ifl2013_submission_11.pdf)
+    by István Bozó, Melinda Tóth and Zoltán Horváth
+
+  - 2013: [COMPARING THE PERFORMANCE OF JAVA, ERLANG AND SCALA IN WEB
+    2.0
+    APPLICATIONS](https://www.academia.edu/download/42817512/COMPARING_THE_PERFORMANCE_OF_JAVA_ERLANG20160218-991-d6bstf.pdf)
+    Jucimar Maia da Silva Jr., Rafael Dueire Lins andLanier Menezes
+    dos Santos
+
+  - 2013: [Static analysis of function calls in Erlang. Refining the
+    static function call graph with dynamic call information by using
+    data-flow
+    analysis](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-42380c42-c6f8-48b5-b9bb-5641d311afe8)
+    by Horpácsi D. and Koszegi J.
+    
+  - 2013: [Software agents mobility using process migration mechanism
+    in distributed
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2505305.2505312) by
+    Michał Piotrowski and Wojciech Turek
+
+  - 2013: [Supercompiling
+    Erlang](https://odr.chalmers.se/items/b6ce2714-05a5-4c36-94f5-079a50efbfaf)
+    by WEINHOLT, GÖRAN
+
+  - 2013: [Using many-core coprocessor to boost up Erlang
+    VM](https://dl.acm.org/doi/abs/10.1145/2505305.2505307) by Siyao
+    Zheng , Xiang Long and Jingwei Yang
+
+  - 2013: [Code management automation for Erlang remote
+    actors](https://dl.acm.org/doi/abs/10.1145/2541329.2541344) by
+    Adrian Francalanza and Tyron Zerafa
+
+  - 2013: [The Erlang approach to concurrent system
+    development](https://ieeexplore.ieee.org/abstract/document/6684776)
+    by Michael J. Lutz
+
+  - 2013: [Automatic Inference of Erlang Module
+    Behaviour](https://link.springer.com/chapter/10.1007/978-3-642-38613-8_18)
+    by Ramsay Taylor, Kirill Bogdanov and John Derrick
+
+  - 2013: [Adapting evolutionary algorithms to the concurrent
+    functional language
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2464576.2480782) by
+    J. Albert Cruz, Juan-Julián Merelo Guervós , Antonio M. Mora
+    García and Paloma de las Cuevas
+
+  - 2013: [A language-independent approach to black-box testing using
+    Erlang as test specification
+    language](https://www.sciencedirect.com/science/article/abs/pii/S0164121213001714)
+    by Laura M Castro and Miguel A Francisco
+
+  - 2013: [A Declarative Debugger for Sequential Erlang
+    Programs](https://link.springer.com/chapter/10.1007/978-3-642-38916-0_6)
+    by Rafael Caballero, Enrique Martin-Martin, Adrián Riesco and
+    Salvador Tamarit
+
+  - 2013: [Synthesising Correct Concurrent Runtime Monitors in
+    Erlang](https://www.academia.edu/download/78262384/shml-correct.pdf)
+    by Adrian Francalanza and Aldrin Seychell
+
+  - 2013: [Concurrent Data Mining and Genetic Computing Implemented
+    with Erlang
+    Language](https://www.researchgate.net/profile/Nittaya-Kerdprasop/publication/286072647_Concurrent_data_mining_and_genetic_computing_implemented_with_Erlang_language/links/5ab9fae8a6fdcc46d3ba385e/Concurrent-data-mining-and-genetic-computing-implemented-with-Erlang-language.pdf)
+    by Kittisak Kerdprasop and Nittaya Kerdprasop
+
+  - 2013: [Erlang-based software update platform for mobile
+    devices](https://www.infona.pl/resource/bwmeta1.element.baztech-bdf3ae12-19e9-4993-b4bd-35b1795679fd)
+    by Wielgus, M., Dąbek, P., Janusz, R., Kowal, T. and Turek, W.
+
+  - 2013: [ACSYS CAMERA IMPLEMENTATION UTILIZING AN ERLANG FRAMEWORK
+    TO C++
+    INTERFACE](https://accelconf.web.cern.ch/icalepcs2013/papers/thppc066.pdf)
+    by C. Briegel and J. Diamond, FNAL
+
+  - 2013: [A calculus for sequential Erlang
+    programs∗](http://maude.ucm.es/~adrian/files/seq_cal_tr.pdf) by
+    Rafael Caballero, Enrique Martin-Martin, Adrián Riesco, and
+    Salvador Tamarit
+
+  - 2013: [Modelling of the multi-agent systems through specific DEDS
+    methods and the Erlang functional
+    language](http://maude.ucm.es/~adrian/files/seq_cal_tr.pdf) by
+    EUGEN DIACONESCU and LUIGE VLADAREANU
+
+  - 2013: [A calculus for zoom debugging sequential Erlang
+    programs∗](http://maude.ucm.es/~adrian/files/seq_zoom_tr.pdf) by
+    Rafael Caballero, Enrique Martin-Martin, Adrián Riesco, and
+    Salvador Tamarit
+
+  - 2013: [A reliable SMPP implementation in
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9fe75591fab1baae694b12d735ae9bebe5efc334)
+    by Mikael Laaksonen
+
+  - 2013: [polyLarva plugin for
+    Erlang](http://www.cs.um.edu.mt/svrg/FYPs/polyLarva_Plugin_for_Erlang.pdf)
+    by Ivan Galea
+
+  - 2013: [ERLANG AND SCALA FOR AGENT
+    DEVELOPMENT](http://icit.zuj.edu.jo/icit13/Papers%20list/Camera_ready/Software%20Engineering/733_final.pdf)
+    by Dejan Mitrović, Mirjana Ivanović, Zoran Budimac
+
+  - 2013: [Agent-Based Modeling Using Erlang Eliminating The
+    Conceptual Gap Between The Programming Language &
+    ABM](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=239ee207f97233f3e28852fe43341aaaaf4bb2e7)
+    by Gene I. Sher
+
+  - 2013: [RELEASE: A High-Level Paradigm for Reliable Large-Scale
+    Server
+    Software](https://link.springer.com/chapter/10.1007/978-3-642-40447-4_17)
+    by Olivier Boudeville, Francesco Cesarini, Natalia Chechina,
+    Kenneth Lundin, Nikolaos Papaspyrou, Konstantinos Sagonas, Simon
+    Thompson, Phil Trinder and Ulf Wiger
+
+  - 2013: [Riak PG: distributed process groups on dynamo-style
+    distributed
+    storage](https://dl.acm.org/doi/abs/10.1145/2505305.2505309) by
+    Christopher Meiklejohn
+
+  - 2013: [Actor scheduling for multicore hierarchical memory
+    platforms](https://dl.acm.org/doi/abs/10.1145/2505305.2505313) by
+    Emilio Francesquini , Alfredo Goldman and Jean-François Méhaut
+
+  - 2013: [Equivalence proofs for Erlang
+    refactoring](https://www.um.edu.mt/library/oar/handle/123456789/23044)
+    by Tanti, Erica and Francalanza, Adrian
+
+  - 2013: [Task Tree Executor for Erlang Enabled
+    Multicores](https://www.ingentaconnect.com/contentone/asp/asl/2013/00000019/00000005/art00030)
+    by Popovic, Miroslav and Cetic, Nenad
+  
+  - 2013: [Erlang as a Language for Cloud Computing and Its
+    Integration with Many-core
+    Coprocessor](https://ieeexplore.ieee.org/abstract/document/6693171)
+    by Siyao Zheng and Xiang Long
+
+  - 2013: [Towards property-based testing of RESTful web
+    services](https://dl.acm.org/doi/abs/10.1145/2505305.2505317) by
+    Pablo Lamela Seijas , Huiqing Li and Simon Thompson
+
+  - 2013: [Snapshot Algorithm Animation with
+    Erlang](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A665311&dswid=5663)
+    by Bryntesson, Fredrik
+
+  - 2013: [Towards an abstraction for remote evaluation in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2505305.2505316) by
+    Adrian Francalanza and Tyron Zerafa
+
+  - 2013: [A type system for
+    Erlang](https://www.um.edu.mt/library/oar/handle/123456789/95302)
+    by Vella, Annalizz
+
+  - 2013: [Channel Access in
+    Erlang](https://www.osti.gov/biblio/1329220) by Nicklaus, Dennis
+    J.
+
+  - 2013: [Complexity metric based source code transformation of
+    Erlang
+    programs∗](http://publikacio.uni-eszterhazy.hu/2746/1/AMI_2013_42.pdf#page=31)
+    by Roland Király
+  
+  - 2013: [DXNN: A Case
+    Study](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_10)
+    by Gene I. Sher
+
+  - 2013: [The design and implementation of EMP: A message-oriented
+    middleware for mobile cloud
+    computing](https://ieeexplore.ieee.org/abstract/document/6767245)
+    by Joseph. K.H. Wang, Yihuan Wei and Xinpei Jia
+
+  - 2013: [Developing a Feed Forward Neural
+    Network](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_6)
+    by Gene I. Sher
+
+  - 2013: [Turning web services descriptions into quickcheck models
+    for automatic
+    testing](https://dl.acm.org/doi/abs/10.1145/2505305.2505306) by
+    Miguel A. Francisco , Macías López , Henrique Ferreiro and Laura
+    M. Castro
+
+  - 2013: [Testing blocking operations with QuickCheck's component
+    library](https://dl.acm.org/doi/abs/10.1145/2505305.2505310) by
+    Ulf Norell, Hans Svensson and Thomas Arts
+
+  - 2013: [The Unintentional Neural Network Programming
+    Language](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_5)
+    by Gene I. Sher
+
+  - 2013: [Functional approaches to teaching
+    concurrency](https://ieeexplore.ieee.org/abstract/document/6684861)
+    by Michael J. Lutz
+
+  - 2013: [Synthesising correct concurrent runtime
+    monitors](https://www.um.edu.mt/library/oar/handle/123456789/78346)
+    by Seychell, Aldrin
+
+  - 2013: [A DSL For Logistics
+    Clouds](https://openaccess.city.ac.uk/id/eprint/2316/) by
+    Karakostas, B. and Katsoulakos, T.
+
+  - 2013: [Process Discovery in Erlang Programs](https://upcommons.upc.edu/handle/2099.1/18784) by
+    Font Just, Guillem
+
+  - 2013: [Robust by ”Let it
+    Crash”](https://hal.science/hal-00926525/document) by Christoph
+    Woskowski, Mikolaj Trzeciecki, Florian Schwedes
+
+  - 2013: [Refactoring tools for functional
+   languages](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/refactoring-tools-for-functional-languages/F78282D0AE831BD11AD5531826892139)
+   by SIMON THOMPSON and HUIQING LI
+
+  - 2013: [Augmenting synchronous and asynchronous monitors in
+    ELARVA](https://www.um.edu.mt/library/oar/handle/123456789/94055)
+    by Galea Valletta, Clifford
+
+  - 2013: [Introduction: Applications &
+    Motivations](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_1)
+    by Gene I. Sher
+
+  - 2013: [Distributed firewall for P2P network in data
+    center](https://ieeexplore.ieee.org/abstract/document/6780858) by
+    Xinpei Jia and Joseph. K.H. Wang
+
+  - 2013: [Evolving Currency Trading
+    Agents](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_19)
+    by Gene I. Sher
+
+  - 2013: [Analysing timed Rebeca using
+    McErlang](https://dl.acm.org/doi/abs/10.1145/2541329.2541335) by
+    Haukur Kristinsson, Ali Jafari , Ehsan Khamespanah , Brynjar
+    Magnusson and Marjan Sirjani
+
+  - 2013: [Neural
+    Plasticity](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_15)
+    by Gene I. Sher
+
+  - 2013: [Erl-metafeed: Web feeds mashup engine and GUI widget
+    toolkit](https://ieeexplore.ieee.org/abstract/document/6624959) by
+    Klemo Vladimir, Zvonimir Pavlić and Siniša Srbljić
+
+  - 2013: [Keeping Track of Important Population and Evolutionary
+    Stats](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_12)
+    by Gene I. Sher
+
+  - 2013: [The
+    Benchmarker](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_13)
+    by Gene I. Sher
+
+  - 2013: [Researching Integration of ART Test Cases into
+    JCAT](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A635693&dswid=-928)
+    by Isberg, Petter and Åkerlund, Thomas
+
+  - 2013: [Functional Programming Approaches for Virtual Shared Memory
+    and Distributed Memory
+    Clusters](https://dl.ucsc.cmb.ac.lk/jspui/handle/123456789/1605)
+    by Kandegedara, P.M.M.H.
+
+  - 2013: [Scalable Resource Aggregation Service of an ErlangOTP PaaS
+    Platform](https://ieeexplore.ieee.org/abstract/document/6525545)
+    by Hanglong Zhan, Lianghuan Kang, Lantao Liu and Donggang Cao
+
+  - 2013: [A NUMA-Aware Runtime Environment for the Actor
+    Model](https://ieeexplore.ieee.org/abstract/document/6687358) by
+    Emilio Francesquini, Alfredo Goldman and Jean-François Méhaut
+
+  - 2013: [Precise explanation of success typing
+    errors](https://dl.acm.org/doi/abs/10.1145/2426890.2426897) by
+    Konstantinos Sagonas, Josep Silva and Salvador Tamarit
+
+  - 2013: [YoctoDB: A Data-Stream Management
+    System](https://www.anjoola.com/content/yoctodb.pdf) by Angela
+    Gong, Max Hirschhorn and Kalpana Suraesh
+
+  - 2013: [Distributed Event
+    Handler](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A648454&dswid=5270)
+    by ROBIN OLAUSSON and JIMMY WESTERLUND
+
+  - 2013: [Achieving High-Throughput State Machine Replication in
+    Multi-core
+    Systems](https://ieeexplore.ieee.org/abstract/document/6681596) by
+    Nuno Santos and André Schiper
+
+  - 2013: [ELIoT: Building Internet of Things Software Combining
+    Localized and Internet-scale
+    Interactions](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e33da03693ccf9394d2cb33abfd0dad0cd7e9a69)
+    by Alessandro Sivieria , Luca Mottolaa,b , Gianpaolo Cugolaa
+
+  - 2013: [Extending Abstract Behavioral Specifications with
+    Erlang-style Error
+    Handling∗](https://digikogu.taltech.ee/et/Download/9b5329d9-34ab-4842-af0d-5242a4c5b4c3#page=41)
+    by Georg Göri, Bernhard K. Aichernig, Einar Broch Johnsen, Rudolf
+    Schlatte and Volker Stolz
+
   - 2013: [Adapting CakeDB to Integrate High-Pressure Big Data Streams
     with Low-Pressure
     Systems](https://dl.acm.org/doi/10.1109/CLOUDCOM-ASIA.2013.33) by
