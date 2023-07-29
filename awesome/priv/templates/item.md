@@ -1,11 +1,30 @@
-  - <details><summary><b><a href="{{url}}">{{name}}</a></b>{{ description }}</summary><br/>
+  - <details><summary><b><a href="{{url}}">{{name}}</a></b>{{description}}</summary><br/>
     {{#info}}
 
-    - Repository: {{url}}
-    - Documentation: {{documentation_url}}
-    - Build: {{project_builder}}
-    - Support: {{project_support}}
-    - License(s): {{project_license}}
+    {{#repository}}
+    - Repository: {{value}}
+    {{/repository}}
+    {{#documentation}}
+    - Documentation: {{value}}
+    {{/documentation}}
+    {{#build}}
+    - Build: {{value}}
+    {{/build}}
+    {{#bugtracker}}
+    - Bugtracker: {{value}}
+    {{/bugtracker}}
+    {{#issues}}
+    - Issues: {{value}}
+    {{/issues}}
+    {{#support}}
+    - Support: {{value}}
+    {{/support}}
+    {{#licenses}}
+    - License(s): {{value}}
+    {{/licenses}}
+    {{#keywords}}
+    - Keywords: {{value}}
+    {{/keywords}}
     <br/>
 
     {{/info}}
@@ -13,16 +32,16 @@
 
     | [Github]({{url}}) | license | contributors | last-commit | open issues | stars | forks | repo-size | watchers |
     |--------| :-----: | :------------: | :-----------: | :-----------: | :-----: | :-----: | :---------: | :--: |
-    |        | {{license_icon}}<br/>{{license}} | {{contributors_icon}}<br/>[{{contributors}}]({{ contributors_url }}) | {{ last_commit_icon }}<br/>[{{ last_commit }}]({{ last_commit_url}}) | {{issues_icon}}<br/>[{{issues}}]({{issues_url}}) | {{stars_icon}}<br/>{{stars}} | {{forks_icon}}<br/>{{forks}} | {{repo_size_icon}}<br/>{{repo_size}} | {{watchers_icon}}<br/>{{watchers}} |
+    |        | {{#licenses}}{{icon}}<br/>{{value}}{{/licenses}} | {{#contributors}}{{icon}}<br/>[{{value}}]({{url}}){{/contributors}} | {{#last_commit}}{{icon}}<br/>[{{value}}]({{url}}){{/last_commit}} | {{#issues}}{{icon}}<br/>[{{value}}]({{url}}){{/issues}} | {{#stars}}{{icon}}<br/>{{value}}{{/stars}} | {{#forks}}{{icon}}<br/>{{value}}{{/forks}} | {{{#size}}{{icon}}<br/>{{value}}{{/size}} | {{#watchers}}{{icon}}<br/>{{value}}{{/watchers}} |
 
-    Topics: {{topics}}
+    - Topics: {{topics}}
 
     {{/github}}
     {{#gitlab}}
 
     | [Gitlab]({{url}}) | license | contributors | last-commit | open issues | stars | forks |
     |--------| :-----: | :------------: | :-----------: | :-----------: | :-----: | :-----: | :---------: | :--: |
-    |        | {{#license}}{{&icon}}<br/>{{value}}{{/license}} | {{#contributors}}{{icon}}<br/>[{{value}}]({{url}}){{/contributors}} | {{#lastcommit}}{{icon}}<br/>[{{value}}]({{url}}){{/lastcommit}} | {{#issues}}{{icon}}<br/>[{{value}}]({{url}}){{/issues}} | {{#stars}}{{icon}}<br/>{{value}}{{/stars}} | {{#forks}}{{icon}}<br/>{{value}}{{/forks}} |
+    |        | {{#licenses}}{{&icon}}<br/>{{value}}{{/licenses}} | {{#contributors}}{{icon}}<br/>[{{value}}]({{url}}){{/contributors}} | {{#last_commit}}{{icon}}<br/>[{{value}}]({{url}}){{/last_commit}} | {{#issues}}{{icon}}<br/>[{{value}}]({{url}}){{/issues}} | {{#stars}}{{icon}}<br/>{{value}}{{/stars}} | {{#forks}}{{icon}}<br/>{{value}}{{/forks}} |
 
     Topics: {{topics}}
 
@@ -31,7 +50,11 @@
 
     | [Hex.pm]({{url}}) | version  | licenses | downloads | downloads/week | download/day |
     | :-----: | :--------: | :--------: | :---------: | :--------------: | :------------: |
-    |         | {{version_icon}}<br/>{{version}} | {{license_icon}}<br/>{{license}} | {{downloads_all_icon}}<br/>{{downloads_all}} | {{downloads_week_icon}}<br/>{{downloads_week}} | {{downloads_day_icon}}<br/>{{downloads_day}} |
+    |         | {{#version}}{{icon}}<br/>{{value}}{{/version}} | {{#licenses}}{{icon}}<br/>{{value}}{{/licenses}} | {{#downloads_all}}{{icon}}<br/>{{value}}{{downloads_all}} | {{#downloads_week}}{{icon}}<br/>{{value}}{{/downloads_week}} | {{#downloads_day}}{{icon}}<br/>{{value}}{{/downloads_day}} |
 
     {{/hexpm}}
+    {{#erlangmk}}
+    - [erlang.mk]({{url}})
+    {{/erlangmk}}
+    
     </details>

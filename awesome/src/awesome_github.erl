@@ -89,7 +89,9 @@ get_repos2(Owner, Repository, Token) ->
 %%--------------------------------------------------------------------
 filters(Map) ->
     FilteredKeys = maps:filter(fun filter_keys/2, Map),
-    maps:map(fun filter_values/2, FilteredKeys).
+    FilteredValues = maps:map(fun filter_values/2, FilteredKeys),
+    ConvertedKeys = maps:fold(fun convert_keys/3, #{}, FilteredValues),
+    maps:map(fun expand_value/2, ConvertedKeys).
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -97,6 +99,7 @@ filters(Map) ->
 %% @end
 %%--------------------------------------------------------------------
 filter_keys(<<"archived">>, _) -> true;
+filter_keys(<<"contributors">>, _) -> true;
 filter_keys(<<"created_at">>, _) -> true;
 filter_keys(<<"default_branch">>, _) -> true;
 filter_keys(<<"description">>, _) -> true;
@@ -120,8 +123,58 @@ filter_keys(_, _) -> false.
 
 %%--------------------------------------------------------------------
 %% @hidden
-%% @doc
+%% @doc value conversion.
 %% @end
 %%--------------------------------------------------------------------
 filter_values(<<"license">>, #{ <<"spdx_id">> := License }) -> License;
 filter_values(_, X) -> X.
+
+%%--------------------------------------------------------------------
+%% @hidden
+%% @doc convert known keys to atoms.
+%% @end
+%%--------------------------------------------------------------------
+convert_keys(<<"archived">>, Value, Acc) -> Acc#{ archived => Value};
+convert_keys(<<"created_at">>, Value, Acc) -> Acc#{ created_at => Value};
+convert_keys(<<"default_branch">>, Value, Acc) -> Acc#{ default_branch => Value};
+convert_keys(<<"description">>, Value, Acc) -> Acc#{ description => Value};
+convert_keys(<<"forks">>, Value, Acc) -> Acc#{ forks => Value};
+convert_keys(<<"forks_count">>, Value, Acc) -> Acc#{ forks_count => Value};
+convert_keys(<<"full_name">>, Value, Acc) -> Acc#{ full_name => Value};
+convert_keys(<<"homepage">>, Value, Acc) -> Acc#{ homepage => Value};
+convert_keys(<<"id">>, Value, Acc) -> Acc#{ id => Value};
+convert_keys(<<"license">>, Value, Acc) -> Acc#{ licenses => Value};
+convert_keys(<<"name">>, Value, Acc) -> Acc#{ name => Value};
+convert_keys(<<"network_count">>, Value, Acc) -> Acc#{ network_count => Value};
+convert_keys(<<"open_issues">>, Value, Acc) -> Acc#{ open_issues => Value};
+convert_keys(<<"pushed_at">>, Value, Acc) -> Acc#{ pushed_at => Value};
+convert_keys(<<"size">>, Value, Acc) -> Acc#{ size => Value};
+convert_keys(<<"subscribers_count">>, Value, Acc) -> Acc#{ subscribers_count => Value};
+convert_keys(<<"topics">>, Value, Acc) -> Acc#{ topics => Value};
+convert_keys(<<"updated_at">>, Value, Acc) -> Acc#{ updated_at => Value};
+convert_keys(<<"watchers">>, Value, Acc) -> Acc#{ watchers => Value};
+convert_keys(<<"watchers_count">>, Value, Acc) -> Acc#{ watchers_count => Value};
+convert_keys(Key, Value, Acc) -> Acc#{ Key => Value}.
+    
+expand_value(archived, true) -> #{ value => true, icon => ":red_circle:" };
+expand_value(archived, false) -> #{ value => false, icon => ":green_circle:" };
+expand_value(contributors, Contributors) ->
+    case Contributors of
+        _ when Contributors =< 2 -> #{ value => Contributors, icon => ":red_circle:" };
+        _ when Contributors > 2 andalso Contributors =< 5 -> #{ value => Contributors, icon => ":orange_circle:" };
+        _ when Contributors > 5 andalso Contributors =< 10 -> #{ value => Contributors, icon => ":yellow_circle:" };
+        _ when Contributors > 10  -> #{ value => Contributors, icon => ":yellow_circle:" }
+    end;
+expand_value(updated_at, Date) -> 
+    LocalTime = erlang:system_time(second),
+    GreenDate = LocalTime - (86400*30*3),
+    YellowDate = LocalTime - (86400*30*12),
+    OrangeDate = LocalTime - (86400*30*24),
+    case calendar:rfc3339_to_system_time(binary_to_list(Date)) of
+        D when D =< LocalTime andalso D > GreenDate -> #{ value => Date, icon => ":green_circle:" };
+        D when D =< GreenDate andalso D > YellowDate -> #{ value => Date, icon => ":yellow_circle:" };
+        D when D =< YellowDate andalso D > OrangeDate -> #{ value => Date, icon => ":orange_circle:" };
+        D when D < OrangeDate -> #{ value => Date, icon => ":red_circle" }
+    end;
+expand_value(Key, Value) -> Value.
+    

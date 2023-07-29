@@ -1,0 +1,41 @@
+%%%===================================================================
+%%%
+%%%===================================================================
+#{ type => <<"project">>
+ , name => <<"swarm">>
+ , description => <<"A hunky Erlang worker pool factory.">>
+ , category => <<"actors">>
+ , url => <<"https://github.com/devinus/poolboy">>
+ , info => #{ repository => <<"">>
+            , documentation => <<"">>
+            , build => <<"">>
+            , bugtracker => <<"">>
+            , issues => <<"">>
+            , support => <<"">>
+            , licenses => [<<"">>]
+            , keywords => [<<"">>]
+            }
+ , github => #{
+   url => "https://github.com/devinus/poolboy",
+   license => #{ icon => "", value => "" },
+   contributors => #{ icon => "", value => "" },
+   lastcommit => #{ icon => "", value "" }   
+ }
+ , hexpm => "poolboy"
+}.
+
+%%%===================================================================
+%%%
+%%%===================================================================
+#{ name => "zomp"
+ , description => "ZX/Zomp makesstarting Erlang projects and running Erlang programs lightweight and familiar."
+ , gitlab => "https://gitlab.com/zxq9/zx"
+}.
+
+%%%===================================================================
+%%%
+%%%===================================================================
+#{ name => "mnesia"
+ , description => ""
+ , url => "https://www.erlang.org/doc/apps/mnesia/users_guide.html"
+}.
