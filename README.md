@@ -5568,6 +5568,89 @@ communities to install/package it*
 
 *Erlang-related academic and scientific materials*
 
+  - 2023: [Pour Some Sugar on Bits: Flexible Manipulation of Bit
+    Streams in Erlang
+    ∗](http://user.it.uu.se/~pergu/binary_comprehensions.ps) Per
+    Gustafsson and Konstantinos Sagonas
+
+  - 2023: [Static analysis for safe software
+    upgrade∗](https://icai.uni-eszterhazy.hu/2023/abstracts/ICAI_2023_abstract_048.pdf)
+    Dániel Ferencia , Melinda Tóth
+
+  - 2023: [Auction-Based Job Scheduling for Smart
+    Manufacturing](https://ieeexplore.ieee.org/abstract/document/10158649)
+    by Emil Gatial, Zoltán Balogh, Sepideh Hassankhani Dolatabadi,
+    Hatem Ghorbel, Stefano Carrino, Jonathan Dreyer, Vicente Rodríguez
+    Montequín, Adrian Gligor and Laszlo Barna Iantovics
+
+  - 2023: [Analysis Techniques for Software
+    Maintenance](https://riunet.upv.es/handle/10251/193146) by Pérez
+    Rubio, S.
+
+  - 2023: [Transparent Actor
+    Model](https://ieeexplore.ieee.org/abstract/document/10164705) by
+    Fatemeh Ghassemi, Marjan Sirjani, Ehsan Khamespanah, Mahrokh
+    Mirani and Hossein Hojjat
+
+  - 2023: [Gaining trust by tracing security
+    protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827)
+    by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans
+    Svensson
+
+  - 2023: [Understanding code smells in Elixir functional
+    language](https://link.springer.com/article/10.1007/s10664-023-10343-6)
+    by Lucas Francisco da Matta Vegi and Marco Tulio Valente
+
+  - 2023: [Program equivalence in an untyped, call-by-value functional
+    language with uncurried
+    functions](https://www.sciencedirect.com/science/article/pii/S2352220823000111)
+    by Dániel Horpácsi, Péter Bereczky and Simon Thompson
+
+  - 2023: [An Axiomatic Theory for Reversible
+    Computation](https://arxiv.org/abs/2307.13360) by Ivan Lanese,
+    Iain Phillips and Irek Ulidowski
+
+  - 2023: [Blockchain based Secure Erlang Server for Request based
+    Group Communication over
+    XMPP](https://ieeexplore.ieee.org/abstract/document/10074294) by
+    Johnpaul C I, Manojkumar Vivekanandan, Praveen Kumar Premkamal and
+    Ramya R
+
+  - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
+    Recoveries In Distributed
+    Systems](https://hal.science/hal-04123758/) by Giovanni Fabbretti,
+    Ivan Lanese and Jean-Bernard Stefani
+
+  - 2023: [Data transmission using secure hybrid techniques for smart
+    energy metering
+    devices](https://www.sciencedirect.com/science/article/pii/S2772671123000293)
+    by Gudapati Ramyasri, G Ramana Murthy, Srikanth Itapu and S Mohan
+    Krishna
+
+  - 2023: [Special
+    Delivery](https://simonjf.com/drafts/pat-draft-mar23.pdf) by SIMON
+    FOWLER, DUNCAN PAUL ATTARD, FRANCISZEK SOWUL, SIMON J. GAY and
+    PHIL TRINDER
+
+  - 2023: [Adopting the Actor Model for Antifragile Serverless
+    Architectures](https://arxiv.org/abs/2306.14738) by Marcel Mraz,
+    Hind Bangui, Bruno Rossi and Barbora Buhnova
+
+  - 2023: [Evolving distributed embedded applications during
+    operation](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/103138)
+    by Kilian Telschig
+
+  - 2023: [A formal semantics for agent distribution and fault
+    tolerance in
+    Jason](https://www.sciencedirect.com/science/article/pii/S2352220823000287)
+    by Álvaro Fernández Díaz, Lars-Åke Fredlund, Clara Benac-Earle and
+    Julio Mariño
+
+  - 2023: [Parallelized Cyber Reconnaissance Automation: A Real-Time
+    and Scheduled Security
+    Scanner](https://link.springer.com/chapter/10.1007/978-3-031-33065-0_2)
+    by Malek Malkawi and Reda Alhajj
+
   - 2023: [Seaplus: Streamlining a safe execution of C/C++ code from
     Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
     Boudeville
