@@ -22,7 +22,11 @@
 %%% touch path/templates/test/index.md
 %%% '''
 %%%
-%%% == Second version ==
+%%% == Second version (multi-template) ==
+%%%
+%%% This method is a test, a template file called
+%%% `awesome_template2.tmp' has been created and uses `merl` module to
+%%% generate a new ast.
 %%%
 %%% ```
 %%% "priv/template" = awesome_template:path().

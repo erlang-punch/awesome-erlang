@@ -1,0 +1,80 @@
+%%%===================================================================
+%%% @doc
+%%%
+%%% ```
+%%% {ok, Template} = file:read_file("path_to_file").
+%%% Environment = [{'Name', merl:term(atom)}
+%%%               ,{'Version', merl:term(1)}
+%%%               ,{'CreatedAt', merl:term(erlang:system_time()}
+%%%               ,{'UpdatedAt', merl:term(erlang:system_time()}
+%%%               ,{'FunctionName', merl:term("name")}
+%%%               ,{'FunctionPath', merl:term("path")}
+%%%               ,{'FunctionTemplate', merl:term(<<"template">>)
+%%%               ].
+%%% Quoted = merl:qquote(Template, Environment).
+%%% Compile = merl:compile_and_load(Quoted, Environment).
+%%% at
+%%% '''
+%%%
+%%% @end
+%%%===================================================================
+-module('@ModuleName').
+-include_lib("syntax_tools/include/merl.hrl").
+-export([name/0, path/0, templates/0]).
+-export([template/1]).
+-export([print/1]).
+-export([format/2, format/3]).
+-export([render/2, render/3]).
+-export([files/0]).
+-vsn('@Version').
+-created_at('@CreatedAt').
+-updated_at('@UpdatedAt').
+
+%%--------------------------------------------------------------------
+%% @doc return the name of the template
+%% @end
+%%--------------------------------------------------------------------
+name() -> '@FunctionNameReturn'.
+
+%%--------------------------------------------------------------------
+%% @doc return the path of the template
+%% @end
+%%--------------------------------------------------------------------
+path() -> '@FunctionPathReturn'.
+
+%%--------------------------------------------------------------------
+%% @doc return the content of the template
+%% @end
+%%--------------------------------------------------------------------
+templates() -> '@FunctionTemplateReturn'.
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+files() -> '@FunctionFilesReturn'.
+
+%%--------------------------------------------------------------------
+%% @doc print the content of the template without variable mapping
+%% @end
+%%--------------------------------------------------------------------
+print(Id) -> template(Id).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+format(Id, Data) -> format(Id, Data, []).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+format(Id, Data, Opts) ->
+    Template = template(Id),
+    Rendering = render(Template, Data, Opts),
+    io:format("~s", [Rendering]).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+render(Id, Data) -> render(Id, Data, []).
+
+
