@@ -5993,8 +5993,236 @@ communities to install/package it*
     Programs](https://dl.acm.org/doi/10.1145/2993288.2993300) by
     Alexandre P. Oliveira , Paulo S. L. Souza and Simone R. S. Souza
 
+  - 2016: [USING PROGRAM SHAPING AND ALGORITHMIC SKELETONS TO
+    PARALLELISE AN EVOLUTIONARY MULTI-AGENT SYSTEM IN
+    ERLANG](https://cai.type.sk/content/2016/4/using-program-shaping-and-algorithmic-skeletons-to-parallelise-an-evolutionary-multi-agent-system-in-erlang/3378.pdf)
+    by Adam D. Barwell, Christopher Brown and Kevin Hammond
+
+  - 2016: [A scalable reliable instant messenger using the SD Erlang
+    libraries](https://dl.acm.org/doi/abs/10.1145/2975969.2975973) by
+    Natalia Chechina, Mario Moro Hernandez, and Phil Trinder
+
+  - 2016: [Debugging Meets Testing in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-319-41135-4_10)
+    Salvador Tamarit, Adrián Riesco, Enrique Martin-Martin and Rafael
+    Caballero
+
+  - 2016: [Polymorphic Types in Erlang Function
+    Specifications](https://link.springer.com/chapter/10.1007/978-3-319-29604-3_12)
+    by Francisco J. López-Fraguas, Manuel Montenegro and Juan
+    Rodríguez-Hortalá
+
+  - 2016: [Towards semi-automatic data-type translation for
+    parallelism in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2975969.2975978) by
+    Adam D. Barwell, Christopher Brown, David Castro and Kevin Hammond
+
+  - 2016: [CRDTs for the configuration of distributed Erlang
+    systems](https://dl.acm.org/doi/abs/10.1145/2975969.2975974) by
+    Viktória Fördős and Francesco Cesarini
+
+  - 2016: [A Reversible Semantics for
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-319-63139-4_15)
+    by Naoki Nishida, Adrián Palacios and Germán Vidal
+
+  - 2016: [Improving the network scalability of
+    Erlang](https://www.sciencedirect.com/science/article/abs/pii/S0743731516000034)
+    by Natalia Chechina, Huiqing Li, Amir Ghaffari, Simon Thompson and
+    Phil Trinder
+
+  - 2016: [High-Level Synthesis of Embedded Systems Controller from
+    Erlang](https://ken.ieice.org/ken/paper/20160229eb6U/eng/) by
+    Hinata Takabeyashi, Nagisa Ishiura, Kagumi Azuma, Nobuaki Yoshida
+    and Hiroyuki Kanbara
+
+  - 2016: [ValiErlang: A Structural Testing Tool for Erlang
+    Programs](https://dl.acm.org/doi/abs/10.1145/2993288.2993300) by
+    Alexandre P. Oliveira, Paulo S. L. Souza and Simone R. S. Souza
+
+  - 2016: [Model-Based Protocol Testing in an Erlang
+    Environment](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A908235&dswid=3861)
+    by Blom, Johan
+
   - 2016: [An Erlang Implementation of Multiparty Session
     Actors](https://arxiv.org/abs/1608.03321) by Simon Fowler
+
+  - 2016: [Towards Reversible Computation in
+    Erlang](https://arxiv.org/abs/1608.05521) by Naoki Nishida, Adrián
+    Palacios and Germán Vidal
+
+  - 2016: [Making everybody comfortable with Erlang: a SCADA system
+    for thermal
+    control](https://dl.acm.org/doi/abs/10.1145/2975969.2975976) by
+    Laura M. Castro, J. Daniel Fernández and Carlos López Pampín
+
+  - 2016: [An erlang-based simulation approach of Artificial
+    Transportation
+    Systems](https://ieeexplore.ieee.org/abstract/document/7795526) by
+    Songhang Chen, Fenghua Zhu and Fei-Yue Wang
+
+  - 2016: [Analysing and visualising Erlang
+    behaviours](https://pubs.aip.org/aip/acp/article-abstract/1738/1/240004/581889/Analysing-and-visualising-Erlang-behaviours)
+    by
+
+  - 2016: [IMPLEMENTING GRAPH REPRESENTATION MODEL FOR PARALLEL AND
+    DISTRIBUTED SYSTEMS USING
+    ERLANG](https://bibliotekanauki.pl/articles/305754.pdf) by Iurii
+    Petrov
+
+  - 2016: [Analysing the hierarchical structure of Erlang
+    applications](https://ceur-ws.org/Vol-2046/bozo-et-al2.pdf) by
+    István Bozó, Bence János Szabó and Melinda Tóth
+
+  - 2016: [USING ERLANG IN ROBOCUP SOCCER
+    SIMULATION](https://www.researchgate.net/profile/Sojharo-Mangi/publication/314231697_USING_ERLANG_IN_ROBOCUP_SOCCER_SIMULATION/links/58bbca7692851c471d53267d/USING-ERLANG-IN-ROBOCUP-SOCCER-SIMULATION.pdf)
+    by Sojharo
+
+  - 2016: [Analysing and visualising callback modules of Erlang
+    generic server
+    behaviours](https://ceur-ws.org/Vol-2046/bozo-et-al1.pdf) István
+    Bozó, Mátyás Béla Kuti and Melinda Tóth
+
+  - 2016: [Polymorphic Types in Erlang Function Specifications
+    (extended version)
+    ∗](https://www.researchgate.net/profile/Juan-Rodriguez-Hortala/publication/303296399_Polymorphic_Types_in_Erlang_Function_Specifications/links/5e987652299bf13079a05a87/Polymorphic-Types-in-Erlang-Function-Specifications.pdf)
+    Francisco J. López-Fraguas, Manuel Montenegro and Juan
+    Rodrı́guez-Hortalá
+
+  - 2016: [High-Level Synthesis of Embedded Systems Controller from
+    Erlang](https://sasimi.jp/new/sasimi2016/files/archive/pdf/p285_R4-2.pdf)
+    by Hinata Takebayashi, Nagisa Ishiura, Kagumi Azuma, Nobuaki
+    Yoshida and Hiroyuki Kanbara
+
+  - 2016: [Elixir programming language evaluation for
+    IoT](https://ieeexplore.ieee.org/abstract/document/7797392) by
+    Geovane Fedrecheski, Laisa C. P. Costa and Marcelo K. Zuffo
+
+  - 2016: [Towards Reliable and Scalable Robot
+    Communication](https://dl.acm.org/doi/abs/10.1145/2975969.2975971)
+    by Andreea Lutac, Natalia Chechina, Gerardo Aragon-Camarasa, and
+    Phil Trinder
+
+  - 2016: [Observing the consistency of distributed
+    systems](https://dl.acm.org/doi/abs/10.1145/2975969.2975975) by
+    Deepthi Devaki Akkoorath, Viktória Fördős and Annette Bieniusa
+
+  - 2016: [Efficient String Representation in
+    Erlang/OTP](https://odr.chalmers.se/items/08d59b1d-3243-4047-8f74-b59157f03ccd)
+    by ANDREJ LAMOV
+
+  - 2016: [Erlang on Adapteva's
+    Parallella](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1045465&dswid=4782)
+    by Lång, Magnus
+
+  - 2016: [On higher-order communication of
+    Erlang](https://ieeexplore.ieee.org/abstract/document/7515977) by
+    Nannan Liu and Xian Xu
+
+  - 2016: [On Implementing a Monitor-Oriented Programming Framework
+    for Actor
+    Systems](https://link.springer.com/chapter/10.1007/978-3-319-33693-0_12)
+    by Ian Cassar and Adrian Francalanza
+
+  - 2016: [Automatic generation of UML sequence diagrams from test
+    counterexamples](https://dl.acm.org/doi/abs/10.1145/2975969.2975977)
+    by Daniel Carballa and Laura M. Castro
+
+  - 2016: [SCSimulator: An Open Source, Scalable Smart City
+    Simulator∗](https://www.researchgate.net/profile/Eduardo-Felipe-Zambom-Santana-2/publication/309187620_SCSimulator_An_OpenSource_Scalable_Smart_City_Simulator/links/5803a11108ae1c5148d089db/SCSimulator-An-OpenSource-Scalable-Smart-City-Simulator.pdf)
+    by Eduardo Felipe Zambom Santana1,2 , Daniel Macêdo Bastista1 ,
+    Fabio Kon1 and Dejan S. Milojicic
+
+  - 2016: [Session Types in a Linearly Typed Multi-Threaded
+    Lambda-Calculus](https://arxiv.org/abs/1603.03727) by Hongwei Xi,
+    Zhiqiang Ren, Hanwen Wu and William Blair
+
+  - 2016: [s6raph: Vertex-Centric Graph Processing Framework with
+    Functional
+    Interface](https://dl.acm.org/doi/abs/10.1145/2975991.2976000)
+    Onofre Coll Ruiz, Kiminori Matsuzaki and Shigeyuki Sato
+
+  - 2016: [Agent-Based Business Process Modeling and Execution: Steps
+    Towards a Compiler-Virtual Machine
+    Architecture](https://dl.acm.org/doi/abs/10.1145/2882879.2882880)
+    by Robert Singer
+
+  - 2016: [Pool Evolution: A Parallel Pattern for Evolutionary and
+    Symbolic
+    Computing](https://link.springer.com/article/10.1007/s10766-015-0358-5)
+    by Marco Aldinucci, Sonia Campa, Marco Danelutto, Peter Kilpatrick
+    and Massimo Torquati
+
+  - 2016: [Choreography-Based Analysis of Distributed Message Passing
+    Programs](https://ieeexplore.ieee.org/abstract/document/7445383)
+    by Ramsay Taylor, Emilio Tuosto, Neil Walkinshaw and John Derrick
+
+  - 2016: [DSCMC: Distributed Stateless Code Model
+    Checker](https://arxiv.org/abs/1603.03536) by Elaheh Ghassabani
+    and Mohammad Abdollahi Azgomi
+
+  - 2016: [Experiences with QuickCheck: Testing the Hard Stuﬀ and
+    Staying
+    Sane](https://link.springer.com/chapter/10.1007/978-3-319-30936-1_9)
+    by John Hughes
+
+  - 2016: [Benefits of implementing a query language in purely
+    functional style](https://ceur-ws.org/Vol-2046/poor-et-al.pdf) by
+    Artúr Poór, István Bozó, Tamás Kozsik, Gábor Páli, Melinda Tóth
+
+  - 2016: [Parallel patterns for agent-based evolutionary
+    computing](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-77d357d8-9fee-4aac-be99-adefb8699ba8)
+    by Stypka J. , Anielski P. , Mentel S. , Krzywicki D. , Turek W. ,
+    Byrski A. and Kisiel-Dorohinicki M.
+
+  - 2016: [WebSurge: A Profile-based Stress Testing Tool with
+    Distributed User Agents for Web
+    Applications](https://www.researchgate.net/profile/Dante-Dinawanao/publication/306059983_WebSurge_A_Profile-Based_Stress_Testing_Tool_with_Distributed_User_Agents_for_Web_Applications/links/57add9ec08aeb2cf17bd8ce0/WebSurge-A-Profile-Based-Stress-Testing-Tool-with-Distributed-User-Agents-for-Web-Applications.pdf)
+    by Michael de la Cruz, Jeyran Labrador, and Dante Dinawanao
+
+  - 2016: [A type-checking approach to ensure monitor
+    correctness](https://www.um.edu.mt/library/oar/handle/123456789/18378)
+    by Aquilina Alamango, John
+
+  - 2016: [BuTools 2: a Rich Toolbox for Markovian Performance
+    Evaluation](https://www.researchgate.net/profile/Gabor-Horvath-10/publication/316703817_BuTools_2_a_Rich_Toolbox_for_Markovian_Performance_Evaluation/links/5b8026b492851c1e122f44c8/BuTools-2-a-Rich-Toolbox-for-Markovian-Performance-Evaluation.pdf)
+    by Gábor Horváth and Miklós Telek
+
+  - 2016: [IMPLEMENTING GRAPH REPRESENTATION MODEL FOR PARALLEL AND
+    DISTRIBUTED SYSTEMS USING
+    ERLANG](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-35898f3e-6225-4009-bb09-d7f251d3957c/c/CS_2016_1_Petrov.pdf)
+    by Iurii Petrov
+
+  - 2016: [The Nifty way to call hell from
+    heaven](https://dl.acm.org/doi/abs/10.1145/2975969.2975970) by
+    Andreas Löscher and Konstantinos Sagonas
+
+  - 2016: [STATIC ANALYSIS FOR DIVIDE-AND-CONQUER PATTERN
+    DISCOVERY](https://www.cai.sk/ojs/index.php/cai/article/download/3377/776/9174)
+    by Tamás Kozsik
+
+  - 2016: [Stampery Blockchain Timestamping Architecture
+    (BTA)](http://stampery-cdn.s3.amazonaws.com/docs/Stampery-BTA-v5-whitepaper.pdf)
+    by Adán Sánchez de Pedro CrespoLuis Ivan Cuende García
+
+  - 2016: [Big(ger) sets: decomposed delta CRDT sets in
+    Riak](https://dl.acm.org/doi/abs/10.1145/2911151.2911156) by
+    Russell Brown, Zeeshan Lakhani and Paul Place
+
+  - 2016: [Identifying and introducing interfaces and callbacks using
+    Wrangler](https://dl.acm.org/doi/abs/10.1145/3064899.3064909) by
+    Pablo Lamela Seijas and Simon Thompson
+
+  - 2016: [A Distributed Publish/Subscribe System built on a DHT
+    Substrate](https://odr.chalmers.se/items/cf09be5a-b8b0-49d3-a134-d25d8cb293a7)
+    by André Laszlo
+
+  - 2016: [Identifying Code Clones with
+    RefactorErl](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3895)
+    by Viktória Fördős and Melinda Tóth
+          
+  - 2016: [Comparing message-oriented middleware for financial assets
+    trading](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A934286&dswid=2999)
+    by Eriksson, John
 
   - 2015: [Concolic Execution in Functional Programming by Program
     Instrumentation](https://link.springer.com/chapter/10.1007/978-3-319-27436-2_17)
