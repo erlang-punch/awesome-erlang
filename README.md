@@ -6021,10 +6021,211 @@ communities to install/package it*
     RPython](https://dl.acm.org/doi/10.1145/2814189.2817267) by
     Ruochen Huang , Hidehiko Masuhara and Tomoyuki Aotani
 
+  - 2014: [Discovering parallel pattern candidates in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2633448.2633453) by
+    István Bozó, Viktoria Fordós , Zoltán Horvath , Melinda Tóth ,
+    Dániel Horpácsi , Tamás Kozsik , Judit Köszegi , Adam Barwell ,
+    Christopher Brown and Kevin Hammond
+
+  - 2014: [Cost-Directed Refactoring for Parallel Erlang
+    Programs](https://link.springer.com/article/10.1007/s10766-013-0266-5)
+    by Christopher Brown, Marco Danelutto, Kevin Hammond, Peter
+    Kilpatrick and Archibald Elliott
+
+  - 2014: [EDD: A Declarative Debugger for Sequential Erlang
+    Programs](https://link.springer.com/chapter/10.1007/978-3-642-54862-8_49)
+    by Rafael Caballero, Enrique Martin-Martin, Adrian Riesco and
+    Salvador Tamarit
+
+  - 2014: [Investigating the scalability limits of distributed
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2633448.2633449) by
+    Amir Ghaffari
+
+  - 2014: [Using Erlang Skeletons to Parallelise Realistic
+    Medium-Scale Parallel
+    Programs](http://www.cs.ru.nl/P.Achten/IFL2013/symposium_proceedings_IFL2013/ifl2013_submission_13.pdf)
+    by Vladimir Janjic, Christopher Brown and Kevin Hammond
+
+  - 2014: [TYPE INFERENCE FOR CORE ERLANG TO SUPPORT TEST DATA
+    GENERATION](https://www.cs.ubbcluj.ro/~studia-i/contents/2014-macs/16Olah.pdf) by
+    GÁBOR OLÁH, DÁNIEL HORPÁCSI, TAMÁS KOZSIK, and MELINDA TÓTH
+
+  - 2014: [Shared Nothing Secure Programming in
+    Erlang/OTP](https://ken.ieice.org/ken/paper/20140606dBOH/eng/) by
+    Kenji Rikitake
+
+  - 2014: [Erlang
+    Handbook](https://www.dbooks.org/erlang-handbook-1938616049/) by
+    by Bjarne Däcker and Robert Virding
+
+  - 2014: [Scalable SD Erlang Computation
+    Model](https://eprints.gla.ac.uk/113623/) by Chechina, N.,
+    Huiqing, L., Trinder, P. and Ghaffari, A.
+
+  - 2014: [Scalable SD Erlang Reliability
+    Model](https://eprints.gla.ac.uk/113625/) by Chechina, N.,
+    Huiqing, L., Trinder, P. and Thompson, S.
+
+  - 2014: [BEAMJIT: a just-in-time compiling runtime for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2633448.2633450) by
+    Frej Drejhammar and Lars Rasmusson
+
+  - 2014: [Detecting and Visualising Process Relationships in
+    Erlang](https://www.sciencedirect.com/science/article/pii/S1877050914003159)
+    by Melinda Toth and Istvan Bozo
+
+  - 2014: [Scalable Reliable SD Erlang
+    Design](https://eprints.gla.ac.uk/113618/) by Chechina, N.,
+    Trinder, P. , Ghaffari, A., Green, R., Lundin, K. and Virding, R.
+
+  - 2014: [CHANNEL ACCESS IN
+    ERLANG](https://accelconf.web.cern.ch/ICALEPCS2013/papers/moppc150.pdf)
+    by Dennis J. Nicklaus.
+
+  - 2014: [Execution and Veriﬁcation of UML State Machines with
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-319-10431-7_22)
+    by Ricardo J. Rodrı́guez, Lars-Åke Fredlund, Ángel Herranz, and
+    Julio Mariñog
+
   - 2014: [Faulterl: precise fault injection for the erlang VM, NIFs
     and linked-in
     drivers](https://dl.acm.org/doi/10.1145/2633448.2633459) by Scott
     Lystig Fritchie
+
+  - 2014: [Extending detectEr, a runtime verification tool for
+    Erlang](https://www.um.edu.mt/library/oar/handle/123456789/91540)
+    by Said, Simon
+
+  - 2014: [Mobile Erlang computations to enhance performance, resource
+    usage and
+    reliability](https://www.um.edu.mt/library/oar/handle/123456789/23201)
+    by Francalanza, Adrian and Zerafa, Tyron
+
+  - 2014: [High Performance Processing for Speech
+    Recognition](https://www.academia.edu/download/79652405/a282005-170.pdf)
+    by Milan Ramljak, Maja Stella, Matko Šarić
+
+  - 2014: [Achieving Scalability and Reliability In Cloud
+    Servers](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#get-a-repository)
+    by Sidrameshwar Korawar and Sridevi M.
+
+  - 2014: [Automating property-based testing of evolving web
+    services](https://dl.acm.org/doi/abs/10.1145/2543728.2543741) by
+    Huiqing Li, Simon Thompson, Pablo Lamela Seijas and Miguel Angel
+    Francisco
+
+  - 2014: [Improved semantics and implementation through
+    property-based testing with
+    QuickCheck](https://dl.acm.org/doi/abs/10.1145/2593501.2593509) by
+    Huiqing Li and Simon Thompson
+
+  - 2014: [Implementing Garbage Collection for Active Objects on Top
+    of Erlang](https://www.duo.uio.no/handle/10852/43504) by Hansen,
+    Sigmund
+
+  - 2014: [More scalable ordered set for ETS using
+    adaptation](https://dl.acm.org/doi/abs/10.1145/2633448.2633455) by
+    Konstantinos Sagonas and Kjell Winblad
+
+  - 2014: [Jsongen: a QuickCheck Based Library for Testing JSON Web
+    Services](https://dl.acm.org/doi/abs/10.1145/2633448.2633454) by
+    Clara Benac Earle, Lars-Åke Fredlund, Ángel Herranz and Julio
+    Mariño
+
+  - 2014: [Functional programming and the "megacore"
+    era](https://dl.acm.org/doi/abs/10.1145/2633448.2633456) by Kevin
+    Hammond
+
+  - 2014: [Implementing Parallel Genetic Algorithm Using
+    Concurrent-functional
+    Languages](https://pdfs.semanticscholar.org/0d5b/a01c28cbd56007209a2f8bc79a3f7b6c2001.pdf)
+    by J. Albert-Cruz1 , J. J. Merelo2 , L. Acevedo-Martı́nez1 and
+    Paloma de las Cuevas2
+
+  - 2014: [Eventual Consistency and Deterministic Dataflow Programming
+    A Case Study of Integrating Derflow with the Riak Data
+    Store](http://christophermeiklejohn.com/publications/derflowl-ladis.pdf)
+    by Christopher Meiklejohn
+
+  - 2014: [Dealing with actor runtime environments on hierarchical
+    shared memory multi-core
+    platforms](https://theses.hal.science/tel-01549158/) by Emilio de
+    Camargo Francesquini
+
+  - 2014: [The Curse of the Excluded Middle: Mostly functional
+    programming does not
+    work.](https://dl.acm.org/doi/abs/10.1145/2611429.2611829) by Erik
+    Meijer
+
+  - 2014: [Evaluation and Comparison of Programming Frameworks for
+    Shared Memory Multicore
+    Systems](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A740302&dswid=5724)
+    by Mikael, Silvén
+
+  - 2014: [Teaching Students Property-Based
+    Testing](https://ieeexplore.ieee.org/abstract/document/6928850) by
+    Clara Benac Earle, Lars-Åke Fredlund, Julio Mariño and Thomas Arts
+
+  - 2014: [Optimal dynamic partial order
+    reduction](https://dl.acm.org/doi/abs/10.1145/2578855.2535845) by
+    Parosh Abdulla, Stavros Aronis, Bengt Jonsson and Konstantinos
+    Sagonas
+
+  - 2014: [A scalable architecture for concurrent online
+    auctions](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.3192)
+    by Bill Karakostas
+
+  - 2014: [Verification of asynchronous concurrency and the shaped
+    stack
+    constraint](https://ora.ox.ac.uk/objects/uuid:cd487639-0e7f-4248-9405-e05e8a8383d5)
+    by Kochems, J
+
+  - 2014: [Safe Concurrency Introduction through
+    Slicing](https://core.ac.uk/download/pdf/30706837.pdf) by Huiqing
+    Li and Simon Thompson
+
+  - 2014: [ELIoT: A Programming Framework for the Internet of
+    Things](https://www.politesi.polimi.it/handle/10589/88672) by
+    SIVIERI, ALESSANDRO
+
+  - 2014: [Property-Based Testing of JSON Based Web
+    Services](https://ieeexplore.ieee.org/abstract/document/6928970)
+    by Lars Åke Fredlund, Clara Benac Earle, Ángel Herranz and Julio
+    Mariño
+
+  - 2014: [Fault tolerance for distributed explicit-state model
+    checking](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0167008)
+    by Ishida, Valerie Lynn
+
+  - 2014: [Actors and higher order functions: A Comparative Study of
+    Parallel Programming Language Support for
+    Bioinformatics](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A784851&dswid=717)
+    by Arvidsson, Staffan
+
+  - 2014: [A Zoom-Declarative Debugger for Sequential Erlang Programs
+    (extended
+    version)∗](http://federwin.sip.ucm.es/sic/investigacion/publicaciones/pdfs/TR-01-14.pdf)
+    by Rafael Caballero, Enrique Martin-Martin, Adrián Riesco, and
+    Salvador Tamarit
+
+  - 2014: [Message Brokers and RabbitMQ in
+    Action](https://www.theseus.fi/handle/10024/78263) by Kamppuri,
+    Tsuri
+
+  - 2014: [Discovering Parallel Pattern Candidates in
+    Erlang](https://www.academia.edu/download/39859834/Discovering_Parallel_Pattern_Candidates_20151110-6275-1axeeim.pdf)
+    by István Bozó, Viktória Fördős, Zoltán Horváth, Melinda Tóth,
+    Dániel Horpácsi, Tamás Kozsik, Judit KőszegiAdam Barwell, Chris
+    Brown and Kevin Hammond
+
+  - 2014: [Dealing with actor runtime environments on hierarchical
+    shared memory multi-core
+    platforms](https://core.ac.uk/download/pdf/87887472.pdf) by E de
+    Camargo Francesquini
+
+  - 2014: [Embedded Linux based demonstration device for printed
+    electronics](https://oulurepo.oulu.fi/handle/10024/2315) by Saud,
+    Muhammad
 
   - 2014: [Discovering parallel pattern candidates in
     Erlang](https://dl.acm.org/doi/10.1145/2633448.2633453) by István
