@@ -6000,6 +6000,203 @@ communities to install/package it*
     Instrumentation](https://link.springer.com/chapter/10.1007/978-3-319-27436-2_17)
     by Adrián Palacios and Germán Vidal
 
+  - 2015: [A Concurrency System for Idris &
+    Erlang](https://lenary.co.uk/publications/Elliott_BSc_Dissertation.pdf)
+    by Archibald Samuel Elliott
+
+  - 2015: [Distributed data streams ordering in
+    Erlang](https://is.muni.cz/th/ahoa0/bc.pdf) by Adam Krupička
+
+  - 2015: [Erlang/OTP Meets Dependent
+    Types](https://lenary.co.uk/publications/erlang_meets_dep_types_poster.pdf)
+    by Archibald Samuel Elliott
+
+  - 2015: [A Declarative Debugger for Concurrent Erlang
+    Programs](https://biblioteca.sistedes.es/wp-content/uploads/2015/09/PROLE_2015_submission_6.pdf)
+    by R. Caballero, E. Martin-Martin, A. Riesco and Salvador Tamarit
+
+  - 2015: [Introducing Parallelism to Erlang Programs by Breaking
+    Dependencies](ftp://ftp-sop.inria.fr/indes/TFP15/TFP2015_submission_2.pdf)
+    by Adam D. Barwell, Christopher Brown, and Kevin Hammond
+
+  - 2015: [A Tracing JIT Compiler for Erlang using
+    LLVM](https://lup.lub.lu.se/student-papers/record/5470892/file/5470933.pdf)
+    by Johan Fänge
+
+  - 2015: [Proving Soundness of Refactorings to Introduce Parallel
+    Skeletons in
+    Erlang](ftp://ftp-sop.inria.fr/indes/TFP15/TFP2015_submission_4.pdf)
+    by Christopher Brown, Vladimir Janjic, Adam D. Barwell and Kevin
+    Hammond
+
+  - 2015: [Monitoring Erlang/OTP Applications using Multiparty Session
+    Types](http://www.simonjf.com/writing/msc-thesis.pdf) by Simon
+    Fowler
+
+  - 2015: [The Hopper language- A Haskell-like language on the Erlang
+    VM](https://gupea.ub.gu.se/handle/2077/39609) by Hughes, William,
+    Jarmar, Jacob, Larsson, Johan, Lindbom, David, Norgren, Björn and
+    Wikström Schützer, Johan
+
+  - 2015: [Comparing Erlang-based web technologies with emerging MEAN
+    stack for scalable web
+    applications](https://www.um.edu.mt/library/oar/handle/123456789/95186)
+    by Tabone, Jamie
+
+  - 2015: [Towards sound refactoring in
+    erlang](https://www.um.edu.mt/library/oar/handle/123456789/8268)
+    by Tanti, Erica and Francalanza, Adrian
+
+  - 2015: [Performance portability through semi-explicit placement in
+    distributed
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2804295.2804299) by
+    Kenneth MacKenzie, Natalia Chechina and Phil Trinder
+
+  - 2015: [A Reliable Instant Messenger in Erlang: Design and
+    Evaluation](https://eprints.gla.ac.uk/113709/) by Hernandez,
+    M. M., Chechina, N. and Trinder, P.
+
+  - 2015: [The scalability of reliable computation in
+    Erlang](https://theses.gla.ac.uk/6789/) by Ghaffari, Amir
+
+  - 2015: [Smother: an MC/DC analysis tool for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2804295.2804297) by
+    Ramsay Taylor and John Derrick
+
+  - 2015: [mu2: A Refactoring-Based Mutation Testing Framework for
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-319-25945-1_11)
+    by Ramsay Taylor and John Derrick
+
+  - 2015: [The implementation and use of a generic dataflow behaviour
+    in Erlang](https://dl.acm.org/doi/abs/10.1145/2804295.2804300) by
+    Christopher Meiklejohn and Peter Van Roy
+
+  - 2015: [A zoom-declarative debugger for sequential Erlang
+    programs](https://www.sciencedirect.com/science/article/pii/S0167642315001343)
+    by Rafael Caballero, Enrique Martin-Martin, Adrián Riesco and
+    Salvador Tamarit
+
+  - 2015: [Attribute grammars in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/2804295.2804296) by Ulf
+    Norell and Alex Gerdes
+
+  - 2015: [Towards Symbolic Execution in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-662-46823-4_28)
+    by Germán Vidal
+
+  - 2015: [Concurrency for Creative
+    Coding](https://www.researchgate.net/profile/Arnaud-Loonstra/publication/346035138_Concurrency_for_Creative_Coding/links/5fb79bada6fdcc6cc64f7839/Concurrency-for-Creative-Coding.pdf)
+    by Arnaud Loonstra
+
+  - 2015: [Massively concurrent agent-based evolutionary
+    computing](https://www.sciencedirect.com/science/article/abs/pii/S1877750315300041)
+    by Krzywicki, W. Turek, A. Byrski and M. Kisiel-Dorohinicki
+
+  - 2015: [Adding distribution and fault tolerance to
+    Jason](https://www.sciencedirect.com/science/article/pii/S0167642314000227)
+    by Fernández-Díaz, C. Benac-Earle and L. Fredlund
+
+  - 2015: [Linking unit tests and
+    properties](https://dl.acm.org/doi/abs/10.1145/2804295.2804298) by
+    Alex Gerdes, John Hughes, Nick Smallbone and Meng Wang
+
+  - 2015: [Implementing Erlang/OTP on Intel
+    Galileo](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A873121&dswid=-9313)
+    by Coada, Paul and Kaya, Erkut
+
+  - 2015: [Synthesising correct concurrent runtime
+    monitors](https://link.springer.com/article/10.1007/s10703-014-0217-9)
+    by Adrian Francalanza and Aldrin Seychell
+
+  - 2015: [High performance declarative memory systems through
+    MapReduce](https://ieeexplore.ieee.org/abstract/document/7176183)
+    by Mark Edmonds, Tanvir Atahary, Tarek Taha and Scott A. Douglass
+
+  - 2015: [Verification of Message Passing Concurrent
+    Systems](https://ora.ox.ac.uk/objects/uuid:f669b95b-f760-4de9-a62a-374d41172879/files/m6234be3e61e4c864549c2a18a27059c9)
+    by Emanuele D’Osualdo
+
+  - 2015: [A Reflective Implementation of an Actor-based Concurrent
+    Context-Oriented
+    System](https://dl.acm.org/doi/abs/10.1145/2834965.2834972) by
+    Souhei Takeno and Takuo Watanabe
+
+  - 2015: [Programming Paradigms in High Performance
+    Computing](https://www.igi-global.com/chapter/programming-paradigms-in-high-performance-computing/124349)
+    by Venkat N. Gudivada, Jagadeesh Nandigam and Jordan Paris
+
+  - 2015: [Refactorings to Enable
+    Parallelization](https://link.springer.com/chapter/10.1007/978-3-319-14675-1_7)
+    by István Bozó, Viktória Fördős, Dániel Horpácsi, Zoltán Horváth,
+    Tamás Kozsik, Judit Kőszegi and Melinda Tóth
+
+  - 2015: [Concolic testing for functional
+    languages](https://dl.acm.org/doi/abs/10.1145/2790449.2790519) by
+    Aggelos Giantsios, Nikolaos Papaspyrou and Konstantinos Sagonas
+
+  - 2015: [Towards behavioral programming in distributed
+    architectures](https://www.sciencedirect.com/science/article/pii/S0167642314001075)
+    by David Harel, Amir Kantor, Guy Katz, Assaf Marron, Gera Weiss
+    and Guy Wiener
+
+  - 2015: [Expressing and Composing Actors for Deterministic and
+    Scalable Programming in
+    Cloud](https://ieeexplore.ieee.org/abstract/document/7133540) by
+    Kang Lianghuan, Zhan Hanglong and Cao Donggang
+
+  - 2015: [Concept of Client-Server Environment for Agent-Based
+    Modeling and Simulation of Living
+    Systems](https://ieeexplore.ieee.org/abstract/document/7311138) by
+    Ingars Ribners and Guntis Arnicans
+
+  - 2015: [On Synchronous and Asynchronous Monitor Instrumentation for
+    Actor-based systems](https://arxiv.org/abs/1502.03514) by Ian
+    Cassar and Adrian Francalanza
+
+  - 2015: [Towards Modelling Actor-Based Concurrency in Term
+    Rewriting∗](https://drops.dagstuhl.de/opus/volltexte/2015/5179/)
+    by Adrián Palacios and Germán Vidal
+
+  - 2015: [Lasp: a language for distributed, coordination-free
+    programming](https://dl.acm.org/doi/abs/10.1145/2790449.2790525)
+    by Christopher Meiklejohn and Peter Van Roy
+
+  - 2015: [Analysis and Testing of Distributed NoSQL Datastore
+    Riak](https://is.muni.cz/th/en005/thesis_Archive.pdf) by
+    Be. Zuzana Zatrochová
+
+  - 2015: [A performance study of protocols used in a print on demand
+    server](https://www.diva-portal.org/smash/get/diva2:859441/FULLTEXT01.pdf)
+    by SAM SAM
+
+  - 2015: [Isolates, Channels, and Event Streams for Composable
+    Distributed
+    Programming](https://dl.acm.org/doi/abs/10.1145/2814228.2814245)
+    by Aleksandar Prokopec and Martin Odersky
+
+  - 2015: [ContextErlang: A language for distributed context-aware
+    self-adaptive
+    applications](https://www.sciencedirect.com/science/article/pii/S0167642314005577)
+    by Guido Salvaneschi, Carlo Ghezzi and Matteo Pradella
+
+  - 2015: [Implementation of an Erlang-Based Resource Holon for a
+    Holonic Manufacturing
+    Cell](https://link.springer.com/chapter/10.1007/978-3-319-15159-5_5)
+    by Karel Kruger and Anton Basson
+
+  - 2015: [A simple Erlang API for handling DDS data types and Quality
+    of Service
+    parameters](https://ieeexplore.ieee.org/abstract/document/7320329)
+    by Wafa Helali, Khaled Barbaria and Belhassen Zouari
+
+  - 2015: [Safe Concurrency Introduction through
+    Slicing](https://dl.acm.org/doi/abs/10.1145/2678015.2682533) by
+    Huiqing Li and Simon Thompson
+
+  - 2015: [Using Actors to Implement Sequential
+    Simulations](https://research.google/pubs/pub43437/) by Ryan
+    Harrison
+
   - 2015: [Concolic testing for functional
    languages](https://dl.acm.org/doi/10.1145/2790449.2790519) by
    Aggelos Giantsios, Nikolaos Papaspyrou and Konstantinos Sagonas
