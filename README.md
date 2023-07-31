@@ -5845,6 +5845,201 @@ communities to install/package it*
     (ffl-erl)](https://link.springer.com/chapter/10.1007/978-3-030-16202-3_10)
     by Gregor Ulm, Emil Gustavsson and Mats Jirstrand
 
+  - 2018: [KErl: Executable semantics for
+    Erlang](http://ceur-ws.org/Vol-2046/koszegi.pdf) by Judit Kőszegi
+
+  - 2018: [Erlang-based holonic controller for a palletized conveyor
+    material handling
+    system](https://www.sciencedirect.com/science/article/abs/pii/S0166361517306942)
+    by Karel Kruger and Anton
+
+  - 2018: [The Missing Link! A New Skeleton for Evolutionary
+    Multi-agent Systems in
+    Erlang](https://link.springer.com/article/10.1007/s10766-017-0503-4)
+    by Jan Stypka, Wojciech Turek, Aleksander Byrski, Marek
+    Kisiel-Dorohinicki, Adam D. Barwell, Christopher Brown, Kevin
+    Hammond and Vladimir Janjic
+
+  - 2018: [Runtime Verification in Erlang by Using
+    Contracts](https://link.springer.com/chapter/10.1007/978-3-030-16202-3_4)
+    by Lars-Åke Fredlund, Julio Mariño, Sergio Pérez and Salvador
+    Tamarit
+
+  - 2018: [Modeling Erlang processes as Petri
+    nets](https://dl.acm.org/doi/abs/10.1145/3239332.3242767) by
+    Jörgen Brandt and Wolfgang Reisig
+
+  - 2018: [Analysis of Distributed Systems Dynamics with Erlang
+    Performance
+    Lab](https://journals.agh.edu.pl/csci/article/view/2752) by Michał
+    Ślaski, Wojciech Turek, Arkadiusz Gil, Bartosz Szafran, Mateusz
+    Paciorek and Aleksander Byrski
+
+  - 2018: [InterSCSimulator: Large-Scale Traffic Simulation in Smart
+    Cities Using
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-319-91587-6_15)
+    by Eduardo Felipe Zambom Santana, Nelson Lago, Fabio Kon and Dejan
+    S. Milojicic
+
+  - 2018: [Towards secure Erlang
+    systems](https://dl.acm.org/doi/abs/10.1145/3239332.3242768) by
+    Alexandre Jorge Barbosa Rodrigues and Viktória Fördős
+
+  - 2018: [Reversible Choreographies via Monitoring in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-319-93767-0_6)
+    Adrian Francalanza, Claudio Antares Mezzina and Emilio Tuosto
+
+  - 2018: [Behaviour Preservation across Code Versions in
+    Erlang](https://www.hindawi.com/journals/sp/2018/9251762/) by
+    David Insa, Sergio Pérez, Josep Silva and Salvador Tamarit
+
+  - 2018: [Automatic detection of core Erlang message passing
+    errors](https://dl.acm.org/doi/abs/10.1145/3239332.3242765) by
+    Joseph Harrison
+
+  - 2018: [A theory of reversibility for
+    Erlang☆](https://www.sciencedirect.com/science/article/pii/S2352220817301402https://www.sciencedirect.com/science/article/pii/S2352220817301402)
+    by Ivan Lanese, Naoki Nishida, Adrián Palacios and Germán Vidal
+
+  - 2018: [Polymorphic success types for
+    Erlang∗](http://easychair.org/publications/download/FzsM) by
+    Francisco J. López-Fraguas, Manuel Montenegro, and Gorka
+    Suárez-García
+
+  - 2018: [Transforming Erlang finite state
+    machines](https://ceur-ws.org/Vol-2046/lukacs-et-al.pdf) by Dániel
+    Lukács, Melinda Tóth, István Bozó
+
+  - 2018: [Addendum I: Pure Type System for
+    Erlang](https://www.researchgate.net/profile/Maksym-Sokhatskyi-2/publication/332514322_Addendum_I_Pure_Type_System_for_Erlang/links/5cb8e9314585156cd7a2580d/Addendum-I-Pure-Type-System-for-Erlang.pdf)
+    by Maxim Sokhatsky
+
+  - 2018: [HiPErJiT: A Proﬁle-Driven Just-in-Time Compiler for Erlang
+    based on
+    HiPE](https://angelhof.github.io/files/theses-reports/thesis.pdf)
+    by KONSTANTINOS KALLAS
+
+  - 2018: [Application to In-flight Update of a Multicopter and
+    Evaluation of Erlang Runtime
+    implementation](https://repositorio.comillas.edu/xmlui/bitstream/handle/11531/25747/Tesis_AldoGarcia_DSU.pdf?sequence=2)
+    by Aldo García Regueira
+
+  - 2018: [Evaluation of Erlang for a stigmergy holonic routing
+    controller](https://core.ac.uk/download/pdf/188219448.pdf) by
+    Christopher Sean van den Berg
+
+  - 2018: [INCREMENTAL DECOMPILATION OF LOOP-FREE BINARY CODE:
+    ERLANG](https://pdfs.semanticscholar.org/749b/1a626311625a480a6a1b624f03b013639ed8.pdf)
+    by GREGORY MORSE, DÁNIEL LUKÁCS, AND MELINDA TÓTH
+
+  - 2018: [Ejasona framework for distributed and fault-tolerant
+    multi-agent
+    systems](https://dialnet.unirioja.es/servlet/tesis?codigo=184977)
+    by Alvaro Fernández Díaz
+
+  - 2018: [Understanding Formal Specifications through Good
+    Examples](https://dl.acm.org/doi/abs/10.1145/3239332.3242763) by
+    Alex Gerdes, John Hughes, Nicholas Smallbone, Stefan Hanenberg,
+    Sebastian Ivarsson and Meng Wang
+
+  - 2018: [A case study on reliable Erlang communication in open
+    platforms based on
+    Scribble](https://ieeexplore.ieee.org/abstract/document/8400265)
+    by Ana Vranković, Tihana Galinac Grbac and Bruno Blaskovic
+
+  - 2018: [Scalability and Performance through Distribution: An
+    approach to distribute a standalone Erlang implementation of
+    Redis](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1216359&dswid=-7611)
+    by Nilsson, Joachim
+
+  - 2018: [Evaluating the Performance of Federated Learning A Case
+    Study of Distributed Machine Learning with
+    Erlang](https://odr.chalmers.se/items/e36d8c2a-bb0c-400e-9e09-980aa16367db)
+    by Nilsson, Adrian and Smith, Simon
+
+  - 2018: [Using erlang in research and education in a technical
+    university](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-41cf0346-9a96-44f4-ac17-de78ec9d79e4)
+    by Petrov I., Alexeyenko A. and Ivanova G.
+  
+  - 2018: [Modelling distributed Erlang within a single
+    node](https://dl.acm.org/doi/abs/10.1145/3239332.3242764) by
+    Stavros Aronis, Viktória Fördős and Dániel Szoboszlay
+
+  - 2018: [The development and evaluation of an Erlang control system
+    for reconfigurable manufacturing
+    systems](https://scholar.sun.ac.za/items/35667ccd-3e5e-43f9-8b4f-e9a9eb62a390)
+    by Kruger, Karel
+
+  - 2018: [Gview: Efficient graph visualisation for
+    RefactorErl](https://frontier711.com/publications/TDK18.pdf) by
+    Komáromi Mátyás
+
+  - 2018: [Investigating Concurrency Issues in
+    Dropbox](https://daniel.regentsit.co.uk/erlang.pdf) by Ionita
+    Daniel
+
+  - 2018: [Web Prolog and the programmable Prolog Web, An Attempt to
+    revive and Rebrand
+    Prolog](https://raw.githubusercontent.com/Web-Prolog/swi-web-prolog/master/book/web-prolog.pdf)
+    by Torbjörn Lager
+
+  - 2018: [On the Reactive Nature of Financial
+    Networks](http://ceur-ws.org/Vol-2243/paper23.pdf) by Silvia Crafa
+    and Daniele Varacca
+
+  - 2018: [A Concept for a High-reliability Meteorological Monitoring
+    System Using
+    AMQP](https://opendata.uni-halle.de/bitstream/1981185920/12401/1/4_1Kostromina.pdf)
+    by Anna Kostromina1, Eduard Siemens1 and Yurii Babich
+
+  - 2018: [AN EFFICIENT GRAPH VISUALISATION FRAMEWORK FOR
+    REFACTORERL](https://www.researchgate.net/profile/Matyas-Komaromi/publication/325897996_An_Efficient_Graph_Visualisation_Framework_for_RefactorErl/links/640b3cb3315dfb4cce6ed4a7/An-Efficient-Graph-Visualisation-Framework-for-RefactorErl.pdf)
+    by MÁTYÁS KOMÁROMI, ISTVÁN BOZÓ, AND MELINDA TÓTH
+
+  - 2018: [Effective Techniques for Stateless Model
+    Checking](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1159517&dswid=-6038)
+    by Aronis, Stavros
+
+  - 2018: [Design and implementation of distributed expert systems: on
+    a control strategy to manage the execution flow of rule
+    activation](https://www.sciencedirect.com/science/article/abs/pii/S0957417417307911)
+    by Alvine Boaye Belle*, Timothy C. Lethbridge, Miguel Garzón,
+    Opeyemi O. Adesina
+
+  - 2018: [Distributed functional reactive programming on actor-based
+    runtime](https://dl.acm.org/doi/abs/10.1145/3281366.3281370) by
+    Kazuhiro Shibanai and Takuo Watanabe
+
+  - 2018: [From Reversible Semantics to Reversible
+    Debugging](https://link.springer.com/chapter/10.1007/978-3-319-99498-7_2)
+    by Ivan Lanese
+
+  - 2018: [Dynamic Adaptations of Synchronization Granularity in
+    Concurrent Data
+    Structures](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1220366&dswid=4659)
+    by Winblad, Kjell
+
+  - 2018: [Block Chain based Intelligent Industrial Network
+    (DSDIN)](https://arxiv.org/abs/1809.06551) by Barco You, Matthias
+    Hub, Mengzhe You, Bo Xu, Mingzhi Yu and Ivan Uemlianin
+
+  - 2018: [Implementation and Evaluation of IEC 61499 Basic Function
+    Blocks in
+    Erlang](https://ieeexplore.ieee.org/abstract/document/8502470) by
+    Laurin Prenzel and Julien Provost
+
+  - 2018: [A Teleo-Reactive Node for Implementing Internet of Things
+    Systems](https://www.mdpi.com/1424-8220/18/4/1059) by Pedro
+    Sánchez, Bárbara Álvarez, Elías Antolinos, Diego Fernández and
+    Andrés Iborra
+
+  - 2018: [Free the Conqueror! Refactoring divide-and-conquer
+    functions](https://www.sciencedirect.com/science/article/abs/pii/S0167739X17309822)
+    by Tamás Kozsik *, Melinda Tóth, István Bozó
+
+  - 2018: [CoAP Infrastructure for
+    IoT](https://harvest.usask.ca/handle/10388/9710) by Shi, Heng
+
   - 2018: [A Study of Concurrency Bugs and Advanced Development
     Support for Actor-based
     Programs](https://link.springer.com/chapter/10.1007/978-3-030-00302-9_6)
@@ -9479,6 +9674,10 @@ communities to install/package it*
   - 1996: [A performance analyzer for a parallel real-time functional
     language](https://ieeexplore.ieee.org/abstract/document/495497) by
     O. Hansen and P. Fritzson
+
+  - 1996: [An evaluation of Erlang and
+    C++](https://www.ida.liu.se/~benle04/www-BLn-SW-Architecture/ERLANG/jaakr-main.ps)
+    by Jaap Kreijkamp
 
   - 1995: [A garbage collector for the concurrent real-time language
     Erlang](https://link.springer.com/chapter/10.1007/3-540-60368-9_33)
