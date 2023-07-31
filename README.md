@@ -4577,6 +4577,25 @@ techniques.*
 
 ### JSON
 
+  - <details><summary><b><a href="https://github.com/gearnode/erl-json">erl-json</a></b>: An implementation of the JSON data format in Erlang.</summary>
+
+    ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
+    ![GitHub contributors](https://img.shields.io/github/contributors/gearnode/erl-json?style=flat-square)
+    ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gearnode/erl-json/master?style=flat-square)
+    ![GitHub](https://img.shields.io/github/license/gearnode/erl-json?style=flat-square)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/gearnode/erl-json?style=flat-square)
+    ![GitHub forks](https://img.shields.io/github/forks/gearnode/erl-json?style=flat-square)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/gearnode/erl-json?style=flat-square)
+    <br/>
+    ![Static Badge](https://img.shields.io/badge/packages-hex-blue?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/v/erl-json?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/l/erl-json?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dt/erl-json?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dw/erl-json?style=flat-square)
+    ![Hex.pm](https://img.shields.io/hexpm/dd/erl-json?style=flat-square)
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/patternmatched/ejsv">ejsv</a></b>: Erlang JSON schema validator.</summary>
 
     ![Static Badge](https://img.shields.io/badge/repository-github-blue?style=flat-square)
@@ -5911,6 +5930,243 @@ communities to install/package it*
   - 2018: [Runtime verification in Erlang by using
     contracts](https://arxiv.org/abs/1808.07937) by Lars-Åke Fredlund,
     Julio Mariño, Sergio Pérez and Salvador Tamarit
+
+  - 2017: [A Generic Instrumentation Tool for
+    Erlang](https://6login.easychair.org/publications/download/XWsk)
+    by Ian Cassar1, Adrian Francalanza, Duncan Paul Attard, Luca
+    Aceto, and Anna Ingólfsdóttir
+
+  - 2017: [A type derivation system for Erlang (extended
+    version)](https://federwin.sip.ucm.es/sic/investigacion/publicaciones/pdfs/TR-01-17.pdf)
+    by Francisco J. López-Fraguas, Manuel Montenegro and Gorka
+    Suárez-García
+
+  - 2017: [Analysis of Erlang source dependencies in BEAM
+    bytecode](https://icai.uni-eszterhazy.hu/page/papers/ICAI.10.2017.191.pdf)
+    by Dániel Lukács, Melinda Tóth
+
+  - 2017: [A Suite of Monitoring Tools for
+    Erlang](https://2wvvw.easychair.org/publications/download/cSzb) by
+    Ian Cassar, Adrian Francalanza, Duncan Paul Attard, Luca Aceto,
+    and Anna Ingólfsdóttir
+
+  - 2017: [A File System in
+    Erlang](https://www.academia.edu/download/58060751/ResearchProject.pdf)
+    by James Forward
+
+  - 2017: [DNSfilter: An Erlang/OTP Implementation of a DNS-Based Web
+    Filtering
+    System](https://www.researchgate.net/profile/Dante-Dinawanao/publication/322958697_DNSFilter_An_ErlangOTP_Implementation_of_a_DNS-Based_Web_Filtering_System/links/5a79a52245851541ce5ceddb/DNSFilter-An-Erlang-OTP-Implementation-of-a-DNS-Based-Web-Filtering-System.pdf)
+    by Jeyran G. Labrador, Michael P. De La CruzDante and D. Dinawanao
+
+  - 2017: [Functional Federated Learning in
+    Erlang](https://www.fcc.chalmers.se/mediadir/2017/11/federatedlearning.pdf)
+    by Gregor Ulm, Emil Gustavsson, Mats Jirstrand
+
+  - 2017: [A Runtime Monitoring Tool for Actor-Based
+    Systems](https://library.oapen.org/bitstream/handle/20.500.12657/59807/1/9781000799255.pdf#page=84)
+    by Duncan Paul Attard, Ian Cassar, Adrian Francalanza, Luca Aceto
+    and and Anna Ingólfsdóttir
+
+  - 2017: [Let it recover: multiparty protocol-induced
+    recovery](https://dl.acm.org/doi/abs/10.1145/3033019.3033031) by
+    Rumyana Neykova and Nobuko Yoshida
+
+  - 2017: [Building Analytics Plugin for Erlang MQTT
+    Broker](https://www.theseus.fi/handle/10024/130280) by Mustafin,
+    Damir
+
+  - 2017: [AErlang at
+    Work](https://link.springer.com/chapter/10.1007/978-3-319-51963-0_38)
+    by Rocco De Nicola, Tan Duong, Omar Inverso and Catia Trubiani
+
+  - 2017: [Distributed memory architecture for high-level synthesis of
+    embedded controllers from
+    Erlang](https://dl.acm.org/doi/abs/10.1145/3123569.3123574) by
+    Kagumi Azuma, Nagisa Ishiura, Nobuaki Yoshida and Hiroyuki Kanbara
+
+  - 2017: [Dynamic Software Update of Stateflow Charts using Erlang
+    Runtime
+    System](https://www.sciencedirect.com/science/article/pii/S240589631730914X)
+    by Sebastian Q. Roder and Julien Provost
+
+  - 2017: [Towards an Isabelle/HOL formalisation of core
+    Erlang](https://dl.acm.org/doi/abs/10.1145/3123569.3123576) by
+    Joseph R. Harrison
+
+  - 2017: [Structuring Erlang BEAM control
+    flow](https://dl.acm.org/doi/abs/10.1145/3123569.3123572) by
+    Dániel Lukács and Melinda Tóth
+
+  - 2017: [Dynamic Software Updating of IEC 61499 Implementation Using
+    Erlang Runtime
+    System](https://www.sciencedirect.com/science/article/pii/S2405896317332950)
+    by Laurin Prenzel and Julien Provost
+
+  - 2017: [Erlang Code Evolution
+    Control](https://link.springer.com/chapter/10.1007/978-3-319-94460-9_8)
+    by David Insa, Sergio Pérez, Josep Silva and Salvador Tamarit
+
+  - 2017: [Evaluating Scalable Distributed Erlang for Scalability and
+    Reliability](https://ieeexplore.ieee.org/abstract/document/7820204)
+    by Natalia Chechina, Kenneth MacKenzie, Simon Thompson, Phil
+    Trinder, Olivier Boudeville, Viktória Fördős, Csaba Hoch, Amir
+    Ghaffari and Mario Moro Hernandez
+
+  - 2017: [Erlang-based control implementation for a holonic
+    manufacturing
+    cell](https://www.tandfonline.com/doi/abs/10.1080/0951192X.2016.1195923)
+    by Karel Kruger and Anton Basson
+
+  - 2017: [eAOP: an aspect oriented programming framework for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/3123569.3123570) by Ian
+    Cassar, Adrian Francalanza, Luca Aceto and Anna Ingólfsdóttir
+
+  - 2017: [AErlang: Empowering Erlang with Attribute-Based
+    Communication](https://link.springer.com/chapter/10.1007/978-3-319-59746-1_2)
+    by Rocco De Nicola, Tan Duong, Omar Inverso and Catia Trubiani
+
+  - 2017: [A Survey of Runtime Monitoring Instrumentation
+    Techniques](https://arxiv.org/abs/1708.07229) by Ian Cassar,
+    Adrian Francalanza, Luca Aceto and Anna Ingólfsdóttir
+
+  - 2017: [Loquat: A Framework for Large-Scale Actor Communication on
+    Edge
+    Networks](https://dial.uclouvain.be/pr/boreal/object/boreal:196156)
+    by Van Roy, Peter and Meiklejohn, Christopher
+
+  - 2017: [Reliability and Fault-Tolerance by Choreographic
+    Design](https://arxiv.org/abs/1708.07233) by Ian Cassar, Adrian
+    Francalanza, Claudio Antares Mezzina and Emilio Tuosto
+
+  - 2017: [TRIoT: A Proposal for Deploying Teleo-Reactive Nodes for
+    IoT
+    Systems](https://link.springer.com/chapter/10.1007/978-3-319-59930-4_6)
+    by Diego Fernández, Pedro Sánchez, Bárbara Álvarez, Juan Antonio
+    López and Andrés Iborra
+
+  - 2017: [muMQ: A lightweight and scalable MQTT
+    broker](https://ieeexplore.ieee.org/abstract/document/7972165) by
+    Wiriyang Pipatsakulroj, Vasaka Visoottiviseth and Ryousei Takano
+
+  - 2017: [Loquat: A framework for large-scale actor communication on
+    edge
+    networks](https://ieeexplore.ieee.org/abstract/document/7917624)
+    by Christopher S. Meiklejohn and Peter Van Roy
+
+  - 2017: [Validation of a Holonic Controller for a Modular Conveyor
+    System Using an Object-Oriented Simulation
+    Framework](https://link.springer.com/chapter/10.1007/978-3-319-51100-9_38)
+    by Karel Kruger and Anton Basson
+
+  - 2017: [Hootsuite: in pursuit of reactive
+    systems](https://dl.acm.org/doi/fullHtml/10.1145/3106627) by CACM
+    Staff
+  
+  - 2017: [The pragmatics of clone detection and
+    elimination](https://arxiv.org/abs/1703.10860) by Simon Thompson,
+    Huiqing Li and Andreas Schumacher
+
+  - 2017: [Design and evaluation of an alternative programming
+    paradigms
+    course](https://www.sciencedirect.com/science/article/abs/pii/S0736585316301393)
+    by Francisco Ortin, Jose Manuel Redondo and Jose Quiroga
+
+  - 2017: [Dependent Session Types](https://arxiv.org/abs/1704.07004)
+    by Hanwen Wu and Hongwei Xi
+
+  - 2017: [Microservices: A Language-Based
+    Approach](https://link.springer.com/chapter/10.1007/978-3-319-67425-4_13)
+    by Claudio Guidi, Ivan Lanese, Manuel Mazzara and Fabrizio Montesi
+
+  - 2017: [Actor Based Business Process Automation via Intelligent
+    Business
+    Objects](https://dl.acm.org/doi/abs/10.1145/3040565.3040569) by
+    Florian Unterberger and Robert Singer
+
+  - 2017: [Scouting Erlang: BEAM
+    VM](https://www.cs.tufts.edu/comp/250RTS/scouting-reports.pdf) by
+    Matthew Ahrens
+
+  - 2017: [An architecture and implementation of the actor model of
+    concurrency](https://ieeexplore.ieee.org/abstract/document/8316391)
+    by Kwabena Aning and Keith Leonard Mannock
+
+  - 2017: [An architecture and implementation of the actor model of
+    concurrency](https://eprints.bbk.ac.uk/id/eprint/20836/) by Keith
+    Mannock
+
+  - 2017: [Pattern Candidate Discovery and Parallelization
+    Techniques](https://dl.acm.org/doi/abs/10.1145/3205368.3205369) by
+    Melinda Tóth, István Bozó and Tamás Kozsik
+
+  - 2017: [Erlang-Based Holonic Controller for a Modular Conveyor
+    System](https://link.springer.com/chapter/10.1007/978-3-319-51100-9_17)
+    by Karel Kruger and Anton Basson
+
+  - 2017: [Software Inspections, Code Reviews, and Safety
+    Arguments](https://link.springer.com/chapter/10.1007/978-3-319-64822-4_7)
+    by Neil Walkinshaw
+
+  - 2017: [Comparative study of middleware solutions for control and
+    monitoring
+    systems](https://ieeexplore.ieee.org/abstract/document/8117808) by
+    Suman Patro, Manish Potey and Amit Golhani
+
+  - 2017: [Towards application-level elasticity on shared cluster: an
+    actor-based
+    approach](https://link.springer.com/article/10.1007/s11704-016-5386-9)
+    by Donggang Cao, Lianghuan Kang, Hanglong Zhan and Hong Mei
+
+  - 2017: [A priori state synchronization for fast failover of
+    stateful firewall
+    VNFs](https://ieeexplore.ieee.org/abstract/document/7903964) by
+    Nicholas Gray, Claas Lorenz, Alexander Müssig, Steffen Gebert,
+    Thomas Zinner and Phuoc Tran-Gia
+
+  - 2017: [Unobtrusive Deferred Update Stabilization for Efficient
+    Geo-Replication](https://www.usenix.org/conference/atc17/technical-sessions/presentation/gunawardhana)
+    by Chathuri Gunawardhana, Manuel Bravo, and Luis Rodrigues
+
+  - 2017: [Æternity blockchain The trustless, decentralized and purely
+    functional oracle
+    machine](https://neironix.io/documents/whitepaper/400/aeternity-blockchain-whitepaper.pdf)
+    by Zackary Hess, Yanislav Malahov and Jack Pettersson
+
+  - 2017: [Sparrow: a DSL for coordinating large groups of
+    heterogeneous
+    actors](https://dl.acm.org/doi/abs/10.1145/3141834.3141838) by
+    Humberto Rodriguez Avila, Joeri De Koster and Wolfgang De Meuter
+
+  - 2017: [Detecting code clones with gaps by function
+    applications](https://dl.acm.org/doi/abs/10.1145/3018882.3018892)
+    by Tsubasa Matsushita and Isao Sasano
+
+  - 2017: [The current state of starcraft ai competitions and
+    bots](https://dai.fmph.uniba.sk/~certicky/publications_backup/aiide17-certicky-churchill.pdf)
+    by D Churchill and M Certicky
+
+  - 2017: [Scalability and High Availability in Real-time Cloud
+    Services](https://core.ac.uk/download/pdf/151479141.pdf) by Jan
+    Varljen
+
+  - 2017: [Source Sets: A Foundation for Optimal Dynamic Partial Order
+    Reduction](https://dl.acm.org/doi/abs/10.1145/3073408) by Parosh
+    Aziz Abdulla, Stavros Aronis, Bengt Jonsson and Konstantinos
+    Sagonas
+
+  - 2017: [Kafka versus RabbitMQ: A comparative study of two industry
+    reference publish/subscribe implementations: Industry
+    Paper](https://dl.acm.org/doi/abs/10.1145/3093742.3093908) by
+    Philippe Dobbelaere and Kyumars Sheykh Esmaili
+
+  - 2017: [Towards Runtime Adaptation of Actor
+    Systems](https://arxiv.org/abs/1709.02346) by Ian Cassar
+
+  - 2017: [Construction and formal verification of a fault-tolerant
+    distributed mutual exclusion
+    algorithm](https://dl.acm.org/doi/abs/10.1145/3123569.3123571) by
+    Evgeniy Shishkin
 
   - 2017: [Dealing with actor runtime environments on hierarchical
     shared memory multi-core
