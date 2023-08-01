@@ -2046,6 +2046,50 @@ communities to install/package it*
 
 *Erlang-related academic and scientific materials*
 
+<details><summary>Academic paper summary</summary>
+
+| date | #papers |
+|------|---------|
+| 2023 |      21 |
+| 2022 |      34 |
+| 2021 |      24 |
+| 2020 |      31 |
+| 2019 |      45 |
+| 2018 |      63 |
+| 2017 |      65 |
+| 2016 |      59 |
+| 2015 |      52 |
+| 2014 |      54 |
+| 2013 |      87 |
+| 2012 |      60 |
+| 2011 |      90 |
+| 2010 |      65 |
+| 2009 |      42 |
+| 2008 |      33 |
+| 2008 |       1 |
+| 2007 |      39 |
+| 2006 |      22 |
+| 2005 |      33 |
+| 2004 |      21 |
+| 2003 |      16 |
+| 2002 |      22 |
+| 2001 |       9 |
+| 2000 |      13 |
+| 1999 |       7 |
+| 1998 |       6 |
+| 1997 |       6 |
+| 1996 |      13 |
+| 1995 |       7 |
+| 1994 |       2 |
+| 1992 |       2 |
+| 1990 |       1 |
+| 1989 |       1 |
+
+  - see also: https://erlef.org/academic-papers/
+
+</details>
+
+
   - 2023: [Pour Some Sugar on Bits: Flexible Manipulation of Bit
     Streams in Erlang
     ∗](http://user.it.uu.se/~pergu/binary_comprehensions.ps) Per
