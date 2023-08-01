@@ -2193,6 +2193,100 @@ communities to install/package it*
     Programs](https://hal.science/hal-03917301v1) by Ivan Lanese,
     Ulrik Schultz and Irek Ulidowski
 
+  - 2021: [Causal-Consistent Debugging of Distributed Erlang
+    Programs](https://link.springer.com/chapter/10.1007/978-3-030-79837-6_5)
+    by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
+  - 2021: [Bidirectional typing for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/3471871.3472966) by
+    Nithin Vadukkumchery Rajendrakumar and Annette Bieniusa
+
+  - 2021: [Text Mining Infrastructure in
+    Erlang](http://jonuns.com/index.php/journal/article/view/853) by
+    Abbas Jkhayyir Kadhim
+
+  - 2021: [Program Equivalence in Sequential Core
+    Erlang](https://www.ipl.riec.tohoku.ac.jp/wpte2021/Horpacsi21wpte.pdf)
+    Dániel HorpácsiPéter Bereczky
+
+  - 2021: [The Hera framework for fault-tolerant sensor fusion on an
+    Internet of Things network with application to inertial navigation
+    and
+    tracking](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A30740&datastream=PDF_01&cover=cover-mem)
+    Kalbusch, Sébastien ; Verpoten, Vincent
+
+  - 2021: [A unified framework for declarative debugging and
+    testing](https://www.sciencedirect.com/science/article/abs/pii/S0950584920301853)
+    by Rafael Caballero, Enrique Martin-Martin, Riesco, Adrián and
+    Salvador Tamarit
+
+  - 2021: [OODIDA: On-Board/Off-Board Distributed Real-Time Data
+    Analytics for Connected
+    Vehicles](https://link.springer.com/article/10.1007/s41019-021-00152-6)
+    by Gregor Ulm, Simon Smith, Adrian Nilsson, Emil Gustavsson and
+    Mats Jirstrand
+
+  - 2021: [A Design Approach for Software
+    Robustness](https://ieeexplore.ieee.org/abstract/document/9391977)
+    by Feng-Cheng Chang and Hsiang-Cheh Huang
+
+  - 2021: [Open-Source MQTT
+    Evaluation](https://ieeexplore.ieee.org/abstract/document/9369499)
+    by Melvin Bender, Erkin Kirdan, Marc-Oliver Pahl and Georg Carle
+
+  - 2021: [Causal-Consistent Reversible Debugging: Improving
+    CauDEr](https://link.springer.com/chapter/10.1007/978-3-030-67438-0_9)
+    by Juan José González-Abril and Germán Vidal
+
+
+  - 2021: [Detecting oxbow code in Erlang codebases with the highest
+    degree of
+    certainty](https://dl.acm.org/doi/abs/10.1145/3471871.3472961) by
+    Fernando Benavides Rodríguez and Laura M. Castro
+
+  - 2021: [Refactoring for introducing and tuning parallelism for
+    heterogeneous multicore machines in
+    Erlang](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5420)
+    by Vladimir Janjic, Christopher Brown, Adam Barwell and Kevin
+    Hammond
+
+  - 2021: [Fifteen years of successfully dialyzing Erlang and Elixir
+    code (invited
+    talk)](https://dl.acm.org/doi/abs/10.1145/3471871.3480952) by
+    Konstantinos Sagonas
+
+  - 2021: [Extending a property-based testing tool with parallel and
+    distributed
+    execution](https://pablocostass.github.io/files/TFG.pdf) by Pablo
+    Costas Sánchez
+
+  - 2021: [Application of Functional Programming in the Energy
+    Industry: A Local Energy Market Simulator Use
+    Case](https://olivier-boudeville-edf.github.io/Sim-Diasca/ACME-application-IFL2021-article.pdf)
+    and Amine Zouhair, Olivier Boudeville, Nadine Kabbara and Florian
+    Mancel
+
+  - 2021: [Enabling Processing Power Scalability with Internet of
+    Things (IoT) Clusters](https://www.mdpi.com/2079-9292/11/1/81) by
+    by Jorge Coelho and Luís Nogueira
+
+  - 2021: [Application of Functional Programming in the Energy
+    Industry: A Local Energy Market Simulator Case
+    Study](https://dl.acm.org/doi/abs/10.1145/3544885.3544891) by
+    Amine Zouhair, Nadine Kabbara, Olivier Boudeville and Florian
+    Mancel
+
+  - 2021: [The Hera framework for fault-tolerant sensor fusion with
+    Erlang and GRiSP on an IoT
+    network](https://dl.acm.org/doi/abs/10.1145/3471871.3472962) by
+    Sébastien Kalbusch, Vincent Verpoten and Peter Van Roy
+
+  - 2021: [Evaluating Erlang database structures for building
+    statistics in telecommunications: Comparing non-relational and
+    relational databases in
+    Mnesia](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1632668&dswid=1667)
+    by Ptitsin, Anton and Jönsson, Lou
+
   - 2021: [Modified Erlang loss system for cognitive wireless
     networks](https://arxiv.org/abs/2103.03222) by E.V. Morozov,
     S. S. Rogozin, H.Q.Nguyen and T. Phung-Duc
@@ -2212,6 +2306,123 @@ communities to install/package it*
   - 2021: [Detecting Oxbow Code in Erlang Codebases with the Highest
     Degree of Certainty](https://arxiv.org/abs/2107.08699) by Fernando
     Benavides Rodríguez and Laura M. Castro
+
+  - 2020: [Getting Erlang to talk to C and
+    C++](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e920138e7b99b42b5a87457f9cacbfb60caea3be)
+    by Hal SnyderRick Pettit
+
+  - 2020: [A Proof Assistant Based Formalisation of Core
+    Erlang](https://www.researchgate.net/profile/Simon-Thompson-12/publication/341639652_A_Proof_Assistant_Based_Formalisation_of_Core_Erlang/links/5f15ca3ca6fdcc3ed718d178/A-Proof-Assistant-Based-Formalisation-of-Core-Erlang.pdf)
+    by Péter Bereczky, Dániel Horpácsi and Simon Thompson
+
+  - 2020: [Causal-Consistent Debugging of Distributed
+    Erlang](https://amslaurea.unibo.it/22195/1/Causal-Consistent%20Debugging%20of%20Distributed%20Erlang.pdf)
+    by Giovanni Fabbretti
+
+  - 2020: [Supporting Secure Coding with
+    RefactorErl](http://plc.inf.elte.hu/erlang/dl/submitted_paper.pdf)
+    Brigitta Baranyai, István Bozó and Melinda Tóth
+
+  - 2020: [Validating Formal Semantics by Property-Based
+    Cross-Testing](https://dl.acm.org/doi/abs/10.1145/3462172.3462200)
+    by Péter Bereczky, Dániel Horpácsi, Judit Kőszegi, Soma Szeier and
+    Simon Thompson
+
+  - 2020: [Clojerl: The Expressive Power of Clojure on the
+    BEAM](https://dl.acm.org/doi/abs/10.1145/3406085.3409012) by Juan
+    Facorro Natalia Chechina
+
+  - 2020: [Comparison of Dynamic Software Updating Methods for IEC
+    61499 with Erlang](https://oa.upm.es/58275/) by Matey Benito,
+    Ainara
+
+  - 2020: [Transformations towards Clean Functional
+    Code](https://dl.acm.org/doi/abs/10.1145/3406085.3409010) by
+    Boldizsár Poór, Melinda Tóth and István Bozó
+
+  - 2020: [Behavioural APIs for Erlang
+    processes](https://www.um.edu.mt/library/oar/handle/123456789/71908)
+    by Zahra, Gianluca
+
+  - 2020: [Beyond traditional architecture for MDO applications: the
+    Erlang VM and its
+    potential](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11413/2559799/Beyond-traditional-architecture-for-MDO-applications--The-Erlang-VM/10.1117/12.2559799.short?SSO=1)
+    by C. M. Wilkinson, Nathaniel D. Bastian and Minseok Kwon
+
+  - 2020: [Machine-Checked Natural Semantics for Core Erlang:
+    Exceptions and Side
+    Effects](https://dl.acm.org/doi/abs/10.1145/3406085.3409008) by
+    Péter Bereczky, Dániel Horpácsi and Simon J. Thompson
+
+  - 2020: [Secure design and verification of Erlang
+    systems](https://dl.acm.org/doi/abs/10.1145/3406085.3409011) by
+    Viktória Fördős
+
+  - 2020: [Deriving overloaded success type schemes in
+    Erlang](https://www.sciencedirect.com/science/article/abs/pii/S2590118420300253)
+    by Francisco J. López-Fraguas, Manuel Montenegro and Gorka
+    Suárez-García
+
+  - 2020: [Orchestration of Clusters of IoT Devices with
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-030-63319-6_54)
+    by Jorge Coelho and Luís Nogueira
+
+  - 2020: [Teaching practical realistic verification of distributed
+    algorithms in Erlang with
+    TLA+](https://dl.acm.org/doi/abs/10.1145/3406085.3409009) by Peter
+    Zeller, Annette Bieniusa and Carla Ferreira
+
+  - 2020: [Evaluation of load balancing approaches for Erlang
+    concurrent application in cloud
+    systems](telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/13150)
+    by Chanintorn Jittawiriyanukoon
+
+  - 2020: [Robust Communications in
+    Erlang](https://www.proquest.com/openview/164e6c21ffd5f3de8518f67cdd208e96/1?pq-origsite=gscholar&cbl=2026366&diss=y)
+    by Harrison, Joseph Richard
+
+  - 2020: [Software and Reversible Systems: A Survey of Recent
+    Activities](https://library.oapen.org/bitstream/handle/20.500.12657/39589/1/2020_Book_ReversibleComputationExtending.pdf#page=121)
+    by Claudio Antares Mezzina, Rudolf Schlatte, Robert Glück, Tue
+    Haulund, James Hoey, Martin Holm Cservenka, Ivan Lanese, Torben
+    Æ. Mogensen, Harun Siljak, Ulrik P. Schultz, and Irek Ulidowski
+
+  - 2020: [A Case Study for Reversible Computing: Reversible Debugging
+    of Concurrent
+    Programs](https://library.oapen.org/bitstream/handle/20.500.12657/39589/1/2020_Book_ReversibleComputationExtending.pdf#page=121)
+    by James Hoey, Ivan Lanese, Naoki Nishida, Irek Ulidowski, and
+    Germán Vidal
+
+  - 2020: [Modeling and Analysis of RabbitMQ Using
+    UPPAAL](https://ieeexplore.ieee.org/abstract/document/9343066) by
+    Ran Li, Jiaqi Yin and Huibiao Zhu
+
+  - 2020: [A Comparison of MQTT Brokers for Distributed IoT Edge
+    Computing](https://link.springer.com/chapter/10.1007/978-3-030-58923-3_23)
+    by Heiko Koziolek, Sten Grüner and Julius Rückert
+
+
+  - 2020: [IEC 61499 Runtime Environments: A State of the Art
+    Comparison](https://link.springer.com/chapter/10.1007/978-3-030-45096-0_55)
+    by Laurin Prenzel, Alois Zoitl and Julien Provost
+
+  - 2020: [Push it to the
+    Limit](http://icetcs.ru.is/theofomon/Push2Limit.pdf) by Luca
+    Aceto, Duncan Paul Attard, Adrian Francalanza, and Anna
+    Ingólfsdóttir
+
+  - 2020: [Extending a property-based testing tool with parallel and
+    distributed
+    execution](https://ruc.udc.es/dspace/handle/2183/27018) by Costas
+    Sánchez, Pablo
+
+  - 2020: [Toward recursion aware complexity
+    metrics](https://www.sciencedirect.com/science/article/abs/pii/S0950584919302095)
+    by Gordana Rakić, Melinda Tóth and Zoran Budimac
+
+  - 2020: [A High-Performance Distributed File System for Mass
+    Data](https://ieeexplore.ieee.org/abstract/document/9344887) by
+    Shuaiyu Jin, Qing Yan, Yue Zhang and Jie Yang
 
   - 2020: [Erlang as an alternative to a non-functional language for
     communication in a fault tolerant IoT sensor
