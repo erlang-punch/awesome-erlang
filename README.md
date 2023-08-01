@@ -2145,6 +2145,106 @@ communities to install/package it*
     Recoveries In Distributed](https://hal.science/hal-04123758v1) by
     Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
 
+  - 2022: [The best of both worlds Fast numerical computation in
+    Erlang](https://www.info.ucl.ac.be/~pvr/Brunet_26481700_Couplet_20371700_2022.pdf)
+    by Lylian B RUNET and Basile C OUPLET
+
+  - 2022: [Numerl: Efficient Vector and Matrix Computation for
+    Erlang](The Super Mario Bros Movie 2023 1080p WEBRip H265-COD) by
+    Tanguy Losseau
+
+  - 2022: [Reversibility in Erlang: Imperative Constructs - Technical
+    Report](https://pietrolami.github.io/assets/pdf/tr-rc22.pdf)
+    Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti
+    Coen and Giovanni Fabbretti
+
+  - 2022: [CAEFL: composable and environment aware federated learning
+    models](https://dl.acm.org/doi/abs/10.1145/3546186.3549927) by
+    Ruomeng (Cocoa) Xu, Anna Lito Michala and Phil Trinder
+
+  - 2022: [STARS: Websocket Design and
+    Implementation](https://ieeexplore.ieee.org/abstract/document/9920451)
+    by Penidas Fiodinggo Tanaem, Augie David Manuputty and Agustinus
+    Fritz Wijaya
+
+  - 2022: [Future Possibilities and Effectiveness of JIT from Elixir
+    Code of Image Processing and Machine Learning into Native Code
+    with SIMD
+    Instructions](https://cir.nii.ac.jp/crid/1050292162830000000) by
+    Susumu, Yamazaki
+
+  - 2022: [Design of Elixir-Based Edge Server for Responsive IoT
+    Applications](https://ieeexplore.ieee.org/abstract/document/10062586)
+    by Yushan Li and Satoshi Fujita
+
+  - 2022: [Code smells in Elixir: early results from a grey literature
+    review](https://dl.acm.org/doi/abs/10.1145/3524610.3527881) by
+    Lucas Francisco da Matta Vegi and Marco Tulio Valente
+
+  - 2022: [Vision for a secure Elixir ecosystem: an empirical study of
+    vulnerabilities in Elixir
+    programs](https://dl.acm.org/doi/abs/10.1145/3476883.3520204) by
+    Dibyendu Brinto Bose, Kaitlyn Cottrell and Akond Rahman
+
+  - 2022: [Multiparty-session-types Coordination for Core
+    Erlang](https://research.uniupo.it/en/publications/multiparty-session-types-coordination-for-core-erlang)
+    by Lavinia EGIDI, Paola GIANNINI and L Ventura
+
+  - 2022: [eqWAlizer: scaling Erlang development at WhatsApp with
+    static typing
+    (keynote)](https://dl.acm.org/doi/abs/10.1145/3546186.3552537) by
+    Ilya Klyuchnikov
+
+  - 2022: [Generation of a Reversible Semantics for Erlang in
+    Maude](https://link.springer.com/chapter/10.1007/978-3-031-17244-1_7)
+    by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
+  - 2022: [Reversible Computing in Debugging of Erlang
+    Programs](https://ieeexplore.ieee.org/abstract/document/9717362)
+    by Ivan Lanese, Ulrik P. Schultz and Irek Ulidowski
+
+  - 2022: [Troubleshooting the performance of a large Erlang
+    system](https://dl.acm.org/doi/abs/10.1145/3546186.3549926) by
+    Nikos Tsikoudis and Marc Sugiyama
+
+  - 2022: [Set-theoretic Types for
+    Erlang](https://dl.acm.org/doi/abs/10.1145/3587216.3587220) by
+    Albert Schimpf, Stefan Wehr and Annette Bieniusa
+
+  - 2022: [Static Checking of Concurrent Programs in Elixir Using
+    Session
+    Types](https://gerardtabone.com/ElixirST/archive/UoM%20-%20technical%20report%202022.pdf)
+    by Gerard Tabone Adrian Francalanza
+
+  - 2022: [Persisting the AntidoteDB Cache: Design and Implementation
+    of a Cache for a CRDT
+    Datastore](https://inria.hal.science/hal-03654003/document) by
+    Ayush Pandey, Annette Bieniusa and Marc Shapiro
+
+  - 2022: [Doing large-scale computations on an Internet of Things
+    network](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A26489&datastream=PDF_01&cover=cover-mem)
+    by Julien BANKEN and Nicolas X ANTHOS
+
+  - 2022: [A Holonic Human Cyber-Physical System in
+    Healthcare](https://scholar.sun.ac.za/server/api/core/bitstreams/91ea6b25-a027-43f8-95a8-07f96f4e3fc6/content)
+    by Travis Wade Defty
+
+  - 2022: [Tutorial on systems with antifragility to
+    downtime](https://link.springer.com/article/10.1007/s00607-020-00895-6)
+    by Kjell Jørgen Hole
+
+  - 2022: [A compositional theory of protocol
+    engineering](https://kar.kent.ac.uk/93297/) by Laura Bocchi,
+    Dominic Orchard, and Laura Voinea
+
+  - 2022: [A reliability benchmark for actor-based server
+    languages](https://dl.acm.org/doi/abs/10.1145/3546186.3549928) by
+    Aidan Randtoul and Phil Trinder
+
+  - 2022: [Session Fidelity for ElixirST: A Session-Based Type System
+    for Elixir Modules](https://arxiv.org/abs/2208.04631) by Gerard
+    Tabone and Adrian Francalanza
+
   - 2022: [Lesser Evil: Embracing Failure to Protect Overall System
     Availability](https://link.springer.com/chapter/10.1007/978-3-031-16092-9_5)
     by Viktória Fördős and Alexandre Jorge Barbosa Rodrigues
