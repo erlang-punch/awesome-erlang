@@ -4,6 +4,7 @@
 %%%===================================================================
 -module(awesome_gitlab).
 -export([uri/0, get_repos/1, get_repos/2]).
+-export([filters/1, filter_values/2]).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -49,16 +50,9 @@ get_repos(Owner, Repository) ->
     Target = uri_string:recompose(Uri#{ path => PathFile }),
     Accept = {"Accept", "application/json"},
     Headers = [Agent, Accept],
-    case httpc:request(get, {Target, Headers}, [], []) of
-        {ok, {{_,200,"OK"}, _, Data}} ->
-            awesome_json:decode(Data, fun filters/1);
-        {ok, {Code, _, _Data}} ->
-            {error, Code};
-        {error, Reason} ->
-            {error, Reason};
-        Elsewise ->
-            {error, Elsewise}
-    end.
+    Request = {get, {Target, Headers}, [], []},
+    Filter = fun ?MODULE:filters/1,
+    awesome_client:request(Request, Filter).
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -67,7 +61,7 @@ get_repos(Owner, Repository) ->
 %%--------------------------------------------------------------------
 filters(Map) ->
     FilteredKeys = maps:filter(fun filter_keys/2, Map),
-    maps:map(fun filter_values/2, FilteredKeys).
+    maps:map(fun ?MODULE:filter_values/2, FilteredKeys).
 
 %%--------------------------------------------------------------------
 %% @hidden

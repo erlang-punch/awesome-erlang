@@ -4,6 +4,7 @@
 %%%===================================================================
 -module(awesome_hexpm).
 -export([uri/0, get_info/1]).
+-export([filters/1, filter_keys/2, filter_values/2, fold/3]).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -32,16 +33,9 @@ get_info(Id) ->
     Target = uri_string:recompose(Uri#{ path => PathFile }),
     Accept = {"Accept", "application/json"},
     Headers = [Agent, Accept],
-    case httpc:request(get, {Target, Headers}, [], []) of
-        {ok, {{_,200,"OK"}, _, Data}} ->
-            awesome_json:decode(Data, fun filters/1);
-        {ok, {Code, _, _Data}} ->
-            {error, Code};
-        {error, Reason} ->
-            {error, Reason};
-        Elsewise ->
-            {error, Elsewise}
-    end.
+    Request = {get, {Target, Headers}, [], []},
+    Filter = fun ?MODULE:filters/1,
+    awesome_client:request(Request, Filter).
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -49,9 +43,9 @@ get_info(Id) ->
 %% @end
 %%--------------------------------------------------------------------
 filters(Map) ->
-    FilteredKeys = maps:filter(fun filter_keys/2, Map),
-    FilteredValues = maps:map(fun filter_values/2, FilteredKeys),
-    maps:fold(fun fold/3, #{}, FilteredValues).
+    FilteredKeys = maps:filter(fun ?MODULE:filter_keys/2, Map),
+    FilteredValues = maps:map(fun ?MODULE:filter_values/2, FilteredKeys),
+    maps:fold(fun ?MODULE:fold/3, #{}, FilteredValues).
 
 %%--------------------------------------------------------------------
 %% @hidden

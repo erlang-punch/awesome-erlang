@@ -4,6 +4,7 @@
 %%%===================================================================
 -module(awesome_github).
 -export([uri/0, get_repos/1, get_repos/2]).
+-export([filters/1, filter_keys/2, filter_values/2, expand_value/2]).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -71,16 +72,9 @@ get_repos2(Owner, Repository, Token) ->
     Authorization = {"Authorization", BearerToken},
     Version = {"X-GitHub-Api-Version", "2022-11-28"},
     Headers = [Agent, Accept, Authorization, Version],
-    case httpc:request(get, {Target, Headers}, [], []) of
-        {ok, {{_,200,"OK"}, _, Data}} ->
-            awesome_json:decode(Data, fun filters/1);
-        {ok, {Code, _, _Data}} ->
-            {error, Code};
-        {error, Reason} ->
-            {error, Reason};
-        Elsewise ->
-            {error, Elsewise}
-    end.
+    Request = {get, {Target, Headers}, [], []},
+    Filter = fun ?MODULE:filters/1,
+    awesome_client:request(Request, Filter).
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -88,10 +82,9 @@ get_repos2(Owner, Repository, Token) ->
 %% @end
 %%--------------------------------------------------------------------
 filters(Map) ->
-    FilteredKeys = maps:filter(fun filter_keys/2, Map),
-    FilteredValues = maps:map(fun filter_values/2, FilteredKeys),
-    ConvertedKeys = maps:fold(fun convert_keys/3, #{}, FilteredValues),
-    maps:map(fun expand_value/2, ConvertedKeys).
+    FilteredKeys = maps:filter(fun ?MODULE:filter_keys/2, Map),
+    FilteredValues = maps:map(fun ?MODULE:filter_values/2, FilteredKeys),
+    maps:map(fun ?MODULE:expand_value/2, FilteredValues).
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -128,44 +121,17 @@ filter_keys(_, _) -> false.
 %%--------------------------------------------------------------------
 filter_values(<<"license">>, #{ <<"spdx_id">> := License }) -> License;
 filter_values(_, X) -> X.
-
-%%--------------------------------------------------------------------
-%% @hidden
-%% @doc convert known keys to atoms.
-%% @end
-%%--------------------------------------------------------------------
-convert_keys(<<"archived">>, Value, Acc) -> Acc#{ archived => Value};
-convert_keys(<<"created_at">>, Value, Acc) -> Acc#{ created_at => Value};
-convert_keys(<<"default_branch">>, Value, Acc) -> Acc#{ default_branch => Value};
-convert_keys(<<"description">>, Value, Acc) -> Acc#{ description => Value};
-convert_keys(<<"forks">>, Value, Acc) -> Acc#{ forks => Value};
-convert_keys(<<"forks_count">>, Value, Acc) -> Acc#{ forks_count => Value};
-convert_keys(<<"full_name">>, Value, Acc) -> Acc#{ full_name => Value};
-convert_keys(<<"homepage">>, Value, Acc) -> Acc#{ homepage => Value};
-convert_keys(<<"id">>, Value, Acc) -> Acc#{ id => Value};
-convert_keys(<<"license">>, Value, Acc) -> Acc#{ licenses => Value};
-convert_keys(<<"name">>, Value, Acc) -> Acc#{ name => Value};
-convert_keys(<<"network_count">>, Value, Acc) -> Acc#{ network_count => Value};
-convert_keys(<<"open_issues">>, Value, Acc) -> Acc#{ open_issues => Value};
-convert_keys(<<"pushed_at">>, Value, Acc) -> Acc#{ pushed_at => Value};
-convert_keys(<<"size">>, Value, Acc) -> Acc#{ size => Value};
-convert_keys(<<"subscribers_count">>, Value, Acc) -> Acc#{ subscribers_count => Value};
-convert_keys(<<"topics">>, Value, Acc) -> Acc#{ topics => Value};
-convert_keys(<<"updated_at">>, Value, Acc) -> Acc#{ updated_at => Value};
-convert_keys(<<"watchers">>, Value, Acc) -> Acc#{ watchers => Value};
-convert_keys(<<"watchers_count">>, Value, Acc) -> Acc#{ watchers_count => Value};
-convert_keys(Key, Value, Acc) -> Acc#{ Key => Value}.
     
-expand_value(archived, true) -> #{ value => true, icon => ":red_circle:" };
-expand_value(archived, false) -> #{ value => false, icon => ":green_circle:" };
-expand_value(contributors, Contributors) ->
+expand_value(<<"archived">>, true) -> #{ value => true, icon => ":red_circle:" };
+expand_value(<<"archived">>, false) -> #{ value => false, icon => ":green_circle:" };
+expand_value(<<"contributors">>, Contributors) ->
     case Contributors of
         _ when Contributors =< 2 -> #{ value => Contributors, icon => ":red_circle:" };
         _ when Contributors > 2 andalso Contributors =< 5 -> #{ value => Contributors, icon => ":orange_circle:" };
         _ when Contributors > 5 andalso Contributors =< 10 -> #{ value => Contributors, icon => ":yellow_circle:" };
         _ when Contributors > 10  -> #{ value => Contributors, icon => ":yellow_circle:" }
     end;
-expand_value(updated_at, Date) -> 
+expand_value(<<"updated_at">>, Date) -> 
     LocalTime = erlang:system_time(second),
     GreenDate = LocalTime - (86400*30*3),
     YellowDate = LocalTime - (86400*30*12),
