@@ -6734,7 +6734,64 @@ communities to install/package it*
 
   - [Jesper L. Andersen's blog](https://medium.com/@jlouis666/)
 
+# Other Erlang related lists
 
+*Other lists of projects and resources.*
+
+  - [Spawned Shelter!](https://spawnedshelter.com/): This page is a
+    collection of the best articles, videos and books for learning
+    Erlang, the internals of its virtual machine and other languages
+    that run on top of it like Elixir, LFE and Efene.
+
+  - [Erlang Ecosystem Foundation Academic
+    Papers](https://erlef.org/academic-papers/): Papers are organized
+    chronologically. We attempt to show the BEAM related tech
+    highlighted for each paper.
+  
+  - [Erlang Ecosystem Foundation
+    Community](https://erlef.org/community/) The Erlang ecosystem
+    consists of a vibrant and diverse set of languages, tools,
+    platforms, and much more. Help us grow our community and augment
+    this collection of resources by contributing on Github
+  
+  - [drobakowski/awesome-erlang](https://github.com/drobakowski/awesome-erlang/blob/master/README.md):
+    A curated list of amazingly awesome Erlang libraries, resources
+    and shiny thing inspired by awesome-elixir.
+
+  - [singularitypostman/awesome-erlang-1](https://github.com/singularitypostman/awesome-erlang-1):
+    A curated list of awesome Erlang frameworks, libraries and
+    software.
+
+  - [uhub/awesome-erlang](https://github.com/uhub/awesome-erlang): A
+    curated list of awesome Erlang frameworks, libraries and software.
+    
+  - [mudssrali/erlang-elixir-stuff](https://github.com/mudssrali/erlang-elixir-stuff):
+    Awesome Erlang and Elixir reading, learning and practice material
+    
+  - [szTheory/beamtoolbox](https://github.com/szTheory/beamtoolbox):
+    Curated BEAM language libraries by category. All killer, no
+    filler.
+
+  - [opencensus-beam/awesome-beam-monitoring](https://github.com/opencensus-beam/awesome-beam-monitoring):
+    The curated list of tools for monitoring, instrumenting, and
+    tracing applications that run on BEAM. Inspired by many of such
+    lists over the GitHub.
+
+  - [macintux/erlang-resources.md](https://gist.github.com/macintux/6349828):
+    This is not intended to be comprehensive or authoritative, just
+    free online resources I've found valuable while learning more
+    about Erlang.
+
+  - [h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir): A
+    curated list of amazingly awesome Elixir libraries, resources, and
+    shiny things inspired by awesome-php.
+
+  - [wmealing/awesome-lfe](https://github.com/wmealing/awesome-lfe):
+    Have a LFE project to share with the world? Make a pull request
+    and add it to the list.
+
+  - [gleam-lang/awesome-gleam](https://github.com/gleam-lang/awesome-gleam):
+    For a full list of packages check out the Gleam package index.
 
 # Contributing
 
