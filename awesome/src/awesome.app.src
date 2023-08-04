@@ -6,7 +6,8 @@
   {applications,
    [kernel,
     stdlib,
-    inets
+    inets,
+    mnesia
    ]},
   {env,[]},
   {modules, []},
