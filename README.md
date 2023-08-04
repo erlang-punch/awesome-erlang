@@ -2337,6 +2337,11 @@ communities to install/package it*
     Programs](https://hal.science/hal-03917301v1) by Ivan Lanese,
     Ulrik Schultz and Irek Ulidowski
 
+  - 2021: [On Benchmarking for Concurrent Runtime
+    Verification](https://library.oapen.org/bitstream/handle/20.500.12657/48217/1/9783030715007.pdf#page=15)
+    by Luca Aceto, Duncan Paul Attar, Adrian Francalanza and Anna
+    Ingólfsdóttirdn
+
   - 2021: [Causal-Consistent Debugging of Distributed Erlang
     Programs](https://link.springer.com/chapter/10.1007/978-3-030-79837-6_5)
     by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
@@ -2749,9 +2754,8 @@ communities to install/package it*
 
   - 2019: [An Evaluation of Erlang for Implementing Standby Redundancy
     in a Manufacturing Station
-    Controller](https://www.researchgate.net/publication/329582274_An_Evaluation_of_Erlang_for_Implementing_Standby_Redundancy_in_a_Manufacturing_Station_Controller_Proceedings_of_SOHOMA_2018):
-    Proceedings of SOHOMA 2018 by Greg Hawkridge, Anton Herman Basson
-    and Karel Kruger
+    Controller](https://www.researchgate.net/publication/329582274_An_Evaluation_of_Erlang_for_Implementing_Standby_Redundancy_in_a_Manufacturing_Station_Controller_Proceedings_of_SOHOMA_2018)by
+    Greg Hawkridge, Anton Herman Basson and Karel Kruger
 
   - 2019: [Partisan: Scaling the Distributed Actor
     Runtime](https://www.usenix.org/conference/atc19/presentation/meiklejohn)
@@ -2792,6 +2796,12 @@ communities to install/package it*
   - 2019: [Functional Federated Learning in Erlang
     (ffl-erl)](https://link.springer.com/chapter/10.1007/978-3-030-16202-3_10)
     by Gregor Ulm, Emil Gustavsson and Mats Jirstrand
+
+  - 2018: [Metaprogramming and symbolic execution for detecting
+    runtime errors in Erlang
+    programs](http://www.t-news.cn/Floc2018/FLoC2018-pages/proceedings_paper_12.pdf)
+    by Emanuele De Angelis, Fabio Fioravanti, Adrián Palacios, Alberto
+    Pettorossi and Maurizio Proietti
 
   - 2018: [KErl: Executable semantics for
     Erlang](http://ceur-ws.org/Vol-2046/koszegi.pdf) by Judit Kőszegi
@@ -3623,6 +3633,10 @@ communities to install/package it*
     trading](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A934286&dswid=2999)
     by Eriksson, John
 
+  - 2015: [A Distributed, Parallel and Fault Tolerant BGP Routing
+    Daemon](https://odr.chalmers.se/items/a03e58ca-20e5-4d3c-94c8-0afd2b06d0d0)
+    by Bergström, Erik Millnert and Martin
+
   - 2015: [Concolic Execution in Functional Programming by Program
     Instrumentation](https://link.springer.com/chapter/10.1007/978-3-319-27436-2_17)
     by Adrián Palacios and Germán Vidal
@@ -4092,6 +4106,10 @@ communities to install/package it*
     Erlang](https://www.academia.edu/7484815/Investigating_the_Scalability_Limits_of_Distributed_Erlang)
     by Amir Ghaffari
 
+  - 2013: [On the scalability of the Erlang term
+    storage](https://dl.acm.org/doi/abs/10.1145/2505305.2505308) by
+    David Klaftenegger, Konstantinos Sagonas and Kjell Winblad
+
   - 2013:Towards Erlang Verification by Term
     Rewriting](https://link.springer.com/chapter/10.1007/978-3-319-14125-1_7)
     by Germán Vidal
@@ -4479,6 +4497,15 @@ communities to install/package it*
   - 2013: [Automatic Verification of Erlang-Style
     Concurrency](https://arxiv.org/abs/1303.2201) by Emanuele
     D'Osualdo, Jonathan Kochems and C.-H. Luke Ong
+
+  - 2012: [Hansei: property-based development of concurrent
+    systems](https://dl.acm.org/doi/abs/10.1145/2364489.2364505) by
+    Joseph Blomstedt
+
+  - 2012: [Evaluate the benefits of SMP support for IO-intensive
+    Erlang
+    applications](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A547808&dswid=536)
+    by Dervishi, Erisa
 
   - 2012: [The Design of Scalable Distributed
     Erlang](https://ora.ox.ac.uk/objects/uuid:12ca7772-dd28-4f86-8a0e-7bb1b0f02af5/download_file?file_format=application%2Fpdf&safe_filename=CS-RR-12-06.pdf&type_of_work=Report)
@@ -5125,6 +5152,27 @@ communities to install/package it*
     actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
     Nyblom
 
+  - 2010: [Erlang Inspired
+    Hardware](https://ieeexplore.ieee.org/abstract/document/5694255)
+    by Paulo Ferreira, Joao Canas Ferreira and Jose Carlos Alves
+
+  - 2010: [Practical type inference based on success
+    typings](https://dl.acm.org/doi/abs/10.1145/1140335.1140356) by
+    Tobias Lindahl and Konstantinos Sagonas
+
+  - 2010: [Chain replication in theory and in
+    practice](https://dl.acm.org/doi/abs/10.1145/1863509.1863515) by
+    Scott Lystig Fritchie
+
+  - 2010: [A Verification of a Process
+    Supervisor](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1191340580c428ad833c6e88593bc48c9a412c1a)
+    David Castro, Clara Benac Earle, Lars-Åke Fredlund, Victor
+    M. Gulias, and Samuel Rivas
+
+  - 2010: [Alliance and Coalition
+    Formation](https://yadda.icm.edu.pl/yadda/element/bwmeta1.element.baztech-article-LOD9-0014-0002)
+    by Fišer, J. and Mashkov, V.
+
   - 2010:
     [Erlang](https://dl.acm.org/doi/fullHtml/10.1145/1810891.1810910)
     by Joe Armstrong
@@ -5407,6 +5455,11 @@ communities to install/package it*
     Erlang/OTP](https://arxiv.org/abs/1003.1395) by Peter Burcsi,
     Attila Kovács and Antal Tátrai
 
+  - 2010: [A case study of DHT functionality: range query on
+    DHT](https://scholarworks.calstate.edu/concern/theses/5h73px81k)
+    by Yoshihiro Tanaka
+  
+ 
   - 2009: [Erlang for Concurrent
     Programming](https://dl.acm.org/doi/pdf/10.1145/1467247.1467263)
     by Jim Larson
@@ -5585,6 +5638,14 @@ communities to install/package it*
     Claessen , Michal Palka , Nicholas Smallbone , John Hughes , Hans
     Svensson , Thomas Arts and Ulf Wiger
 
+  - 2009: [Enhancing Privacy Implementations of Database
+    Enquiries](https://ieeexplore.ieee.org/abstract/document/5076347)
+    by Florian Kammuller and Reiner Kammuller
+
+  - 2008: [Functional manipulation of bit
+    streams](http://user.it.uu.se/~pergu/papers/functional_bits@spe.pdf)
+    by Gustafsson and Konstantinos Sagonas
+
   - 2008: [Building a Refactoring Tool for Erlang
     ?](https://scg.unibe.ch/assets/download/wasdett/wasdett2008-paper12.pdf)
     by Zoltán Horváth, László Lövei, Tamás Kozsik, Róbert Kitlei,
@@ -5735,6 +5796,25 @@ communities to install/package it*
     Tracing](https://dl.acm.org/doi/10.1145/1411203.1411223) by
     Christian Convey, Andrew Fredricks, Christopher Gagner, Douglas
     Maxwell and Lutz Hamel
+
+  - 2008: [Refactoring module
+    structure](https://dl.acm.org/doi/abs/10.1145/1411273.1411285) by
+    László Lövei, Csaba Hoch, Hanna Köllö, Tamás Nagy, Anikó Nagyné
+    Víg, Dániel Horpácsi, Róbert Kitlei and Roland Király
+
+  - 2007: [Testing Erlang Refactorings with
+    QuickCheck](https://link.springer.com/chapter/10.1007/978-3-540-85373-2_2)
+    by Huiqing Li and Simon Thompson
+
+  - 2007: [Use Cases for Refactoring in
+    Erlang](https://link.springer.com/chapter/10.1007/978-3-540-88059-2_7)
+    by Tamás Kozsik, Zoltán Csörnyei, Zoltán Horváth, Roland Király,
+    Róbert Kitlei, László Lövei, Tamás Nagy, Melinda Tóth and Anikó
+    Víg
+
+  - 2007: [Concurrency with
+    Erlang](https://ieeexplore.ieee.org/abstract/document/4305575) by
+    Steve Vinoski
 
   - 2007: [An erlang framework for autonomous mobile
     robots](https://dl.acm.org/doi/abs/10.1145/1292520.1292533) by
@@ -5905,6 +5985,10 @@ communities to install/package it*
     R11 and Fedora-Core Linux 5.0](https://arxiv.org/abs/0708.3166) by
     A. B. Mutiara and T. A. Sabastian
 
+  - 2007: [Programming Efficiently with Binaries and Bit
+    Strings](http://192.121.151.106/euc/07/papers/1700Gustafsson.pdf)
+    by Per Gustafsson
+
   - 2006: [EUnit: a lightweight unit testing framework for
     Erlang](https://dl.acm.org/doi/abs/10.1145/1159789.1159791) by
     Richard Carlsson and Mickaël Rémond
@@ -5996,6 +6080,11 @@ communities to install/package it*
   - 2006: [Testing telecoms software with quviq
     QuickCheck](https://dl.acm.org/doi/10.1145/1159789.1159792) by
     Thomas Arts , John Hughes , Joakim Johansson and Ulf Wiger
+
+  - 2005: [Efficient Memory Management for Message-Passing Concurrency
+    Part I: Single-threaded
+    execution](https://user.it.uu.se/~jesperw/publications/Wilhelmsson_lic.pdf)
+    by J ESPER and W ILHELMSSON
 
   - 2005: [TypEr: a type annotator of Erlang
     code](https://dl.acm.org/doi/abs/10.1145/1088361.1088366) by
@@ -6134,6 +6223,10 @@ communities to install/package it*
     implementation](https://dl.acm.org/doi/10.1145/1088361.1088368) by
     Hans Svensson and Thomas Arts
 
+  - 2004: [Adaptive Pattern Matching on Binary
+    Data](https://link.springer.com/chapter/10.1007/978-3-540-24725-8_10)
+    by Per Gustafsson and Konstantinos Sagonas
+
   - 2004: [In the need of a design...  reverse engineering Erlang
     software](https://www.researchgate.net/profile/Thomas-Arts/publication/228752521_In_the_need_of_a_design_reverse_engineering_Erlang_software/links/0deec5289defead551000000/In-the-need-of-a-design-reverse-engineering-Erlang-software.pdf)
     by Thomas Arts and Cecilia Holmqvist
@@ -6222,6 +6315,10 @@ communities to install/package it*
     Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
     Jay Nelson
 
+  - 2003: [Design of a Medical Application Using XML Based Data
+    Interchange](https://link.springer.com/chapter/10.1007/978-3-540-45210-2_24)
+    by C. Mariño, C. Abalde, M. G. Penedo and M. Penas
+
   - 2003: [A soft-typing system for
     Erlang](https://dl.acm.org/doi/abs/10.1145/940880.940888) by
     Sven-Olof Nyström
@@ -6292,6 +6389,23 @@ communities to install/package it*
     Platform](https://link.springer.com/chapter/10.1007/3-7643-7348-2_3)
     by Antonella Di Stefano and Corrado Santoro
 
+  - 2003: [REI: An Online Video Gaming
+    platform](http://www.cslab.ericsson.net/euc/03/proceedings/0950Mikael.pdf)
+    by Mickaël Rémond, Thierry Mallard
+
+  - 2003: [Extending the VoDKA architecture to improve resource
+    modelling](https://dl.acm.org/doi/abs/10.1145/940880.940883) by
+    Juan José Sánchez Penas and Carlos Abalde Ramiro
+
+  - 2003: [Development of a Scalable, Fault Tolerant, and Low Cost
+    Cluster-Based e-Payment System with a Distributed Functional
+    Kernel](https://link.springer.com/chapter/10.1007/978-3-540-45210-2_21)
+    by C. Abalde, V. Gulías, J. Freire, J. Sánchez and J. García-Tizón
+
+  - 2002: [Hierarchical module namespaces in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/592849.592850) by
+    Richard Carlsson
+
   - 2002: [OTP in server
    farms](https://dl.acm.org/doi/abs/10.1145/592849.592855) by Michael
    Bruening , Hal Snyder and Martin Logan
@@ -6299,6 +6413,10 @@ communities to install/package it*
   - 2002: [Native code compilation of Erlang's bit
     syntax](https://dl.acm.org/doi/abs/10.1145/592849.592851) by Per
     Gustafsson and Konstantinos Sagonas
+
+  - 2002: [Typing
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=edd858dac75c6556f83c1191e5f780ed27f5e12d)
+    by John Hughes, David Sands and Karol Ostrovský
 
   - 2002: [Unboxed Compilation of Floating Point Arithmetic in a
     Dynamically Typed Language
@@ -6362,6 +6480,10 @@ communities to install/package it*
   - 2002: [The evolution of Erlang drivers and the Erlang driver
     toolkit](https://www.researchgate.net/publication/221211334_The_evolution_of_Erlang_drivers_and_the_Erlang_driver_toolkit)
     by Scott Lystig Fritchie
+
+  - 2002: [Extracting the processes structure of Erlang
+    applications](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e08410bb6e825c80d97beb14c4d410ece54b3361)
+    by Jan Nyström and Bengt Jonsson
 
   - 2002: [Verifying Erlang Code: A Resource Locker
     Case-Study](https://dl.acm.org/doi/10.5555/647541.730165) by
