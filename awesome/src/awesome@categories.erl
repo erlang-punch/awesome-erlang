@@ -2,9 +2,10 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module(awesome_categories).
+-module('awesome@categories').
 -compile(export_all).
 -include("awesome_mnesia.hrl").
+-define(M, ?MODULE).
 
 create_table() ->
     mnesia:create_table(?MODULE, [{attributes, record_info(fields, ?MODULE)}]).
@@ -35,7 +36,7 @@ add(CategoryName, ProjectName)
                   PN = awesome_projects:get_by_name(ProjectName),
                   case {CN, PN} of
                       {[#?MODULE{ projects = Projects } = Record], [Project]} 
-                        when is_record(Project, awesome_projects) ->
+                        when is_record(Project, 'awesome@projects') ->
                           NewProjects = lists:uniq([ProjectName|Projects]),
                           NewRecord = Record#?MODULE{ projects = NewProjects },
                           mnesia:write(NewRecord);

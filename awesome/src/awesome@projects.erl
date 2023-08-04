@@ -2,7 +2,7 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module(awesome_projects).
+-module('awesome@projects').
 -compile(export_all).
 -include("awesome_mnesia.hrl").
 
@@ -26,25 +26,33 @@ new(Name, Url, Opts) when is_binary(Name) andalso is_binary(Url) ->
     Bugtracker = awesome_maps:get(<<"bugtracker">>, Opts, <<>>, is_binary),
     Build = awesome_maps:get(<<"build">>, Opts, <<>>, is_binary),
     Issues = awesome_maps:get(<<"issues">>, Opts, <<>>, is_binary),
-    Notes = awesoe_maps:get(<<"notes">>, Opts, <<>>, is_binary),
-    CreatedAt = erlang:system_time(),
-    Entry = #?MODULE{ created_at = CreatedAt
-                    , updated_at = CreatedAt
-                    , name = Name 
-                    , url = Url
-                    , summary = Summary
-                    , documentation = Documentation
-                    , bugtracker = Bugtracker
-                    , build = Build
-                    , issues = Issues
-                    , notes = Notes
-                    },
+    Notes = awesome_maps:get(<<"notes">>, Opts, <<>>, is_binary),
     Fun = fun() -> 
                   case {get_by_name(Name), get_by_url(Url)} of
-                      {[], []} -> mnesia:write(Entry);
-                      {[], _} -> mnesia:abort("name must be unique");
-                      {_, []} -> mnesia:abort("url must be unique");
-                      {_, _} -> mnesia:abort("name and url must be unique")
+                      {{atomic, []}, {atomic, []}} -> 
+                          Id = case mnesia:last(?MODULE) of
+                                   '$end_of_table' -> 0;
+                                   X -> X+1
+                               end,
+                          CreatedAt = erlang:system_time(),
+                          Entry = #?MODULE{ id = Id
+                                          , created_at = CreatedAt
+                                          , updated_at = CreatedAt
+                                          , name = Name 
+                                          , url = Url
+                                          , summary = Summary
+                                          , documentation = Documentation
+                                          , bugtracker = Bugtracker
+                                          , build = Build
+                                          , issues = Issues
+                                          , notes = Notes
+                                          },
+                          mnesia:write(Entry);
+                      {{atomic, []},  _} -> 
+                          mnesia:abort("name must be unique");
+                      { _, {atomic, []}} -> 
+                          mnesia:abort("url must be unique");
+                      { _,  _} -> mnesia:abort("name and url must be unique")
                   end
           end,
     mnesia:transaction(Fun).
@@ -72,18 +80,26 @@ update_by_name(Name, Opts) ->
                           mnesia:write(Entry)
                   end
           end,
-    {atomic, Result} = mnesia:transaction(Fun),
-    Result.
+    mnesia:transaction(Fun).
 
 get_by_name(Name) ->                  
     Fun = fun() -> mnesia:match_object(#?MODULE{ name = Name, _ = '_' }) end,
-    {atomic, Result} = mnesia:transaction(Fun),
-    Result.
+    mnesia:transaction(Fun).
 
 get_by_url(Url) ->
     Fun = fun() -> mnesia:match_object(#?MODULE{ url = Url, _ = '_' }) end,
-    {atomic, Result} = mnesia:transaction(Fun),
-    Result.
+    mnesia:transaction(Fun).
 
+delete_by_name(Name) ->
+    Fun = fun() -> case get_by_name(Name) of
+                       [#?MODULE{} = Object] ->
+                           mnesia:delete_object(Object);
+                       [] -> mnesia:abort("object does not exist")
+                   end
+          end,
+    mnesia:transaction(Fun).
+                           
+                  
+                  
                   
     

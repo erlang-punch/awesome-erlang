@@ -13,8 +13,8 @@ create_schema() ->
     mnesia:create_schema([]).
 
 tables() ->
-    [awesome_projects
-    ,awesome_categories
+    ['awesome@projects'
+    ,'awesome@categories'
     ].
 
 create_tables() ->
