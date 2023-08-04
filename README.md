@@ -4498,6 +4498,16 @@ communities to install/package it*
     Concurrency](https://arxiv.org/abs/1303.2201) by Emanuele
     D'Osualdo, Jonathan Kochems and C.-H. Luke Ong
 
+  - 2012: [Failover and Takeover Contingency Mechanisms for Network
+    Partition and Node
+    Failure](https://dl.acm.org/doi/abs/10.1145/2364489.2364498) by
+    Macías López, Laura M. Castro and David Cabrero  
+
+  - 2012: [Large Scale Multimedia Messaging Service Center with
+    Optimized Database
+    Implementation](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A570386&dswid=5484)
+    by Erdem Aksu
+
   - 2012: [Hansei: property-based development of concurrent
     systems](https://dl.acm.org/doi/abs/10.1145/2364489.2364505) by
     Joseph Blomstedt
@@ -4765,6 +4775,25 @@ communities to install/package it*
   - 2012: [Parallel Discrete Event Simulation with
     Erlang](https://arxiv.org/abs/1206.2775) by Luca Toscano, Gabriele
     D'Angelo and Moreno Marzolla
+
+  - 2012: [Dron: An Integration Job
+    Scheduler](https://www.doc.ic.ac.uk/teaching/distinguished-projects/2012/i.gog.pdf)
+    by Ionel Corneliu Gog
+
+  - 2011: [Testing Data Consistency of Data-Intensive Applications
+    Using
+    QuickCheck](https://odr.chalmers.se/items/b827da79-6b3f-47db-acaa-7c8df2c805df)
+    by Laura M. Castro and Thomas Arts
+
+  - 2011: [Influencing the Run-Time Behaviour of Complex Services
+    Using
+    Contexts](https://www.academia.edu/download/88292782/thesis.pdf)
+    by Zachary Harrington
+
+  - 2011: [Evaluation and Implementation of Distributed NoSQL Database
+    for MMO Gaming
+    Environment](https://www.diva-portal.org/smash/get/diva2:447210/FULLTEXT01.pdf)
+    by Yousaf Muhammad
 
   - 2011: [Static Analysis of Complex Software Systems Implemented in
     Erlang](https://link.springer.com/chapter/10.1007/978-3-642-32096-5_9)
@@ -5152,6 +5181,15 @@ communities to install/package it*
     actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
     Nyblom
 
+  - 2010: [Multimedia Messaging Service Front End for Supplementary
+    Messaging
+    Services](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A343884&dswid=-6623)
+    by Robert Andersson and Larry Canady
+
+  - 2010: [Using Filesystem Virtualization to Avoid Metadata
+    Bottlenecks](https://ieeexplore.ieee.org/abstract/document/5457144)
+    by Ernest Artiaga
+
   - 2010: [Erlang Inspired
     Hardware](https://ieeexplore.ieee.org/abstract/document/5694255)
     by Paulo Ferreira, Joao Canas Ferreira and Jose Carlos Alves
@@ -5459,7 +5497,11 @@ communities to install/package it*
     DHT](https://scholarworks.calstate.edu/concern/theses/5h73px81k)
     by Yoshihiro Tanaka
   
- 
+  - 2009: [Race Condition Detection in Concurrent Erlang Applications
+    Using Static
+    Analysis](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/mchri-diploma.pdf)
+    by MARIA I. CHRISTAKIS
+
   - 2009: [Erlang for Concurrent
     Programming](https://dl.acm.org/doi/pdf/10.1145/1467247.1467263)
     by Jim Larson
@@ -5641,6 +5683,21 @@ communities to install/package it*
   - 2009: [Enhancing Privacy Implementations of Database
     Enquiries](https://ieeexplore.ieee.org/abstract/document/5076347)
     by Florian Kammuller and Reiner Kammuller
+
+  - 2008: [High-level distribution for the rapid production of robust
+    telecoms software: comparing C++ and
+    ERLANG](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.1223)
+    by J. H. Nyström, P. W. Trinder and D. J. King
+
+  - 2008: [Scalaris: Reliable Transactional P2P Key/Value Store Web
+    2.0 Hosting with Erlang and
+    Java](https://dl.acm.org/doi/abs/10.1145/1411273.1411280) by
+    Thorsten Schutt, Florian Schintke and Alexander Reinefeld
+
+  - 2008: [Database Access and Patterns in
+    Erlang/OTP](https://www.academia.edu/download/69976027/aic10.pdf)
+    by LAURA M. CASTRO, VÍCTOR M. GULÍAS, CARLOS ABALDE and JAVIER
+    PARÍS
 
   - 2008: [Functional manipulation of bit
     streams](http://user.it.uu.se/~pergu/papers/functional_bits@spe.pdf)
@@ -6223,6 +6280,10 @@ communities to install/package it*
     implementation](https://dl.acm.org/doi/10.1145/1088361.1088368) by
     Hans Svensson and Thomas Arts
 
+  - 2004: [High Performance Crawling
+    System](https://dl.acm.org/doi/abs/10.1145/1026711.1026760) by
+    Younès Hafri and Chabane Djeraba
+
   - 2004: [Adaptive Pattern Matching on Binary
     Data](https://link.springer.com/chapter/10.1007/978-3-540-24725-8_10)
     by Per Gustafsson and Konstantinos Sagonas
@@ -6401,6 +6462,11 @@ communities to install/package it*
     Cluster-Based e-Payment System with a Distributed Functional
     Kernel](https://link.springer.com/chapter/10.1007/978-3-540-45210-2_21)
     by C. Abalde, V. Gulías, J. Freire, J. Sánchez and J. García-Tizón
+
+  - 2003: [A verification tool for
+    ERLANG](https://link.springer.com/article/10.1007/s100090100071)
+    by Lars–Åke Fredlund , Dilian Gurov , Thomas Noll , Mads Dam ,
+    Thomas Arts and Gennady Chugunov
 
   - 2002: [Hierarchical module namespaces in
     Erlang](https://dl.acm.org/doi/abs/10.1145/592849.592850) by
@@ -6633,6 +6699,16 @@ communities to install/package it*
     Applications](https://link.springer.com/chapter/10.1007/3-540-49201-1_11)
     by Håkan Mattsson, Hans Nilsson and Claes Wikström
 
+  - 1999: [Verifying a Distributed Database Lookup Manager Written in
+    Erlang](https://link.springer.com/chapter/10.1007/3-540-48119-2_38)
+    by Thomas Arts and Mads Dam
+
+
+
+  - 1998:
+    [SQL-compiler](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3efb3b5c96809ad06fbf518a205bd1cc07b9e610)
+    by Ronny Andersson
+
   - 1998: [Process Placement in Distributed Multiprocessor Systems: An
     Investigation using
     Erlang.](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dcdf83f7b4656233316fe9a9e2ec67d63e1cdf2a)
@@ -6669,6 +6745,10 @@ communities to install/package it*
     > came from languages such as Chill and Ada which are used in
     > industry for programming control systems.
     </details>
+
+  - 1997: [Open telecom
+    platform](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=af89dc63c4491b430a3de659e364ed28f5685840)
+    by Seved Torstendahl
 
   - 1997: [Erlang and its
     applications](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2d9b6f77e6b4d2c01bf45615b5fe73f008014f5c)
