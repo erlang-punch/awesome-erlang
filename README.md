@@ -6727,6 +6727,10 @@ communities to install/package it*
     Erlang](https://link.springer.com/chapter/10.1007/3-540-48119-2_38)
     by Thomas Arts and Mads Dam
 
+  - 1999: [Towards an Event Modeling Language Maurice
+    Castro](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=13dae3f2f708e25d83424da4befcaf9273c541a1)
+    by Michael Dwyer Geo Wong
+
   - 1998:
     [SQL-compiler](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3efb3b5c96809ad06fbf518a205bd1cc07b9e610)
     by Ronny Andersson
@@ -6771,6 +6775,10 @@ communities to install/package it*
   - 1997: [Open telecom
     platform](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=af89dc63c4491b430a3de659e364ed28f5685840)
     by Seved Torstendahl
+
+  - 1997:
+    [SafeErlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ccd7499c458d8028fdaa0351f0d2f2b176d2a031)
+    by Gustaf Naeser
 
   - 1997: [Erlang and its
     applications](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2d9b6f77e6b4d2c01bf45615b5fe73f008014f5c)
@@ -6851,6 +6859,14 @@ communities to install/package it*
     C++](https://www.ida.liu.se/~benle04/www-BLn-SW-Architecture/ERLANG/jaakr-main.ps)
     by Jaap Kreijkamp
 
+  - 1995: [One Pass Real-Time Generational Mark-Sweep Garbage
+    Collection](https://link.springer.com/chapter/10.1007/3-540-60368-9_31)
+    Joe Armstrong and Robert Virding
+
+  - 1995: [A Framework for SNMPv2 in
+    Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0d1e957902b39bf0a0783229a30427c843600189)
+    by Martin Bj orklund Klas Eriksson
+
   - 1995: [A garbage collector for the concurrent real-time language
     Erlang](https://link.springer.com/chapter/10.1007/3-540-60368-9_33)
     by Robert Virding
@@ -6890,6 +6906,10 @@ communities to install/package it*
   - 1994: [Discrete Event Simulation in
     Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=31556a0e93a345957787472900a8485c6dce6549)
     Andreas Ermedahl
+
+  - 1993: [Carpe Diem (Some Implementation Aspects of Turbo
+    Erlang)](https://www.cs.uoregon.edu/Reports/TR-1993-012.pdf) by
+    Bogumit Hausman
 
   - 1992: [Implementing a functional language for highly parallel real
     time
