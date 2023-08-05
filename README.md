@@ -4144,6 +4144,11 @@ communities to install/package it*
     Rafael Caballero, Enrique Martin-Martin, Adrián Riesco, and
     Salvador Tamarit
 
+  - 2013: [Home Location Register (HLR) dedicated for Short Message
+    Service
+    (SMS)](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A613296&dswid=5229)
+    by Rönnblom, Niklas and Vikman, Johan
+
   - 2013: [Reduction of regression tests for Erlang based on impact
     analysis](http://www.cs.ru.nl/P.Achten/IFL2013/symposium_proceedings_IFL2013/ifl2013_submission_11.pdf)
     by István Bozó, Melinda Tóth and Zoltán Horváth
@@ -4497,6 +4502,11 @@ communities to install/package it*
   - 2013: [Automatic Verification of Erlang-Style
     Concurrency](https://arxiv.org/abs/1303.2201) by Emanuele
     D'Osualdo, Jonathan Kochems and C.-H. Luke Ong
+
+  - 2012: [Resilient and optimized LDAP database implementation for a
+    large scale
+    HLR/HSS](https://www.diva-portal.org/smash/get/diva2:570445/FULLTEXT01.pdf)
+    by E Grafström
 
   - 2012: [Failover and Takeover Contingency Mechanisms for Network
     Partition and Node
@@ -5180,6 +5190,10 @@ communities to install/package it*
     transactions make ETS tables more like ordinary
     actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
     Nyblom
+
+  - 2010: [The design of a RESTful
+    web-service](https://upcommons.upc.edu/handle/2099.1/11281) by
+    Mohedano Troyano, Nadia
 
   - 2010: [Multimedia Messaging Service Front End for Supplementary
     Messaging
@@ -6376,6 +6390,11 @@ communities to install/package it*
     Processes](https://dl.acm.org/doi/abs/10.1145/1022471.1022480) by
     Jay Nelson
 
+  - 2004: [Message Analysis-Guided Allocation and Low-Pause
+    Incremental Garbage Collection in a Concurrent
+    Language](https://dl.acm.org/doi/abs/10.1145/1029873.1029875) by
+    Konstantinos Sagonas
+
   - 2003: [Design of a Medical Application Using XML Based Data
     Interchange](https://link.springer.com/chapter/10.1007/978-3-540-45210-2_24)
     by C. Mariño, C. Abalde, M. G. Penedo and M. Penas
@@ -6613,6 +6632,11 @@ communities to install/package it*
     code](https://ieeexplore.ieee.org/abstract/document/989820) by
     L.-A. Fredlund, D. Gurov and T. Noll
 
+  - 2000: [Concurrent Functional Programming for Telecommunications: A
+    Case Study of Technology
+    Introduction](https://www.academia.edu/download/80659426/bjarnelic.pdf)
+    by Bjarne Däcker
+
   - 2000: [Erlang: an Industrial Strength Functional Language
     Environment](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1dedeb6cbd83c00d716092acc2e09bbe5792a5b6)
     by Helen Airiyan and Fergus O’Brien
@@ -6702,8 +6726,6 @@ communities to install/package it*
   - 1999: [Verifying a Distributed Database Lookup Manager Written in
     Erlang](https://link.springer.com/chapter/10.1007/3-540-48119-2_38)
     by Thomas Arts and Mads Dam
-
-
 
   - 1998:
     [SQL-compiler](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3efb3b5c96809ad06fbf518a205bd1cc07b9e610)
