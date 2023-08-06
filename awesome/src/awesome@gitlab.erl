@@ -2,7 +2,7 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module('awesome@github').
+-module('awesome@gitlab').
 -compile(export_all).
 -include("awesome_mnesia.hrl").
 
@@ -35,43 +35,31 @@ all() ->
 %% record.
 %% @end
 %%--------------------------------------------------------------------
-from_map(#{ <<"archived">> := Archived
-          , <<"created_at">> := CreatedAt
+from_map(#{ <<"created_at">> := CreatedAt
           , <<"default_branch">> := DefaultBranch
           , <<"description">> := Description
-          , <<"fork">> := Original
-          , <<"forks">> := _
           , <<"forks_count">> := Forks
-          , <<"full_name">> := _
-          , <<"homepage">> := Homepage
           , <<"id">> := Id
-          , <<"license">> := License
+          , <<"last_activity_at">> := LastCommit
           , <<"name">> := Name
-          , <<"network_count">> := Network
-          , <<"open_issues">> := Issues
-          , <<"pushed_at">> := LastCommit
-          , <<"size">> := Size
-          , <<"stargazers_count">> := Stars
-          , <<"subscribers_count">> := Subscribers
+          , <<"star_count">> := Stars
           , <<"topics">> := Topics
-          , <<"updated_at">> := UpdatedAt
-          , <<"watchers_count">> := Watchers
-          }) ->
-    {ok, #?MODULE{ archived        = Archived
-                 , default_branch  = DefaultBranch
-                 , description     = Description
-                 , forks           = Forks
-                 , issues          = Issues
-                 , last_commit     = LastCommit
-                 , licenses        = License
-                 , original        = not Original
-                 , self_created_at = CreatedAt
-                 , self_updated_at = UpdatedAt
-                 , size            = Size
-                 , stars           = Stars
-                 , watchers        = Watchers
-                 }
-    };
+          } = Data) ->
+    Archived = maps:get(<<"archived">>, Data, false),
+    License = maps:get(<<"license">>, Data, <<>>),
+    Issues = maps:get(<<"open_issues_count">>, Data, 0),
+    UpdatedAt = maps:get(<<"updated_at">>, Data, <<>>),
+    {ok, #?MODULE{ archived       = Archived
+            , default_branch = DefaultBranch
+            , description    = Description
+            , forks          = Forks
+            , issues         = Issues
+            , last_commit    = LastCommit
+            , license        = License
+            , stars          = Stars
+            , self_created_at = CreatedAt
+            , self_updated_at = UpdatedAt
+            }};
 from_map(_) ->
     {error, bad_map}.
 
@@ -97,9 +85,10 @@ new(ProjectName, Opts) ->
                    end
           end,
     mnesia:transaction(Fun).
-                  
+
 %%--------------------------------------------------------------------
-%%
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
 new_url(ProjectUrl, Opts) 
   when is_list(ProjectUrl) ->
@@ -107,8 +96,8 @@ new_url(ProjectUrl, Opts)
 new_url(ProjectUrl, Opts) 
   when is_binary(ProjectUrl) ->
     {ok, #{ <<"name">> := Name
-          } = Github} = awesome_github:get_repos(binary_to_list(ProjectUrl)),
-    {ok, Record} = from_map(Github),
+          } = Gitlab} = awesome_gitlab:get_repos(binary_to_list(ProjectUrl)),
+    {ok, Record} = from_map(Gitlab),
     Fun = fun() -> {atomic, #'awesome@projects'{ id = Id}} = 'awesome@projects':new(Name, ProjectUrl),
                    mnesia:write(Record#?MODULE{ project = {'awesome@projects', Id }
                                               , name = Name
@@ -116,4 +105,3 @@ new_url(ProjectUrl, Opts)
                                               })
           end,
     mnesia:transaction(Fun).
-                  

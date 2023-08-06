@@ -22,6 +22,7 @@ tables() ->
     ['awesome@projects'
     ,'awesome@categories'
     ,'awesome@github'
+    ,'awesome@gitlab'
     ].
 
 create_tables() ->

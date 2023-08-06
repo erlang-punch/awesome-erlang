@@ -21,8 +21,11 @@ uri() ->
 %% @end
 %%--------------------------------------------------------------------
 get_repos(Url) ->
-    #{ username := Username
-     , repository := Repository } = awesome_url:parse(Url),
+    #{ scheme := "https"
+     , host := "gitlab.com"
+     , username := Username
+     , repository := Repository 
+     } = awesome_url:parse(Url),
     get_repos(Username, Repository).
 
 %%--------------------------------------------------------------------
@@ -34,7 +37,7 @@ get_repos(Url) ->
 %% {ok, Result} = awesome_gitlab:get_repos("zxq9", "zomp").
 %% '''
 %%
-%% see: https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#get-a-repository
+%% see: https://docs.gitlab.com/ee/api/projects.html#get-single-project
 %% @end
 %%--------------------------------------------------------------------
 get_repos(Owner, Repository) when is_binary(Owner) ->

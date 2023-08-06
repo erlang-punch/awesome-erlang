@@ -134,19 +134,23 @@
 -type gitlab_created_at() :: integer().
 -type gitlab_updated_at() :: integer().
 -type gitlab_topics() :: [binary(), ...].
+-type gitlab_id() :: integer().
+-type gitlab_default_branch() :: binary().
 -record('awesome@gitlab', { project      :: gitlab_project()
                           , created_at   :: created_at()
                           , updated_at   :: updated_at()
-                          , name         :: gitlab_name()
-                          , url          :: gitlab_url()
-                          , description  :: gitlab_description()
-                          , licenses     :: gitlab_licenses()
-                          % , contributors :: gitlab_contributors()
-                          , last_commit  :: gitlab_last_commit()
-                          , issues       :: gitlab_issues()
-                          , stars        :: gitlab_stars()
-                          , forks        :: gitlab_forks()
-                          , archived     :: gitlab_archived()
+                           % gitlab data
+                          , id              :: gitlab_id()
+                          , name            :: gitlab_name()
+                          , url             :: gitlab_url()
+                          , default_branch  :: gitlab_default_branch()
+                          , description     :: gitlab_description()
+                          , license         :: gitlab_licenses()
+                          , last_commit     :: gitlab_last_commit()
+                          , issues          :: gitlab_issues()
+                          , stars           :: gitlab_stars()
+                          , forks           :: gitlab_forks()
+                          , archived        :: gitlab_archived()
                           , self_created_at :: gitlab_created_at()
                           , self_updated_at :: gitlab_updated_at()
                           }).

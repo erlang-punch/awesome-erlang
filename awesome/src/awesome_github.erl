@@ -26,7 +26,9 @@ uri() ->
       Return :: {ok, map()} | {error, term()}.
 
 get_repos(Url) ->
-    #{ username := Username
+    #{ scheme := "https"
+     , host := "github.com"
+     , username := Username
      , repository := Repository } = awesome_url:parse(Url),
     get_repos(Username, Repository).
 
@@ -39,7 +41,7 @@ get_repos(Url) ->
 %% {ok, Result} = awesome_github:get_repos("devinus", "poolboy").
 %% '''
 %%
-%% see: https://docs.gitlab.com/ee/api/projects.html#get-single-project
+%% see: https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#get-a-repository
 %% @end
 %%--------------------------------------------------------------------
 -spec get_repos(Owner, Repository) -> Return when
