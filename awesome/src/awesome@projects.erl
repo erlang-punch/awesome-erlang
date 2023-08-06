@@ -20,7 +20,8 @@ all() ->
 
 new(Name, Url) -> new(Name, Url, #{}).
 
-new(Name, Url, Opts) when is_binary(Name) andalso is_binary(Url) ->
+new(Name, Url, Opts) 
+  when is_binary(Name) andalso is_binary(Url) ->
     Summary = awesome_maps:get(<<"summary">>, Opts, <<>>, is_binary),
     Documentation = awesome_maps:get(<<"documentation">>, Opts, <<>>, is_binary),
     Bugtracker = awesome_maps:get(<<"bugtracker">>, Opts, <<>>, is_binary),
@@ -47,7 +48,8 @@ new(Name, Url, Opts) when is_binary(Name) andalso is_binary(Url) ->
                                           , issues = Issues
                                           , notes = Notes
                                           },
-                          mnesia:write(Entry);
+                          mnesia:write(Entry),
+                          Entry;
                       {{atomic, []},  _} -> 
                           mnesia:abort("name must be unique");
                       { _, {atomic, []}} -> 
@@ -77,7 +79,8 @@ update_by_name(Name, Opts) ->
                                                 , build = Build
                                                 , issues = Issues
                                                 },
-                          mnesia:write(Entry)
+                          mnesia:write(Entry),
+                          Entry
                   end
           end,
     mnesia:transaction(Fun).

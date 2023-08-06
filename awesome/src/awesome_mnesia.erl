@@ -21,6 +21,7 @@ create_schema() ->
 tables() ->
     ['awesome@projects'
     ,'awesome@categories'
+    ,'awesome@github'
     ].
 
 create_tables() ->

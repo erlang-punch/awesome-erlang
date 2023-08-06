@@ -4,7 +4,7 @@
 %%%===================================================================
 -module(awesome_github).
 -export([uri/0, get_repos/1, get_repos/2]).
--export([filters/1, filter_keys/2, filter_values/2, expand_value/2]).
+-export([filters/1, filter_keys/2, filter_values/2]).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -83,8 +83,7 @@ get_repos2(Owner, Repository, Token) ->
 %%--------------------------------------------------------------------
 filters(Map) ->
     FilteredKeys = maps:filter(fun ?MODULE:filter_keys/2, Map),
-    FilteredValues = maps:map(fun ?MODULE:filter_values/2, FilteredKeys),
-    maps:map(fun ?MODULE:expand_value/2, FilteredValues).
+    maps:map(fun ?MODULE:filter_values/2, FilteredKeys).
 
 %%--------------------------------------------------------------------
 %% @hidden
@@ -96,6 +95,7 @@ filter_keys(<<"contributors">>, _) -> true;
 filter_keys(<<"created_at">>, _) -> true;
 filter_keys(<<"default_branch">>, _) -> true;
 filter_keys(<<"description">>, _) -> true;
+filter_keys(<<"fork">>, _) -> true;
 filter_keys(<<"forks">>, _) -> true;
 filter_keys(<<"forks_count">>, _) -> true;
 filter_keys(<<"full_name">>, _) -> true;
@@ -107,6 +107,7 @@ filter_keys(<<"network_count">>, _) -> true;
 filter_keys(<<"open_issues">>, _) -> true;
 filter_keys(<<"pushed_at">>, _) -> true;
 filter_keys(<<"size">>, _) -> true;
+filter_keys(<<"stargazers_count">>, _) -> true;
 filter_keys(<<"subscribers_count">>, _) -> true;
 filter_keys(<<"topics">>, _) -> true;
 filter_keys(<<"updated_at">>, _) -> true;
@@ -121,26 +122,4 @@ filter_keys(_, _) -> false.
 %%--------------------------------------------------------------------
 filter_values(<<"license">>, #{ <<"spdx_id">> := License }) -> License;
 filter_values(_, X) -> X.
-    
-expand_value(<<"archived">>, true) -> #{ value => true, icon => ":red_circle:" };
-expand_value(<<"archived">>, false) -> #{ value => false, icon => ":green_circle:" };
-expand_value(<<"contributors">>, Contributors) ->
-    case Contributors of
-        _ when Contributors =< 2 -> #{ value => Contributors, icon => ":red_circle:" };
-        _ when Contributors > 2 andalso Contributors =< 5 -> #{ value => Contributors, icon => ":orange_circle:" };
-        _ when Contributors > 5 andalso Contributors =< 10 -> #{ value => Contributors, icon => ":yellow_circle:" };
-        _ when Contributors > 10  -> #{ value => Contributors, icon => ":yellow_circle:" }
-    end;
-expand_value(<<"updated_at">>, Date) -> 
-    LocalTime = erlang:system_time(second),
-    GreenDate = LocalTime - (86400*30*3),
-    YellowDate = LocalTime - (86400*30*12),
-    OrangeDate = LocalTime - (86400*30*24),
-    case calendar:rfc3339_to_system_time(binary_to_list(Date)) of
-        D when D =< LocalTime andalso D > GreenDate -> #{ value => Date, icon => ":green_circle:" };
-        D when D =< GreenDate andalso D > YellowDate -> #{ value => Date, icon => ":yellow_circle:" };
-        D when D =< YellowDate andalso D > OrangeDate -> #{ value => Date, icon => ":orange_circle:" };
-        D when D < OrangeDate -> #{ value => Date, icon => ":red_circle" }
-    end;
-expand_value(Key, Value) -> Value.
     

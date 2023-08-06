@@ -76,40 +76,44 @@
 %%--------------------------------------------------------------------
 -type github_project()      :: {'awesome@projects', project_id()}.
 -type github_name()         :: binary().
--type github_description()  :: binary().
 -type github_url()          :: binary().
 -type github_archived()     :: boolean().
--type github_default_branch() :: binary().
--type github_licenses()     :: [binary(), ...].
--type github_homepage()     :: binary().
 -type github_contributors() :: integer().
--type github_last_commit()  :: integer().
--type github_issues()       :: integer().
--type github_stars()        :: integer().
--type github_forks()        :: integer().
--type github_size()         :: integer().
--type github_watchers()     :: integer().
 -type github_created_at()   :: integer().
--type github_updated_at()   :: integer().
+-type github_default_branch() :: binary().
+-type github_description()  :: binary().
+-type github_forks()        :: integer().
+-type github_homepage()     :: binary().
 -type github_id()           :: integer().
+-type github_issues()       :: integer().
+-type github_last_commit()  :: integer().
+-type github_licenses()     :: [binary(), ...].
+-type github_original()     :: boolean().
+-type github_size()         :: integer().
+-type github_stars()        :: integer().
 -type github_topics()       :: [binary(), ...].
+-type github_updated_at()   :: integer().
+-type github_watchers()     :: integer().
 -record('awesome@github', { project         :: github_project()
                           , created_at      :: created_at()
                           , updated_at      :: updated_at()
-                          , url             :: github_url()
-                          , name            :: github_name()
-                          , description     :: github_description()
-                          , licenses        :: github_licenses()
+                          % github data        
+                          , archived        :: github_archived()
                           , contributors    :: github_contributors()
-                          , last_commit     :: github_last_commit()
-                          , issues          :: github_issues()
-                          , stars           :: github_stars()
+                          , default_branch  :: github_default_branch()
+                          , description     :: github_description()
                           , forks           :: github_forks()
-                          , size            :: github_size()
-                          , watchers        :: github_watchers()
+                          , issues          :: github_issues()
+                          , last_commit     :: github_last_commit()
+                          , licenses        :: github_licenses()
+                          , name            :: github_name()
+                          , original        :: github_original()
                           , self_created_at :: github_created_at()
                           , self_updated_at :: github_created_at()
-                          , default_branch  :: github_default_branch()
+                          , size            :: github_size()
+                          , stars           :: github_stars()
+                          , url             :: github_url()
+                          , watchers        :: github_watchers()
                           }).
 
 %%--------------------------------------------------------------------
@@ -137,7 +141,7 @@
                           , url          :: gitlab_url()
                           , description  :: gitlab_description()
                           , licenses     :: gitlab_licenses()
-                          , contributors :: gitlab_contributors()
+                          % , contributors :: gitlab_contributors()
                           , last_commit  :: gitlab_last_commit()
                           , issues       :: gitlab_issues()
                           , stars        :: gitlab_stars()
