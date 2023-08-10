@@ -101,8 +101,22 @@ delete_by_name(Name) ->
                    end
           end,
     mnesia:transaction(Fun).
-                           
                   
-                  
-                  
+to_map(#?MODULE{ name = Name 
+               , url = Url
+               , summary = Summary
+               , documentation = Documentation
+               , bugtracker = Bugtracker
+               , build = Build
+               , issues = Issues
+               , notes = Notes }) ->
+    #{ name => Name
+     , url => Url
+     , summary => Summary
+     , documentation => Documentation
+     , bugtracker => Bugtracker
+     , build => Build
+     , issues => Issues
+     , notes => Notes }.
+
     
