@@ -1891,6 +1891,9 @@ improving your Erlang development skills and knowledge.*
     Edition)](https://isbnsearch.org/isbn/9780135083017) by Robert
     Virding, Claes Wikstrom and Mike Williams
 
+  - [Erlang
+    Programming](https://en.wikibooks.org/wiki/Erlang_Programming)
+
 ## Community
 
 *Erlang-related communities, meetups, chats and forums*
@@ -2191,6 +2194,10 @@ communities to install/package it*
   - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
     Recoveries In Distributed](https://hal.science/hal-04123758v1) by
     Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
+  - 2022: [BORDER: a Benchmarking Framework for Distributed MQTT
+    Brokers](https://core.ac.uk/reader/541166534) and Edoardo Longo,
+    Alessandro E.C. Redondi, Matteo Cesana, and Pietro Manzoni
 
   - 2022: [The best of both worlds Fast numerical computation in
     Erlang](https://www.info.ucl.ac.be/~pvr/Brunet_26481700_Couplet_20371700_2022.pdf)
@@ -4804,6 +4811,9 @@ communities to install/package it*
   - 2012: [Property-Based Testing of Web
     Services](https://proper-testing.github.io/papers/leonidas-thesis.pdf)
     by Leonidas Lampropoulos
+
+  - 2012: [DESIGNING A FRAMEWORK FOR RESTFUL
+    MULTI](https://core.ac.uk/reader/226162352) by ABDULLAH ALTHAGAFI
 
   - 2011: [Automated Random Model-Based Testing of Stateful
     Systems](https://proper-testing.github.io/papers/eirini-thesis.pdf)
