@@ -26,7 +26,6 @@ static("GET", _, State) ->
         _ -> {break, [{response, {404, ""}}]}
     end.
 
-
 %---------------------------------------------------------------------
 %
 %---------------------------------------------------------------------
@@ -60,49 +59,86 @@ router("PUT", [<<"os">>, Name], State) ->
 router("PUT", [<<"video">>], State) ->
     ok;
 
+% authors
 router("GET", [<<"authors">>], State) ->
-    io:format("~p~n", [State]),
-    Data = binary_to_list(base64:encode(term_to_binary([]))),
-    Length = length(Data),
-    Headers = [{code, 200}
-              ,{content_length, integer_to_list(Length)}
-              ,{content_type, "application/x-bert+base64"}
-              ],
-    {break, [{response, {response, Headers, Data}}]};
-
+    response(404);
+router("DELETE", [<<"authors">>,Id], State) ->
+    response(400);
 router("PUT", [<<"authors">>, LastName, FirstName], State) ->
-    ok;
-              
+    response(400);
+ 
 %---------------------------------------------------------------------
 %
 %---------------------------------------------------------------------
 router("GET", [<<"projects">>], State) ->
     case 'awesome@projects':all() of
-        [] -> {break, [{response, {200, "[]"}}]};
+        [] -> 
+            response(200, []);
         Projects ->
             Map = [ 'awesome@projects':to_map(P) || P <- Projects ],
-            {break, [{response, {200, binary_to_list(thoas:encode(Map))}}]}
+            response(200, Map)
     end;
 router("GET", [<<"projects">>,Name], State) ->
     case 'awesome@projects':get_by_name(Name) of
-        {atomic, []} -> {break, [{response, {400, ""}}]};
+        {atomic, []} -> 
+            response(404);
         {atomic, [Project]} ->
             Map = 'awesome@projects':to_map(Project),
-            {break, [{response, {200, binary_to_list(thoas:encode(Map))}}]}
-    end;
+            response(200, Map)
+        end;    
 router("PUT", [<<"projects">>,Name], #mod{ entity_body = Body } = State) ->
     Query = uri_string:dissect_query(list_to_binary(Body)),
     case proplists:to_map(Query) of
         #{ <<"url">> := Url } = Project -> 
-            io:format("~p~n", [{Name, Body, State, Query, Project}]),
             Result = 'awesome@projects':new(Name, Url, Project),
-            {break, [{response, {200, "ok"}}]};
+            [<<"ok">>, Result],
+            response(200, Result);
         _ ->
-            {break, [{response, {400, "missing url"}}]}
+            response(400)
     end;
 %---------------------------------------------------------------------
 %
 %---------------------------------------------------------------------
 router(Method, Path, State) ->
-    {break, [{response, {500, ""}}]}.
+    Response = [<<"error">>, #{ reason => <<"bad request">>}],
+    response(500, Response, [{content_type, "application/json"}]).
+
+response(400) ->
+    response(400, <<"bad request">>);
+response(404) ->
+    response(404, <<"not found">>).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+response(Code, Term) -> response(Code, Term, []).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+response(Code, Term, Opts) ->
+    ContentType = proplists:get_value(content_type, Opts, "application/json"),
+    Answer = case Code of
+                 200 -> [<<"ok">>, Term];
+                 404 -> [<<"error">>, Term];
+                 _ -> [<<"error">>, Term]
+             end,
+    Response = case ContentType of
+                   "application/json" ->
+                       thoas:encode(Answer);
+                   "application/x-bert+base64" ->
+                       Binary = term_to_binary(Answer),
+                       base64:encode(Binary);
+                   _ ->
+                       term_to_binary(Answer)
+               end,
+    ResponseAsList = binary_to_list(Response),
+    Length = integer_to_list(length(ResponseAsList)),
+    Headers = [{code, Code}
+              ,{content_length, Length}
+              ,{content_type, ContentType}
+              ],
+    {break, [{response, {response, Headers, ResponseAsList}}]}.
+
     
+
