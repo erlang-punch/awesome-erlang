@@ -2,7 +2,7 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module(awesome_hexpm).
+-module(hexpm).
 -export([uri/0, get_info/1]).
 -export([filters/1, filter_keys/2, filter_values/2, fold/3]).
 

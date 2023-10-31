@@ -1,4 +1,4 @@
--module(awesome_github_extra).
+-module(github_extra).
 -export_all([expand_value/2]).
 
 expand_value(<<"archived">>, true) -> #{ value => true, icon => ":red_circle:" };

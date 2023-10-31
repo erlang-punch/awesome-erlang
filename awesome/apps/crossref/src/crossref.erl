@@ -3,7 +3,7 @@
 %%% see: https://api.crossref.org/swagger-ui/index.html
 %%% @end
 %%%===================================================================
--module(awesome_crossref).
+-module(crossref).
 -export([uri/0, get_work/1]).
 
 %%--------------------------------------------------------------------
