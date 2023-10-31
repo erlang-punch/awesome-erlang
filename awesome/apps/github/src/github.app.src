@@ -1,14 +1,17 @@
-{application, github,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {mod, {github_app, []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
-  {licenses, ["MIT"]},
-  {links, []}
- ]}.
+{application, github
+, [ {description, "A Github API client in pure Erlang"}
+  , {vsn, "0.1.0"}
+  , {registered, []}
+  , {mod, {github_app, []}}
+  , {applications
+    , [ kernel
+      , stdlib
+      , inets
+      , mnesia
+      ]}
+  , {env,[]}
+  , {modules, []}
+  , {licenses, ["MIT"]}
+  , {links, []}
+  ]
+}.
