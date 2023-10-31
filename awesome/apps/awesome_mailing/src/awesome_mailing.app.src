@@ -1,12 +1,11 @@
-{application, awesome,
+{application, awesome_mailing,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, {awesome_app, []}},
+  {mod, {awesome_mailing_app, []}},
   {applications,
    [kernel,
-    stdlib,
-    inets
+    stdlib
    ]},
   {env,[]},
   {modules, []},

@@ -1,0 +1,22 @@
+{application, awesome,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {awesome_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    mnesia
+   ]},
+  {env,[{httpd,[{port,8081}
+               ,{modules,[awesome_httpd_handler]}
+               ,{server_name, "awesome"}
+               ,{server_root, "priv/static"}
+               ,{document_root, "priv/static"}
+               ]}
+  ]},
+  {modules, []},
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.

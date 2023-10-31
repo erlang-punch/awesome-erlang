@@ -1,5 +1,10 @@
+%%%===================================================================
+%%% @doc
+%%% @end
+%%%===================================================================
 -module(awesome_db).
--behavior(gen_server).
+-compile(export_all).
+-vsn(1).
 
 -type repository_url() :: undefined | string().
 -type documentation_url() :: undefined | string().
@@ -26,5 +31,18 @@
               , fetched = false               :: boolean()
               }).
 
+t() ->
+    ["-module(awesome_store)."
+    ,"-compile(export_all)."
+    ,"t() -> #{ data => test }."
+    ].
 
-        
+compile_and_load() ->
+    AST = merl:quote(t()),
+    merl:compile_and_load(AST).
+    
+%%
+%% ```
+%% category,
+%% '''
+%%

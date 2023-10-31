@@ -1,0 +1,3 @@
+    | [Github]({{url}}) | license | contributors | last-commit | open issues | stars | forks | repo-size | watchers |
+    |--------| :-----: | :------------: | :-----------: | :-----------: | :-----: | :-----: | :---------: | :--: |
+    |        | {{license_icon}}<br/>{{license}} | {{contributors_icon}}<br/>[{{contributors}}]({{ contributors_url }}) | {{ last_commit_icon }}<br/>[{{ last_commit }}]({{ last_commit_url}}) | {{issues_icon}}<br/>[{{issues}}]({{issues_url}}) | {{stars_icon}}<br/>{{stars}} | {{forks_icon}}<br/>{{forks}} | {{repo_size_icon}}<br/>{{repo_size}} | {{watchers_icon}}<br/>{{watchers}} |
