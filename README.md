@@ -1891,6 +1891,9 @@ improving your Erlang development skills and knowledge.*
     Edition)](https://isbnsearch.org/isbn/9780135083017) by Robert
     Virding, Claes Wikstrom and Mike Williams
 
+  - [Erlang
+    Programming](https://en.wikibooks.org/wiki/Erlang_Programming)
+
 ## Community
 
 *Erlang-related communities, meetups, chats and forums*
@@ -1915,6 +1918,9 @@ improving your Erlang development skills and knowledge.*
 
   - [Erlang Bug Report](https://github.com/erlang/otp/issues) -
     official Erlang bug reporting tool
+
+  - [GenServer.social](https://genserver.social/) - A place for Erlang
+    and Elixir folks to hangout in the Fedi but all are welcome.
 
 ## Erlang Reading
 
@@ -2189,13 +2195,17 @@ communities to install/package it*
     Recoveries In Distributed](https://hal.science/hal-04123758v1) by
     Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
 
+  - 2022: [BORDER: a Benchmarking Framework for Distributed MQTT
+    Brokers](https://core.ac.uk/reader/541166534) and Edoardo Longo,
+    Alessandro E.C. Redondi, Matteo Cesana, and Pietro Manzoni
+
   - 2022: [The best of both worlds Fast numerical computation in
     Erlang](https://www.info.ucl.ac.be/~pvr/Brunet_26481700_Couplet_20371700_2022.pdf)
     by Lylian B RUNET and Basile C OUPLET
 
   - 2022: [Numerl: Efficient Vector and Matrix Computation for
-    Erlang](The Super Mario Bros Movie 2023 1080p WEBRip H265-COD) by
-    Tanguy Losseau
+    Erlang](https://www.info.ucl.ac.be/~pvr/Losseau_45781400_2022.pdf)
+    by Tanguy Losseau
 
   - 2022: [Reversibility in Erlang: Imperative Constructs - Technical
     Report](https://pietrolami.github.io/assets/pdf/tr-rc22.pdf)
@@ -3859,6 +3869,10 @@ communities to install/package it*
     RPython](https://dl.acm.org/doi/10.1145/2814189.2817267) by
     Ruochen Huang , Hidehiko Masuhara and Tomoyuki Aotani
 
+  - 2015: [Property-based Testing of Sensor
+    Networks](https://proper-testing.github.io/papers/secon2015.pdf)
+    by Andreas Löscher, Konstantinos Sagonas, and Thiemo Voigt
+
   - 2014: [Discovering parallel pattern candidates in
     Erlang](https://dl.acm.org/doi/abs/10.1145/2633448.2633453) by
     István Bozó, Viktoria Fordós , Zoltán Horvath , Melinda Tóth ,
@@ -4503,6 +4517,10 @@ communities to install/package it*
     Concurrency](https://arxiv.org/abs/1303.2201) by Emanuele
     D'Osualdo, Jonathan Kochems and C.-H. Luke Ong
 
+  - 2012: [Automatic WSDL-guided Test Case Generation for PropEr
+    Testing of Web Services](https://arxiv.org/pdf/1210.6110v1) by
+    Leonidas Lampropoulos and Konstantinos Sagonas
+
   - 2012: [Resilient and optimized LDAP database implementation for a
     large scale
     HLR/HSS](https://www.diva-portal.org/smash/get/diva2:570445/FULLTEXT01.pdf)
@@ -4789,6 +4807,17 @@ communities to install/package it*
   - 2012: [Dron: An Integration Job
     Scheduler](https://www.doc.ic.ac.uk/teaching/distinguished-projects/2012/i.gog.pdf)
     by Ionel Corneliu Gog
+
+  - 2012: [Property-Based Testing of Web
+    Services](https://proper-testing.github.io/papers/leonidas-thesis.pdf)
+    by Leonidas Lampropoulos
+
+  - 2012: [DESIGNING A FRAMEWORK FOR RESTFUL
+    MULTI](https://core.ac.uk/reader/226162352) by ABDULLAH ALTHAGAFI
+
+  - 2011: [Automated Random Model-Based Testing of Stateful
+    Systems](https://proper-testing.github.io/papers/eirini-thesis.pdf)
+    by Eirini Arvaniti
 
   - 2011: [Testing Data Consistency of Data-Intensive Applications
     Using
@@ -5411,6 +5440,10 @@ communities to install/package it*
     Architecture](https://docs.huihoo.com/next-gen/next-generation-mmo-architecture.pdf)
     by Christian Flodihn
 
+  - 2010: [Automatic Random Testing of Function Properties from
+    Specifications](https://proper-testing.github.io/papers/manolis-thesis.pdf)
+    by Manolis Papadakis
+
   - 2010: [Automatic Structure-Based Code Generation from Coloured
     Petri Nets: A Proof of
     Concept](https://link.springer.com/chapter/10.1007/978-3-642-15898-8_14)
@@ -5966,7 +5999,9 @@ communities to install/package it*
     Horváth and Zoltán Csörnyei
 
   - 2007: [Mnesia - An Industrial DBMS with Transactions, Distribution
-    and a Logical Query Language] by Hans Nilsson and Claes Wikström
+    and a Logical Query
+    Language](https://www.semanticscholar.org/paper/Mnesia-An-Industrial-DBMS-with-Transactions%2C-and-a-Nilsson-Wikstr%C3%B6m/dd5b0106093e86af34a873d84e0e2a4cddfb90fd)
+    by Hans Nilsson and Claes Wikström
 
   - 2007: [Optimising TCP/IP
     connectivity](https://dl.acm.org/doi/abs/10.1145/1292520.1292532)
