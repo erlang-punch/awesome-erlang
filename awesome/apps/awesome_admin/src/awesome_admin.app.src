@@ -1,13 +1,15 @@
-{application, crossref
+{application, awesome_admin
 , [ {description, "An OTP application"}
   , {vsn, "0.1.0"}
   , {registered, []}
-  , {mod, {crossref_app, []}}
+  , {mod, {awesome_admin_app, []}}
   , {applications
     , [ kernel
       , stdlib
+      , inets
+      , mnesia
       ]}
-  , {env,[]}
+  , {env,[{httpd, []}]}
   , {modules, []}
   , {licenses, ["MIT"]}
   , {links, []}

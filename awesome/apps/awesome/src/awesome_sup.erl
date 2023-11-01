@@ -20,11 +20,5 @@ supervisor() ->
      , period => 1
      }.
 
-children() -> [httpd()].
-
-httpd() ->
-    {ok, Opts} = application:get_env(awesome, httpd),
-    #{ id => httpd
-     , start => {httpd, start_standalone, [Opts]}
-     , type => supervisor
-     }.
+children() -> [].
+     

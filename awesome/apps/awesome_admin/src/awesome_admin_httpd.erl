@@ -1,4 +1,4 @@
--module(awesome_httpd_handler).
+-module(awesome_admin_httpd).
 -compile(export_all). 
 -include_lib("inets/include/httpd.hrl").
 
@@ -139,6 +139,3 @@ response(Code, Term, Opts) ->
               ,{content_type, ContentType}
               ],
     {break, [{response, {response, Headers, ResponseAsList}}]}.
-
-    
-

@@ -1,8 +1,8 @@
-{application, awesome
-, [ {description, "An OTP application"}
+{application, awesome_store
+, [ {description, "An awesome way to store awesome Erlang list."}
   , {vsn, "0.1.0"}
   , {registered, []}
-  , {mod, {awesome_app, []}}
+  , {mod, {awesome_store_app, []}}
   , {applications
     , [ kernel
       , stdlib
@@ -13,5 +13,5 @@
   , {modules, []}
   , {licenses, ["MIT"]}
   , {links, []}
- ]
+  ]
 }.

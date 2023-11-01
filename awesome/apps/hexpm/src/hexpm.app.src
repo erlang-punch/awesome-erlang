@@ -1,14 +1,15 @@
-{application, hexpm,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {mod, {hexpm_app, []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
-  {licenses, ["MIT"]},
-  {links, []}
- ]}.
+{application, hexpm
+, [ {description, "An OTP application"}
+  , {vsn, "0.1.0"}
+  , {registered, []}
+  , {mod, {hexpm_app, []}}
+  , {applications
+    , [ kernel
+      , stdlib
+      ]}
+  , {env,[]}
+  , {modules, []}
+  , {licenses, ["MIT"]}
+  , {links, []}
+ ]
+}.
