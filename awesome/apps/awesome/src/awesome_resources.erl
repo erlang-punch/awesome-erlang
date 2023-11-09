@@ -1,10 +1,18 @@
 %%%===================================================================
 %%% @doc
+%%%
+%%% ```
+%%% {ok, Seeds} = file:consult("apps/awesome/priv/resources.seed").
+%%% [ awesome_resources:create_resource(Url, undefined) 
+%%%   || #{ <<"resource">> := Url } <- Seeds ].
+%%% '''
+%%%
 %%% @end
 %%%===================================================================
 -module(awesome_resources).
 -export([categories/0, is_category/1]).
--export([list_resources/0, create_resource/2, create_resource/3]).
+-export([list_resources/0, create_resource/2, create_resource/3, update_resource/2]).
+-export([exist_resource/1]).
 -export([create_relation/2]).
 -include("awesome.hrl").
 -include_lib("eunit/include/eunit.hrl").
@@ -27,6 +35,7 @@ categories() ->
     , repository
     , social
     , tag
+    , undefined
     , website
     ].
 
@@ -75,6 +84,11 @@ create_resource(Url, Category) ->
 
 %%--------------------------------------------------------------------
 %% @doc create a new resource.
+%%
+%% @todo when creating a new resource, another process must be
+%%       notified to created a new jobs and fetch data from URL API
+%%       (if present)
+%%
 %% @end
 %%--------------------------------------------------------------------
 -spec create_resource(Url, Category, Opts) -> Return when
@@ -131,7 +145,50 @@ create_resource_final(Resource, Opts) ->
     NewResource = Resource#resource{ created_at = CreatedAt
                                    , updated_at = CreatedAt
                                    },
-    ?STORE:write(NewResource).
+    ?STORE:insert(NewResource).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+exist_resource(Url) ->
+    ?STORE:exist(resource, Url).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+update_resource(Url, Opts) ->
+    case ?STORE:read(resource, Url) of
+        {atomic, []} -> 
+            {error, not_found};
+        {atomic, [Resource]} ->
+            update_resource_category(Resource, Opts, false)
+    end.
+
+update_resource_category(Resource, #{ <<"category">> := Category } = Opts, State) ->
+    case is_category(Category) of
+        true when Resource#resource.category =/= Category ->
+            update_resource_name(Resource#resource{ category = Category }, Opts, true);
+        _ ->
+            update_resource_name(Resource, Opts, State)
+    end.
+
+update_resource_name(Resource, #{ <<"name">> := Name } = Opts, _State) 
+  when is_binary(Name) ->
+    update_resource_data(Resource#resource{ name = Name }, Opts, true);
+update_resource_name(Resource, Opts, State) ->
+    update_resource_data(Resource, Opts, State).
+
+update_resource_data(Resource, #{ <<"data">> := Data } = Opts, State) 
+  when is_map(Data) ->
+    update_resource_final(Resource#resource{ data = Data }, Opts, true);
+update_resource_data(Resource, Opts, State) ->
+    update_resource_final(Resource, Opts, State).
+
+update_resource_final(Resource, Opts, true) ->
+    UpdatedAt = erlang:system_time(),
+    ?STORE:update(Resource#resource{ updated_at = UpdatedAt });
+update_resource_final(Resource, _Opts, _) ->
+    Resource.
 
 %%--------------------------------------------------------------------
 %% draft
@@ -150,8 +207,8 @@ create_resource_final(Resource, Opts) ->
       Return :: {ok, relation()}
               | {error, term()}.
 
-create_relation(#resource{ id = SourceId } = Source
-               ,#resource{ id = TargetId } = Target) ->
+create_relation(#resource{ url = SourceId } = Source
+               ,#resource{ url = TargetId } = Target) ->
     Relation = #relation{ source_relation = {relation, SourceId}
                         , target_relation = {relation, TargetId}
                         },

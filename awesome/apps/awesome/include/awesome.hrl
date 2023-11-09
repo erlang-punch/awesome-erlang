@@ -11,15 +11,15 @@
                   | repository
                   | social
                   | tag
-                  | website.
+                  | website
+                  | undefined.
 
 %%--------------------------------------------------------------------
 %% A resource is representing an URL with some metadata.
 %%--------------------------------------------------------------------
--record(resource, { id         = undefined :: undefined | pos_integer()
+-record(resource, { url        = <<>>      :: binary()
                   , category   = undefined :: undefined | category()
                   , name       = <<>>      :: binary()
-                  , url        = <<>>      :: binary()
                   , data       = #{}       :: map()
                   , created_at = 0         :: pos_integer()
                   , updated_at = 0         :: pos_integer()
@@ -29,8 +29,7 @@
 %%--------------------------------------------------------------------
 %% A relation is representing a relation between resources.
 %%--------------------------------------------------------------------
--record(relation, { id = undefined :: pos_integer()
-                  , source_relation = undefined :: {resource, pos_integer()}
+-record(relation, { source_relation = undefined :: {resource, pos_integer()}
                   , target_relation = undefined :: {resource, pos_integer()}
                   , created_at = 0 :: pos_integer()
                   , updated_at = 0 :: pos_integer()
