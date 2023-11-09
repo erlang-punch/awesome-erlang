@@ -2095,15 +2095,45 @@ communities to install/package it*
 
 </details>
 
+  - 2023: [Toward Automatic Generation of an Optimal Supervision Tree
+    in Erlang](https://ken.ieice.org/ken/paper/20230110OCQn/eng/) by
+    Shoichi Sasaki, Yoshiaki Takata
+
+  - 2023: [Reversibility in Erlang: Imperative Constructs - Technical
+    Report](https://pietrolami.github.io/assets/pdf/tr-rc22.pdf) by
+    Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti
+    Coen, Giovanni Fabbretti
+
+  - 2023: [Design-first framework for REST API development in
+    Erlang](https://ruc.udc.es/dspace/handle/2183/33720) by Garea
+    Cidre, Javier
+
+  - 2023: [Development of software for monitoring the parameters of
+    communication networks and server
+    hardware](http://injoit.org/index.php/j1/article/view/1645) by
+    E.E. Istratova
+
+  - 2023: [TLS the Erlang/OTP Way (Experience
+    Report)](https://dl.acm.org/doi/abs/10.1145/3609022.3609414) by
+    Authors: Ingela Anderton Andin, Raimo Niskanen, Péter Dimitrov and
+    Kiko Fernandez-Reyes
+
+  - 2023: [Typing OTP design patterns with session
+    types](https://www.um.edu.mt/library/oar/handle/123456789/113328)
+    by Farrugia, Adrian
+
+  - 2023: [A Frame Stack Semantics for Sequential Core
+    Erlang](https://arxiv.org/abs/2308.12403) by Péter Bereczky,
+    Dániel Horpácsi, Simon Thompson
 
   - 2023: [Pour Some Sugar on Bits: Flexible Manipulation of Bit
     Streams in Erlang
-    ∗](http://user.it.uu.se/~pergu/binary_comprehensions.ps) Per
+    ∗](http://user.it.uu.se/~pergu/binary_comprehensions.ps) by Per
     Gustafsson and Konstantinos Sagonas
 
   - 2023: [Static analysis for safe software
     upgrade∗](https://icai.uni-eszterhazy.hu/2023/abstracts/ICAI_2023_abstract_048.pdf)
-    Dániel Ferencia , Melinda Tóth
+    by Dániel Ferencia , Melinda Tóth
 
   - 2023: [Auction-Based Job Scheduling for Smart
     Manufacturing](https://ieeexplore.ieee.org/abstract/document/10158649)
@@ -2194,6 +2224,11 @@ communities to install/package it*
   - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
     Recoveries In Distributed](https://hal.science/hal-04123758v1) by
     Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
+  - 2022: [Comparison and proof of the fastest way of the sorting
+    algorithm by functional programming in Erlang
+    ](https://pubs.aip.org/aip/acp/article-abstract/2386/1/050016/2820526/Comparison-and-proof-of-the-fastest-way-of-the)
+    by Abbas Jkhayyir Kadhim
 
   - 2022: [BORDER: a Benchmarking Framework for Distributed MQTT
     Brokers](https://core.ac.uk/reader/541166534) and Edoardo Longo,
@@ -2928,7 +2963,7 @@ communities to install/package it*
   - 2018: [Using erlang in research and education in a technical
     university](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-41cf0346-9a96-44f4-ac17-de78ec9d79e4)
     by Petrov I., Alexeyenko A. and Ivanova G.
-  
+
   - 2018: [Modelling distributed Erlang within a single
     node](https://dl.acm.org/doi/abs/10.1145/3239332.3242764) by
     Stavros Aronis, Viktória Fördős and Dániel Szoboszlay
@@ -3225,7 +3260,7 @@ communities to install/package it*
   - 2017: [Hootsuite: in pursuit of reactive
     systems](https://dl.acm.org/doi/fullHtml/10.1145/3106627) by CACM
     Staff
-  
+
   - 2017: [The pragmatics of clone detection and
     elimination](https://arxiv.org/abs/1703.10860) by Simon Thompson,
     Huiqing Li and Andreas Schumacher
@@ -3638,7 +3673,7 @@ communities to install/package it*
   - 2016: [Identifying Code Clones with
     RefactorErl](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3895)
     by Viktória Fördős and Melinda Tóth
-          
+
   - 2016: [Comparing message-oriented middleware for financial assets
     trading](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A934286&dswid=2999)
     by Eriksson, John
@@ -4178,7 +4213,7 @@ communities to install/package it*
     data-flow
     analysis](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-42380c42-c6f8-48b5-b9bb-5641d311afe8)
     by Horpácsi D. and Koszegi J.
-    
+
   - 2013: [Software agents mobility using process migration mechanism
     in distributed
     Erlang](https://dl.acm.org/doi/abs/10.1145/2505305.2505312) by
@@ -4293,7 +4328,7 @@ communities to install/package it*
   - 2013: [Task Tree Executor for Erlang Enabled
     Multicores](https://www.ingentaconnect.com/contentone/asp/asl/2013/00000019/00000005/art00030)
     by Popovic, Miroslav and Cetic, Nenad
-  
+
   - 2013: [Erlang as a Language for Cloud Computing and Its
     Integration with Many-core
     Coprocessor](https://ieeexplore.ieee.org/abstract/document/6693171)
@@ -4323,7 +4358,7 @@ communities to install/package it*
     Erlang
     programs∗](http://publikacio.uni-eszterhazy.hu/2746/1/AMI_2013_42.pdf#page=31)
     by Roland Király
-  
+
   - 2013: [DXNN: A Case
     Study](https://link.springer.com/chapter/10.1007/978-1-4614-4463-3_10)
     by Gene I. Sher
@@ -4529,7 +4564,7 @@ communities to install/package it*
   - 2012: [Failover and Takeover Contingency Mechanisms for Network
     Partition and Node
     Failure](https://dl.acm.org/doi/abs/10.1145/2364489.2364498) by
-    Macías López, Laura M. Castro and David Cabrero  
+    Macías López, Laura M. Castro and David Cabrero
 
   - 2012: [Large Scale Multimedia Messaging Service Center with
     Optimized Database
@@ -5543,7 +5578,7 @@ communities to install/package it*
   - 2010: [A case study of DHT functionality: range query on
     DHT](https://scholarworks.calstate.edu/concern/theses/5h73px81k)
     by Yoshihiro Tanaka
-  
+
   - 2009: [Race Condition Detection in Concurrent Erlang Applications
     Using Static
     Analysis](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/mchri-diploma.pdf)
@@ -7026,13 +7061,13 @@ communities to install/package it*
     Papers](https://erlef.org/academic-papers/): Papers are organized
     chronologically. We attempt to show the BEAM related tech
     highlighted for each paper.
-  
+
   - [Erlang Ecosystem Foundation
     Community](https://erlef.org/community/) The Erlang ecosystem
     consists of a vibrant and diverse set of languages, tools,
     platforms, and much more. Help us grow our community and augment
     this collection of resources by contributing on Github
-  
+
   - [drobakowski/awesome-erlang](https://github.com/drobakowski/awesome-erlang/blob/master/README.md):
     A curated list of amazingly awesome Erlang libraries, resources
     and shiny thing inspired by awesome-elixir.
@@ -7043,10 +7078,10 @@ communities to install/package it*
 
   - [uhub/awesome-erlang](https://github.com/uhub/awesome-erlang): A
     curated list of awesome Erlang frameworks, libraries and software.
-    
+
   - [mudssrali/erlang-elixir-stuff](https://github.com/mudssrali/erlang-elixir-stuff):
     Awesome Erlang and Elixir reading, learning and practice material
-    
+
   - [szTheory/beamtoolbox](https://github.com/szTheory/beamtoolbox):
     Curated BEAM language libraries by category. All killer, no
     filler.
