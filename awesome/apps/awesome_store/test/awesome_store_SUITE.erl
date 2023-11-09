@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
+%%%
 %%%-------------------------------------------------------------------
--module(awesome_SUITE).
+-module(awesome_store_SUITE).
 -compile(export_all).
 -include_lib("common_test/include/ct.hrl").
--include_lib("awesome/include/awesome.hrl").
 
 %%--------------------------------------------------------------------
 %% @spec suite() -> Info
@@ -119,19 +119,9 @@ my_test_case() ->
 %% @end
 %%--------------------------------------------------------------------
 my_test_case(_Config) -> 
-    ValidUrl = <<"https://github.com/erlang-punch/awesome-erlang">>,
-    Name = <<"Awesome Erlang">>,
-    Data = #{ <<"extra data">> => <<"test">> },
-    Opts = #{ <<"name">> => Name
-            , <<"data">> => Data
-            },
-    {ok, R = #resource{}} = create_resource(ValidUrl, repository, Opts),
-    [ ?assertEqual(R#resource.url, ValidUrl)
-    , ?assertEqual(R#resource.category, repository)
-    , ?assertEqual(R#resource.name, Name)
-    , ?assertEqual(R#resource.data, Data)
-    , ?assert(R#resource.created_at > 0 )
-    , ?assert(R#resource.updated_at > 0 )
-    , ?assert(R#resource.created_at =:= R#resource.updated_at)
-    ].
-
+    % application:ensure_all_started(mnesia),
+    
+    % start awesome_store
+    % application:ensure_all_started(awesome_store),
+    
+    ok.

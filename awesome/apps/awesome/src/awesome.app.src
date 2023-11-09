@@ -1,7 +1,10 @@
 {application, awesome
 , [ {description, "Awesome Erlang list orchestrator and manager."}
   , {vsn, "0.1.0"}
-  , {registered, []}
+  , {registered
+    , [ awesome_app
+      , awesome_sup 
+      ]}
   , {mod, {awesome_app, []}}
   , {applications
     , [ kernel
