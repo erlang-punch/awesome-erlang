@@ -6,12 +6,10 @@
   , {applications
     , [ kernel
       , stdlib
-      , inets
-      , mnesia
+      , awesome
       ]}
   , {env,[{httpd, []}]}
   , {modules, []}
   , {licenses, ["MIT"]}
   , {links, []}
- ]
-}.
+]}.

@@ -1,14 +1,14 @@
-{application, github
-, [ {description, "A Github API client in pure Erlang"}
+{application, awesome_report
+, [ {description, "Generate Awesoem Erlang list (report) as README.md file"}
   , {vsn, "0.1.0"}
   , {registered, []}
-  , {mod, {github_app, []}}
+  , {mod, {awesome_report_app, []}}
   , {applications
     , [ kernel
       , stdlib
       , awesome
       ]}
-  , {env,[]}
+  , {env, []}
   , {modules, []}
   , {licenses, ["MIT"]}
   , {links, []}

@@ -1,11 +1,35 @@
 {"1.2.0",
 [{<<"bbmustache">>,{pkg,<<"bbmustache">>,<<"1.12.2">>},0},
+ {<<"berty">>,
+  {git,"https://github.com/erlang-punch/berty.git",
+       {ref,"970d808d10f8d4d9a803de29768b343c3e1e4457"}},
+  0},
+ {<<"gabarit">>,
+  {git,"https://github.com/erlang-punch/gabarit.git",
+       {ref,"91e8d77ac4723cbefc703d0adf6082dd4b776741"}},
+  0},
+ {<<"jobs">>,{pkg,<<"jobs">>,<<"0.10.0">>},0},
+ {<<"parse_trans">>,{pkg,<<"parse_trans">>,<<"3.4.0">>},1},
+ {<<"proper">>,{pkg,<<"proper">>,<<"1.4.0">>},1},
+ {<<"rebar">>,
+  {git,"https://github.com/erlang-punch/gabarit.git",
+       {ref,"91e8d77ac4723cbefc703d0adf6082dd4b776741"}},
+  0},
+ {<<"setup">>,{pkg,<<"setup">>,<<"2.1.0">>},1},
  {<<"thoas">>,{pkg,<<"thoas">>,<<"1.2.0">>},0}]}.
 [
 {pkg_hash,[
  {<<"bbmustache">>, <<"0CABDCE0DB9FE6D3318131174B9F2B351328A4C0AFBEB3E6E99BB0E02E9B621D">>},
+ {<<"jobs">>, <<"329C024A889249EA8262D0EF70BC7A498B7C96DA95977EBD026B13B069FB0E13">>},
+ {<<"parse_trans">>, <<"BB87AC362A03CA674EBB7D9D498F45C03256ADED7214C9101F7035EF44B798C7">>},
+ {<<"proper">>, <<"89A44B8C39D28BB9B4BE8E4D715D534905B325470F2E0EC5E004D12484A79434">>},
+ {<<"setup">>, <<"05F69185A5EB71474C9BC6BA892565651EC7507791F85632B7B914DBFE130510">>},
  {<<"thoas">>, <<"73B0546BAFF5008E6ED209558FD7B0606B035D96F9F3DE24EF42879100E094D4">>}]},
 {pkg_hash_ext,[
  {<<"bbmustache">>, <<"688B33A4D5CC2D51F575ADF0B3683FC40A38314A2F150906EDCFC77F5B577B3B">>},
+ {<<"jobs">>, <<"09D486146BD32897726BB1F63DD95D1EB7F6F5A4C21C38CA58AB1646E8229724">>},
+ {<<"parse_trans">>, <<"F99E368830BEA44552224E37E04943A54874F08B8590485DE8D13832B63A2DC3">>},
+ {<<"proper">>, <<"18285842185BD33EFBDA97D134A5CB5A0884384DB36119FEE0E3CFA488568CBB">>},
+ {<<"setup">>, <<"EFD072578F0CF85BEA96CAAFFC7ADB0992398272522660A136E10567377071C5">>},
  {<<"thoas">>, <<"540C8CB7D9257F2AD0A14145DC23560F91ACDCA995F0CCBA779EB33AF5D859D1">>}]}
 ].

@@ -1,14 +1,15 @@
-{application, awesome_api,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {mod, {awesome_api_app, []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
-  {licenses, ["MIT"]},
-  {links, []}
- ]}.
+{application, awesome_api
+, [ {description, "An OTP application"}
+  , {vsn, "0.1.0"}
+  , {registered, []}
+  , {mod, {awesome_api_app, []}}
+  , {applications
+    , [ kernel
+      , stdlib
+      , awesome
+      ]}
+  , {env,[]}
+  , {modules, []}
+  , {licenses, ["MIT"]}
+  , {links, []}
+]}.

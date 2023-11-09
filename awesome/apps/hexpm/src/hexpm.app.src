@@ -6,10 +6,10 @@
   , {applications
     , [ kernel
       , stdlib
+      , awesome
       ]}
   , {env,[]}
   , {modules, []}
   , {licenses, ["MIT"]}
   , {links, []}
- ]
-}.
+]}.

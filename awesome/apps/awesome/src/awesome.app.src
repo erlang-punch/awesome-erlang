@@ -1,17 +1,14 @@
 {application, awesome
-, [ {description, "An OTP application"}
+, [ {description, "Awesome Erlang list orchestrator and manager."}
   , {vsn, "0.1.0"}
   , {registered, []}
   , {mod, {awesome_app, []}}
   , {applications
     , [ kernel
       , stdlib
-      , inets
-      , mnesia
       ]}
   , {env, []}
   , {modules, []}
   , {licenses, ["MIT"]}
   , {links, []}
- ]
-}.
+]}.
