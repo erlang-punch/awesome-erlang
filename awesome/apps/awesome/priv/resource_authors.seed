@@ -1,0 +1,5 @@
+%%--------------------------------------------------------------------
+%% A resource can also give information about one author using the
+%% author category.
+%%--------------------------------------------------------------------
+#{ <<"name">> => "Joe Armstrong", <<"resource">> => <<"https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)">>, <<"category">> => author }.

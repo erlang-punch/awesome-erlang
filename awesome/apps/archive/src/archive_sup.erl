@@ -1,38 +1,35 @@
 %%%===================================================================
-%%%
+%%% @doc awesome top level supervisor.
+%%% @end
 %%%===================================================================
--module(github_app).
--behavior(application).
--export([start/2, stop/1]).
+-module(archive_sup).
+-behaviour(supervisor).
+-export([start_link/0]).
+-export([init/1]).
 
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
-start(_,_) ->
-    init(),
-    github_sup:start_link().
+start_link() ->
+    supervisor:start_link({local, ?MODULE}, ?MODULE, []).
 
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
-stop(_) ->
-    ok.
+init([]) ->
+    {ok, {supervisor(), children()}}.
 
 %%--------------------------------------------------------------------
-%% @doc throw an exception in case of issue
-%% @end
-%%--------------------------------------------------------------------
-init() ->
-    github_env:init([]),
-    init_jobs().
-
-%%--------------------------------------------------------------------
-%% @doc jobs is required to limit the amount of requests made on
-%% github api
 %%
-%% @end
 %%--------------------------------------------------------------------
-init_jobs() ->
-    {ok, _} = application:ensure_all_started(jobs),
-    ok = jobs:add_queue(github, []),
-    github_mnesia:create_table().
+supervisor() ->
+    #{ strategy => one_for_all
+     , intensity => 0
+     , period => 1
+     }.
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+children() -> [].
+    

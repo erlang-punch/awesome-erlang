@@ -10,9 +10,10 @@
 %%% @end
 %%%===================================================================
 -module(awesome_resources).
--export([categories/0, is_category/1]).
+-export([seeds/0]).
 -export([list_resources/0, get_resource/1, list_resources_by_category/1]).
--export([create_resource/2, create_resource/3, update_resource/2]).
+-export([create_resource/1, create_resource/2, create_resource/3]).
+-export([update_resource/2]).
 -export([delete_resource/1]).
 -export([exist_resource/1]).
 -include("awesome.hrl").
@@ -24,51 +25,11 @@
 %% @end
 %%--------------------------------------------------------------------
 seeds() ->
-    {ok, Seeds} = file:consult("apps/awesome/priv/resources.seed"),
+    Priv = code:priv_dir(awesome),
+    SeedFile = filename:join(Priv, "resources.seed"),
+    {ok, Seeds} = file:consult(SeedFile),
     [ awesome_resources:create_resource(Url, undefined)
        ||  #{ <<"resource">> := Url } <- Seeds ].
-
-
-%%--------------------------------------------------------------------
-%% @doc This is the list of categories available, this is list is
-%% fixed on purpose.
-%%
-%% @end
-%%--------------------------------------------------------------------
-categories() ->
-    [ archive
-    , author
-    , book
-    , company
-    , podcast
-    , project
-    , publication
-    , repository
-    , social
-    , tag
-    , undefined
-    , website
-    ].
-
-%%--------------------------------------------------------------------
-%% @doc Check if a term is a category from categories/0 function.
-%% @end
-%%--------------------------------------------------------------------
--spec is_category(Category) -> Return when
-      Category :: category(),
-      Return :: boolean().
-
-is_category(Category) ->
-    is_category(Category, categories()).
-
-is_category(_, []) -> false;
-is_category(Category, [Category|_]) -> true;
-is_category(Category, [_|Rest]) -> is_category(Category, Rest).
-
-is_category_test() ->
-    ?assertEqual(true, is_category(archive)),
-    ?assertEqual(false, is_category("test")),
-    ?assertEqual(false, is_category(<<"test">>)).
 
 %%--------------------------------------------------------------------
 %%
@@ -79,6 +40,13 @@ is_category_test() ->
 list_resources() ->
     Match = [{'$1', [], ['$1']}],
     ?STORE:select(resource, Match).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+create_resource(Url) ->
+    create_resource(Url, undefined).
 
 %%--------------------------------------------------------------------
 %% @doc Wrapper around create_resource/3
@@ -127,12 +95,16 @@ create_resource_url(Resource, Url, Category, Opts)
 create_resource_url(_, Url, _, _) ->
     {error, {url, Url}}.
 
-% check the category    
+% check the category. Only when we are creating a new resource for the
+% first time, the category is automatically updated if undefined.
 create_resource_category(Resource, Category, Opts) ->
-    case is_category(Category) of
+    case awesome_categories:is_category(Category) of
         true ->
+            % the resource is valid, we can update #resource{}
             NewResource = Resource#resource{ category = Category },
-            create_resource_name(NewResource, Opts);
+            % if undefined, we try to find it automatically
+            AutomaticResource = awesome_categories:update_category(NewResource),
+            create_resource_name(AutomaticResource, Opts);
         false ->
             {error, {category, Category}}
     end.
@@ -179,7 +151,7 @@ update_resource(Url, Opts) ->
     end.
 
 update_resource_category(Resource, #{ <<"category">> := Category } = Opts, State) ->
-    case is_category(Category) of
+    case awesome_categories:is_category(Category) of
         true when Resource#resource.category =/= Category ->
             update_resource_name(Resource#resource{ category = Category }, Opts, true);
         _ ->
@@ -228,7 +200,7 @@ delete_resource(Url) ->
 %% @end
 %%--------------------------------------------------------------------
 list_resources_by_category(Category) ->
-    case is_category(Category) of
+    case awesome_categories:is_category(Category) of
         true ->
             Match = { #resource{url = '$1', category = Category, _ = '_'}
                     , []

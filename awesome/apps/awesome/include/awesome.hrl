@@ -30,8 +30,6 @@
 %% A relation is representing a relation between resources.
 %%--------------------------------------------------------------------
 -record(relation, { relation = {undefined, undefined}
-                  % , source_relation = undefined :: {resource, pos_integer()}
-                  % , target_relation = undefined :: {resource, pos_integer()}
                   , created_at = 0 :: pos_integer()
                   , updated_at = 0 :: pos_integer()
                   }).

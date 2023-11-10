@@ -7,4 +7,11 @@
 #{ <<"name">> => <<"github">>, <<"resource">> => <<"https://github.com">>, <<"category">> => tag }.
 #{ <<"name">> => <<"gitlab">>, <<"resource">> => <<"https://gitlab.com">>, <<"category">> => tag }.
 #{ <<"name">> => <<"hex">>, <<"resource">> => <<"https://hex.pm">>, <<"category">> => tag }.
-#{ <<"name">> => <<"erlang/otp">>, <<"resource">> => <<"https://erlang.org">>, <<"category">> => tag }.
+
+% some tag can use a special url starting with tag://
+#{ <<"name">> => <<"erlang/otp">>, <<"resource">> => <<"tag://erlang/otp">>, <<"category">> => tag }.
+
+% some resource can also be tagged using a file format, like pdf or
+% epub.
+#{ <<"name">> => <<"pdf">>, <<"resource">> => <<"tag://pdf">>, <<"category">> => tags }.
+#{ <<"name">> => <<"epub">>, <<"resource">> => <<"tag://epub">>, <<"category">> => tags }.

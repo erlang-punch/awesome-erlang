@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>resources</title>
+  </head>
+  <body>
+    <h2>Create Resource</h2>
+    <form action="/resources/create" method="post">
+      <div>
+        <label for="resource">resource</label>
+        <input type="textinput" name="resource" />
+      </div>
+      <div>
+        <label for="name">name</label>
+        <input type="textinput" name="name" />
+      </div>
+      <div>
+        <label for="category">category</label>
+        <select name="category">
+          <option value="undefined">undefined (default)</option>
+          <option value="publication">publication</option>
+          <option value="repository">repository</option>
+        </select>
+      </div>
+      <div>
+        <button>create</button>
+      </div>
+    </form>
+    <hr>
+
+    <h2>Update Resource</h2>
+    <form action="/resources/update" method="post">
+    </form>
+    <hr>
+
+    <h2>Resources</h2>
+    <table>
+      <tr><td>name</td><td>resource</td><td>category</td></tr>
+    </table>
+    <hr>
+  </body>
+</html>

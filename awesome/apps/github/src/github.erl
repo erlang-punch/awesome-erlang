@@ -1,43 +1,74 @@
 %%%===================================================================
 %%% @doc
+%%%
+%%% ```
+%%% % we can set a filter and many different options
+%%% Opts = #{filter => {github_filter, extract}}.
+%%%
+%%% % we can fetch using the whole URL
+%%% github:get_repos_url("https://github.com/erlang-punch/awesome-erlang", Opts).
+%%%
+%%% % or we can fetch using username and repo
+%%% github:get_repos("erlang-punch", "awesome-erlang", Opts).
+%%% '''
+%%%
 %%% @end
 %%%===================================================================
 -module(github).
--export([uri/0, get_repos/1, get_repos/2]).
--export([filters/1, filter_keys/2, filter_values/2]).
+-export([start/0]).
+-export([get_repos_url/1, get_repos_url/2]).
+-export([get_repos/2, get_repos/3]).
 
 %%--------------------------------------------------------------------
-%% @doc
+%% @doc A wrapper around application:ensure_all_started/1.
 %% @end
 %%--------------------------------------------------------------------
--spec uri() -> uri_string:uri_map().
-uri() ->
-   #{ host => "api.github.com"
-    , scheme => "https"
-    }.
+start() ->
+    application:ensure_all_started(github).
 
 %%--------------------------------------------------------------------
-%% @doc
+%%
+%%--------------------------------------------------------------------
+-spec get_repos_url(Url) -> Return when
+      Url :: string() | binary(),
+      Return :: {ok, map()} | {error, term()}.
+
+get_repos_url(Url) ->
+    get_repos_url(Url, #{}).
+
+%%--------------------------------------------------------------------
+%% @doc Use a full github url and extract username/repository from it.
+%%
+%% == Example ==
+%%
+%% ```
+%% {ok, Data} 
+%%   = get_repos_url("https://github.com/erlang-punch/awesome-erlang").
+%% '''
+%%
 %% @see get_repos/2
 %% @end
 %%--------------------------------------------------------------------
--spec get_repos(Url) -> Return when
-      Url :: string(),
+-spec get_repos_url(Url, Opts) -> Return when
+      Url :: string() | binary(),
+      Opts :: proplists:proplist(),
       Return :: {ok, map()} | {error, term()}.
 
-get_repos(Url) ->
+get_repos_url(Binary, Opts) 
+  when is_binary(Binary) ->
+    get_repos_url(binary_to_list(Binary), Opts);
+get_repos_url(Url, Opts) ->
     #{ scheme := "https"
      , host := "github.com"
      , username := Username
      , repository := Repository } = awesome_url:parse(Url),
-    get_repos(Username, Repository).
+    get_repos(Username, Repository, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc quick and dirty implementation of gitlab repository
 %% information.
 %%
 %% ```
-%% {ok, Result} = awesome_github:get_repos("https://github.com/devinus/poolboy").
 %% {ok, Result} = awesome_github:get_repos("devinus", "poolboy").
 %% '''
 %%
@@ -45,83 +76,37 @@ get_repos(Url) ->
 %% @end
 %%--------------------------------------------------------------------
 -spec get_repos(Owner, Repository) -> Return when
-      Owner :: string(),
-      Repository :: string(),
+      Owner :: string() | binary(),
+      Repository :: string() | binary(),
       Return :: {ok, map()} | {error, term()}.
 
-get_repos(Owner, Repository) when is_binary(Owner) ->
-    get_repos(binary_to_list(Owner), Repository);
-get_repos(Owner, Repository) when is_binary(Repository) ->
-    get_repos(Owner, binary_to_list(Repository));
 get_repos(Owner, Repository) ->
-    case application:get_env(awesome, github_token) of
-        {ok, Token} -> get_repos2(Owner, Repository, Token);
-        undefined -> {error, {awesome, github_token, undefined}}
-    end.
+    get_repos(Owner, Repository, []).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+-spec get_repos(Owner, Repository, Opts) -> Return when
+      Owner :: string() | binary(),
+      Repository :: string() | binary(),
+      Opts :: proplists:proplist(),
+      Return :: {ok, map()} | {error, term()}.
+
+get_repos(Owner, Repository, Opts) 
+  when is_binary(Owner) ->
+    get_repos(binary_to_list(Owner), Repository, Opts);
+get_repos(Owner, Repository, Opts) 
+  when is_binary(Repository) ->
+    get_repos(Owner, binary_to_list(Repository), Opts);
+get_repos(Owner, Repository, Opts) ->
+    get_repos2(Owner, Repository, Opts).    
 
 %%--------------------------------------------------------------------
 %% @hidden
 %% @doc
 %% @end
 %%--------------------------------------------------------------------
-get_repos2(Owner, Repository, Token) ->
-    Uri = uri(),
-    Agent = {"User-Agent", "Awesome-Erlang-Application"},
+get_repos2(Owner, Repository, Opts) ->
     Path = filename:join(["repos", Owner, Repository]),
-    Target = uri_string:recompose(Uri#{ path => Path }),
-    Accept = {"Accept", "application/vnd.github+json"},
-    BearerToken = string:join(["Bearer", Token], " "),
-    Authorization = {"Authorization", BearerToken},
-    Version = {"X-GitHub-Api-Version", "2022-11-28"},
-    Headers = [Agent, Accept, Authorization, Version],
-    Request = {get, {Target, Headers}, [], []},
-    Filter = fun ?MODULE:filters/1,
-    awesome_client:request(Request, Filter).
+    github_client:get(Path, Opts).
 
-%%--------------------------------------------------------------------
-%% @hidden
-%% @doc
-%% @end
-%%--------------------------------------------------------------------
-filters(Map) ->
-    FilteredKeys = maps:filter(fun ?MODULE:filter_keys/2, Map),
-    maps:map(fun ?MODULE:filter_values/2, FilteredKeys).
-
-%%--------------------------------------------------------------------
-%% @hidden
-%% @doc
-%% @end
-%%--------------------------------------------------------------------
-filter_keys(<<"archived">>, _) -> true;
-filter_keys(<<"contributors">>, _) -> true;
-filter_keys(<<"created_at">>, _) -> true;
-filter_keys(<<"default_branch">>, _) -> true;
-filter_keys(<<"description">>, _) -> true;
-filter_keys(<<"fork">>, _) -> true;
-filter_keys(<<"forks">>, _) -> true;
-filter_keys(<<"forks_count">>, _) -> true;
-filter_keys(<<"full_name">>, _) -> true;
-filter_keys(<<"homepage">>, _) -> true;
-filter_keys(<<"id">>, _) -> true;
-filter_keys(<<"license">>, _) -> true;
-filter_keys(<<"name">>, _) -> true;
-filter_keys(<<"network_count">>, _) -> true;
-filter_keys(<<"open_issues">>, _) -> true;
-filter_keys(<<"pushed_at">>, _) -> true;
-filter_keys(<<"size">>, _) -> true;
-filter_keys(<<"stargazers_count">>, _) -> true;
-filter_keys(<<"subscribers_count">>, _) -> true;
-filter_keys(<<"topics">>, _) -> true;
-filter_keys(<<"updated_at">>, _) -> true;
-filter_keys(<<"watchers">>, _) -> true;
-filter_keys(<<"watchers_count">>, _) -> true;
-filter_keys(_, _) -> false.
-
-%%--------------------------------------------------------------------
-%% @hidden
-%% @doc value conversion.
-%% @end
-%%--------------------------------------------------------------------
-filter_values(<<"license">>, #{ <<"spdx_id">> := License }) -> License;
-filter_values(_, X) -> X.
-    

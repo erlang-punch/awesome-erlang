@@ -1,0 +1,18 @@
+{application, archive
+, [ {description, "A client to Archive.org API."}
+  , {vsn, "0.1.0"}
+  , {registered
+    , [ archive_app
+      ]}
+  , {mod, {archive_app, []}}
+  , {applications
+    , [ kernel
+      , stdlib
+      , inets
+      , mnesia
+      ]}
+  , {env, []}
+  , {modules, []}
+  , {licenses, ["MIT"]}
+  , {links, []}
+]}.
