@@ -20,6 +20,16 @@
 -define(STORE, awesome_store).
 
 %%--------------------------------------------------------------------
+%% @doc helper function to add resources
+%% @end
+%%--------------------------------------------------------------------
+seeds() ->
+    {ok, Seeds} = file:consult("apps/awesome/priv/resources.seed"),
+    [ awesome_resources:create_resource(Url, undefined)
+       ||  #{ <<"resource">> := Url } <- Seeds ].
+
+
+%%--------------------------------------------------------------------
 %% @doc This is the list of categories available, this is list is
 %% fixed on purpose.
 %%

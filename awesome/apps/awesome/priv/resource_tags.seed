@@ -1,0 +1,10 @@
+%%--------------------------------------------------------------------
+%% those are default tags. A tag is a resource link with a name in the
+%% tag category. for example, every github repository are tagged with
+%% github tag, all links coming from erlang default release, are
+%% tagged with erlang/otp tag and so on.
+%% --------------------------------------------------------------------
+#{ <<"name">> => <<"github">>, <<"resource">> => <<"https://github.com">>, <<"category">> => tag }.
+#{ <<"name">> => <<"gitlab">>, <<"resource">> => <<"https://gitlab.com">>, <<"category">> => tag }.
+#{ <<"name">> => <<"hex">>, <<"resource">> => <<"https://hex.pm">>, <<"category">> => tag }.
+#{ <<"name">> => <<"erlang/otp">>, <<"resource">> => <<"https://erlang.org">>, <<"category">> => tag }.
