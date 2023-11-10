@@ -5,6 +5,7 @@
 -module(github_client).
 -export([uri/0]).
 -export([get/1, get/2]).
+-include_lib("kernel/include/logger.hrl").
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -94,7 +95,8 @@ get(Path) -> get(Path, #{}).
 %%   http_options => [],
 %%   options => [],
 %%   decoder => thoas,
-%%   filter => undefined
+%%   filter => undefined,
+%%   queue => true
 %% }.
 %% get(Path, Opts).
 %% '''
@@ -107,7 +109,7 @@ get(Path, Opts) ->
     HttpOptions = maps:get(http_options, Opts, http_options()),
     Options = maps:get(options, Opts, options()),
     Target = uri_string:recompose(Uri#{ path => Path }),
-    case request(get, {Target, Headers}, HttpOptions, Options) of
+    case request(get, {Target, Headers}, HttpOptions, Options, Opts) of
         {ok, Return} ->
             decode_request(Return, Opts);
         Elsewise ->
@@ -156,5 +158,12 @@ decode_filter(Json, Opts) ->
 %% @doc wrapper around httpc:request/4
 %% @end
 %%--------------------------------------------------------------------
-request(Method, Request, HttpOptions, Options) ->
-    httpc:request(Method, Request, HttpOptions, Options).
+request(Method, Request, HttpOptions, Options, ExtraOpts) ->
+    Args = [Method, Request, HttpOptions, Options],
+    ?LOG_DEBUG("~p", [{self(), ?MODULE, request, [httpc, request, Args]}]),
+    case maps:get(queue, ExtraOpts, false) of
+        false ->
+            erlang:apply(httpc, request, Args);
+        true ->
+            github_jobs:run(httpc, request, Args)
+    end.

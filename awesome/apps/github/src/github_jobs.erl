@@ -2,38 +2,36 @@
 %%% @doc
 %%% @end
 %%%===================================================================
--module(github_app).
--behavior(application).
--export([start/2, stop/1]).
+-module(github_jobs).
+-export([init/0, create_queue/0, delete_queue/0]).
+-export([run/3]).
 
 %%--------------------------------------------------------------------
 %%
-%%--------------------------------------------------------------------
-start(_,_) ->
-    init(),
-    github_sup:start_link().
-
-%%--------------------------------------------------------------------
-%%
-%%--------------------------------------------------------------------
-stop(_) ->
-    ok.
-
-%%--------------------------------------------------------------------
-%% @doc throw an exception in case of issue
-%% @end
 %%--------------------------------------------------------------------
 init() ->
-    github_env:init([]),
-    init_jobs().
+    {ok, _} = application:ensure_all_started(jobs),
+    create_queue().
 
 %%--------------------------------------------------------------------
-%% @doc jobs is required to limit the amount of requests made on
-%% github api
 %%
-%% @end
 %%--------------------------------------------------------------------
-init_jobs() ->
-    {ok, _} = application:ensure_all_started(jobs),
-    ok = jobs:add_queue(github, []),
-    github_mnesia:create_table().
+create_queue() ->
+    Rate = application:get_env(github, rate, 10),
+    Opts = [{standard_rate, Rate}],
+    jobs:add_queue(github, Opts).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+delete_queue() ->
+    jobs:delete_queue(github).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+run(Module, Function, Arguments) ->
+    Fun = fun() -> erlang:apply(Module, Function, Arguments) end,
+    jobs:run(github, Fun).
+                   
+    
