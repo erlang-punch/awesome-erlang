@@ -5,6 +5,7 @@
 -module(github_jobs).
 -export([init/0, create_queue/0, delete_queue/0]).
 -export([run/3]).
+-include("github.hrl").
 
 %%--------------------------------------------------------------------
 %%
@@ -19,19 +20,17 @@ init() ->
 create_queue() ->
     Rate = application:get_env(github, rate, 10),
     Opts = [{standard_rate, Rate}],
-    jobs:add_queue(github, Opts).
+    jobs:add_queue(?GITHUB_QUEUE, Opts).
 
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
 delete_queue() ->
-    jobs:delete_queue(github).
+    jobs:delete_queue(?GITHUB_QUEUE).
 
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
 run(Module, Function, Arguments) ->
     Fun = fun() -> erlang:apply(Module, Function, Arguments) end,
-    jobs:run(github, Fun).
-                   
-    
+    jobs:run(?GITHUB_QUEUE, Fun).

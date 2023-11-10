@@ -1,5 +1,6 @@
 %%%===================================================================
-%%%
+%%% @doc
+%%% @end
 %%%===================================================================
 -module(github_mnesia).
 -compile({no_auto_import,[get/1]}).
@@ -9,14 +10,16 @@
 -include("github.hrl").
 
 %%--------------------------------------------------------------------
-%%
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
 create_table() ->
     Attributes = record_info(fields, github),
     mnesia:create_table(github, [{attributes, Attributes}]).
 
 %%--------------------------------------------------------------------
-%%
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
 list() ->
     Match = [{'$1', [], ['$1']}],
@@ -24,29 +27,32 @@ list() ->
     transaction(Fun).
 
 %%--------------------------------------------------------------------
-%%
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
 get(Url) ->
     Fun = fun() -> {ok, mnesia:read(github, Url)} end,
     transaction(Fun).
 
 %%--------------------------------------------------------------------
-%%
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
 exist(Url) ->
     case get(Url) of
         {ok, []} ->
             false;
-        {ok, _} -> 
+        {ok, _} ->
             true;
-        _ -> 
+        _ ->
             false
     end.
-    
+
 %%--------------------------------------------------------------------
-%%
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
-create(Url, Data) 
+create(Url, Data)
   when is_binary(Url), is_map(Data) ->
     case exist(Url) of
         true ->
@@ -66,7 +72,7 @@ create(Url, Data)
 %% @doc merge new data with old one.
 %% @end
 %%--------------------------------------------------------------------
-update(Url, Data) 
+update(Url, Data)
   when is_binary(Url), is_map(Data) ->
     case get(Url) of
         {ok, [Record]} ->
@@ -78,15 +84,15 @@ update(Url, Data)
                     NewRecord = Record#github{ data = NewData
                                              , updated_at = erlang:system_time()
                                              },
-                    Fun = fun() -> mnesia:write(NewRecord), 
-                                   {updated, NewRecord} 
+                    Fun = fun() -> mnesia:write(NewRecord),
+                                   {updated, NewRecord}
                           end,
                     transaction(Fun)
                 end;
         _ ->
             {error, not_found}
     end.
-                              
+
 %%--------------------------------------------------------------------
 %% @doc merge new data with old one.
 %% @end
@@ -101,9 +107,10 @@ delete(Url) ->
         Elsewise ->
             Elsewise
     end.
-            
+
 %%--------------------------------------------------------------------
-%%
+%% @doc wrapper around mnesia:transaction/1.
+%% @end
 %%--------------------------------------------------------------------
 transaction(Fun) ->
     case mnesia:transaction(Fun) of

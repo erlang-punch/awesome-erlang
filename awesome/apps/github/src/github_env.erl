@@ -6,10 +6,8 @@
 
 init(_) ->
     case os:getenv("GITHUB_TOKEN") of
-        false -> 
+        false ->
             throw({error, "missing GITHUB_TOKEN"});
-        Token -> 
+        Token ->
             application:set_env(github, token, Token)
     end.
-                     
-            

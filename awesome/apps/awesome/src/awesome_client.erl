@@ -15,4 +15,3 @@ request({get, {Target, Headers}, [], []}) ->
         Elsewise ->
             {error, Elsewise}
     end.
-
