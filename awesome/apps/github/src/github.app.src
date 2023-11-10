@@ -6,6 +6,7 @@
   , {applications
     , [ kernel
       , stdlib
+      , jobs
       , awesome
       ]}
   , {env,[]}

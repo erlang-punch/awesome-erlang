@@ -11,9 +11,10 @@
 %%%===================================================================
 -module(awesome_resources).
 -export([categories/0, is_category/1]).
--export([list_resources/0, create_resource/2, create_resource/3, update_resource/2]).
+-export([list_resources/0, get_resource/1, list_resources_by_category/1]).
+-export([create_resource/2, create_resource/3, update_resource/2]).
+-export([delete_resource/1]).
 -export([exist_resource/1]).
--export([create_relation/2]).
 -include("awesome.hrl").
 -include_lib("eunit/include/eunit.hrl").
 -define(STORE, awesome_store).
@@ -66,7 +67,8 @@ is_category_test() ->
       Return ::[resource()].
 
 list_resources() ->
-    [].
+    Match = [{'$1', [], ['$1']}],
+    ?STORE:select(resource, Match).
 
 %%--------------------------------------------------------------------
 %% @doc Wrapper around create_resource/3
@@ -148,13 +150,15 @@ create_resource_final(Resource, Opts) ->
     ?STORE:insert(NewResource).
 
 %%--------------------------------------------------------------------
-%%
+%% @doc check if a resource is present.
+%% @end
 %%--------------------------------------------------------------------
 exist_resource(Url) ->
     ?STORE:exist(resource, Url).
 
 %%--------------------------------------------------------------------
-%%
+%% @doc update an existing resource.
+%% @end
 %%--------------------------------------------------------------------
 update_resource(Url, Opts) ->
     case ?STORE:read(resource, Url) of
@@ -191,25 +195,36 @@ update_resource_final(Resource, _Opts, _) ->
     Resource.
 
 %%--------------------------------------------------------------------
-%% draft
-%%--------------------------------------------------------------------
-% get_resource_by_id(_Id) -> ok.
-% get_resource_by_url(_Url) -> ok.
-% list_resources_by_category(_Category) -> ok.
-
-%%--------------------------------------------------------------------
-%% @doc Creates a new relation
+%% @doc
 %% @end
 %%--------------------------------------------------------------------
--spec create_relation(Source, Target) -> Return when
-      Source :: resource(),
-      Target :: resource(),
-      Return :: {ok, relation()}
-              | {error, term()}.
+get_resource(Url) ->
+    ?STORE:read(resource, Url).
 
-create_relation(#resource{ url = SourceId } = Source
-               ,#resource{ url = TargetId } = Target) ->
-    Relation = #relation{ source_relation = {relation, SourceId}
-                        , target_relation = {relation, TargetId}
-                        },
-    {ok, Relation}.
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+delete_resource(Url) ->
+    case get_resource(Url) of
+        {atomic, []} ->
+            {error, not_found};
+        {atomic, [Resource]} ->
+            ?STORE:delete_object(resource, Resource)
+    end.
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+list_resources_by_category(Category) ->
+    case is_category(Category) of
+        true ->
+            Match = { #resource{url = '$1', category = Category, _ = '_'}
+                    , []
+                    , ['$1']
+                    },
+            ?STORE:select(resource, [Match]);
+        false ->
+            {error, {category, Category}}
+    end.

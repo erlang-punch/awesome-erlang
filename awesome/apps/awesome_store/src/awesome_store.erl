@@ -1,10 +1,13 @@
 %%%===================================================================
+%%% @doc At this time, a simple wrapper around mnesia.
 %%%
+%%% @end
 %%%====================================================================
 -module(awesome_store).
 -export([tables/0, create_table/1, create_tables/0, delete_tables/0]).
 -export([write/1, read/2, exist/2]).
--export([insert/1, update/1]).
+-export([insert/1, update/1, delete_object/2]).
+-export([select/2, transaction/1]).
 -include_lib("awesome/include/awesome.hrl").
 
 %%--------------------------------------------------------------------
@@ -43,8 +46,8 @@ delete_tables() ->
 %% @end
 %%--------------------------------------------------------------------
 write(Record) ->
-    Fun = fun() -> mnesia:write(Record), Record end,
-    mnesia:transaction(Fun).
+    Fun = fun() -> mnesia:write(Record), {ok, Record} end,
+    transaction(Fun).
 
 %%--------------------------------------------------------------------
 %% @doc creates a new value 
@@ -59,10 +62,10 @@ insert(Record) ->
                           {error, already_exist};
                       false ->
                           mnesia:write(Record),
-                          Record
+                          {ok, Record}
                   end
           end,
-    mnesia:transaction(Fun).
+    transaction(Fun).
 
 %%--------------------------------------------------------------------
 %% @doc update an existing value
@@ -77,27 +80,48 @@ update(Record) ->
                           {error, not_found};
                       true ->
                           mnesia:write(Record),
-                          Record
+                          {ok, Record}
                   end
           end,
-    mnesia:transaction(Fun).
-
+    transaction(Fun).
 
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
 read(Table, Key) ->
-    Fun = fun() -> mnesia:read(Table, Key) end,
-    mnesia:transaction(Fun).
+    Fun = fun() -> {ok, mnesia:read(Table, Key)} end,
+    transaction(Fun).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+delete_object(Table, Resource) ->
+    Fun = fun() -> mnesia:delete_object(Table, Resource, write), {ok, Resource} end,
+    transaction(Fun).
 
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
 exist(Table, Key) ->
     case read(Table, Key) of
-        {atomic, []} -> false;
-        {atomic, _} -> true;
+        {ok, []} -> false;
+        {ok, _} -> true;
         _ -> false
     end.
-            
-                  
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+select(Table, MatchSpec) ->
+    Fun = fun() -> {ok, mnesia:select(Table, MatchSpec)} end,
+    transaction(Fun).
+                   
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+transaction(Fun) ->
+    case mnesia:transaction(Fun) of
+        {atomic, Result} -> Result;
+        Elsewise -> Elsewise
+    end.
+
