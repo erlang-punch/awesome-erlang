@@ -3,8 +3,19 @@
 %%% @end
 %%%===================================================================
 -module(github_cache).
--export([store/2]).
+-export([init/0, store/2]).
 -include_lib("kernel/include/logger.hrl").
+-record(?MODULE, { key = []
+                 , value = #{}
+                 , updated_at = erlang:system_time()
+                 }).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+init() ->
+    Attributes = record_info(fields, ?MODULE),
+    mnesia:create_table(github_cache, [{attributes, Attributes}]).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -12,9 +23,6 @@
 %%--------------------------------------------------------------------
 store(Data, Url) ->
     ?LOG_DEBUG("~p", [{self(), ?MODULE, store, [Data, Url]}]),
-    case github_mnesia:create_or_update(Url, Data) of
-        {ok, _} ->
-            {ok, Data};
-        Elsewise ->
-            Elsewise
-    end.
+    mnesia:dirty_write(#?MODULE{ key = Url, value = Data }),
+    {ok, Data}.
+

@@ -165,10 +165,19 @@ get(RawPath, Opts) ->
     Target = uri_string:recompose(Uri#{ path => Path }),
     case request(get, {Target, Headers}, HttpOptions, Options, Opts) of
         {ok, Return} ->
-            decode_request(Return, Opts);
+            decode_cache(RawPath, Return, Opts);
         Elsewise ->
             {error, Elsewise}
     end.
+
+%%--------------------------------------------------------------------
+%% store all request in cache.
+%%--------------------------------------------------------------------
+decode_cache(_RawPath, Data, #{ cache := false } = Opts) ->
+    decode_request(Data, Opts);
+decode_cache(RawPath, Data, Opts) ->
+    _ = github_cache:store(Data, RawPath),
+    decode_request(Data, Opts).
 
 %%--------------------------------------------------------------------
 %% ensure the response is valid.

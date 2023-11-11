@@ -2,6 +2,12 @@
 
 An HTTP Client to Github API in pure Erlang.
 
+ - [x] Read-only end-points (GET)
+ - [x] rate limited client
+ - [x] cache support
+ - [x] JSON decoding
+ - [x] pipeline features (filtering)
+
 ## Usage
 
 1. Create a new read-only token using your Github Account [Developer
@@ -19,4 +25,11 @@ An HTTP Client to Github API in pure Erlang.
    ```erlang
    os:putenv("GITHUB_TOKEN", "github_fake_11AAWYNWA033xsTk1RMLUx_Y9ScUJGAPhnWKWbXX03M05QA84y1g7va").
    application:set_env(github, token, "github_fake_11AAWYNWA033xsTk1RMLUx_Y9ScUJGAPhnWKWbXX03M05QA84y1g7va").
+   ```
+
+4. Fetch some data. By default, all requests are stored in
+   `github_cache` Mnesia table.
+
+   ```erlang
+   github:get_repos_url(<<"https://github.com/erlang-punch/awesome-erlang">>,#{}).
    ```
