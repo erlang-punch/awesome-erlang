@@ -1,12 +1,14 @@
 %%%===================================================================
-%%% @doc
+%%% @doc This implementation is dirty, the transactions are not
+%%% safe.
+%%%
 %%% @end
 %%%===================================================================
 -module(github_mnesia).
 -compile({no_auto_import,[get/1]}).
 -export([create_table/0]).
 -export([list/0, get/1, exist/1]).
--export([create/2, update/2, delete/1]).
+-export([create/2, update/2, create_or_update/2, delete/1]).
 -include("github.hrl").
 
 %%--------------------------------------------------------------------
@@ -69,6 +71,17 @@ create(Url, Data)
     end.
 
 %%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+create_or_update(Url, Data) ->
+    case exist(Url) of
+        true ->
+            update(Url, Data);
+        false ->
+            create(Url, Data)
+    end.
+
+%%--------------------------------------------------------------------
 %% @doc merge new data with old one.
 %% @end
 %%--------------------------------------------------------------------
@@ -119,4 +132,3 @@ transaction(Fun) ->
         Elsewise ->
             Elsewise
     end.
-

@@ -50,7 +50,7 @@ write(Record) ->
     transaction(Fun).
 
 %%--------------------------------------------------------------------
-%% @doc creates a new value 
+%% @doc creates a new value
 %% @end
 %%--------------------------------------------------------------------
 insert(Record) ->
@@ -115,7 +115,7 @@ exist(Table, Key) ->
 select(Table, MatchSpec) ->
     Fun = fun() -> {ok, mnesia:select(Table, MatchSpec)} end,
     transaction(Fun).
-                   
+
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
@@ -124,4 +124,3 @@ transaction(Fun) ->
         {atomic, Result} -> Result;
         Elsewise -> Elsewise
     end.
-

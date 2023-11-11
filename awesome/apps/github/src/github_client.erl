@@ -80,26 +80,41 @@ get_token() ->
         {ok, Token} -> Token
     end.
 
+%%--------------------------------------------------------------------
+%% @doc
+%% @see path/2
+%% @end
+%%--------------------------------------------------------------------
+-spec path(Path) -> Return when
+      Path :: [Item],
+      Item :: string() | binary() | list() | atom() | {re, term(), term()},
+      Return :: string().
 
-%%--------------------------------------------------------------------
-%%
-%%--------------------------------------------------------------------
 path(Path) ->
     path(Path, #{}, []).
 
 %%--------------------------------------------------------------------
-%%
+%% @doc create a path from a list
+%% @end
 %%--------------------------------------------------------------------
+-spec path(Path, Opts) -> Return when
+      Path :: [Item],
+      Item :: string() | binary() | list() | atom() | {re, term(), term()},
+      Opts :: map(),
+      Return :: string().
+
 path(Path, Opts) ->
     path(Path, Opts, []).
 
 %%--------------------------------------------------------------------
-%%
+%% @hidden
+%% @doc
+%% @end
 %%--------------------------------------------------------------------
 path([], _, []) -> "";
 path([], _Opts, Buffer) ->
     filename:join(lists:reverse(Buffer));
-path([Item|Rest], Opts, Buffer) -> 
+path([Item|Rest], Opts, Buffer) ->
     case Item of
         _ when is_list(Item) ->
             path(Rest, Opts, [lists:flatten(Item)|Buffer]);
@@ -115,7 +130,7 @@ path([Item|Rest], Opts, Buffer) ->
                 {match,_} -> path(Rest, Opts, [Value|Buffer])
             end
     end.
-                    
+
 %%--------------------------------------------------------------------
 %% @doc
 %% @see get/2
@@ -186,34 +201,46 @@ decode_pipeline(Data, _Opts, []) ->
 decode_pipeline(Data, Opts, [{Module, Function}|Pipeline])
   when is_atom(Module), is_atom(Function) ->
     try erlang:apply(Module, Function, [Data]) of
-        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
-        Elsewise -> Elsewise
+        {ok, Result} ->
+            decode_pipeline(Result, Opts, Pipeline);
+        Elsewise ->
+            Elsewise
     catch
-        E:R:S -> {error, {E, R, S}}
+        E:R:S ->
+            {error, {E, R, S}}
     end;
-decode_pipeline(Data, Opts, [{Module, Function, Arguments}|Pipeline]) 
+decode_pipeline(Data, Opts, [{Module, Function, Arguments}|Pipeline])
   when is_atom(Module), is_atom(Function), is_list(Arguments) ->
     try erlang:apply(Module, Function, [Data] ++ Arguments) of
-        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
-        Elsewise -> Elsewise
+        {ok, Result} ->
+            decode_pipeline(Result, Opts, Pipeline);
+        Elsewise ->
+            Elsewise
     catch
-        E:R:S -> {error, {E, R, S}}
+        E:R:S ->
+            {error, {E, R, S}}
     end;
-decode_pipeline(Data, Opts, [Function|Pipeline]) 
+decode_pipeline(Data, Opts, [Function|Pipeline])
   when is_function(Function) ->
     try Function(Data) of
-        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
-        Elsewise -> Elsewise
+        {ok, Result} ->
+            decode_pipeline(Result, Opts, Pipeline);
+        Elsewise ->
+            Elsewise
     catch
-        E:R:S -> {error, {E, R, S}}
+        E:R:S ->
+            {error, {E, R, S}}
     end;
-decode_pipeline(Data, Opts, [Function|Pipeline]) 
+decode_pipeline(Data, Opts, [Function|Pipeline])
   when is_atom(Function) ->
     try Function(Data) of
-        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
-        Elsewise -> Elsewise
+        {ok, Result} ->
+            decode_pipeline(Result, Opts, Pipeline);
+        Elsewise ->
+            Elsewise
     catch
-        E:R:S -> {error, {E, R, S}}
+        E:R:S ->
+            {error, {E, R, S}}
     end.
 
 %%--------------------------------------------------------------------

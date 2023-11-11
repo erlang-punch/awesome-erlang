@@ -301,5 +301,3 @@ update_category_from_hostname(#resource{ url = Url, category = undefined } = Res
     Resource#resource{ category = NewCategory };
 update_category_from_hostname(Resource) ->
     Resource.
-
-

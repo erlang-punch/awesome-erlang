@@ -58,7 +58,7 @@
 %%%
 %%% 2. The resource is added into the database using the CLI or the
 %%%    WebUI (admin)
-%%% 
+%%%
 %%% 3. If successfully added, the resource is parsed and based on the
 %%%    URL, other applications are called. For example, if the URL has
 %%%    `github.com' as hostname, `github' application is called to
@@ -106,7 +106,7 @@ start(_, _Args) ->
 %%--------------------------------------------------------------------
 %%
 %%--------------------------------------------------------------------
-stop(_State) -> 
+stop(_State) ->
     ok.
 
 %%--------------------------------------------------------------------
@@ -114,4 +114,3 @@ stop(_State) ->
 %%--------------------------------------------------------------------
 init() ->
     inets:start().
-    
