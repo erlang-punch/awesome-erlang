@@ -5,6 +5,7 @@
 -module(github_client).
 -export([uri/0]).
 -export([get/1, get/2]).
+-export([path/1, path/2]).
 -include_lib("kernel/include/logger.hrl").
 
 %%--------------------------------------------------------------------
@@ -79,6 +80,42 @@ get_token() ->
         {ok, Token} -> Token
     end.
 
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+path(Path) ->
+    path(Path, #{}, []).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+path(Path, Opts) ->
+    path(Path, Opts, []).
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+path([], _, []) -> "";
+path([], _Opts, Buffer) ->
+    filename:join(lists:reverse(Buffer));
+path([Item|Rest], Opts, Buffer) -> 
+    case Item of
+        _ when is_list(Item) ->
+            path(Rest, Opts, [lists:flatten(Item)|Buffer]);
+        _ when is_atom(Item) ->
+            path(Rest, Opts, [atom_to_list(Item)|Buffer]);
+        _ when is_integer(Item) ->
+            path(Rest, Opts, [integer_to_list(Item)|Buffer]);
+        _ when is_binary(Item) ->
+            path(Rest, Opts, [binary_to_list(Item)|Buffer]);
+        {regex, Regex, Value} = Return ->
+            case re:run(Value, "^" ++ Regex ++ "$") of
+                nomatch -> throw({error, {nomatch, Return}});
+                {match,_} -> path(Rest, Opts, [Value|Buffer])
+            end
+    end.
+                    
 %%--------------------------------------------------------------------
 %% @doc
 %% @see get/2
@@ -96,15 +133,17 @@ get(Path) -> get(Path, #{}).
 %%   options => [],
 %%   decoder => thoas,
 %%   filter => undefined,
-%%   queue => true
+%%   queue => true,
+%%   pipeline => [{github_filter, extract}]
 %% }.
 %% get(Path, Opts).
 %% '''
 %%
 %% @end
 %%--------------------------------------------------------------------
-get(Path, Opts) ->
+get(RawPath, Opts) ->
     Uri = uri(),
+    Path = path(RawPath),
     Headers = maps:get(headers, Opts, headers()),
     HttpOptions = maps:get(http_options, Opts, http_options()),
     Options = maps:get(options, Opts, options()),
@@ -131,26 +170,50 @@ decode_request(Elsewise, _Opts) ->
 %%--------------------------------------------------------------------
 decode_payload(Data, Opts) ->
     Decoder = maps:get(decoder, Opts, thoas),
+    Pipeline = maps:get(pipeline, Opts, []),
     case Decoder:decode(Data) of
-        {ok, Json} ->
-            decode_filter(Json, Opts);
+        {ok, Result} ->
+            decode_pipeline(Result, Opts, Pipeline);
         Elsewise ->
             Elsewise
     end.
 
 %%--------------------------------------------------------------------
-%% filter the decoded payload
+%% action pipeline
 %%--------------------------------------------------------------------
-decode_filter(Json, Opts) ->
-    case maps:get(filter, Opts, undefined) of
-        undefined ->
-            {ok, Json};
-        {Module, Function} ->
-            Module:Function(Json);
-        {Module, Function, Arguments} ->
-            Module:Function([Json] ++ Arguments);
-        Function when is_function(Function) ->
-            Function(Json)
+decode_pipeline(Data, _Opts, []) ->
+    {ok, Data};
+decode_pipeline(Data, Opts, [{Module, Function}|Pipeline])
+  when is_atom(Module), is_atom(Function) ->
+    try erlang:apply(Module, Function, [Data]) of
+        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
+        Elsewise -> Elsewise
+    catch
+        E:R:S -> {error, {E, R, S}}
+    end;
+decode_pipeline(Data, Opts, [{Module, Function, Arguments}|Pipeline]) 
+  when is_atom(Module), is_atom(Function), is_list(Arguments) ->
+    try erlang:apply(Module, Function, [Data] ++ Arguments) of
+        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
+        Elsewise -> Elsewise
+    catch
+        E:R:S -> {error, {E, R, S}}
+    end;
+decode_pipeline(Data, Opts, [Function|Pipeline]) 
+  when is_function(Function) ->
+    try Function(Data) of
+        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
+        Elsewise -> Elsewise
+    catch
+        E:R:S -> {error, {E, R, S}}
+    end;
+decode_pipeline(Data, Opts, [Function|Pipeline]) 
+  when is_atom(Function) ->
+    try Function(Data) of
+        {ok, Result} -> decode_pipeline(Result, Opts, Pipeline);
+        Elsewise -> Elsewise
+    catch
+        E:R:S -> {error, {E, R, S}}
     end.
 
 %%--------------------------------------------------------------------

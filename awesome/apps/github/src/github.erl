@@ -22,7 +22,17 @@
 -export([community_profile/3, code_frequency/3, commit_activity/3]).
 -export([contributors/3, participation/3, punch_card/3]).
 -export([clones/3, popular_paths/3, popular_referrers/3, views/3]).
--export([forks/3]).
+-export([forks/3, artifacts/3, artifact/4, events/3, alerts/3, alert/4]).
+-export([codespaces/3, collaborators/3]).
+-export([commits/3, commit/4]).
+-export([comments/3, comment/4]).
+-export([issues/3, issue/4]).
+-export([license/3]).
+-export([pages/3]).
+-export([pulls/3, pull/4]).
+-export([releases/3, release/4, latest_release/3]).
+-export([security_advisories/3]).
+-define(GITHUB_CLIENT, github_client).
 
 %%--------------------------------------------------------------------
 %% @doc A wrapper around application:ensure_all_started/1.
@@ -112,8 +122,8 @@ get_repos(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 get_repos2(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -124,7 +134,8 @@ rate_limit() ->
     rate_limit(#{}).
 
 rate_limit(Opts) ->
-    github_client:get("rate_limit", Opts).
+    Path = [rate_limit],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -132,8 +143,8 @@ rate_limit(Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 community_profile(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "community", "profile"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, community, profile],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -141,8 +152,8 @@ community_profile(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 code_frequency(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "stats", "code_frequency"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, stats, code_frequency],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -150,8 +161,8 @@ code_frequency(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 commit_activity(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "stats", "commit_activity"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, stats, commit_activity],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -159,8 +170,8 @@ commit_activity(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 contributors(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "stats", "contributors"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, stats, contributors],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -168,8 +179,8 @@ contributors(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 participation(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "stats", "participation"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, stats, participation],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -177,8 +188,8 @@ participation(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 punch_card(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "stats", "punch_card"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, stats, punch_card],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -186,8 +197,8 @@ punch_card(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 clones(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "traffic", "clones"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, traffic, clones],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -195,8 +206,8 @@ clones(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 popular_paths(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "traffic", "popular", "paths"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, traffic, popular, paths],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -204,8 +215,8 @@ popular_paths(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 popular_referrers(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "traffic", "popular", "referrers"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, traffic, popular, referrers],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -213,8 +224,8 @@ popular_referrers(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 views(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "traffic", "views"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, traffic, views],
+    ?GITHUB_CLIENT:get(Path, Opts).
 
 %%--------------------------------------------------------------------
 %% @doc
@@ -222,5 +233,175 @@ views(Owner, Repository, Opts) ->
 %% @end
 %%--------------------------------------------------------------------
 forks(Owner, Repository, Opts) ->
-    Path = filename:join(["repos", Owner, Repository, "forks"]),
-    github_client:get(Path, Opts).
+    Path = [repos, Owner, Repository, forks],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% https://docs.github.com/en/rest/actions/artifacts?apiVersion=2022-11-28#list-artifacts-for-a-repository
+%% @end
+%%--------------------------------------------------------------------
+artifacts(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, actions, artifacts],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+artifact(Owner, Repository, ArtifactId, Opts) ->
+    Path = [repos, Owner, Repository, actions, artifacts, ArtifactId],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+events(Owner, Repository, Opts) ->
+    Path = [networks, Owner, Repository, events],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+alerts(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, "code-scanning", alerts],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+alert(Owner, Repository, AlertNumber, Opts) ->    
+    Path = [repos, Owner, Repository, "code-scanning", alerts, AlertNumber],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+codespaces(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, codespaces],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+collaborators(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, collaborators],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+commits(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, commits],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+commit(Owner, Repository, Reference, Opts) ->
+    Path = [repos, Owner, Repository, commits, Reference],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+comments(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, comments],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+comment(Owner, Repository, CommentId, Opts) ->
+    Path = [repos, Owner, Repository, comments, CommentId],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+issues(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, issues],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+issue(Owner, Repository, IssueNumber, Opts) ->
+    Path = [repos, Owner, Repository, issues, IssueNumber],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+license(Owner, Repository, Opts) ->    
+    Path = [repos, Owner, Repository, license],
+    ?GITHUB_CLIENT:get(Path, Opts).
+    
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+pages(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, pages],
+    ?GITHUB_CLIENT:get(Path, Opts).
+    
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+pulls(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, pulls],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+pull(Owner, Repository, PullNumber, Opts) ->
+    Path = [repos, Owner, Repository, pulls, PullNumber],
+    ?GITHUB_CLIENT:get(Path, Opts).
+    
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+releases(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, releases],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+release(Owner, Repository, ReleaseId, Opts) ->
+    Path = [repos, Owner, Repository, releases, ReleaseId],
+    ?GITHUB_CLIENT:get(Path, Opts).    
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+latest_release(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, releases, latest],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% @end
+%%--------------------------------------------------------------------
+security_advisories(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, "security-advisories"],
+    ?GITHUB_CLIENT:get(Path, Opts).
+    
