@@ -1,5 +1,5 @@
 %%%===================================================================
-%%% @doc
+%%% @doc Github Client interface.
 %%%
 %%% ```
 %%% % we can set a filter and many different options
@@ -18,7 +18,7 @@
 -export([start/0]).
 -export([get_repos_url/1, get_repos_url/2]).
 -export([get_repos/2, get_repos/3]).
--export([rate_limit/0]).
+-export([rate_limit/0, rate_limit/1]).
 -export([community_profile/2, community_profile/3]).
 -export([code_frequency/2, code_frequency/3]).
 -export([commit_activity/2, commit_activity/3]).

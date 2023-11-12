@@ -163,11 +163,43 @@ get(RawPath, Opts) ->
     HttpOptions = maps:get(http_options, Opts, http_options()),
     Options = maps:get(options, Opts, options()),
     Target = uri_string:recompose(Uri#{ path => Path }),
-    case request(get, {Target, Headers}, HttpOptions, Options, Opts) of
-        {ok, Return} ->
-            decode_cache(RawPath, Return, Opts);
+    Args = [get, {Target, Headers}, HttpOptions, Options],
+    request(RawPath, Args, Opts).
+
+%%--------------------------------------------------------------------
+%% @hidden
+%% @doc wrapper around httpc:request/4
+%% @end
+%%--------------------------------------------------------------------
+request(RawPath, Args, ExtraOpts) ->
+    ?LOG_DEBUG("~p", [{self(), ?MODULE, request, [httpc, request, Args]}]),
+    request_cache(RawPath, Args, ExtraOpts).
+
+% first we are looking if the request is already present in the cache,
+% if cache feature is enabled.
+request_cache(RawPath, Args, #{cache := false} = ExtraOpts) ->
+    request_queue(RawPath, Args, ExtraOpts);
+request_cache(RawPath, Args, ExtraOpts) ->
+    SystemTime = erlang:system_time(),
+    % @TODO: this value should be in github application env
+    CacheLimit = 500_000_000_000,
+    case github_cache:lookup(RawPath) of
+        {ok, {Value, UpdatedAt}} 
+          when (SystemTime-UpdatedAt) < CacheLimit ->
+            decode_request(Value, ExtraOpts);
         Elsewise ->
-            {error, Elsewise}
+            request_queue(RawPath, Args, ExtraOpts)
+    end.
+
+% the request is queued by default.
+request_queue(RawPath, Args, #{ queue := false } = ExtraOpts) ->
+    erlang:apply(httpc, request, Args);
+request_queue(RawPath, Args, ExtraOpts) ->
+    case github_jobs:run(httpc, request, Args) of
+        {ok, Result} ->
+            decode_cache(RawPath, Result, ExtraOpts);
+        Elsewise ->
+            Elsewise
     end.
 
 %%--------------------------------------------------------------------
@@ -252,17 +284,3 @@ decode_pipeline(Data, Opts, [Function|Pipeline])
             {error, {E, R, S}}
     end.
 
-%%--------------------------------------------------------------------
-%% @hidden
-%% @doc wrapper around httpc:request/4
-%% @end
-%%--------------------------------------------------------------------
-request(Method, Request, HttpOptions, Options, ExtraOpts) ->
-    Args = [Method, Request, HttpOptions, Options],
-    ?LOG_DEBUG("~p", [{self(), ?MODULE, request, [httpc, request, Args]}]),
-    case maps:get(queue, ExtraOpts, false) of
-        false ->
-            erlang:apply(httpc, request, Args);
-        true ->
-            github_jobs:run(httpc, request, Args)
-    end.

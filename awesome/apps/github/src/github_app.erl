@@ -36,4 +36,5 @@ init() ->
 init_jobs() ->
     {ok, _} = application:ensure_all_started(jobs),
     ok = jobs:add_queue(github, []),
-    github_mnesia:create_table().
+    github_mnesia:create_table(),
+    github_cache:init().
