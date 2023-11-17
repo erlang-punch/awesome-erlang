@@ -218,6 +218,12 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a
+    href="https://github.com/erlef/oidcc">oidcc</a></b>:
+    OpenId Connect client library in Erlang & Elixir</summary>
+
+    </details>
+
 ## Blockchain
 
 *Blockchain applications and/or libraries using Erlang*
