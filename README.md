@@ -976,6 +976,10 @@ longitudes.*
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/choptastic/erlias">erlias</a></b>: A utility to create alias modules to other modules (not a parse transform).</summary> 
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/ShoreTel-Inc/erld">erld</a></b>:  erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon.</summary>
 
     </details>
