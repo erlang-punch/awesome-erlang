@@ -630,6 +630,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/choptatsic/sql_bridge">sql_bridge</a></b>: An abstraction layer and database utility providing a unified interface for working with SQL databases (MySQL and PostgreSQL currently). (Not an ORM)</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/inaka/sumo_db">sumbo_db</a></b>: sumo_db aims to ease db access for erlang applications. It offers a very simple persistance layer capable of interacting with different db's,  while offering a consistent api to your code.</summary>
 
     </details>
