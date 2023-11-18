@@ -353,6 +353,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     Reviewer.</summary>
 
     </details>
+ 
+  - <details><summary><b><a href="https://github.com/nitrogen/rekt">rekt</a></b>: A parse transform to define new Erlang records from existing records, similar to inheritance in objected oriented languages.</summary>
+
+    </details>
 
   - <details><summary><b><a href="https://github.com/choptastic/pipeline">pipeline</a></b>: A parse transform to add a pipe mechanism to Erlang function composition (think Elixir's `|>` operator)</summary>
 
