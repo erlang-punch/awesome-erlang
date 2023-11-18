@@ -1884,8 +1884,9 @@ improving your Erlang development skills and knowledge.*
     Wolfgang Loder
 
   - [Build It With Nitrogen: The Fast-Off-the-Block Erlang Web
-    Framework](https://isbnsearch.org/isbn/9780982589243) by Lloyd
-    R. Prentice and Jesse Gumm
+    Framework](https://builditwith.com/nitro)
+	([ISBN](https://isbnsearch.org/isbn/9780982589243))
+	by Lloyd R. Prentice and Jesse Gumm
 
   - [Concurrent Programming in Erlang (2nd
     Edition)](https://isbnsearch.org/isbn/9780135083017) by Robert
