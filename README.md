@@ -1578,6 +1578,11 @@ techniques.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://github.com/williamthome/euneus">euneus</a></b>: An incredibly flexible and performant JSON parser and generator.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/davisp/jiffy">jiffy</a></b>: JSON NIFs for Erlang.</summary>
 
     <br/>
