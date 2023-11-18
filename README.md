@@ -1797,6 +1797,10 @@ techniques.*
 
 *Standalone component from web development frameworks.*
 
+  - <details><summary><b><a href="https://github.com/nitrogen/canister">canister</a></b>: A distributed session management system.</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/ChicagoBoss/cb_admin">cb_admin</a></b>:  An admin interface for Chicago Boss.</summary>
 
     </details>
