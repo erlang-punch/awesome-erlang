@@ -182,6 +182,11 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     </details>
 
   - <details><summary><b><a
+    href="https://github.com/choptastic/erlang_ds">erlang_ds</a></b>: A universal, extensible, data structure-agonstic library for augmenting, converting, and interfacing with Erlang Key-Value data structures.</summary>
+
+    </details>
+
+  - <details><summary><b><a
     href="https://github.com/basho/riak_dt">riak_dt</a></b>: Erlang
     library of state based CRDTs.</summary>
 
