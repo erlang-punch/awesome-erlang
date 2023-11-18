@@ -304,6 +304,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/nitrogen/nitro_cache">nitro_cache</a></b>: A simple in-memory caching server (used in Nitrogen)</summary>
+
+    </details>
+
 ## Code Analysis
 
 *Libraries and tools for analysing, parsing and manipulation codebases.*
