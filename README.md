@@ -345,6 +345,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/choptastic/pipeline">pipeline</a></b>: A parse transform to add a pipe mechanism to Erlang function composition (think Elixir's `|>` operator)</summary>
+
+    </details>
+
 ## CMS
 
 *Erlang powered Content Management System (CMS)*
@@ -985,6 +989,7 @@ longitudes.*
   - <details><summary><b><a href="https://github.com/ferd/erlang-history">erlang-history</a></b>: Hacks to add shell history to Erlang's shell.</summary>
 
     </details>
+  
 
   - <details><summary><b><a href="https://github.com/ShoreTel-Inc/erld">erld</a></b>:  erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon.</summary>
 
