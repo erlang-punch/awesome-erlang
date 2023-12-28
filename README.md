@@ -2137,6 +2137,51 @@ communities to install/package it*
 
 </details>
 
+  - 2023: [A Formalisation of Core Erlang, a Concurrent Actor
+    Language](https://arxiv.org/abs/2311.10482) by Péter Bereczky,
+    Dániel Horpácsi and Simon Thompson
+
+  - 2023: [Static analysis for safe software
+    upgrade](http://real.mtak.hu/179773/) by Dániel Ferenczi, Melinda
+    Tóth
+
+  - 2023: [Generation and Refinement of Testing
+    Models](https://dl.acm.org/doi/abs/10.1145/3609022.3609415) by
+    Luis Eduardo Bueso de Barrio, Lars-Åke Fredlund, Clara Benac
+    Earle, Ángel Herranz and Julio Mariño
+    
+  - 2023: [Gaining trust by tracing security
+    protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827)
+    by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans
+    Svensson
+    
+  - 2023: [Gesture recognition by pattern matching using sensor fusion
+    on an internet of things
+    device](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40633&datastream=PDF_01&cover=cover-mem)
+    by Sébastien Gios
+
+  - 2023: [Ultra-wideband for internet of
+    things](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A38375&datastream=PDF_01&cover=cover-mem)
+    by Gwendal Laurent
+
+  - 2023: [Low-cost high-speed sensor fusion with GRiSP and
+    Hera](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40762&datastream=PDF_01&cover=cover-mem)
+    by Lucas Nélis
+
+  - 2023: [Deep Learning-Based Refactoring with Formally Verified
+    Training Data](http://real.mtak.hu/172966/) by Balázs Szalontai,
+    Szalontai, Péter Bereczky and Dániel Horpácsi
+
+  - 2023: [A Semantics of Core Erlang with Handling of
+    Signals](https://dl.acm.org/doi/abs/10.1145/3609022.3609417) by
+    Aurélie Kong Win Chang, Jérôme Feret and Gregor Gössler
+
+  - 2023: [Event-Driven Multiparty Session
+    Actors](https://simonjf.com/misc/hope23.pdf) by Simon Fowler
+
+  - 2023: [Bppchecker: An Smt-Based Model Checker on Basic Parallel
+    Processes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4432122)
+
   - 2023: [Toward Automatic Generation of an Optimal Supervision Tree
     in Erlang](https://ken.ieice.org/ken/paper/20230110OCQn/eng/) by
     Shoichi Sasaki, Yoshiaki Takata
@@ -6871,6 +6916,10 @@ communities to install/package it*
   - 1998: [On the verification of open distributed
     systems](https://dl.acm.org/doi/10.1145/330560.330917) by Mads Dam
     and Lars-åke Fredlund
+
+  - 1998: [Implementation Technologies for Programming Languages based
+    on Logic](http://user.it.uu.se/~kostis/proceedings.ps.gz) by
+    Konstantinos Sagonas
 
   - <details><summary> 1997: <b><a href="https://dl.acm.org/doi/10.1145/258948.258967">The development of Erlang</a></b> by Joe Armstrong</summary>
 
