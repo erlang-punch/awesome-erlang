@@ -2137,6 +2137,20 @@ communities to install/package it*
 
 </details>
 
+  - 2023: [Advanced Programming Language Concepts (course
+    slides)](http://www.info.ucl.ac.be/~pvr/linfo1131-handouts-2023.pdf)
+    by Peter Van Roy
+
+  - 2023: [X.509 Certificate-Based Authentication for NETCONF and
+    RESTCONF: Design Evaluation between Native and External
+    Implementation](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1791392&dswid=-2837),
+    by Li Qi
+
+  - 2023: [An Anomaly Detection System For Subscriber Activities In
+    Private
+    Networks](https://thesis.unipd.it/handle/20.500.12608/61281), by
+    MARTINI, FRANCESCO    
+
   - 2023: [A Formalisation of Core Erlang, a Concurrent Actor
     Language](https://arxiv.org/abs/2311.10482) by Péter Bereczky,
     Dániel Horpácsi and Simon Thompson
