@@ -2137,6 +2137,11 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [A monitoring tool for linear-time
+    𝜇HML](http://staff.um.edu.mt/afra1/papers/linearDetectErSCP2024.pdf)
+    by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
+    Adrian Francalanza, Anna Ingólfsdóttir
+
   - 2023: [Advanced Programming Language Concepts (course
     slides)](http://www.info.ucl.ac.be/~pvr/linfo1131-handouts-2023.pdf)
     by Peter Van Roy
