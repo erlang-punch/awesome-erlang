@@ -353,7 +353,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     Reviewer.</summary>
 
     </details>
- 
+
   - <details><summary><b><a href="https://github.com/nitrogen/rekt">rekt</a></b>: A parse transform to define new Erlang records from existing records, similar to inheritance in objected oriented languages.</summary>
 
     </details>
@@ -1002,9 +1002,9 @@ longitudes.*
   - <details><summary><b><a href="https://github.com/ferd/erlang-history">erlang-history</a></b>: Hacks to add shell history to Erlang's shell.</summary>
 
     </details>
-  
 
-  - <details><summary><b><a href="https://github.com/choptastic/erlias">erlias</a></b>: A utility to create alias modules to other modules (not a parse transform).</summary> 
+
+  - <details><summary><b><a href="https://github.com/choptastic/erlias">erlias</a></b>: A utility to create alias modules to other modules (not a parse transform).</summary>
 
     </details>
 
@@ -1926,8 +1926,8 @@ improving your Erlang development skills and knowledge.*
 
   - [Build It With Nitrogen: The Fast-Off-the-Block Erlang Web
     Framework](https://builditwith.com/nitro)
-	([ISBN](https://isbnsearch.org/isbn/9780982589243))
-	by Lloyd R. Prentice and Jesse Gumm
+    ([ISBN](https://isbnsearch.org/isbn/9780982589243))
+    by Lloyd R. Prentice and Jesse Gumm
 
   - [Concurrent Programming in Erlang (2nd
     Edition)](https://isbnsearch.org/isbn/9780135083017) by Robert
@@ -2142,6 +2142,27 @@ communities to install/package it*
     by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
     Adrian Francalanza, Anna Ingólfsdóttir
 
+  - 2024: [Effective integration of low-cost digital manufacturing
+    systems: a reference architecture driven
+    approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785)
+    by J. Kaisera, G. Hawkridgea, D. McFarlanea, F. Schnickeb and
+    K. Kruger
+
+  - 2024: [Design and implementation of power communication protocol
+    plug-in based on hot
+    loading](https://dl.acm.org/doi/abs/10.1145/3640912.3640916) by
+    Weiming Qin, Wenjing Guo, Jingwen Lin, Jiahao Li, Xuerui Chen,
+    Xinsu Mei, Wei Zhang
+
+  - 2024: [Bridging Between Active Objects: Multitier Programming for
+    Distributed, Concurrent
+    Systems](https://link.springer.com/chapter/10.1007/978-3-031-51060-1_4)
+    by Guido Salvaneschi & Pascal Weisenburger
+
+  - 2023: [Runtime Monitoring for Asynchronous Reactive
+    Components](https://www.um.edu.mt/library/oar/bitstream/123456789/117964/1/2301ICTCPS600005008983_1%20%281%29.PDF)
+    by Duncan Paul Attard
+
   - 2023: [Advanced Programming Language Concepts (course
     slides)](http://www.info.ucl.ac.be/~pvr/linfo1131-handouts-2023.pdf)
     by Peter Van Roy
@@ -2154,7 +2175,7 @@ communities to install/package it*
   - 2023: [An Anomaly Detection System For Subscriber Activities In
     Private
     Networks](https://thesis.unipd.it/handle/20.500.12608/61281), by
-    MARTINI, FRANCESCO    
+    MARTINI, FRANCESCO
 
   - 2023: [A Formalisation of Core Erlang, a Concurrent Actor
     Language](https://arxiv.org/abs/2311.10482) by Péter Bereczky,
@@ -2168,12 +2189,12 @@ communities to install/package it*
     Models](https://dl.acm.org/doi/abs/10.1145/3609022.3609415) by
     Luis Eduardo Bueso de Barrio, Lars-Åke Fredlund, Clara Benac
     Earle, Ángel Herranz and Julio Mariño
-    
+
   - 2023: [Gaining trust by tracing security
     protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827)
     by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans
     Svensson
-    
+
   - 2023: [Gesture recognition by pattern matching using sensor fusion
     on an internet of things
     device](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40633&datastream=PDF_01&cover=cover-mem)
@@ -2330,6 +2351,10 @@ communities to install/package it*
   - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
     Recoveries In Distributed](https://hal.science/hal-04123758v1) by
     Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
+  - 2023: [MUTATION TESTING IN FUNCTIONAL
+    PROGRAMMING](https://jyx.jyu.fi/handle/123456789/92544) by Hopia,
+    Tuomo
 
   - 2022: [Comparison and proof of the fastest way of the sorting
     algorithm by functional programming in Erlang
