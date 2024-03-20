@@ -47,6 +47,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Web Framework Components](#web-framework-components)
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
+    - [Blogs](#blogs)
     - [Papers](#papers)
     - [Books](#books)
     - [Community](#community)
@@ -4981,6 +4982,10 @@ communities to install/package it*
   - 2012: [DESIGNING A FRAMEWORK FOR RESTFUL
     MULTI](https://core.ac.uk/reader/226162352) by ABDULLAH ALTHAGAFI
 
+  - 2011: [Erlang and First-Person
+    Shooters](http://www.erlang-factory.com/upload/presentations/395/ErlangandFirst-PersonShooters.pdf)
+    by Malcolm Dowse and Demonware, Dublin
+
   - 2011: [Automated Random Model-Based Testing of Stateful
     Systems](https://proper-testing.github.io/papers/eirini-thesis.pdf)
     by Eirini Arvaniti
@@ -5385,6 +5390,10 @@ communities to install/package it*
     transactions make ETS tables more like ordinary
     actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
     Nyblom
+
+  - 2010: [IMPLEMENTING AGENTS FOR INTRUSION
+    DETECTION](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=251dc5c31fc223df105537e6a45b77108f049950)
+    by Ioan Alfred Letia and Dan Alexandru Marian
 
   - 2010: [The design of a RESTful
     web-service](https://upcommons.upc.edu/handle/2099.1/11281) by
@@ -5896,6 +5905,10 @@ communities to install/package it*
   - 2009: [Enhancing Privacy Implementations of Database
     Enquiries](https://ieeexplore.ieee.org/abstract/document/5076347)
     by Florian Kammuller and Reiner Kammuller
+
+  - 2009: [Improving your test code with
+    Wrangler](https://kar.kent.ac.uk/30576/) by Li Huiqing, Lindberg
+    Adam, Schumacher Andreas and Thompson Simon
 
   - 2008: [High-level distribution for the rapid production of robust
     telecoms software: comparing C++ and
@@ -6797,6 +6810,11 @@ communities to install/package it*
     Erlang)](ftp://snarchive.sol.net/pub/systems/unix/FreeBSD/ports/local-distfiles/olgeni/distel-euc.pdf)
     Luke Gorrie
 
+  - 2001: [The Managed Resource Interface: Interfacing Erlang with
+    Standardized Management
+    Protocols](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=80ef721436fce027f9ab0106bd620774bc9078d9)
+    by Francesco Cesarini
+
   - 2001: [Static Verification of distributed
     programs](https://hal.science/tel-02061997v1) by Fabien Dagnat
 
@@ -6893,6 +6911,14 @@ communities to install/package it*
     specification](https://www.diva-portal.org/smash/get/diva2:1695554/FULLTEXT01.pdf)
     by Richard Carlsson Thomas Lindgren, Bjorn Gustavsson, Sven-Olof
     Nystrom, Erik Johansson, Mikael Pettersson and Robert Virding
+
+  - 1999: [Trafﬁc Performance in an ATM
+    network](https://people.kth.se/~maguire/.c/DEGREE-PROJECT-REPORTS/000224-Magnus-Jonnerby.pdf)
+    by Magnus Jonnerby
+
+  - 1999: [Automated Testing of SNMP Controlled
+    Equipment](https://people.kth.se/~maguire/DEGREE-PROJECT-REPORTS/990319-Martin-Gunnarsson.pdf)
+    by Martin Gunnarsson
 
   - 1999: [Exokernels, Protocol implementation and
     Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=774b20bb95543b8aaf2c34695a9302ce28dbfafa)
