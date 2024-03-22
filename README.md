@@ -1636,6 +1636,16 @@ techniques.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://github.com/ChomperT/simdjson_erlang">simdjson_erlang</a></b>: simdjson bindings for erlang </summary>
+
+    <br/>
+    </details>
+
+  - <details><summary><b><a href="https://github.com/saleyn/simdjsone">simdjsone</a></b>: Erlang Fast JSON parser</summary>
+
+    <br/>
+    </details>
+
 ### Markdown
 
   - <details><summary><b><a href="https://github.com/lethain/erlang_markdown">erlang_markdown</a></b>: Markdown parser written in Erlang.</summary>
