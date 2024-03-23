@@ -47,6 +47,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Web Framework Components](#web-framework-components)
     - [Web Frameworks](#web-frameworks)
 - [Resources](#resources)
+    - [Blogs](#blogs)
     - [Papers](#papers)
     - [Books](#books)
     - [Community](#community)
@@ -182,6 +183,11 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     </details>
 
   - <details><summary><b><a
+    href="https://github.com/choptastic/erlang_ds">erlang_ds</a></b>: A universal, extensible, data structure-agonstic library for augmenting, converting, and interfacing with Erlang Key-Value data structures.</summary>
+
+    </details>
+
+  - <details><summary><b><a
     href="https://github.com/basho/riak_dt">riak_dt</a></b>: Erlang
     library of state based CRDTs.</summary>
 
@@ -215,6 +221,12 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     Production-worthy, generic authentication system. Currently
     implements both password-based and RSA-key-based authentication
     calls. Coming Soon: Two Factor Authentication.</summary>
+
+    </details>
+
+  - <details><summary><b><a
+    href="https://github.com/erlef/oidcc">oidcc</a></b>:
+    OpenId Connect client library in Erlang & Elixir</summary>
 
     </details>
 
@@ -304,6 +316,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/nitrogen/nitro_cache">nitro_cache</a></b>: A simple in-memory caching server (used in Nitrogen)</summary>
+
+    </details>
+
 ## Code Analysis
 
 *Libraries and tools for analysing, parsing and manipulation codebases.*
@@ -336,6 +352,14 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
   - <details><summary><b><a
     href="https://github.com/inaka/elvis">elvis</a></b>: Erlang Style
     Reviewer.</summary>
+
+    </details>
+
+  - <details><summary><b><a href="https://github.com/nitrogen/rekt">rekt</a></b>: A parse transform to define new Erlang records from existing records, similar to inheritance in objected oriented languages.</summary>
+
+    </details>
+
+  - <details><summary><b><a href="https://github.com/choptastic/pipeline">pipeline</a></b>: A parse transform to add a pipe mechanism to Erlang function composition (think Elixir's `|>` operator)</summary>
 
     </details>
 
@@ -624,6 +648,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/choptatsic/sql_bridge">sql_bridge</a></b>: An abstraction layer and database utility providing a unified interface for working with SQL databases (MySQL and PostgreSQL currently). (Not an ORM)</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/inaka/sumo_db">sumbo_db</a></b>: sumo_db aims to ease db access for erlang applications. It offers a very simple persistance layer capable of interacting with different db's,  while offering a consistent api to your code.</summary>
 
     </details>
@@ -654,6 +682,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
 
   - <details><summary><b><a href="https://github.com/drfloob/ezic">ezic</a></b>: A  set of erlang utilities for the Olson timezone database files.</summary>
+
+    </details>
+
+  - <details><summary><b><a href="https://github.com/erlsci/iso8601">iso8601</a></b>: An ISO 8601 date formating and parsing library for Erlang.</summary>
 
     </details>
 
@@ -976,6 +1008,11 @@ longitudes.*
 
     </details>
 
+
+  - <details><summary><b><a href="https://github.com/choptastic/erlias">erlias</a></b>: A utility to create alias modules to other modules (not a parse transform).</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/ShoreTel-Inc/erld">erld</a></b>:  erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon.</summary>
 
     </details>
@@ -1109,6 +1146,11 @@ techniques.*
     </details>
 
   - <details><summary><b><a href="https://github.com/kainwen-zz/erlog">erlog</a></b>:  Erlog is an Erlang implemented Datalog.</summary>
+
+    <br/>
+    </details>
+
+  - <details><summary><b><a href="https://git.sr.ht/~fancycade/erlquery">erlquery</a></b>:  Erlang like, database agnostic DSL for composing queries.</summary>
 
     <br/>
     </details>
@@ -1370,6 +1412,10 @@ techniques.*
 
 *Security related projects in Erlang.*
 
+  - <details><summary><b><a href="https://github.com/potatosalad/erlang-jose">erlang-jose</a></b>: JSON Object Signing and Encryption (JOSE) for Erlang and Elixir.</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/ferd/erlpass">erlpass</a></b>: A library to handle password hashing and changing in a safe manner, independent from any kind of storage whatsoever.</summary>
 
     </details>
@@ -1419,6 +1465,12 @@ techniques.*
 ## Text and Numbers
 
 *Libraries for parsing and manipulating text and numbers.*
+
+  - <details><summary><b><a href="https://github.com/gilbertwong96/erlang_base62">base62</a></b>: Base 62 Encode and Decode for Erlang.</summary>
+
+    <br/>
+    </details>
+
 
   - <details><summary><b><a href="https://github.com/artemeff/eql">eql</a></b>: Erlang with SQL or not.</summary>
 
@@ -1572,6 +1624,11 @@ techniques.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://github.com/williamthome/euneus">euneus</a></b>: An incredibly flexible and performant JSON parser and generator.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/davisp/jiffy">jiffy</a></b>: JSON NIFs for Erlang.</summary>
 
     <br/>
@@ -1594,6 +1651,16 @@ techniques.*
     </details>
 
   - <details><summary><b><a href="https://github.com/lpil/thoas">thoas</a></b>:  A blazing fast JSON parser and generator in pure Erlang.</summary>
+
+    <br/>
+    </details>
+
+  - <details><summary><b><a href="https://github.com/ChomperT/simdjson_erlang">simdjson_erlang</a></b>: simdjson bindings for erlang </summary>
+
+    <br/>
+    </details>
+
+  - <details><summary><b><a href="https://github.com/saleyn/simdjsone">simdjsone</a></b>: Erlang Fast JSON parser</summary>
 
     <br/>
     </details>
@@ -1797,6 +1864,10 @@ techniques.*
 
 *Standalone component from web development frameworks.*
 
+  - <details><summary><b><a href="https://github.com/nitrogen/canister">canister</a></b>: A distributed session management system.</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/ChicagoBoss/cb_admin">cb_admin</a></b>:  An admin interface for Chicago Boss.</summary>
 
     </details>
@@ -1884,8 +1955,9 @@ improving your Erlang development skills and knowledge.*
     Wolfgang Loder
 
   - [Build It With Nitrogen: The Fast-Off-the-Block Erlang Web
-    Framework](https://isbnsearch.org/isbn/9780982589243) by Lloyd
-    R. Prentice and Jesse Gumm
+    Framework](https://builditwith.com/nitro)
+    ([ISBN](https://isbnsearch.org/isbn/9780982589243))
+    by Lloyd R. Prentice and Jesse Gumm
 
   - [Concurrent Programming in Erlang (2nd
     Edition)](https://isbnsearch.org/isbn/9780135083017) by Robert
@@ -2095,6 +2167,91 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [A monitoring tool for linear-time
+    𝜇HML](http://staff.um.edu.mt/afra1/papers/linearDetectErSCP2024.pdf)
+    by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
+    Adrian Francalanza, Anna Ingólfsdóttir
+
+  - 2024: [Effective integration of low-cost digital manufacturing
+    systems: a reference architecture driven
+    approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785)
+    by J. Kaisera, G. Hawkridgea, D. McFarlanea, F. Schnickeb and
+    K. Kruger
+
+  - 2024: [Design and implementation of power communication protocol
+    plug-in based on hot
+    loading](https://dl.acm.org/doi/abs/10.1145/3640912.3640916) by
+    Weiming Qin, Wenjing Guo, Jingwen Lin, Jiahao Li, Xuerui Chen,
+    Xinsu Mei, Wei Zhang
+
+  - 2024: [Bridging Between Active Objects: Multitier Programming for
+    Distributed, Concurrent
+    Systems](https://link.springer.com/chapter/10.1007/978-3-031-51060-1_4)
+    by Guido Salvaneschi & Pascal Weisenburger
+
+  - 2023: [Runtime Monitoring for Asynchronous Reactive
+    Components](https://www.um.edu.mt/library/oar/bitstream/123456789/117964/1/2301ICTCPS600005008983_1%20%281%29.PDF)
+    by Duncan Paul Attard
+
+  - 2023: [Advanced Programming Language Concepts (course
+    slides)](http://www.info.ucl.ac.be/~pvr/linfo1131-handouts-2023.pdf)
+    by Peter Van Roy
+
+  - 2023: [X.509 Certificate-Based Authentication for NETCONF and
+    RESTCONF: Design Evaluation between Native and External
+    Implementation](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1791392&dswid=-2837),
+    by Li Qi
+
+  - 2023: [An Anomaly Detection System For Subscriber Activities In
+    Private
+    Networks](https://thesis.unipd.it/handle/20.500.12608/61281), by
+    MARTINI, FRANCESCO
+
+  - 2023: [A Formalisation of Core Erlang, a Concurrent Actor
+    Language](https://arxiv.org/abs/2311.10482) by Péter Bereczky,
+    Dániel Horpácsi and Simon Thompson
+
+  - 2023: [Static analysis for safe software
+    upgrade](http://real.mtak.hu/179773/) by Dániel Ferenczi, Melinda
+    Tóth
+
+  - 2023: [Generation and Refinement of Testing
+    Models](https://dl.acm.org/doi/abs/10.1145/3609022.3609415) by
+    Luis Eduardo Bueso de Barrio, Lars-Åke Fredlund, Clara Benac
+    Earle, Ángel Herranz and Julio Mariño
+
+  - 2023: [Gaining trust by tracing security
+    protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827)
+    by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans
+    Svensson
+
+  - 2023: [Gesture recognition by pattern matching using sensor fusion
+    on an internet of things
+    device](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40633&datastream=PDF_01&cover=cover-mem)
+    by Sébastien Gios
+
+  - 2023: [Ultra-wideband for internet of
+    things](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A38375&datastream=PDF_01&cover=cover-mem)
+    by Gwendal Laurent
+
+  - 2023: [Low-cost high-speed sensor fusion with GRiSP and
+    Hera](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40762&datastream=PDF_01&cover=cover-mem)
+    by Lucas Nélis
+
+  - 2023: [Deep Learning-Based Refactoring with Formally Verified
+    Training Data](http://real.mtak.hu/172966/) by Balázs Szalontai,
+    Szalontai, Péter Bereczky and Dániel Horpácsi
+
+  - 2023: [A Semantics of Core Erlang with Handling of
+    Signals](https://dl.acm.org/doi/abs/10.1145/3609022.3609417) by
+    Aurélie Kong Win Chang, Jérôme Feret and Gregor Gössler
+
+  - 2023: [Event-Driven Multiparty Session
+    Actors](https://simonjf.com/misc/hope23.pdf) by Simon Fowler
+
+  - 2023: [Bppchecker: An Smt-Based Model Checker on Basic Parallel
+    Processes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4432122)
+
   - 2023: [Toward Automatic Generation of an Optimal Supervision Tree
     in Erlang](https://ken.ieice.org/ken/paper/20230110OCQn/eng/) by
     Shoichi Sasaki, Yoshiaki Takata
@@ -2224,6 +2381,10 @@ communities to install/package it*
   - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
     Recoveries In Distributed](https://hal.science/hal-04123758v1) by
     Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+
+  - 2023: [MUTATION TESTING IN FUNCTIONAL
+    PROGRAMMING](https://jyx.jyu.fi/handle/123456789/92544) by Hopia,
+    Tuomo
 
   - 2022: [Comparison and proof of the fastest way of the sorting
     algorithm by functional programming in Erlang
@@ -4850,6 +5011,10 @@ communities to install/package it*
   - 2012: [DESIGNING A FRAMEWORK FOR RESTFUL
     MULTI](https://core.ac.uk/reader/226162352) by ABDULLAH ALTHAGAFI
 
+  - 2011: [Erlang and First-Person
+    Shooters](http://www.erlang-factory.com/upload/presentations/395/ErlangandFirst-PersonShooters.pdf)
+    by Malcolm Dowse and Demonware, Dublin
+
   - 2011: [Automated Random Model-Based Testing of Stateful
     Systems](https://proper-testing.github.io/papers/eirini-thesis.pdf)
     by Eirini Arvaniti
@@ -5254,6 +5419,10 @@ communities to install/package it*
     transactions make ETS tables more like ordinary
     actors](https://dl.acm.org/doi/10.1145/2034654.2034658) by Patrik
     Nyblom
+
+  - 2010: [IMPLEMENTING AGENTS FOR INTRUSION
+    DETECTION](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=251dc5c31fc223df105537e6a45b77108f049950)
+    by Ioan Alfred Letia and Dan Alexandru Marian
 
   - 2010: [The design of a RESTful
     web-service](https://upcommons.upc.edu/handle/2099.1/11281) by
@@ -5765,6 +5934,10 @@ communities to install/package it*
   - 2009: [Enhancing Privacy Implementations of Database
     Enquiries](https://ieeexplore.ieee.org/abstract/document/5076347)
     by Florian Kammuller and Reiner Kammuller
+
+  - 2009: [Improving your test code with
+    Wrangler](https://kar.kent.ac.uk/30576/) by Li Huiqing, Lindberg
+    Adam, Schumacher Andreas and Thompson Simon
 
   - 2008: [High-level distribution for the rapid production of robust
     telecoms software: comparing C++ and
@@ -6666,6 +6839,11 @@ communities to install/package it*
     Erlang)](ftp://snarchive.sol.net/pub/systems/unix/FreeBSD/ports/local-distfiles/olgeni/distel-euc.pdf)
     Luke Gorrie
 
+  - 2001: [The Managed Resource Interface: Interfacing Erlang with
+    Standardized Management
+    Protocols](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=80ef721436fce027f9ab0106bd620774bc9078d9)
+    by Francesco Cesarini
+
   - 2001: [Static Verification of distributed
     programs](https://hal.science/tel-02061997v1) by Fabien Dagnat
 
@@ -6763,6 +6941,14 @@ communities to install/package it*
     by Richard Carlsson Thomas Lindgren, Bjorn Gustavsson, Sven-Olof
     Nystrom, Erik Johansson, Mikael Pettersson and Robert Virding
 
+  - 1999: [Trafﬁc Performance in an ATM
+    network](https://people.kth.se/~maguire/.c/DEGREE-PROJECT-REPORTS/000224-Magnus-Jonnerby.pdf)
+    by Magnus Jonnerby
+
+  - 1999: [Automated Testing of SNMP Controlled
+    Equipment](https://people.kth.se/~maguire/DEGREE-PROJECT-REPORTS/990319-Martin-Gunnarsson.pdf)
+    by Martin Gunnarsson
+
   - 1999: [Exokernels, Protocol implementation and
     Erlang](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=774b20bb95543b8aaf2c34695a9302ce28dbfafa)
     by Bjorn Knutsson and Per Gunningberg.
@@ -6829,6 +7015,10 @@ communities to install/package it*
   - 1998: [On the verification of open distributed
     systems](https://dl.acm.org/doi/10.1145/330560.330917) by Mads Dam
     and Lars-åke Fredlund
+
+  - 1998: [Implementation Technologies for Programming Languages based
+    on Logic](http://user.it.uu.se/~kostis/proceedings.ps.gz) by
+    Konstantinos Sagonas
 
   - <details><summary> 1997: <b><a href="https://dl.acm.org/doi/10.1145/258948.258967">The development of Erlang</a></b> by Joe Armstrong</summary>
 
