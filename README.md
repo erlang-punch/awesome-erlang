@@ -1146,6 +1146,11 @@ techniques.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://git.sr.ht/~fancycade/erlquery">erlquery</a></b>:  Erlang like, database agnostic DSL for composing queries.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/benoitc/esync">esync</a></b>: Simple tool to sync files.</summary>
 
     <br/>
