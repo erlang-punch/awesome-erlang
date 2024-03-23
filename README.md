@@ -1403,6 +1403,10 @@ techniques.*
 
 *Security related projects in Erlang.*
 
+  - <details><summary><b><a href="https://github.com/potatosalad/erlang-jose">erlang-jose</a></b>: JSON Object Signing and Encryption (JOSE) for Erlang and Elixir.</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/ferd/erlpass">erlpass</a></b>: A library to handle password hashing and changing in a safe manner, independent from any kind of storage whatsoever.</summary>
 
     </details>
