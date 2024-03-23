@@ -1,0 +1,95 @@
+%rec: Author
+%mandatory: Id
+%unique: Id
+
+Id: 7
+Name: Ulf Wiger
+Location: Sweden
+Websites: http://ulf.wiger.net/weblog
+Archives: https://archive.is/http://ulf.wiger.net/weblog/
+Github: https://github.com/uwiger
+Email: ulf@wiger.net
+
+Id: 6
+Name: Andrew Thompson
+Nickname: Vagabond
+Email: andrew@hijacked.us
+Github: https://github.com/vagabond
+Websites: http://vagabond.github.io/
+
+Id: 5
+Name: Kurt Williams
+Nickname: onkel-dirtus
+Email: kurt.r.williams@gmail.com
+Github: https://github.com/onkel-dirtus
+
+Id: 4
+Name: Devin Torres
+Nickname: Devinus
+Email: devin@devintorres.com
+Github: https://github.com/devinus
+Websites: https://devinus.io/
+Twitter: https://twitter.com/devinus
+
+Id: 3
+Name: Robert Stephen Virding
+Location: Sweden
+Presentations: Robert Virding recently joined Erlang Solutions Ltd as
++ Principal Language Expert. While at Ericsson AB, Robert Virding was
++ one of the original members of the Ericsson Computer Science Lab, and
++ co-inventor of the Erlang language. He took part in the original
++ system design and contributed much of the original libraries, as well
++ as to the current compiler. While at the lab he also did a lot of work
++ on the implementation of logic and functional languages and on garbage
++ collection. He has also worked as an entrepreneur and was one of the
++ co-founders of one of the first Erlang startups (Bluetail). Robert
++ Virding also worked a number of years at the Swedish Defence Materiel
++ Administration (FMV) Modeling and Simulations Group. He co-authored
++ the first book (Prentice-Hall) on Erlang, and is regularly invited to
++ teach and present throughout the world. (from www.erlang-factory.com)
+Twitter: https://twitter.com/rvirding
+Github: https://github.com/rvirding
+Websites: http://rvirding.blogspot.com/
+
+Id: 2
+Name: Mike Calvin Williams
+Presentations: Mike is originally from South Wales, but has in fact
++ lived in Sweden longer than he has anywhere else. Way back in the
++ 1960's after working as a Atheistic Missionary in Malawi, Mike went to
++ Cambridge where he learnt a lot about drinking beer and rather less
++ about "Mechanical Sciences". He then moved to Sweden in 1970 (guess
++ why :-) and joined Ericsson as a hardware designer. The price of beer
++ in Sweden being horrendously expensive enabled Mike to concentrate
++ more on other things, He joined with Bjarne Däcker to found the
++ Ericsson Computer Science Laboratory 1980. One of the things they did
++ in the Computer Science lab was to "invent" Erlang. Mike's role was to
++ develop the first Erlang virtual machine (Joe developed the compiler
++ and machine architecture). He worked out the primitives for fault
++ handling and dynamic code replacement In 1990 Mike glided into
++ management by a complete accident, and found he rather liked it. Since
++ then he has been in charge of both large and small units within
++ Ericsson which develop software. (from www.erlang-factory.com)
+
+Id: 1
+Name: Joe Louis Armstrong
+Location: Sweden
+Presentations: Joe Armstrong is one of the three co-inventors of
++ Erlang. When at the Ericsson computer science lab in 1986, he was part
++ of the team who designed and implemented the first version of
++ Erlang. He has written several Erlang books including Programming
++ Erlang Software for a Concurrent World. Joe held the first ever Erlang
++ course and has taught Erlang to hundreds of programmers and held many
++ lectures and keynotes describing the technology. Joe has a PhD in
++ computer science from the Royal Institute of Technology in Stockholm,
++ Sweden and is an expert in the construction of fault tolerant
++ systems. Joe was the chief software architect of the project which
++ produced the Erlang OTP system. He has worked as an entrepreneur in
++ one of the first Erlang startups (Bluetail) and has worked for 30
++ years in industry and research. (from www.erlang-factory.com)
+Wikipedia: https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)
+Wikiquote: https://en.wikiquote.org/wiki/Joe_Armstrong_(programmer)
+Github: https://github.com/joearms
+Email: joearms@gmail.com
+Websites: http://joearms.github.io/
+Websites: https://armstrongonsoftware.blogspot.com/
+Twitter: https://twitter.com/joeerl

@@ -1,0 +1,104 @@
+%rec: Publication
+%mandatory: Id Date Title Urls
+%unique: Id
+
+Date: 2023-09-27
+Title: A monitoring tool for linear-time 𝜇HML
+Abstract: We present detectEr, a monitoring tool that targets software
++ applications written for Erlang/OTP.  The tool runtime checks
++ speciﬁcations expressed in a safety fragment of the linear-time
++ modal 𝜇-calculus called MAX HML D , used to describe properties
++ about the current system execution. Our technical development is
++ founded on previous theoretical results that are lifted to a
++ ﬁrst-order setting, where systems produce executions containing
++ events that carry data. We overview the main features of detectEr,
++ showing how properties can be ﬂexibly written and synthesised as
++ executable Erlang monitors that can be instrumented with the running
++ system.
+DOI: https://doi.org/10.1016/j.scico.2023.103031
+Urls: http://staff.um.edu.mt/afra1/papers/linearDetectErSCP2024.pdf
+Authors: Luca Aceto
+Authors: Antonis Achilleos
+Authors: Duncan Paul Attard
+Authors: Léo Exibard
+Authors: Adrian Francalanza
+Authors: Anna Ingólfsdóttir
+Keywords: Runtime veriﬁcation
+Keywords: Linear-time properties
+Keywords: Monitor synthesis
+Keywords: detectEr
+Keywords: MAXHML
+
+Date: 2023-05-31
+Title: Effective integration of low-cost digital manufacturing systems: a reference architecture driven approach
+Urls: https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785
+DOI: https://doi.org/10.1080/0951192X.2024.2314785
+Keywords: System integration
+Keywords: low-cost
+Keywords: digital manufacturing
+Keywords: reference architecture
+
+######################################################################
+#
+######################################################################
+Id: 3
+
+
+######################################################################
+#
+######################################################################
+Id: 2
+Date: 1990-06-01
+Title: ERLANG - an experimental telephony programming language
+Urls: https://ieeexplore.ieee.org/abstract/document/765711
+DOI: 10.1109/ISS.1990.765711
+Authors: Joe Louis Armstrong
+Authors: Robert Stephen Virding
+Publisher: IEEE
+Keywords: Telephony
+Keywords: Computer languages
+Keywords: Application software
+Keywords: Concurrent computing
+Keywords: Hardware
+Keywords: Computer science
+Keywords: Laboratories
+Keywords: Prototypes
+Keywords: Large-scale systems
+Keywords: Robustness
+Abstract: We present an experimental programming language called
++ ErIang which is suitable for programming telephony applications. We
++ discuss some of the requirements for such a language and introduce the
++ language by a series multiple examples which show how both sequential
++ and concurrent activities can be programmed. We discuss the error
++ recovery mechanism used in ErIang together with the performance
++ characteristics of the current implementation,
+
+######################################################################
+# 
+######################################################################
+Id: 1
+Date: 1989-07-09
+Title: Using PROLOG for rapid prototyping of telecommunication systems
+Urls: https://ieeexplore.ieee.org/abstract/document/41871
+Authors: Joe Louis Armstrong
+Authors: Mike Calvin Williams
+Publisher: IET
+Keywords: Prolog
+Keywords: Software engineering
+Keywords: System analysis and design
+Keywords: Communication system software
+Keywords: Telephony
+Abstract: Rapid prototyping techniques can be used for the incremental system
++ design of large systems and for the tools required to build
++ them-instead of designing the complete system and then going into a
++ lengthy implementation and test phase, the various components of the
++ system can be prototyped and tested within a very short time. In this
++ manner costly faults in the system design are isolated at an early
++ stage in a project and experiments with alternative implementation
++ techniques can be performed before being committed to a particular
++ technology. The work described in the paper builds upon some of the
++ conclusions of Armstrong et. al. (1986), and in particular addresses
++ the problems of a language for prototyping telephony software. The
++ implementation of a prototyping language, prototyping environment and
++ experiences of using this environment are discussed.
+                                

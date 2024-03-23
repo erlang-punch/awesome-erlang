@@ -1,0 +1,15 @@
+{application, awesome_sandbox
+, [ {description, "An awesome sandbox application"}
+  , {vsn, "0.1.0"}
+  , {registered, []}
+  , {mod, {awesome_sandbox_app, []}}
+  , {applications
+    , [ kernel
+      , stdlib
+      , awesome
+      ]}
+  , {env,[]}
+  , {modules, []}
+  , {licenses, ["MIT"]}
+  , {links, []}
+]}.

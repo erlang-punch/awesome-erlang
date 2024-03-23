@@ -22,7 +22,7 @@
 -export([community_profile/2, community_profile/3]).
 -export([code_frequency/2, code_frequency/3]).
 -export([commit_activity/2, commit_activity/3]).
--export([contributors/2, contributors/3]).
+-export([contributors/2, contributors/3, contributors_stats/2, contributors_stats/3]).
 -export([participation/2, participation/3]).
 -export([punch_card/2, punch_card/3]).
 -export([clones/2, clones/3]).
@@ -49,6 +49,7 @@
 -export([releases/2, releases/3, release/3, release/4]).
 -export([latest_release/2, latest_release/3]).
 -export([security_advisories/2, security_advisories/3]).
+-export([tags/2, tags/3]).
 -define(GITHUB_CLIENT, github_client).
 
 %%--------------------------------------------------------------------
@@ -119,7 +120,7 @@ get_repos_url(Url, Opts) ->
       Return :: {ok, map()} | {error, term()}.
 
 get_repos(Owner, Repository) ->
-    get_repos(Owner, Repository, []).
+    get_repos(Owner, Repository, #{}).
 
 %%--------------------------------------------------------------------
 %%
@@ -218,13 +219,24 @@ commit_activity(Owner, Repository, Opts) ->
 
 %%--------------------------------------------------------------------
 %% @doc
-%% https://docs.github.com/en/rest/metrics/statistics?apiVersion=2022-11-28#get-all-contributor-commit-activity
 %% @end
 %%--------------------------------------------------------------------
 contributors(Owner, Repository) ->
     contributors(Owner, Repository, #{}).
 
 contributors(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, stats, contributors],
+    ?GITHUB_CLIENT:get(Path, Opts).
+
+%%--------------------------------------------------------------------
+%% @doc
+%% https://docs.github.com/en/rest/metrics/statistics?apiVersion=2022-11-28#get-all-contributor-commit-activity
+%% @end
+%%--------------------------------------------------------------------
+contributors_stats(Owner, Repository) ->
+    contributors_stats(Owner, Repository, #{}).
+
+contributors_stats(Owner, Repository, Opts) ->
     Path = [repos, Owner, Repository, stats, contributors],
     ?GITHUB_CLIENT:get(Path, Opts).
 
@@ -652,4 +664,33 @@ security_advisories(Owner, Repository) ->
 security_advisories(Owner, Repository, Opts) ->
     Path = [repos, Owner, Repository, "security-advisories"],
     ?GITHUB_CLIENT:get(Path, Opts).
-    
+
+%%--------------------------------------------------------------------
+%%
+%%--------------------------------------------------------------------
+-spec tags(Owner, Repository) -> Return when
+      Owner :: string() | binary(),
+      Repository :: string() | binary(),
+      Return :: {ok, map()}
+              | {error, term()}.
+
+tags(Owner, Repository) ->
+    tags(Owner, Repository, #{}).
+
+%%--------------------------------------------------------------------
+%% @doc List Repository tags.
+%%
+%% see: https://docs.github.com/en/rest/repos/repos#list-repository-tags
+%%
+%% @end
+%%--------------------------------------------------------------------
+-spec tags(Owner, Repository, Opts) -> Return when
+      Owner :: string() | binary(),
+      Repository :: string() | binary(),
+      Opts :: map(),
+      Return :: {ok, map()}
+              | {error, term()}.
+
+tags(Owner, Repository, Opts) ->
+    Path = [repos, Owner, Repository, "tags"],
+    ?GITHUB_CLIENT:get(Path, Opts).

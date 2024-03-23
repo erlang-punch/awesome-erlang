@@ -1,0 +1,2 @@
+-module(awesome_sandbox).
+-compile(export_all).
