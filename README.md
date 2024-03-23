@@ -1453,6 +1453,12 @@ techniques.*
 
 *Libraries for parsing and manipulating text and numbers.*
 
+  - <details><summary><b><a href="https://github.com/gilbertwong96/erlang_base62">base62</a></b>: Base 62 Encode and Decode for Erlang.</summary>
+
+    <br/>
+    </details>
+
+
   - <details><summary><b><a href="https://github.com/artemeff/eql">eql</a></b>: Erlang with SQL or not.</summary>
 
     <br/>
