@@ -685,6 +685,10 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/erlsci/iso8601">iso8601</a></b>: An ISO 8601 date formating and parsing library for Erlang.</summary>
+
+    </details>
+
   - <details><summary><b><a href="https://github.com/choptastic/qdate">qdate</a></b>: Erlang date, time, and timezone management: formatting, conversion, and date arithmetic.</summary>
 
     </details>
