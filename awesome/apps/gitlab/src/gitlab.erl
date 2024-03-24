@@ -21,12 +21,21 @@ uri() ->
 %% @end
 %%--------------------------------------------------------------------
 get_repos(Url) ->
-    #{ scheme := "https"
-     , host := "gitlab.com"
-     , username := Username
-     , repository := Repository 
-     } = awesome_url:parse(Url),
-    get_repos(Username, Repository).
+    case awesome_url:parse(Url) of
+        #{ scheme := "https"
+         , host := "gitlab.com"
+         , username := Username
+         , repository := Repository 
+         } ->
+            get_repos(Username, Repository);
+        #{ scheme := <<"https">>
+         , host := <<"gitlab.com">>
+         , username := Username
+         , repository := Repository 
+         } ->
+            get_repos(Username, Repository)
+    end.
+ 
 
 %%--------------------------------------------------------------------
 %% @doc quick and dirty implementation of github repository
@@ -55,7 +64,7 @@ get_repos(Owner, Repository) ->
     Headers = [Agent, Accept],
     Request = {get, {Target, Headers}, [], []},
     Filter = fun ?MODULE:filters/1,
-    awesome_client:request(Request, Filter).
+    awesome_client:request(Request).
 
 %%--------------------------------------------------------------------
 %% @hidden

@@ -18,13 +18,13 @@ do(#mod{ method = "GET"}) ->
     {break, [{response, {200, ""}}]}.
 
 static("GET", [<<"projects">>], State) ->
-    {break, [{response, {200, 'awesome@projects':all(html)}}]};
-static("GET", _, State) ->
-    case file:read_file("priv/static/index.html") of
-        {ok, File} -> 
-            {break, [{response, {200, binary_to_list(File)}}]};
-        _ -> {break, [{response, {404, ""}}]}
-    end.
+    {break, [{response, {200, 'awesome@projects':all(html)}}]}.
+%% static("GET", _, State) ->
+%%     case file:read_file("index.html") of
+%%         {ok, File} -> 
+%%             {break, [{response, {200, binary_to_list(File)}}]};
+%%         _ -> {break, [{response, {404, ""}}]}
+%%     end.
 
 %---------------------------------------------------------------------
 %

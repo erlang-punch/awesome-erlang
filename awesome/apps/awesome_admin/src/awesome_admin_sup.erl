@@ -23,8 +23,8 @@ children() -> [httpd()].
 
 httpd() ->
     {ok, Env} = application:get_env(awesome_admin, httpd),
-    ServerRoot = filename:join(code:priv_dir(awesome_admin), "static"),
-    DocumentRoot = filename:join(code:priv_dir(awesome_admin), "static"),
+    ServerRoot = filename:join(code:priv_dir(awesome_admin), "static2"),
+    DocumentRoot = filename:join(code:priv_dir(awesome_admin), "static2"),
     Opts = Env ++ [ {port,8081}
                   , {modules,[awesome_admin_httpd]}
                   , {server_name, "awesome_admin"}
