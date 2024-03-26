@@ -9,6 +9,7 @@ https://github.com/5HT/n2o
 https://github.com/5HT/pie
 https://github.com/6/heroku-erlang-example
 https://github.com/AbstractMachinesLab/caramel
+https://github.com/AdRoll/erliam
 https://github.com/AdRoll/erlmld
 https://github.com/AdRoll/kinetic
 https://github.com/AdRoll/mero
@@ -19,6 +20,8 @@ https://github.com/AntidoteDB/antidote
 https://github.com/AntidoteDB/antidote_aql
 https://github.com/Appliscale/xprof
 https://github.com/Asana/kraken
+https://github.com/AstRonin/sgi
+https://github.com/BitGameEN/bitgamex
 https://github.com/Bluehouse-Technology/grpc
 https://github.com/Bluehouse-Technology/grpc_client
 https://github.com/Bluehouse-Technology/otter
@@ -60,6 +63,8 @@ https://github.com/K2InformaticsGmbH/dderl
 https://github.com/K2InformaticsGmbH/imem
 https://github.com/KirinDave/fuzed
 https://github.com/KirinDave/gen_leader_revival
+https://github.com/KlausTrainer/tor_dns_tunnel
+https://github.com/KlausTrainer/twitcoin
 https://github.com/Klimiec/Erlang
 https://github.com/KonnexionsGmbH/sqlparse
 https://github.com/KristianPoslek/erlang-dht
@@ -78,9 +83,12 @@ https://github.com/NetComposer/nkbase
 https://github.com/NetComposer/nkcluster
 https://github.com/NetComposer/nkdist
 https://github.com/NetComposer/nkdocker
+https://github.com/NetComposer/nkmedia
 https://github.com/NetComposer/nkpacket
 https://github.com/NetComposer/nkservice
 https://github.com/NetComposer/nksip
+https://github.com/NineFX/erlang-fips
+https://github.com/OniOni/Gopherl
 https://github.com/OtoloNetworks/rebar3_osv
 https://github.com/OtpChatBot/Ybot
 https://github.com/OtpChatBot/irc_lib
@@ -110,10 +118,12 @@ https://github.com/TypedLambda/eresye
 https://github.com/Vagabond/diemap
 https://github.com/Vagabond/erlang-rrdtool
 https://github.com/Vagabond/erlang-syslog
+https://github.com/ValtteriL/OnionFermenter
 https://github.com/VoltDB/voltdb-client-erlang
 https://github.com/Vonmo/eapa
 https://github.com/Vonmo/erbloom
 https://github.com/Vonmo/rocker
+https://github.com/WarpEngineer/geminic
 https://github.com/WhatsApp/eqwalizer
 https://github.com/WhatsApp/erlang-argo
 https://github.com/WhatsApp/erlang_taint_analysis
@@ -143,15 +153,18 @@ https://github.com/aetrion/erl-dns
 https://github.com/afiniate/seresye
 https://github.com/afiskon/erlang-http-proxy
 https://github.com/afronski/wolves-and-rabbits-world-simulation
+https://github.com/afterdusk/carbonara
 https://github.com/aggelgian/erlang-algorithms
 https://github.com/agner/agner
 https://github.com/ahf/erlang-ucrypto
+https://github.com/ahf/peculium_core
 https://github.com/ahmednawras/log4erl
 https://github.com/alavrik/erlson
 https://github.com/alavrik/piqi-erlang
 https://github.com/alavrik/piqi-rpc
 https://github.com/aleksmeshr/odi
 https://github.com/alertlogic/erllambda
+https://github.com/alertlogic/rebar3_erllambda
 https://github.com/aliter/aliter
 https://github.com/alpaca-lang/alpaca
 https://github.com/altenwald/eimap
@@ -196,6 +209,7 @@ https://github.com/auser/erlfs
 https://github.com/avtobiff/erlang-uuid
 https://github.com/aws-beam/aws-erlang
 https://github.com/aws-beam/aws_credentials
+https://github.com/aws-beam/aws_signature
 https://github.com/b0oh/lol
 https://github.com/b3rnie/crontab
 https://github.com/barrel-db/barrel
@@ -248,6 +262,7 @@ https://github.com/bet365/erpc
 https://github.com/bet365/soap
 https://github.com/bfrog/hottub
 https://github.com/bgrusnak/mql
+https://github.com/bhagyaraj-varadaraju/Bitcoin-Miner
 https://github.com/biokoda/actordb
 https://github.com/blinkov/lager_smtp
 https://github.com/blt/bson
@@ -266,6 +281,7 @@ https://github.com/bragful/ephp
 https://github.com/brahimalaya/brim
 https://github.com/brendonh/erl_openid
 https://github.com/brigadier/geodata2
+https://github.com/brocksamson/my_game
 https://github.com/bwegh/awre
 https://github.com/cabol/erlbus
 https://github.com/cabol/gen_buffer
@@ -274,9 +290,11 @@ https://github.com/cabol/west
 https://github.com/cakedb/cakedb
 https://github.com/cakedb/erlbison
 https://github.com/cannedprimates/stdlib2
+https://github.com/caprazzo/peasy-torrent-tracker
 https://github.com/careo/rabbitmq-erlang-client-examples
 https://github.com/carlosgaldino/concha
 https://github.com/carlosmn/geef
+https://github.com/catseye/pibfi
 https://github.com/cbd/edis
 https://github.com/cchandler/RTreeCouchDB
 https://github.com/census-instrumentation/opencensus-erlang
@@ -361,6 +379,7 @@ https://github.com/dlesl/erqwest
 https://github.com/dmitriid/neo4j-erlang
 https://github.com/dmitriid/pegjs
 https://github.com/dmitryme/erlang_localtime
+https://github.com/dnet/TorLang
 https://github.com/dnsimple/dns_erlang
 https://github.com/dnsimple/erldns
 https://github.com/dolotech/erlang_server
@@ -476,6 +495,7 @@ https://github.com/esl/escalus
 https://github.com/esl/lhttpc
 https://github.com/esl/tracerl
 https://github.com/essen/egs
+https://github.com/etataurov/instastream
 https://github.com/etnt/edbg
 https://github.com/etnt/ehotp
 https://github.com/etnt/eml
@@ -526,6 +546,7 @@ https://github.com/filmor/tomerl
 https://github.com/flashingpumpkin/spooky
 https://github.com/flussonic/epm
 https://github.com/flussonic/sqlapi
+https://github.com/flussonic/ssh-proxy
 https://github.com/fogfish/cache
 https://github.com/fogfish/datalog
 https://github.com/fogfish/datum
@@ -572,6 +593,7 @@ https://github.com/goertzenator/yamler
 https://github.com/goj/cuesport
 https://github.com/gootik/hakicache
 https://github.com/gootik/hakisql
+https://github.com/gordonguthrie/sevastyanov
 https://github.com/gossiperl/erflux
 https://github.com/gossiperl/gossiperl
 https://github.com/gotthardp/gen_coap
@@ -838,6 +860,7 @@ https://github.com/loguntsov/reliable_udp
 https://github.com/lordnull/rec2json
 https://github.com/lostcolony/damocles
 https://github.com/loucash/eqm
+https://github.com/lpeti69/ErlTorrent
 https://github.com/lpgauth/buoy
 https://github.com/lpgauth/foil
 https://github.com/lpgauth/marina
@@ -845,6 +868,7 @@ https://github.com/lpgauth/shackle
 https://github.com/lpgauth/statsderl
 https://github.com/lpgauth/swirl
 https://github.com/lpil/thoas
+https://github.com/lrascao/otp.whatsapp
 https://github.com/lrascao/rebar3_appup_plugin
 https://github.com/lrascao/rebar3_gpb_plugin
 https://github.com/lsinfo3/TableVisor
@@ -896,6 +920,7 @@ https://github.com/mazenharake/cecho
 https://github.com/mazenharake/eirc
 https://github.com/mazenharake/entop
 https://github.com/mbbx6spp/rebar-templates
+https://github.com/mbrix/blockparser
 https://github.com/mccoy/medici
 https://github.com/mdaguete/tcpbalance
 https://github.com/mdevilliers/erlang-mesos
@@ -907,7 +932,10 @@ https://github.com/michilu/shirasu
 https://github.com/mickel8/quic_dist
 https://github.com/midas-framework/midas
 https://github.com/mihawk/draw
+https://github.com/mikeyhc/discordant
 https://github.com/mini-monkey/mini-monkey
+https://github.com/mk270/blizanci
+https://github.com/mlodzianck/webrtc-sig-server
 https://github.com/mmcdanie/erlview
 https://github.com/mmzeeman/eiconv
 https://github.com/mmzeeman/esql
@@ -936,6 +964,7 @@ https://github.com/msantos/evum
 https://github.com/msantos/ewpcap
 https://github.com/msantos/gen_icmp
 https://github.com/msantos/gen_unix
+https://github.com/msantos/perc
 https://github.com/msantos/pkt
 https://github.com/msantos/procket
 https://github.com/msantos/prx
@@ -1037,6 +1066,7 @@ https://github.com/patternmatched/ejsv
 https://github.com/paulgray/exml
 https://github.com/paulzql/shadowsocks-erlang
 https://github.com/pdincau/gcm-erlang
+https://github.com/pdincau/instagram_listener
 https://github.com/pgourlain/vscode_erlang
 https://github.com/poroh/ersip
 https://github.com/potatosalad/erlang-crypto_rsassa_pss
@@ -1109,6 +1139,7 @@ https://github.com/richcarl/igor
 https://github.com/richcarl/merl
 https://github.com/richcarl/sendmail
 https://github.com/rjdellecese/gleam_decode
+https://github.com/rkallos/gem
 https://github.com/rkallos/wrek
 https://github.com/robbielynch/ierlang
 https://github.com/robertoaloi/ansible-nodetool
@@ -1128,6 +1159,7 @@ https://github.com/rvirding/luerl
 https://github.com/rvirding/spell1
 https://github.com/rwbr/exmlrpc
 https://github.com/ryancrum/bifrost
+https://github.com/ryanmcgreevy/erlServer
 https://github.com/s1n4/leptus
 https://github.com/saleyn/erlexec
 https://github.com/saleyn/simdjsone
@@ -1153,6 +1185,7 @@ https://github.com/seth/ej
 https://github.com/seth/pooler
 https://github.com/seth/sherl
 https://github.com/sheyll/erlymock
+https://github.com/shizzard/marvin
 https://github.com/shizzard/unicorn
 https://github.com/shopgun/graphql-erlang
 https://github.com/shopgun/turtle
@@ -1161,6 +1194,7 @@ https://github.com/shortishly/mdns
 https://github.com/shortishly/pgmp
 https://github.com/siberian-fast-food/alogger
 https://github.com/sigscale/radierl
+https://github.com/sigscale/sccp
 https://github.com/sile/evel
 https://github.com/sile/hash_ring
 https://github.com/sile/jsone
@@ -1211,7 +1245,10 @@ https://github.com/synrc/shen
 https://github.com/systemd/ejournald
 https://github.com/talentdeficit/json
 https://github.com/talentdeficit/jsx
+https://github.com/tallaproject/onion
+https://github.com/tallaproject/talla
 https://github.com/tamarit/edbc
+https://github.com/tamasnagy/torrenterl
 https://github.com/tangyi1989/erl_game_server
 https://github.com/tank-bohr/bookish_spork
 https://github.com/tarcieri/reia
@@ -1226,6 +1263,8 @@ https://github.com/tex/ssync
 https://github.com/thorstadt/bifrost
 https://github.com/thusfresh/switchboard
 https://github.com/tim/erlang-oauth
+https://github.com/timeloop-vault/eda
+https://github.com/tkyshm/egoc
 https://github.com/tmaciejewski/see
 https://github.com/toddlipcon/thrift_erl_skel
 https://github.com/tolbrino/hotwheels
@@ -1300,6 +1339,7 @@ https://github.com/vernemq/vernemq
 https://github.com/version2beta/tddreloader
 https://github.com/videlalvaro/erlang-prime-sieve
 https://github.com/videlalvaro/gen_microservice
+https://github.com/viktoriafordos/ew20
 https://github.com/vim-erlang/vim-erlang-compiler
 https://github.com/vim-erlang/vim-erlang-omnicomplete
 https://github.com/vim-erlang/vim-erlang-runtime
@@ -1328,6 +1368,7 @@ https://github.com/x6j8x/erlaws
 https://github.com/xinmingyao/zab_engine
 https://github.com/xslogic/phoebus
 https://github.com/xvw/coers
+https://github.com/xyxel/torerlo
 https://github.com/yakaz/yamerl
 https://github.com/yandex/inet64_tcp
 https://github.com/yariv/erlyweb
@@ -1341,6 +1382,8 @@ https://github.com/yueyoum/make-proxy
 https://github.com/yzh44yzh/erma
 https://github.com/yzh44yzh/practical_erlang
 https://github.com/zack-bitcoin/amoveo
+https://github.com/zack-bitcoin/amoveo-exchange
+https://github.com/zack-bitcoin/bitcoin-inheritance
 https://github.com/zadean/htmerl
 https://github.com/zadean/xqerl
 https://github.com/zadean/yaccety_sax

@@ -126,7 +126,6 @@ list_github() ->
                     , labels ='$7'
                     , size = '$8'
                     , stars = '$9'
-                    , provider = '$10'
                     , _ = '_' },
     Return = #{ repository => '$1'
               , name => '$2'
@@ -137,7 +136,7 @@ list_github() ->
               , labels => '$7'
               , size => '$8'
               , stars => '$9' 
-              , provider => '$10'
+              , provider => github
               },
     Result = mnesia:dirty_select(?MODULE, [{Match, [], [Return]}]).
 
@@ -149,7 +148,6 @@ list_gitlab() ->
                     , forks = '$6'
                     , labels ='$7'
                     , stars = '$9'
-                    , provider = '$10'
                     , _ = '_' },
     Return = #{ repository => '$1'
               , name => '$2'
@@ -157,7 +155,7 @@ list_gitlab() ->
               , forks => '$6'
               , labels => '$7'
               , stars => '$9'
-              , provider = '$10'
+              , provider => gitlab
               },
     Result = mnesia:dirty_select(?MODULE, [{Match, [], [Return]}]).
 
