@@ -32,6 +32,8 @@ https://github.com/ChicagoBoss/tinymq
 https://github.com/ChomperT/simdjson_erlang
 https://github.com/CorticalComputer/Book_NeuroevolutionThroughErlang
 https://github.com/DOBRO/binbo
+https://github.com/DOBRO/erlang-imap-utf7
+https://github.com/DOBRO/uef-lib
 https://github.com/Damienkatz/json_stream_parse
 https://github.com/Darkkey/erlamsa
 https://github.com/DonBranson/slack
