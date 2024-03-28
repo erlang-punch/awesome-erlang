@@ -163,4 +163,37 @@ projects_to_json() ->
     Github = list_github(),
     Gitlab = list_gitlab(),
     thoas:encode(lists:concat([Github, Gitlab])).
+
+seeds() ->
+    {ok, Data} = file:read_file("db/extract/repositories_extract.txt"),
+    Splitted =  string:split(Data, <<"\n">>, all),
+    [ Url || Url <- Splitted, seeds_filter(Url) ].
+
+seeds_filter(<<"https://github",_/binary>>) -> true;
+seeds_filter(<<"https://gitlab",_/binary>>) -> true;
+seeds_filter(_) -> false.
+
+
+jobs_init(Queue, Opts) ->
+    case jobs:queue_info(Queue) of
+        undefined ->
+            jobs:add_queue(Queue, Opts);
+        _ -> ok
+    end.
     
+jobs() ->    
+    application:start(jobs),
+    Opts = [{regulators, [{rate, [{limit, 50}]}]}],
+    [ jobs_init(Queue, Opts) || Queue <- [sandbox1, sandbox2, sandbox3, sandbox4] ],
+    [ fetch_repository(Url) || Url <- seeds() ].
+
+jobs_spawn(Fun) ->
+    spawn_link(fun() -> jobs:run(random_queue(), Fun) end).
+
+random_queue() ->
+    random_queue([sandbox1, sandbox2, sandbox3, sandbox4]).
+
+random_queue(Queues) ->
+    Length = length(Queues),
+    Rand = rand:uniform(Length),
+    lists:nth(Rand, Queues).
