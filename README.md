@@ -2167,6 +2167,20 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Identifying Concurrent Behaviours in Erlang Legacy
+    Systems](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4341)
+    by Zsófia Erdei, Melinda Tóth, István Bozó
+    
+  - 2024: [Reversible debugging of concurrent Erlang programs:
+    Supporting imperative
+    primitives](https://www.sciencedirect.com/science/article/abs/pii/S2352220824000026)
+    by Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio
+    Sacerdoti Coen, Giovanni Fabbretti
+
+  - 2024: [Erlang: Application-Aware Autoscaling for Cloud
+    Microservices](https://anirudhsk.github.io/papers/erlang_eurosys.pdf)
+    by Vighnesh Sachidananda and Anirudh Sivaraman
+
   - 2024: [A monitoring tool for linear-time
     𝜇HML](http://staff.um.edu.mt/afra1/papers/linearDetectErSCP2024.pdf)
     by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
