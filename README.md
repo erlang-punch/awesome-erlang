@@ -1889,6 +1889,14 @@ techniques.*
 
     </details>
 
+## Applications
+
+*Applications built with Erlang.*
+
+  - <details><summary><b><a href="https://github.com/dp-radio/eradio">eradio</a></b>: An Erlang HTTP server which streams data to multiple clients, lossily time-synchronized with low latency.</summary>
+
+    </details>
+
 # Resources
 
 *Various resources, such as books, websites and articles, for
