@@ -1124,6 +1124,11 @@ longitudes.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://github.com/gotthardp/lorawan-server">lorawan-server</a></b>: Compact server for private LoRaWAN networks.</summary>
+
+    <br/>
+    </details>
+
 
 ## ORM and Datamapping
 
