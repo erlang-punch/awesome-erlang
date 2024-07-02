@@ -2180,6 +2180,11 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Controlling everyday life objects using the Hera platform
+    on GRiSP2.0: The movement_detection
+    application](https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A46003)
+    by Isenguerre, Nicolas
+
   - 2024: [Identifying Concurrent Behaviours in Erlang Legacy
     Systems](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4341)
     by Zsófia Erdei, Melinda Tóth, István Bozó
