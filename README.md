@@ -2180,6 +2180,11 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Spatiotemporal Data Access for Map Services based on R-star
+    tree index and LSM
+    tree](https://ieeexplore.ieee.org/abstract/document/10629146) by
+    Emil Gatiala, Zoltán Balogh and Sepideh Hassankhani Dolatabadi
+
   - 2024: [Controlling everyday life objects using the Hera platform
     on GRiSP2.0: The movement_detection
     application](https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A46003)
