@@ -2180,6 +2180,15 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Nominal Types for
+    Erlang](https://www.diva-portal.org/smash/get/diva2:1890968/FULLTEXT01.pdf)
+    by Jiaxuan (Isabell) Huang
+
+  - 2024: [TOWARDS EFFICIENT ERLANG-BASED JOB-APPLICANT MATCHING:
+    INTEGRATING SERESYE, SEMANTIC WEB TOOLKIT, AND
+    MCDM](https://di.uqo.ca/id/eprint/1667/1/Eloumri_Miloud_2024_these.pdf)
+    by Miloud Eloumri
+
   - 2024: [Spatiotemporal Data Access for Map Services based on R-star
     tree index and LSM
     tree](https://ieeexplore.ieee.org/abstract/document/10629146) by
