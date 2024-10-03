@@ -1017,6 +1017,10 @@ longitudes.*
 
     </details>
 
+ - <details><summary><b><a href="https://github.com/dlachausse/erlmacs">erlmacs</a></b>:  erld is a simple script to update your .emacs file for Erlang development.</summary>
+
+    </details>
+
 ## Monitoring
 
 *Libraries for gathering metrics and monitoring.*
