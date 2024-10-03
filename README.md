@@ -2180,6 +2180,94 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Erlang on TOAST: Generating Erlang Stubs with Inline TOAST
+    Monitors](https://dl.acm.org/doi/abs/10.1145/3677995.3678192) by
+    Jonah Pears, Laura Bocchi and Raymond Hu
+
+  - 2024: [A monitoring tool for linear-time
+    μHML](https://www.sciencedirect.com/science/article/abs/pii/S0167642323001132)
+    by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
+    Adrian Francalanza and Anna Ingólfsdóttir
+
+  - 2024: [Same Same but Different: A Comparative Analysis of Static
+    Type Checkers in
+    Erlang](https://dl.acm.org/doi/abs/10.1145/3677995.3678189) by
+    Florian Berger, Albert Schimpf, Annette Bieniusa and Stefan Wehr
+
+  - 2024: [Towards Correct Dependency Orders in Erlang
+    Upgrades](https://www.inf.u-szeged.hu/~cscs/pdf/cscs2024.pdf#page=40)
+    by Daniel Ferenczi and Melinda Tóth
+
+  - 2024: [Is This Really a Refactoring? Automated Equivalence
+    Checking for Erlang
+    Projects](https://dl.acm.org/doi/abs/10.1145/3677995.3678194) by
+    Bendegúz Seres, Dániel Horpácsi and Simon Thompson
+
+  - 2024: [Modeling Erlang Compiler IR as SMT
+    Formulas](https://dl.acm.org/doi/abs/10.1145/3677995.3678193) by
+    John Högberg
+
+  - 2024: [Local Type Argument Synthesis for
+    Erlang](https://is.muni.cz/th/z0fb0/thesis.pdf) by DAVID PAVLÍK
+
+  - 2024: [Dynamic balancing in the real world with
+    GRiSP](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48907&datastream=PDF_01&cover=cover-mem)
+    by Goens, François and Ponsard, Cédric
+
+  - 2024: [Speak Now - Safe Actor Programming with Multiparty Session
+    Types](https://simonjf.com/drafts/maty-draft-jul24.pdf) by SIMON
+    FOWLER and RAYMOND HU
+
+  - 2024: [Unsafe Impedance: Safe Languages and Safe by Design
+    Software](https://dl.acm.org/doi/abs/10.1145/3677995.3678196) by
+    Lee Barney and Adolfo Neto
+
+  - 2024: [Fault-Tolerant Distributed Declarative
+    Programs](https://munin.uit.no/handle/10037/34244) by Jörg, Moritz
+
+  - 2024: [Runtime Instrumentation for Reactive Components (Extended
+    Version)](https://arxiv.org/abs/2406.19904) by Luca Aceto, Duncan
+    Paul Attard, Adrian Francalanza and Anna Ingólfsdóttir
+
+  - 2024: [Advanced Join Patterns for the Actor Model based on CEP
+    Techniques](https://www.academia.edu/download/114668356/2010.16301v1.pdf)
+    by Humberto Rodriguez Avila, Joeri De Koster and Wolfgang De
+    Meuter
+    
+  - 2024: [ReverCSP: Time-Travelling in CSP
+    Computations](https://www.academia.edu/download/113738358/978-3-030-52482-1_14.pdf)
+    by Carlos Galindo , Naoki Nishida , Josep Silva , and Salvador
+    Tamarit
+
+  - 2024: [Reversible Debugging of Erlang Programs in
+    CauDEr](https://dl.acm.org/doi/abs/10.1145/3678720.3685319) by
+    Ivan Lanese and Germán Vidal
+
+  - 2024: [GRAPH-BASED DUPLICATED CODE DETECTION WITH
+    RefactorErl](http://ac.inf.elte.hu/Vol_057_2024/143_57.pdf) by
+    Isvtan Bozo, Zsofia Erdei and Melinda Toth
+
+  - 2024: [Safe Process State Upgrades Through Static
+    Analysis](https://ieeexplore.ieee.org/abstract/document/10619854)
+    by Daniel Ferenczi and Melinda Tóth
+
+  - 2024: [Practical Steps towards Establishing an Underwater Acoustic
+    Network in the Context of the Marine Internet of
+    Things](https://www.mdpi.com/2076-3417/14/8/3527) by Konstantin
+    Kebkal , Aleksey Kabanov , Oleg Kramar , Maksim Dimin , Timur
+    Abkerimov , Vadim Kramar and Veronika Kebkal-Akbari
+   
+  - 2024: [Clear Programming Language: Connecting Refinement Types
+    With Generators for Property-Based
+    Testing](https://www.duo.uio.no/bitstream/handle/10852/112639/1/thesis_Triera-Gashi.pdf)
+    by Triera Gashi
+
+  - 2024: [Effective integration of low-cost digital manufacturing
+    systems: a reference architecture driven
+    approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785#abstract)
+    by J. Kaiser , G. Hawkridge , D. McFarlane , F. Schnicke and
+    K. Kruger
+
   - 2024: [Nominal Types for
     Erlang](https://www.diva-portal.org/smash/get/diva2:1890968/FULLTEXT01.pdf)
     by Jiaxuan (Isabell) Huang
