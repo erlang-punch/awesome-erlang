@@ -2191,6 +2191,16 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [A New Architecture Reconciling Refactorings and
+    Transformations](https://rmod-files.lille.inria.fr/Team/Texts/Papers/Saren24a-COLA-NewArchitecture.pdf)
+    by Balša Šarenac, Nicolas Anquetil, Stéphane Ducasse and Pablo
+    Tesone
+
+  - 2024: [HotCI: An automated tool for reliable software
+    upgrade/downgrade in Erlang
+    OTP](https://webperso.info.ucl.ac.be/~pvr/Zenon_06041900_2024.pdf)
+    by Alexandre Zenon
+
   - 2024: [Erlang on TOAST: Generating Erlang Stubs with Inline TOAST
     Monitors](https://dl.acm.org/doi/abs/10.1145/3677995.3678192) by
     Jonah Pears, Laura Bocchi and Raymond Hu
@@ -2333,6 +2343,23 @@ communities to install/package it*
     Distributed, Concurrent
     Systems](https://link.springer.com/chapter/10.1007/978-3-031-51060-1_4)
     by Guido Salvaneschi & Pascal Weisenburger
+
+  - 2023: [Designing Distributed Systems that
+    Scale](https://harrybairstow.com/papers/designing-distributed-systems-that-scale.pdf)
+    by Harry Bairstow
+
+  - 2023: [MULTIPLAYER MODULE FOR SCIENCE4PANDEMICS’
+    GAME](https://estudogeral.uc.pt/retrieve/265531/Joao_Calhau_thesis_corrected.pdf)
+    by João Rafael Santos Calhau
+    
+  - 2023: [X.509 Certificate-Based Authentication for NETCONF and
+    RESTCONF Design Evaluation between Native and External
+    Implementation](https://www.diva-portal.org/smash/get/diva2:1791392/FULLTEXT01.pdf)
+    by Qi Li
+
+  - 2023: [A Frame Stack Semantics for Sequential Core
+    Erlang](https://dl.acm.org/doi/pdf/10.1145/3652561.3652566) by
+    Péter Bereczky, Dániel Horpácsi and Simon Thompson
 
   - 2023: [Runtime Monitoring for Asynchronous Reactive
     Components](https://www.um.edu.mt/library/oar/bitstream/123456789/117964/1/2301ICTCPS600005008983_1%20%281%29.PDF)
