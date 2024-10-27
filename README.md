@@ -975,7 +975,7 @@ longitudes.*
     <br/>
     </details>
 
-  - <details><summary><b><a href="https://github.com/basho/lager">lager</a></b>: A logging framework for Erlang/OTP.</summary>
+  - <details><summary><b><a href="https://github.com/expelledboy/erlang_json_logger">erlang_json_logger</a></b>: A custom erlang logger formatter which prints JSON.</summary>
         Typically Log Shippers like Filebeat, Fluentd, Logstash, etc. expect logs to be in JSON format. This is a custom logger formatter for Erlang that prints JSON.
     </details>
 
