@@ -2194,6 +2194,19 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Sensor fusion for three-dimensional movement of human
+    beings on an Internet of Things
+    network](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48856&datastream=PDF_01&cover=cover-mem)
+    by Sonnet, Hadrien
+
+  - 2024: [Strategies for managing per-process memory in
+    Erlang](https://www.diva-portal.org/smash/get/diva2:1907585/FULLTEXT01.pdf)
+    by Qiang Xu
+
+  - 2024: [Program Equivalence in the Erlang Actor
+    Model](https://www.mdpi.com/2073-431X/13/11/276) by Peter
+    Bereczky, Daniel Horpácsi and Simon Thompson
+
   - 2024: [A New Architecture Reconciling Refactorings and
     Transformations](https://rmod-files.lille.inria.fr/Team/Texts/Papers/Saren24a-COLA-NewArchitecture.pdf)
     by Balša Šarenac, Nicolas Anquetil, Stéphane Ducasse and Pablo
