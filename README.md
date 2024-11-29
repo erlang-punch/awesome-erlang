@@ -2194,6 +2194,10 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [Analysing the Energy Usage of the Erlang
+    BEAM](https://ceur-ws.org/Vol-3845/paper16.pdf) by Gharbi Youssef,
+    Melinda Tóth and István Bozó
+
   - 2024: [Sensor fusion for three-dimensional movement of human
     beings on an Internet of Things
     network](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48856&datastream=PDF_01&cover=cover-mem)
