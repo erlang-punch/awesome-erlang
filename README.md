@@ -59,7 +59,7 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
     - [Community](#community)
     - [Erlang Reading](#erlang-reading)
     - [Installers (and Packagers)](#installers-and-packagers)
-    - [Papers](#papers)
+    - [Publications](#publications)
     - [Screencasts](#screencasts)
     - [Web Reading](#web-reading)
     - [Websites](#websites)
@@ -2147,15 +2147,16 @@ communities to install/package it*
     Installing Erlang on Android with termux.
 
 
-## Papers
+## Publications
 
 *Erlang-related academic and scientific materials*
 
-<details><summary>Academic paper summary</summary>
+<details><summary>Academic paper summary (1184)</summary>
 
 | date | #papers |
 |------|---------|
-| 2023 |      21 |
+| 2024 |      38 |
+| 2023 |      43 |
 | 2022 |      34 |
 | 2021 |      24 |
 | 2020 |      31 |
@@ -2193,6 +2194,9 @@ communities to install/package it*
   - see also: https://erlef.org/academic-papers/
 
 </details>
+
+  - 2024: [Green computing for Erlang](https://ceur-ws.org/Vol-3867/paper3.pdf)
+   by Gharbi Youssef, István Bozó and Melinda Tóth
 
   - 2024: [Analysing the Energy Usage of the Erlang
     BEAM](https://ceur-ws.org/Vol-3845/paper16.pdf) by Gharbi Youssef,
