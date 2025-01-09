@@ -1973,6 +1973,11 @@ improving your Erlang development skills and knowledge.*
     ANGER](http://www.erlang-in-anger.com/) - This book intends to be
     a little guide about how to be the Erlang medic in a time of war.
 
+  - [The BEAM Book](https://github.com/happi/theBeamBook)
+    by Erik Stenman et al. - This is an attempt to document the internals
+    of the Erlang runtime system and the Erlang virtual machine
+    known as the BEAM.
+
   - [The Erlanger
     Playbook](https://ninenines.eu/articles/erlanger-playbook/) by
     Loïc Hoguin
