@@ -2200,6 +2200,11 @@ communities to install/package it*
 
 </details>
 
+  - 2024: [User Space SCTP Integration in Erlang for Containerized
+    Telecom
+    Applications](https://www.diva-portal.org/smash/get/diva2:1939995/FULLTEXT02)
+    by WILLIAM ASP
+
   - 2024: [Green computing for Erlang](https://ceur-ws.org/Vol-3867/paper3.pdf)
    by Gharbi Youssef, István Bozó and Melinda Tóth
 
