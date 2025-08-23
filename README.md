@@ -2200,6 +2200,13 @@ communities to install/package it*
 
 </details>
 
+  - 2025: [Correct Black-Box Monitors for Distributed Deadlock
+    Detection: Formalisation and Implementation
+    (Technical Report)](https://arxiv.org/pdf/2508.14851) by
+    RADOSŁAW JAN ROWICKI,
+    ADRIAN FRANCALANZA and
+    ALCESTE SCALAS,
+
   - 2024: [User Space SCTP Integration in Erlang for Containerized
     Telecom
     Applications](https://www.diva-portal.org/smash/get/diva2:1939995/FULLTEXT02)
