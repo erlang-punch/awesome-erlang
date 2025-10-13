@@ -2200,6 +2200,10 @@ communities to install/package it*
 
 </details>
 
+  - 2025: [A Stop-the-World Debugger for Erlang (and the
+    BEAM)](https://dl.acm.org/doi/pdf/10.1145/3759161.3763047) by
+    Daniel Gorin, Bjorn Gustavsson and Roberto Aloi
+
   - 2025: [Correct Black-Box Monitors for Distributed Deadlock
     Detection: Formalisation and Implementation
     (Technical Report)](https://arxiv.org/pdf/2508.14851) by
