@@ -2200,6 +2200,10 @@ communities to install/package it*
 
 </details>
 
+  - 2025: [NVLang: Unified Static Typing for Actor-Based Concurrency
+    on the BEAM](https://arxiv.org/abs/2512.05224) by Miguel de
+    Oliveira Guerreiro
+
   - 2025: [A Stop-the-World Debugger for Erlang (and the
     BEAM)](https://dl.acm.org/doi/pdf/10.1145/3759161.3763047) by
     Daniel Gorin, Bjorn Gustavsson and Roberto Aloi
