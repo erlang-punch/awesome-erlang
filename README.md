@@ -1817,6 +1817,11 @@ techniques.*
 
 *Libraries providing translations or internationalizations.*
 
+  - <details><summary><b><a href="https://github.com/eagle-head/erli18n">erli18n</a></b>: GNU gettext-compatible internationalization (i18n) library for Erlang/OTP, in pure Erlang.</summary>
+
+    <br/>
+    </details>
+
 
 ## Web Frameworks
 
