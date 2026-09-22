@@ -1,11 +1,23 @@
-awesome
-=====
+# Awesome Erlang Application
 
-An Erlang application to generate awesome list. The goal is to offer a
-simple interface with a textual database to deal with the awesome list
-content.
+An Erlang application to manage the Erlang Awesome List. The goal is to
+offer an interfaces to automatically import/export information from
+erlang resources like projects, books, publications and so on.
 
-Build
------
+## Usage
 
-    $ rebar3 compile
+```console
+```
+
+## Build
+
+```console
+$ rebar3 compile
+```
+
+## Test
+
+```console
+```
+
+# References and Resources
