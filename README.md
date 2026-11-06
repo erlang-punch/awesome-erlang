@@ -1179,6 +1179,11 @@ techniques.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://github.com/Taure/kura">kura</a></b>: Ecto-style database layer with schemas, changesets, composable queries and migrations for PostgreSQL and SQLite.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/joewilliams/merle">merle</a></b>: An Erlang Memcached Client.</summary>
 
     <br/>
