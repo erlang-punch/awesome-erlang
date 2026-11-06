@@ -602,6 +602,11 @@ from [awesome-erlang](https://github.com/drobakowski/awesome-erlang).
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/Taure/minato">minato</a></b>: Independent PostgreSQL client.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/hachreak/minidb">minidb</a></b>: A minimal in-memory distributed master-less document database</summary>
 
     </details>
