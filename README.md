@@ -1439,6 +1439,11 @@ techniques.*
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/Taure/rebar3_audit">rebar3_audit</a></b>: Audit rebar3 dependencies against the GitHub Advisory Database.</summary>
+
+    <br/>
+    </details>
+
 ## Testing
 
 *Libraries for testing codebases and generating test data.*
