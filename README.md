@@ -1223,6 +1223,11 @@ techniques.*
     <br/>
     </details>
 
+  - <details><summary><b><a href="https://github.com/Taure/shigoto">shigoto</a></b>: PostgreSQL-backed background job queue with retries, cron, unique jobs and batches, in the style of Oban.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/ChicagoBoss/tinymq">tinymq</a></b>: A diminutive, in-memory message queue for Erlang.</summary>
 
     <br/>
