@@ -1027,6 +1027,11 @@ longitudes.*
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/Taure/seki">seki</a></b>: Circuit breaker, rate limiter, bulkhead and retry with telemetry.</summary>
+
+    <br/>
+    </details>
+
  - <details><summary><b><a href="https://github.com/dlachausse/erlmacs">erlmacs</a></b>:  erld is a simple script to update your .emacs file for Erlang development.</summary>
 
     </details>
