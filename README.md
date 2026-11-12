@@ -1291,6 +1291,11 @@ techniques.*
 
     </details>
 
+  - <details><summary><b><a href="https://github.com/Taure/rebar3_mutate">rebar3_mutate</a></b>: Mutation testing plugin for rebar3.</summary>
+
+    <br/>
+    </details>
+
   - <details><summary><b><a href="https://github.com/ferd/rebar3_proper">rebar3_proper</a></b>: Run PropEr test suites with rebar3.</summary>
 
     </details>
