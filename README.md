@@ -2122,10 +2122,10 @@ communities to install/package it*
 
 ### Linux/Ubuntu
 
-  - [Erlang package (23.10/mantic)](https://packages.ubuntu.com/mantic/erlang)
-  - [Erlang package (23.04/lunar)](https://packages.ubuntu.com/mantic/erlang)
-  - [Erlang package (22.10/kinetic)](https://packages.ubuntu.com/kinetic/erlang)
-  - [Erlang package (22.04/jamm)](https://packages.ubuntu.com/jammy/erlang)
+  - [Erlang package (26.10/stonking)](https://packages.ubuntu.com/stonking/erlang)
+  - [Erlang package (26.04/resolute)](https://packages.ubuntu.com/resolute/erlang)
+  - [Erlang package (24.04/noble)](https://packages.ubuntu.com/noble/erlang)
+  - [Erlang package (22.04/jammy)](https://packages.ubuntu.com/jammy/erlang)
   - [Erlang package (20.04/focal)](https://packages.ubuntu.com/focal/erlang)
 
   - [Ubuntu Bug Tracker](https://launchpad.net/ubuntu/+source/erlang/+bugs)
