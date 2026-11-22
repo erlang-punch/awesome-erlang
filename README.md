@@ -2235,412 +2235,281 @@ communities to install/package it*
 
 </details>
 
-  - 2025: [NVLang: Unified Static Typing for Actor-Based Concurrency
-    on the BEAM](https://arxiv.org/abs/2512.05224) by Miguel de
-    Oliveira Guerreiro
+  - 2026: [Modern Erlang Teaching from Code Refactoring to Actor System Verification](https://dl.acm.org/doi/pdf/10.1145/3830434.3830946) by Sergey Starotelov
 
-  - 2025: [A Stop-the-World Debugger for Erlang (and the
-    BEAM)](https://dl.acm.org/doi/pdf/10.1145/3759161.3763047) by
-    Daniel Gorin, Bjorn Gustavsson and Roberto Aloi
+  - 2026: [Set-Theoretic Types for Erlang in Practice](https://dl.acm.org/doi/pdf/10.1145/3828708) by ALBERT SCHIMPF and ANNETTE BIENIUSA
 
-  - 2025: [Correct Black-Box Monitors for Distributed Deadlock
-    Detection: Formalisation and Implementation
-    (Technical Report)](https://arxiv.org/pdf/2508.14851) by
-    RADOSŁAW JAN ROWICKI,
-    ADRIAN FRANCALANZA and
-    ALCESTE SCALAS,
+  - 2026: [Set-Theoretic Type Checking of Beginner Erlang Code: A Retrospective Study](https://dl.acm.org/doi/pdf/10.1145/3830434.3830945) by Albert Schimpf, Stefan Wehr and Annette Bieniusa
 
-  - 2024: [User Space SCTP Integration in Erlang for Containerized
-    Telecom
-    Applications](https://www.diva-portal.org/smash/get/diva2:1939995/FULLTEXT02)
-    by WILLIAM ASP
+  - 2026: [Set-Theoretic Types for Erlang: Theory, Implementation, and Evaluation](https://arxiv.org/pdf/2603.22032) by Albert Schimpf, Stefan Wehr and Annette Bieniusa
 
-  - 2024: [Green computing for Erlang](https://ceur-ws.org/Vol-3867/paper3.pdf)
-   by Gharbi Youssef, István Bozó and Melinda Tóth
+  - 2026: [Towards Exact Semantic Equivalence of Erlang BEAM Constructs](https://dl.acm.org/doi/pdf/10.1145/3830434.3830941) by Gregory Morse and Melinda Toth
 
-  - 2024: [Analysing the Energy Usage of the Erlang
-    BEAM](https://ceur-ws.org/Vol-3845/paper16.pdf) by Gharbi Youssef,
-    Melinda Tóth and István Bozó
+  - 2026: [Erlang Binary and Source Code Obfuscation](https://arxiv.org/pdf/2604.13675) by Gregory Morse
 
-  - 2024: [Sensor fusion for three-dimensional movement of human
-    beings on an Internet of Things
-    network](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48856&datastream=PDF_01&cover=cover-mem)
-    by Sonnet, Hadrien
+  - 2026: [Properly Defining Erlang Lists](https://arxiv.org/pdf/2611.04929) by Albert Schimpf, Stefan Wehr and Annette Bieniusa
 
-  - 2024: [Strategies for managing per-process memory in
-    Erlang](https://www.diva-portal.org/smash/get/diva2:1907585/FULLTEXT01.pdf)
-    by Qiang Xu
+  - 2026: [Introducing Time Passage to the Reversible Semantics for Erlang](https://link.springer.com/chapter/10.1007/978-3-032-30839-9_17) by Yuna Sadamoto, Shoji Yuen and Claudio Antares Mezzina 
 
-  - 2024: [Program Equivalence in the Erlang Actor
-    Model](https://www.mdpi.com/2073-431X/13/11/276) by Peter
-    Bereczky, Daniel Horpácsi and Simon Thompson
+  - 2026: [EMoL: Erlang Messaging and Monitoring over LoRa](https://dl.acm.org/doi/pdf/10.1145/3830434.3830943) by Daniel Ferenczi, Gergely Ruda and Melinda Tóth
 
-  - 2024: [A New Architecture Reconciling Refactorings and
-    Transformations](https://rmod-files.lille.inria.fr/Team/Texts/Papers/Saren24a-COLA-NewArchitecture.pdf)
-    by Balša Šarenac, Nicolas Anquetil, Stéphane Ducasse and Pablo
-    Tesone
+  - 2026: [Sufficiently Advanced Agents Are Indistinguishable from Erlang: An Operational Mapping from OTP to Multi-agent LLM Systems](https://dl.acm.org/doi/pdf/10.1145/3843778.3856135) by Mick Darling
 
-  - 2024: [HotCI: An automated tool for reliable software
-    upgrade/downgrade in Erlang
-    OTP](https://webperso.info.ucl.ac.be/~pvr/Zenon_06041900_2024.pdf)
-    by Alexandre Zenon
+  - 2026: [Towards Simplified Development of Fault-Tolerant Microcontroller Networks](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6910407) by Daniel Ferenczi, Gergely Ruda and Melinda Tóth
 
-  - 2024: [Erlang on TOAST: Generating Erlang Stubs with Inline TOAST
-    Monitors](https://dl.acm.org/doi/abs/10.1145/3677995.3678192) by
-    Jonah Pears, Laura Bocchi and Raymond Hu
+  - 2026: [A Mechanised Semantics of Erlang’s References](https://dl.acm.org/doi/pdf/10.1145/3830434.3830944) by Daniel Lukacs, Peter Berecszky and Daniel Horpacsi
 
-  - 2024: [A monitoring tool for linear-time
-    μHML](https://www.sciencedirect.com/science/article/abs/pii/S0167642323001132)
-    by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
-    Adrian Francalanza and Anna Ingólfsdóttir
+  - 2026: [East of Eden: Parallel Functional Programming in Idris](https://link.springer.com/content/pdf/10.1007/s10766-026-00815-9.pdf) by Christopher Brown and Adam D. Barwell
 
-  - 2024: [Same Same but Different: A Comparative Analysis of Static
-    Type Checkers in
-    Erlang](https://dl.acm.org/doi/abs/10.1145/3677995.3678189) by
-    Florian Berger, Albert Schimpf, Annette Bieniusa and Stefan Wehr
+  - 2026: [Understanding the programming techniques for client-server architectures](https://www.witpress.com/Secure/elibrary/papers/SEHE95/SEHE95037FU.pdf) by V. Dobrota, S.D. Bate, M. Cosma and D. Zinc
 
-  - 2024: [Towards Correct Dependency Orders in Erlang
-    Upgrades](https://www.inf.u-szeged.hu/~cscs/pdf/cscs2024.pdf#page=40)
-    by Daniel Ferenczi and Melinda Tóth
+  - 2026: [Mixed Choice in Asynchronous Multiparty Session Types](https://dl.acm.org/doi/pdf/10.1145/3798256) by Laura Bocchi, Raymond Hu, Adriana Laura Voinea and Simon Thompson
 
-  - 2024: [Is This Really a Refactoring? Automated Equivalence
-    Checking for Erlang
-    Projects](https://dl.acm.org/doi/abs/10.1145/3677995.3678194) by
-    Bendegúz Seres, Dániel Horpácsi and Simon Thompson
+  - 2026: [In Perfect Harmony: Orchestrating Causality in Actor-Based Systems](https://arxiv.org/pdf/2603.17909) by Vladyslav Mikytiv, Bernardo Toninho and Carla Ferreira
 
-  - 2024: [Modeling Erlang Compiler IR as SMT
-    Formulas](https://dl.acm.org/doi/abs/10.1145/3677995.3678193) by
-    John Högberg
+  - 2026: [CloudMicroHaskell](https://dl.acm.org/doi/pdf/10.1145/3830439.3831272) by Robert Krook and Lennart Augustsson
 
-  - 2024: [Local Type Argument Synthesis for
-    Erlang](https://is.muni.cz/th/z0fb0/thesis.pdf) by DAVID PAVLÍK
+  - 2026: [My RealDash web service](https://www.theseus.fi/server/api/core/bitstreams/f0610d88-e8df-4d6c-981b-0f825cc60788/content) by Jani Immonen
 
-  - 2024: [Dynamic balancing in the real world with
-    GRiSP](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48907&datastream=PDF_01&cover=cover-mem)
-    by Goens, François and Ponsard, Cédric
+  - 2026: [Broadband-ISDN functional model simulator with IN capabilitie](https://www.witpress.com/Secure/elibrary/papers/AI95/AI95051FU.pdf) by V. Dobrota, C. Miron and A. Vlaicu
 
-  - 2024: [Speak Now - Safe Actor Programming with Multiparty Session
-    Types](https://simonjf.com/drafts/maty-draft-jul24.pdf) by SIMON
-    FOWLER and RAYMOND HU
+  - 2026: [Green Benchmarking of BEAM Languages](https://dl.acm.org/doi/pdf/10.1145/3830434.3830942) by Youssef Gharbi, Istvan Bozo and Melinda Toth
 
-  - 2024: [Unsafe Impedance: Safe Languages and Safe by Design
-    Software](https://dl.acm.org/doi/abs/10.1145/3677995.3678196) by
-    Lee Barney and Adolfo Neto
+  - 2026: [Concurrency Is Process-Based, Not Shared-Memory-First](https://www.japl-lang.org/papers/pdf/process-concurrency.pdf) by Matthew Long
 
-  - 2024: [Fault-Tolerant Distributed Declarative
-    Programs](https://munin.uit.no/handle/10037/34244) by Jörg, Moritz
+  - 2026: [Proof of Delivery: Mechanized Mailbox Types](https://simonjf.com/writing/proof-of-delivery.pdf) by Edgard Schiebelbein, Annette Bieniusa and Simon Fowler
 
-  - 2024: [Runtime Instrumentation for Reactive Components (Extended
-    Version)](https://arxiv.org/abs/2406.19904) by Luca Aceto, Duncan
-    Paul Attard, Adrian Francalanza and Anna Ingólfsdóttir
+  - 2025: [Deriving an Erlang Interpreter from a Mechanised Formal Semantics of Core Erlang](https://dl.acm.org/doi/pdf/10.1145/3759161.3763046) by Gergő Lajos Turán, Arsenii Fomin, Péter Bereczky, Dániel Horpácsi and Simon Thompson
 
-  - 2024: [Advanced Join Patterns for the Actor Model based on CEP
-    Techniques](https://www.academia.edu/download/114668356/2010.16301v1.pdf)
-    by Humberto Rodriguez Avila, Joeri De Koster and Wolfgang De
-    Meuter
+  - 2025: [Measuring Erlang-Based Scalability and Fault Tolerance on the Edge](https://www.mdpi.com/1424-8220/25/15/4843) by Daniel Ferenczi, Gergely Ruda and Melinda Tóth
+
+  - 2025: [Proof Assistant-Based Formalisation of Core Erlang](https://www.inf.elte.hu/dstore/document/327522/Bereczky%20P%C3%A9ter%20-%20dissertation.pdf) by PÉTER BERECZKY
+
+  - 2025: [Semantic Subtyping for Maps in Erlang](https://arxiv.org/pdf/2508.00482) by ERDEM YILDIRIM, ALBERT SCHIMPF, STEFAN WEHR, and ANNETTE BIENIUSA
+
+  - 2025: [Mechanised Proofs of Atom Exhaustion in Erlang](https://dl.acm.org/doi/pdf/10.1145/3759161.3763045) by Arsenii Fomin, Péter Bereczky, Dániel Horpácsi and Gergő Lajos Turán
+
+  - 2025: [NVLang: Unified Static Typing for Actor-Based Concurrency on the BEAM](https://arxiv.org/abs/2512.05224) by Miguel de Oliveira Guerreiro
+
+  - 2025: [A Stop-the-World Debugger for Erlang (and the BEAM)](https://dl.acm.org/doi/pdf/10.1145/3759161.3763047) by Daniel Gorin, Bjorn Gustavsson and Roberto Aloi
+
+  - 2025: [CESAn: A Core Erlang Semantics Analyser](https://link.springer.com/chapter/10.1007/978-3-031-99717-4_6) by Aurélie Kong Win Chang, Jérôme Feret and Gregor Gössler 
+
+  - 2025: [Causal explanations for concurrent programs in Erlang](https://theses.hal.science/tel-05262517/) by Aurélie Kong Win Chang 
+
+  - 2025: [Towards Correct Dependency Orders in Erlang Upgrades](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4526/4121) by Daniel Ferencziab and Melinda Toth
+
+  - 2025: [Correct Black-Box Monitors for Distributed Deadlock Detection: Formalisation and Implementation (Technical Report)](https://arxiv.org/pdf/2508.14851) by RADOSŁAW JAN ROWICKI, ADRIAN FRANCALANZA and ALCESTE SCALAS
+
+  - 2025: [Jagerman Approximation of Erlang Processes in On-Board Computing Systems Models](https://ieeexplore.ieee.org/abstract/document/10948064) by Andrei G. Erokhin and Margarita F. Vanina
+  
+  - 2025: [A Stop-the-World Debugger for Erlang (and the BEAM)](https://dl.acm.org/doi/pdf/10.1145/3759161.3763047) by Daniel Gorin, Björn Gustavsson and Roberto Aloi
+
+  - 2025: [Erlang Model for Multi-type Data Flow](https://arxiv.org/pdf/2411.00792) by Liuquan Yao, Pei Yang, Zhichao Liu, Wenyan Li, Jianghua Liu, and Zhi-Ming Ma
+
+  - 2025: [Distributed, Coordination-Free Programming: 10 Years of Progress Since Lasp](https://dl.acm.org/doi/pdf/10.1145/3756907.3756910) by Christopher Meiklejohn and Peter Van Roy
+
+  - 2025: [Selecting Execution Path for Replaying Errors](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4528/4118) by Zsofia Erdeiab, Istvan Bozoac and Melinda Toth
+
+  - 2025: [NVLang: Unified Static Typing for Actor-Based Concurrency on the BEAM](https://arxiv.org/pdf/2512.05224) by Miguel de Oliveira Guerreiro
+
+  - 2025: [The ∆Q Oscilloscope: Real-Time Observation of Large Erlang Applications using ∆QSD](https://thesis.dial.uclouvain.be/server/api/core/bitstreams/7f880e10-4d94-4528-9685-d892368d9873/content) by Francesco NIERI
+
+  - 2025: [Shica – Improving the Programming Experience for Agent-Based, Distributed, Physical Computing Systems](https://drops.dagstuhl.de/storage/01oasics/oasics-vol134-programming2025/OASIcs.Programming.2025.10/OASIcs.Programming.2025.10.pdf) by Hiroto Shikada and Ian Piumarta
+
+  - 2025: [A Veriﬁcation of a Process Supervisor](https://babel.ls.fi.upm.es/~fred/prole2010.pdf) by David Castro, Clara Benac Earle, Lars-Ake Fredlund, Victor M. Gulias and Samuel Rivas
+
+  - 2025: [Evaluating AtomVM for Fault-Tolerant ESP32-Based Systems](https://dl.acm.org/doi/pdf/10.1145/3759161.3763048) by Daniel Ferenczi, Gergely Ruda and Melinda Tóth
+
+  - 2025: [WALTZ: Formalizing the Dance Between Actors and Messages](https://web.tecnico.ulisboa.pt/~bernardo.toninho/papers/inforum25-actor.pdf) by Vladyslav Mikytiv, Bernardo Toninho, and Carla Ferreira 
+
+  - 2024: [Is this really a refactoring? Automated equivalence checking for erlang projects](https://dl.acm.org/doi/pdf/10.1145/3677995.3678194) by Bendegúz Seres, Dániel Horpácsi and Simon Thompson
+
+  - 2024: [Program equivalence in the Erlang actor model](https://www.mdpi.com/2073-431X/13/11/276) by y Péter Bereczky , Dániel Horpácsi and Simon Thompson
+
+  - 2024: [Identifying concurrent behaviours in erlang legacy systems](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4341/4084) by Zsofia Erdeiab , Melinda Tothac , and Istvan Bozo
+
+  - 2024: [Transforming Erlang Server Applications](https://ieeexplore.ieee.org/abstract/document/10791346) by Zsófia Erdei, István Bozó and Melinda Tóth
+
+  - 2024: [Supporting secure coding for Erlang](https://dl.acm.org/doi/pdf/10.1145/3605098.3636185) by Melinda Tóth and István Bozó
+
+  - 2024: [Identifying client-server behaviours in legacy erlang systems](https://acta.bibl.u-szeged.hu/86979/1/cybernetica_026_numb_003_405-429.pdf) by Zsofia Erdeiab , Melinda Tothac , and Istvan Bozo
+
+  - 2024: [Supporting the debugging of erlang programs by symbolic execution](https://real-j.mtak.hu/28955/1/Info%202024_16-1_egyben.pdf#page=48) by Zsófia ERDEI, Melinda TÓTH and István BOZÓ
+
+  - 2024: [User Space SCTP Integration in Erlang for Containerized Telecom Applications](https://www.diva-portal.org/smash/get/diva2:1939995/FULLTEXT02) by WILLIAM ASP
+
+  - 2024: [Green computing for Erlang](https://ceur-ws.org/Vol-3867/paper3.pdf) by Gharbi Youssef, István Bozó and Melinda Tóth
+
+  - 2024: [Analysing the Energy Usage of the Erlang BEAM](https://ceur-ws.org/Vol-3845/paper16.pdf) by Gharbi Youssef, Melinda Tóth and István Bozó
+
+  - 2024: [Sensor fusion for three-dimensional movement of human beings on an Internet of Things network](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48856&datastream=PDF_01&cover=cover-mem) by Sonnet, Hadrien
+
+  - 2024: [Strategies for managing per-process memory in Erlang](https://www.diva-portal.org/smash/get/diva2:1907585/FULLTEXT01.pdf) by Qiang Xu
+
+  - 2024: [Program Equivalence in the Erlang Actor Model](https://www.mdpi.com/2073-431X/13/11/276) by Peter Bereczky, Daniel Horpácsi and Simon Thompson
+
+  - 2024: [A New Architecture Reconciling Refactorings and Transformations](https://rmod-files.lille.inria.fr/Team/Texts/Papers/Saren24a-COLA-NewArchitecture.pdf) by Balša Šarenac, Nicolas Anquetil, Stéphane Ducasse and Pablo Tesone
+
+  - 2024: [HotCI: An automated tool for reliable software upgrade/downgrade in Erlang OTP](https://webperso.info.ucl.ac.be/~pvr/Zenon_06041900_2024.pdf) by Alexandre Zenon
+
+  - 2024: [Erlang on TOAST: Generating Erlang Stubs with Inline TOAST Monitors](https://dl.acm.org/doi/abs/10.1145/3677995.3678192) by Jonah Pears, Laura Bocchi and Raymond Hu
+
+  - 2024: [A monitoring tool for linear-time μHML](https://www.sciencedirect.com/science/article/abs/pii/S0167642323001132) by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard, Adrian Francalanza and Anna Ingólfsdóttir
+
+  - 2024: [Same Same but Different: A Comparative Analysis of Static Type Checkers in Erlang](https://dl.acm.org/doi/abs/10.1145/3677995.3678189) by Florian Berger, Albert Schimpf, Annette Bieniusa and Stefan Wehr
+
+  - 2024: [Towards Correct Dependency Orders in Erlang Upgrades](https://www.inf.u-szeged.hu/~cscs/pdf/cscs2024.pdf#page=40) by Daniel Ferenczi and Melinda Tóth
+
+  - 2024: [Is This Really a Refactoring? Automated Equivalence Checking for Erlang Projects](https://dl.acm.org/doi/abs/10.1145/3677995.3678194) by Bendegúz Seres, Dániel Horpácsi and Simon Thompson
+
+  - 2024: [Modeling Erlang Compiler IR as SMT Formulas](https://dl.acm.org/doi/abs/10.1145/3677995.3678193) by John Högberg
+
+  - 2024: [Local Type Argument Synthesis for Erlang](https://is.muni.cz/th/z0fb0/thesis.pdf) by DAVID PAVLÍK
+
+  - 2024: [Dynamic balancing in the real world with GRiSP](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A48907&datastream=PDF_01&cover=cover-mem) by Goens, François and Ponsard, Cédric
+
+  - 2024: [Speak Now - Safe Actor Programming with Multiparty Session Types](https://simonjf.com/drafts/maty-draft-jul24.pdf) by SIMON FOWLER and RAYMOND HU
+
+  - 2024: [Unsafe Impedance: Safe Languages and Safe by Design Software](https://dl.acm.org/doi/abs/10.1145/3677995.3678196) by Lee Barney and Adolfo Neto
+
+  - 2024: [Fault-Tolerant Distributed Declarative Programs](https://munin.uit.no/handle/10037/34244) by Jörg, Moritz
+
+  - 2024: [Runtime Instrumentation for Reactive Components (Extended Version)](https://arxiv.org/abs/2406.19904) by Luca Aceto, Duncan Paul Attard, Adrian Francalanza and Anna Ingólfsdóttir
+
+  - 2024: [Advanced Join Patterns for the Actor Model based on CEP Techniques](https://www.academia.edu/download/114668356/2010.16301v1.pdf) by Humberto Rodriguez Avila, Joeri De Koster and Wolfgang De Meuter
     
-  - 2024: [ReverCSP: Time-Travelling in CSP
-    Computations](https://www.academia.edu/download/113738358/978-3-030-52482-1_14.pdf)
-    by Carlos Galindo , Naoki Nishida , Josep Silva , and Salvador
-    Tamarit
+  - 2024: [ReverCSP: Time-Travelling in CSP Computations](https://www.academia.edu/download/113738358/978-3-030-52482-1_14.pdf) by Carlos Galindo , Naoki Nishida , Josep Silva , and Salvador Tamarit
 
-  - 2024: [Reversible Debugging of Erlang Programs in
-    CauDEr](https://dl.acm.org/doi/abs/10.1145/3678720.3685319) by
-    Ivan Lanese and Germán Vidal
+  - 2024: [Reversible Debugging of Erlang Programs in CauDEr](https://dl.acm.org/doi/abs/10.1145/3678720.3685319) by Ivan Lanese and Germán Vidal
 
-  - 2024: [GRAPH-BASED DUPLICATED CODE DETECTION WITH
-    RefactorErl](http://ac.inf.elte.hu/Vol_057_2024/143_57.pdf) by
-    Isvtan Bozo, Zsofia Erdei and Melinda Toth
+  - 2024: [GRAPH-BASED DUPLICATED CODE DETECTION WITH RefactorErl](http://ac.inf.elte.hu/Vol_057_2024/143_57.pdf) by Isvtan Bozo, Zsofia Erdei and Melinda Toth
 
-  - 2024: [Safe Process State Upgrades Through Static
-    Analysis](https://ieeexplore.ieee.org/abstract/document/10619854)
-    by Daniel Ferenczi and Melinda Tóth
+  - 2024: [Safe Process State Upgrades Through Static Analysis](https://ieeexplore.ieee.org/abstract/document/10619854) by Daniel Ferenczi and Melinda Tóth
 
-  - 2024: [Practical Steps towards Establishing an Underwater Acoustic
-    Network in the Context of the Marine Internet of
-    Things](https://www.mdpi.com/2076-3417/14/8/3527) by Konstantin
-    Kebkal , Aleksey Kabanov , Oleg Kramar , Maksim Dimin , Timur
-    Abkerimov , Vadim Kramar and Veronika Kebkal-Akbari
+  - 2024: [Practical Steps towards Establishing an Underwater Acoustic Network in the Context of the Marine Internet of Things](https://www.mdpi.com/2076-3417/14/8/3527) by Konstantin Kebkal , Aleksey Kabanov , Oleg Kramar , Maksim Dimin , Timur Abkerimov , Vadim Kramar and Veronika Kebkal-Akbari
    
-  - 2024: [Clear Programming Language: Connecting Refinement Types
-    With Generators for Property-Based
-    Testing](https://www.duo.uio.no/bitstream/handle/10852/112639/1/thesis_Triera-Gashi.pdf)
-    by Triera Gashi
+  - 2024: [Clear Programming Language: Connecting Refinement Types With Generators for Property-Based Testing](https://www.duo.uio.no/bitstream/handle/10852/112639/1/thesis_Triera-Gashi.pdf) by Triera Gashi
 
-  - 2024: [Effective integration of low-cost digital manufacturing
-    systems: a reference architecture driven
-    approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785#abstract)
-    by J. Kaiser , G. Hawkridge , D. McFarlane , F. Schnicke and
-    K. Kruger
+  - 2024: [Effective integration of low-cost digital manufacturing systems: a reference architecture driven approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785#abstract) by J. Kaiser , G. Hawkridge , D. McFarlane , F. Schnicke and K. Kruger
 
-  - 2024: [Nominal Types for
-    Erlang](https://www.diva-portal.org/smash/get/diva2:1890968/FULLTEXT01.pdf)
-    by Jiaxuan (Isabell) Huang
+  - 2024: [Nominal Types for Erlang](https://www.diva-portal.org/smash/get/diva2:1890968/FULLTEXT01.pdf) by Jiaxuan (Isabell) Huang
 
-  - 2024: [TOWARDS EFFICIENT ERLANG-BASED JOB-APPLICANT MATCHING:
-    INTEGRATING SERESYE, SEMANTIC WEB TOOLKIT, AND
-    MCDM](https://di.uqo.ca/id/eprint/1667/1/Eloumri_Miloud_2024_these.pdf)
-    by Miloud Eloumri
+  - 2024: [TOWARDS EFFICIENT ERLANG-BASED JOB-APPLICANT MATCHING: INTEGRATING SERESYE, SEMANTIC WEB TOOLKIT, AND MCDM](https://di.uqo.ca/id/eprint/1667/1/Eloumri_Miloud_2024_these.pdf) by Miloud Eloumri
 
-  - 2024: [Spatiotemporal Data Access for Map Services based on R-star
-    tree index and LSM
-    tree](https://ieeexplore.ieee.org/abstract/document/10629146) by
-    Emil Gatiala, Zoltán Balogh and Sepideh Hassankhani Dolatabadi
+  - 2024: [Spatiotemporal Data Access for Map Services based on R-star tree index and LSM tree](https://ieeexplore.ieee.org/abstract/document/10629146) by Emil Gatiala, Zoltán Balogh and Sepideh Hassankhani Dolatabadi
 
-  - 2024: [Controlling everyday life objects using the Hera platform
-    on GRiSP2.0: The movement_detection
-    application](https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A46003)
-    by Isenguerre, Nicolas
+  - 2024: [Controlling everyday life objects using the Hera platform on GRiSP2.0: The movement_detection application](https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A46003) by Isenguerre, Nicolas
 
-  - 2024: [Identifying Concurrent Behaviours in Erlang Legacy
-    Systems](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4341)
-    by Zsófia Erdei, Melinda Tóth, István Bozó
+  - 2024: [Identifying Concurrent Behaviours in Erlang Legacy Systems](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4341) by Zsófia Erdei, Melinda Tóth, István Bozó
     
-  - 2024: [Reversible debugging of concurrent Erlang programs:
-    Supporting imperative
-    primitives](https://www.sciencedirect.com/science/article/abs/pii/S2352220824000026)
-    by Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio
-    Sacerdoti Coen, Giovanni Fabbretti
+  - 2024: [Reversible debugging of concurrent Erlang programs: Supporting imperative primitives](https://www.sciencedirect.com/science/article/abs/pii/S2352220824000026) by Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen, Giovanni Fabbretti
 
-  - 2024: [Erlang: Application-Aware Autoscaling for Cloud
-    Microservices](https://anirudhsk.github.io/papers/erlang_eurosys.pdf)
-    by Vighnesh Sachidananda and Anirudh Sivaraman
+  - 2024: [Erlang: Application-Aware Autoscaling for Cloud Microservices](https://anirudhsk.github.io/papers/erlang_eurosys.pdf) by Vighnesh Sachidananda and Anirudh Sivaraman
 
-  - 2024: [A monitoring tool for linear-time
-    𝜇HML](http://staff.um.edu.mt/afra1/papers/linearDetectErSCP2024.pdf)
-    by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard,
-    Adrian Francalanza, Anna Ingólfsdóttir
+  - 2024: [A monitoring tool for linear-time 𝜇HML](http://staff.um.edu.mt/afra1/papers/linearDetectErSCP2024.pdf) by Luca Aceto, Antonis Achilleos, Duncan Paul Attard, Léo Exibard, Adrian Francalanza, Anna Ingólfsdóttir
 
-  - 2024: [Effective integration of low-cost digital manufacturing
-    systems: a reference architecture driven
-    approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785)
-    by J. Kaisera, G. Hawkridgea, D. McFarlanea, F. Schnickeb and
-    K. Kruger
+  - 2024: [Effective integration of low-cost digital manufacturing systems: a reference architecture driven approach](https://www.tandfonline.com/doi/full/10.1080/0951192X.2024.2314785) by J. Kaisera, G. Hawkridgea, D. McFarlanea, F. Schnickeb and K. Kruger
 
-  - 2024: [Design and implementation of power communication protocol
-    plug-in based on hot
-    loading](https://dl.acm.org/doi/abs/10.1145/3640912.3640916) by
-    Weiming Qin, Wenjing Guo, Jingwen Lin, Jiahao Li, Xuerui Chen,
-    Xinsu Mei, Wei Zhang
+  - 2024: [Design and implementation of power communication protocol plug-in based on hot loading](https://dl.acm.org/doi/abs/10.1145/3640912.3640916) by Weiming Qin, Wenjing Guo, Jingwen Lin, Jiahao Li, Xuerui Chen, Xinsu Mei, Wei Zhang
 
-  - 2024: [Bridging Between Active Objects: Multitier Programming for
-    Distributed, Concurrent
-    Systems](https://link.springer.com/chapter/10.1007/978-3-031-51060-1_4)
-    by Guido Salvaneschi & Pascal Weisenburger
+  - 2024: [Bridging Between Active Objects: Multitier Programming for Distributed, Concurrent Systems](https://link.springer.com/chapter/10.1007/978-3-031-51060-1_4) by Guido Salvaneschi & Pascal Weisenburger
 
-  - 2023: [Designing Distributed Systems that
-    Scale](https://harrybairstow.com/papers/designing-distributed-systems-that-scale.pdf)
-    by Harry Bairstow
+  - 2023: [Designing Distributed Systems that Scale](https://harrybairstow.com/papers/designing-distributed-systems-that-scale.pdf) by Harry Bairstow
 
-  - 2023: [MULTIPLAYER MODULE FOR SCIENCE4PANDEMICS’
-    GAME](https://estudogeral.uc.pt/retrieve/265531/Joao_Calhau_thesis_corrected.pdf)
-    by João Rafael Santos Calhau
+  - 2023: [MULTIPLAYER MODULE FOR SCIENCE4PANDEMICS’ GAME](https://estudogeral.uc.pt/retrieve/265531/Joao_Calhau_thesis_corrected.pdf) by João Rafael Santos Calhau
     
-  - 2023: [X.509 Certificate-Based Authentication for NETCONF and
-    RESTCONF Design Evaluation between Native and External
-    Implementation](https://www.diva-portal.org/smash/get/diva2:1791392/FULLTEXT01.pdf)
-    by Qi Li
+  - 2023: [X.509 Certificate-Based Authentication for NETCONF and RESTCONF Design Evaluation between Native and External Implementation](https://www.diva-portal.org/smash/get/diva2:1791392/FULLTEXT01.pdf) by Qi Li
 
-  - 2023: [A Frame Stack Semantics for Sequential Core
-    Erlang](https://dl.acm.org/doi/pdf/10.1145/3652561.3652566) by
-    Péter Bereczky, Dániel Horpácsi and Simon Thompson
+  - 2023: [A Frame Stack Semantics for Sequential Core Erlang](https://dl.acm.org/doi/pdf/10.1145/3652561.3652566) by Péter Bereczky, Dániel Horpácsi and Simon Thompson
 
-  - 2023: [Runtime Monitoring for Asynchronous Reactive
-    Components](https://www.um.edu.mt/library/oar/bitstream/123456789/117964/1/2301ICTCPS600005008983_1%20%281%29.PDF)
-    by Duncan Paul Attard
+  - 2023: [Runtime Monitoring for Asynchronous Reactive Components](https://www.um.edu.mt/library/oar/bitstream/123456789/117964/1/2301ICTCPS600005008983_1%20%281%29.PDF) by Duncan Paul Attard
 
-  - 2023: [Advanced Programming Language Concepts (course
-    slides)](http://www.info.ucl.ac.be/~pvr/linfo1131-handouts-2023.pdf)
-    by Peter Van Roy
+  - 2023: [Advanced Programming Language Concepts (course slides)](http://www.info.ucl.ac.be/~pvr/linfo1131-handouts-2023.pdf) by Peter Van Roy
 
-  - 2023: [X.509 Certificate-Based Authentication for NETCONF and
-    RESTCONF: Design Evaluation between Native and External
-    Implementation](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1791392&dswid=-2837),
-    by Li Qi
+  - 2023: [X.509 Certificate-Based Authentication for NETCONF and RESTCONF: Design Evaluation between Native and External Implementation](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1791392&dswid=-2837), by Li Qi
 
-  - 2023: [An Anomaly Detection System For Subscriber Activities In
-    Private
-    Networks](https://thesis.unipd.it/handle/20.500.12608/61281), by
-    MARTINI, FRANCESCO
+  - 2023: [An Anomaly Detection System For Subscriber Activities In Private Networks](https://thesis.unipd.it/handle/20.500.12608/61281), by MARTINI, FRANCESCO
 
-  - 2023: [A Formalisation of Core Erlang, a Concurrent Actor
-    Language](https://arxiv.org/abs/2311.10482) by Péter Bereczky,
-    Dániel Horpácsi and Simon Thompson
+  - 2023: [A Formalisation of Core Erlang, a Concurrent Actor Language](https://arxiv.org/abs/2311.10482) by Péter Bereczky, Dániel Horpácsi and Simon Thompson
 
-  - 2023: [Static analysis for safe software
-    upgrade](http://real.mtak.hu/179773/) by Dániel Ferenczi, Melinda
-    Tóth
+  - 2023: [Static analysis for safe software upgrade](http://real.mtak.hu/179773/) by Dániel Ferenczi, Melinda Tóth
 
-  - 2023: [Generation and Refinement of Testing
-    Models](https://dl.acm.org/doi/abs/10.1145/3609022.3609415) by
-    Luis Eduardo Bueso de Barrio, Lars-Åke Fredlund, Clara Benac
-    Earle, Ángel Herranz and Julio Mariño
+  - 2023: [Generation and Refinement of Testing Models](https://dl.acm.org/doi/abs/10.1145/3609022.3609415) by Luis Eduardo Bueso de Barrio, Lars-Åke Fredlund, Clara Benac Earle, Ángel Herranz and Julio Mariño
 
-  - 2023: [Gaining trust by tracing security
-    protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827)
-    by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans
-    Svensson
+  - 2023: [Gaining trust by tracing security protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827) by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans Svensson
 
-  - 2023: [Gesture recognition by pattern matching using sensor fusion
-    on an internet of things
-    device](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40633&datastream=PDF_01&cover=cover-mem)
-    by Sébastien Gios
+  - 2023: [Gesture recognition by pattern matching using sensor fusion on an internet of things device](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40633&datastream=PDF_01&cover=cover-mem) by Sébastien Gios
 
-  - 2023: [Ultra-wideband for internet of
-    things](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A38375&datastream=PDF_01&cover=cover-mem)
-    by Gwendal Laurent
+  - 2023: [Ultra-wideband for internet of things](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A38375&datastream=PDF_01&cover=cover-mem) by Gwendal Laurent
 
-  - 2023: [Low-cost high-speed sensor fusion with GRiSP and
-    Hera](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40762&datastream=PDF_01&cover=cover-mem)
-    by Lucas Nélis
+  - 2023: [Low-cost high-speed sensor fusion with GRiSP and Hera](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A40762&datastream=PDF_01&cover=cover-mem) by Lucas Nélis
 
-  - 2023: [Deep Learning-Based Refactoring with Formally Verified
-    Training Data](http://real.mtak.hu/172966/) by Balázs Szalontai,
-    Szalontai, Péter Bereczky and Dániel Horpácsi
+  - 2023: [Deep Learning-Based Refactoring with Formally Verified Training Data](http://real.mtak.hu/172966/) by Balázs Szalontai, Szalontai, Péter Bereczky and Dániel Horpácsi
 
-  - 2023: [A Semantics of Core Erlang with Handling of
-    Signals](https://dl.acm.org/doi/abs/10.1145/3609022.3609417) by
-    Aurélie Kong Win Chang, Jérôme Feret and Gregor Gössler
+  - 2023: [A Semantics of Core Erlang with Handling of Signals](https://dl.acm.org/doi/abs/10.1145/3609022.3609417) by Aurélie Kong Win Chang, Jérôme Feret and Gregor Gössler
 
-  - 2023: [Event-Driven Multiparty Session
-    Actors](https://simonjf.com/misc/hope23.pdf) by Simon Fowler
+  - 2023: [Event-Driven Multiparty Session Actors](https://simonjf.com/misc/hope23.pdf) by Simon Fowler
 
-  - 2023: [Bppchecker: An Smt-Based Model Checker on Basic Parallel
-    Processes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4432122)
+  - 2023: [Bppchecker: An Smt-Based Model Checker on Basic Parallel Processes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4432122)
 
-  - 2023: [Toward Automatic Generation of an Optimal Supervision Tree
-    in Erlang](https://ken.ieice.org/ken/paper/20230110OCQn/eng/) by
-    Shoichi Sasaki, Yoshiaki Takata
+  - 2023: [Toward Automatic Generation of an Optimal Supervision Tree in Erlang](https://ken.ieice.org/ken/paper/20230110OCQn/eng/) by Shoichi Sasaki, Yoshiaki Takata
 
-  - 2023: [Reversibility in Erlang: Imperative Constructs - Technical
-    Report](https://pietrolami.github.io/assets/pdf/tr-rc22.pdf) by
-    Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti
-    Coen, Giovanni Fabbretti
+  - 2023: [Reversibility in Erlang: Imperative Constructs - Technical Report](https://pietrolami.github.io/assets/pdf/tr-rc22.pdf) by Pietro Lami, Ivan Lanese, Jean-Bernard Stefani, Claudio Sacerdoti Coen, Giovanni Fabbretti
 
-  - 2023: [Design-first framework for REST API development in
-    Erlang](https://ruc.udc.es/dspace/handle/2183/33720) by Garea
-    Cidre, Javier
+  - 2023: [Design-first framework for REST API development in Erlang](https://ruc.udc.es/dspace/handle/2183/33720) by Garea Cidre, Javier
 
-  - 2023: [Development of software for monitoring the parameters of
-    communication networks and server
-    hardware](http://injoit.org/index.php/j1/article/view/1645) by
-    E.E. Istratova
+  - 2023: [Development of software for monitoring the parameters of communication networks and server hardware](http://injoit.org/index.php/j1/article/view/1645) by E.E. Istratova
 
-  - 2023: [TLS the Erlang/OTP Way (Experience
-    Report)](https://dl.acm.org/doi/abs/10.1145/3609022.3609414) by
-    Authors: Ingela Anderton Andin, Raimo Niskanen, Péter Dimitrov and
-    Kiko Fernandez-Reyes
+  - 2023: [TLS the Erlang/OTP Way (Experience Report)](https://dl.acm.org/doi/abs/10.1145/3609022.3609414) by Authors: Ingela Anderton Andin, Raimo Niskanen, Péter Dimitrov and Kiko Fernandez-Reyes
 
-  - 2023: [Typing OTP design patterns with session
-    types](https://www.um.edu.mt/library/oar/handle/123456789/113328)
-    by Farrugia, Adrian
+  - 2023: [Typing OTP design patterns with session types](https://www.um.edu.mt/library/oar/handle/123456789/113328) by Farrugia, Adrian
 
-  - 2023: [A Frame Stack Semantics for Sequential Core
-    Erlang](https://arxiv.org/abs/2308.12403) by Péter Bereczky,
-    Dániel Horpácsi, Simon Thompson
+  - 2023: [A Frame Stack Semantics for Sequential Core Erlang](https://arxiv.org/abs/2308.12403) by Péter Bereczky, Dániel Horpácsi, Simon Thompson
 
-  - 2023: [Pour Some Sugar on Bits: Flexible Manipulation of Bit
-    Streams in Erlang
-    ∗](http://user.it.uu.se/~pergu/binary_comprehensions.ps) by Per
-    Gustafsson and Konstantinos Sagonas
+  - 2023: [Pour Some Sugar on Bits: Flexible Manipulation of Bit Streams in Erlang ∗](http://user.it.uu.se/~pergu/binary_comprehensions.ps) by Per Gustafsson and Konstantinos Sagonas
 
-  - 2023: [Static analysis for safe software
-    upgrade∗](https://icai.uni-eszterhazy.hu/2023/abstracts/ICAI_2023_abstract_048.pdf)
-    by Dániel Ferencia , Melinda Tóth
+  - 2023: [Static analysis for safe software upgrade∗](https://icai.uni-eszterhazy.hu/2023/abstracts/ICAI_2023_abstract_048.pdf) by Dániel Ferencia , Melinda Tóth
 
-  - 2023: [Auction-Based Job Scheduling for Smart
-    Manufacturing](https://ieeexplore.ieee.org/abstract/document/10158649)
-    by Emil Gatial, Zoltán Balogh, Sepideh Hassankhani Dolatabadi,
-    Hatem Ghorbel, Stefano Carrino, Jonathan Dreyer, Vicente Rodríguez
-    Montequín, Adrian Gligor and Laszlo Barna Iantovics
+  - 2023: [Auction-Based Job Scheduling for Smart Manufacturing](https://ieeexplore.ieee.org/abstract/document/10158649) by Emil Gatial, Zoltán Balogh, Sepideh Hassankhani Dolatabadi, Hatem Ghorbel, Stefano Carrino, Jonathan Dreyer, Vicente Rodríguez Montequín, Adrian Gligor and Laszlo Barna Iantovics
 
-  - 2023: [Analysis Techniques for Software
-    Maintenance](https://riunet.upv.es/handle/10251/193146) by Pérez
-    Rubio, S.
+  - 2023: [Analysis Techniques for Software Maintenance](https://riunet.upv.es/handle/10251/193146) by Pérez Rubio, S.
 
-  - 2023: [Transparent Actor
-    Model](https://ieeexplore.ieee.org/abstract/document/10164705) by
-    Fatemeh Ghassemi, Marjan Sirjani, Ehsan Khamespanah, Mahrokh
-    Mirani and Hossein Hojjat
+  - 2023: [Transparent Actor Model](https://ieeexplore.ieee.org/abstract/document/10164705) by Fatemeh Ghassemi, Marjan Sirjani, Ehsan Khamespanah, Mahrokh Mirani and Hossein Hojjat
 
-  - 2023: [Gaining trust by tracing security
-    protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827)
-    by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans
-    Svensson
+  - 2023: [Gaining trust by tracing security protocols](https://www.sciencedirect.com/science/article/abs/pii/S2352220822000827) by Lars-Åke Fredlund, Clara Benac Earle, Thomas Arts and Hans Svensson
 
-  - 2023: [Understanding code smells in Elixir functional
-    language](https://link.springer.com/article/10.1007/s10664-023-10343-6)
-    by Lucas Francisco da Matta Vegi and Marco Tulio Valente
+  - 2023: [Understanding code smells in Elixir functional language](https://link.springer.com/article/10.1007/s10664-023-10343-6) by Lucas Francisco da Matta Vegi and Marco Tulio Valente
 
-  - 2023: [Program equivalence in an untyped, call-by-value functional
-    language with uncurried
-    functions](https://www.sciencedirect.com/science/article/pii/S2352220823000111)
-    by Dániel Horpácsi, Péter Bereczky and Simon Thompson
+  - 2023: [Program equivalence in an untyped, call-by-value functional language with uncurried functions](https://www.sciencedirect.com/science/article/pii/S2352220823000111) by Dániel Horpácsi, Péter Bereczky and Simon Thompson
 
-  - 2023: [An Axiomatic Theory for Reversible
-    Computation](https://arxiv.org/abs/2307.13360) by Ivan Lanese,
-    Iain Phillips and Irek Ulidowski
+  - 2023: [An Axiomatic Theory for Reversible Computation](https://arxiv.org/abs/2307.13360) by Ivan Lanese, Iain Phillips and Irek Ulidowski
 
-  - 2023: [Blockchain based Secure Erlang Server for Request based
-    Group Communication over
-    XMPP](https://ieeexplore.ieee.org/abstract/document/10074294) by
-    Johnpaul C I, Manojkumar Vivekanandan, Praveen Kumar Premkamal and
-    Ramya R
+  - 2023: [Blockchain based Secure Erlang Server for Request based Group Communication over XMPP](https://ieeexplore.ieee.org/abstract/document/10074294) by Johnpaul C I, Manojkumar Vivekanandan, Praveen Kumar Premkamal and Ramya R
 
-  - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
-    Recoveries In Distributed
-    Systems](https://hal.science/hal-04123758/) by Giovanni Fabbretti,
-    Ivan Lanese and Jean-Bernard Stefani
+  - 2023: [A Behavioral Theory For Crash Failures and Erlang-style Recoveries In Distributed Systems](https://hal.science/hal-04123758/) by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
 
-  - 2023: [Data transmission using secure hybrid techniques for smart
-    energy metering
-    devices](https://www.sciencedirect.com/science/article/pii/S2772671123000293)
-    by Gudapati Ramyasri, G Ramana Murthy, Srikanth Itapu and S Mohan
-    Krishna
+  - 2023: [Data transmission using secure hybrid techniques for smart energy metering devices](https://www.sciencedirect.com/science/article/pii/S2772671123000293) by Gudapati Ramyasri, G Ramana Murthy, Srikanth Itapu and S Mohan Krishna
 
-  - 2023: [Special
-    Delivery](https://simonjf.com/drafts/pat-draft-mar23.pdf) by SIMON
-    FOWLER, DUNCAN PAUL ATTARD, FRANCISZEK SOWUL, SIMON J. GAY and
-    PHIL TRINDER
+  - 2023: [Special Delivery](https://simonjf.com/drafts/pat-draft-mar23.pdf) by SIMON FOWLER, DUNCAN PAUL ATTARD, FRANCISZEK SOWUL, SIMON J. GAY and PHIL TRINDER
 
-  - 2023: [Adopting the Actor Model for Antifragile Serverless
-    Architectures](https://arxiv.org/abs/2306.14738) by Marcel Mraz,
-    Hind Bangui, Bruno Rossi and Barbora Buhnova
+  - 2023: [Adopting the Actor Model for Antifragile Serverless Architectures](https://arxiv.org/abs/2306.14738) by Marcel Mraz, Hind Bangui, Bruno Rossi and Barbora Buhnova
 
-  - 2023: [Evolving distributed embedded applications during
-    operation](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/103138)
-    by Kilian Telschig
+  - 2023: [Evolving distributed embedded applications during operation](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/103138) by Kilian Telschig
 
-  - 2023: [A formal semantics for agent distribution and fault
-    tolerance in
-    Jason](https://www.sciencedirect.com/science/article/pii/S2352220823000287)
-    by Álvaro Fernández Díaz, Lars-Åke Fredlund, Clara Benac-Earle and
-    Julio Mariño
+  - 2023: [A formal semantics for agent distribution and fault tolerance in Jason](https://www.sciencedirect.com/science/article/pii/S2352220823000287) by Álvaro Fernández Díaz, Lars-Åke Fredlund, Clara Benac-Earle and Julio Mariño
 
-  - 2023: [Parallelized Cyber Reconnaissance Automation: A Real-Time
-    and Scheduled Security
-    Scanner](https://link.springer.com/chapter/10.1007/978-3-031-33065-0_2)
-    by Malek Malkawi and Reda Alhajj
+  - 2023: [Parallelized Cyber Reconnaissance Automation: A Real-Time and Scheduled Security Scanner](https://link.springer.com/chapter/10.1007/978-3-031-33065-0_2) by Malek Malkawi and Reda Alhajj
 
-  - 2023: [Seaplus: Streamlining a safe execution of C/C++ code from
-    Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier
-    Boudeville
+  - 2023: [Seaplus: Streamlining a safe execution of C/C++ code from Erlang](https://seaplus.esperide.org/seaplus-1.0.pdf) by Olivier Boudeville
 
-  - 2023: [Set-theoretic Types for
-    Erlang](https://arxiv.org/abs/2302.12783) by Albert Schimpf,
-    Stefan Wehr, Annette Bieniusa
+  - 2023: [Set-theoretic Types for Erlang](https://arxiv.org/abs/2302.12783) by Albert Schimpf, Stefan Wehr, Annette Bieniusa
 
-  - 2023: [Communicating Actor Automata -- Modelling Erlang Processes
-    as Communicating Machines](https://arxiv.org/abs/2304.06395) by
-    Dominic Orchard, Mihail Munteanu, Paulo Torrens
+  - 2023: [Communicating Actor Automata -- Modelling Erlang Processes as Communicating Machines](https://arxiv.org/abs/2304.06395) by Dominic Orchard, Mihail Munteanu, Paulo Torrens
 
-  - 2023: [A Behavioral Theory For Crash Failures and Erlang-style
-    Recoveries In Distributed](https://hal.science/hal-04123758v1) by
-    Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
+  - 2023: [A Behavioral Theory For Crash Failures and Erlang-style Recoveries In Distributed](https://hal.science/hal-04123758v1) by Giovanni Fabbretti, Ivan Lanese and Jean-Bernard Stefani
 
-  - 2023: [MUTATION TESTING IN FUNCTIONAL
-    PROGRAMMING](https://jyx.jyu.fi/handle/123456789/92544) by Hopia,
-    Tuomo
+  - 2023: [MUTATION TESTING IN FUNCTIONAL PROGRAMMING](https://jyx.jyu.fi/handle/123456789/92544) by Hopia, Tuomo
 
   - 2022: [Comparison and proof of the fastest way of the sorting
     algorithm by functional programming in Erlang
